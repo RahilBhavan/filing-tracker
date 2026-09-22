@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "provenance": "issuer",
+  "evaluation_role": "holdout",
+  "note": "Issuer-hosted 10-K copies; converted text is not byte-identical to SEC HTML.",
+  "documents": [
+    {
+      "id": "brk-2023",
+      "company": "Berkshire Hathaway Inc.",
+      "cik": "1067983",
+      "form": "10-K",
+      "fiscal_year": 2023,
+      "period_end": "2023-12-31",
+      "filed": "2024-02-26",
+      "accession": "0000950170-24-019719",
+      "path": "converted/brk-2023.html",
+      "sha256": "033784d165021690a444db3ebf8c93bc5bea068abb39336abce9c25bf4f1b7d7",
+      "original_path": "originals/brk-2023.pdf",
+      "original_sha256": "a652cc7b1a41a14aa0cca80abde268cd81d0ada7310b09348498cf9078afe36f",
+      "source_url": "https://www.berkshirehathaway.com/2023ar/202310-k.pdf",
+      "source_format": "pdf",
+      "filing_index_url": "https://www.sec.gov/Archives/edgar/data/1067983/0000950170-24-019719-index.htm",
+      "retrieved_on": "2026-09-21",
+      "conversion": "source_formats v2; pdftotext -bbox-layout"
+    },
+    {
+      "id": "brk-2024",
+      "company": "Berkshire Hathaway Inc.",
+      "cik": "1067983",
+      "form": "10-K",
+      "fiscal_year": 2024,
+      "period_end": "2024-12-31",
+      "filed": "2025-02-24",
+      "accession": "0000950170-25-025210",
+      "path": "converted/brk-2024.html",
+      "sha256": "4e044fc074c25a1d2d88d1ee7c7748efd89dcd4a28129c4c9ee696a6e0e9adaa",
+      "original_path": "originals/brk-2024.pdf",
+      "original_sha256": "a23ec32b25f08fa87b393b3e68f24b10f9077801b566178a2421213f029a0a84",
+      "source_url": "https://www.berkshirehathaway.com/2024ar/202410-k.pdf",
+      "source_format": "pdf",
+      "filing_index_url": "https://www.sec.gov/Archives/edgar/data/1067983/0000950170-25-025210-index.htm",
+      "retrieved_on": "2026-09-21",
+      "conversion": "source_formats v2; pdftotext -bbox-layout"
+    }
+  ]
+}

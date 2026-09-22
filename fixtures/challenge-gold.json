@@ -1,0 +1,139 @@
+{
+  "pair_fingerprint": "873734bf533a83516d8a888e1358810edd357a57660266ccaea95a955f196ce5",
+  "label_author": "Project author; no independent financial expert review",
+  "labels": [
+    {
+      "old": "rates",
+      "new": "rates",
+      "kind": "unchanged",
+      "importance": 0,
+      "rationale": "Unchanged rate warning, moved."
+    },
+    {
+      "old": "supplier",
+      "new": "supplier",
+      "kind": "changed",
+      "importance": 1,
+      "rationale": "Supplier concentration falls."
+    },
+    {
+      "old": "cyber",
+      "new": "cyber",
+      "kind": "unchanged",
+      "importance": 0,
+      "rationale": "Identical incident wording."
+    },
+    {
+      "old": "permits",
+      "new": "permits",
+      "kind": "changed",
+      "importance": 1,
+      "rationale": "Renewal frequency changes."
+    },
+    {
+      "old": "competition",
+      "new": "competition_rewrite",
+      "kind": "changed",
+      "importance": 1,
+      "rationale": "Competition discussion replaced by a specific description of rival bundles; lexical baseline may miss the connection."
+    },
+    {
+      "old": "litigation",
+      "new": "litigation",
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Settlement payment replaces pending proceeding."
+    },
+    {
+      "old": "regulation",
+      "new": "regulation",
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "May becomes will for export restriction."
+    },
+    {
+      "old": "climate",
+      "new": null,
+      "kind": "removed",
+      "importance": 1,
+      "rationale": "Flood passage absent, without proof that risk ended."
+    },
+    {
+      "old": "weather",
+      "new": "weather",
+      "kind": "unchanged",
+      "importance": 0,
+      "rationale": "Unchanged weather disclosure."
+    },
+    {
+      "old": null,
+      "new": "customer",
+      "kind": "added",
+      "importance": 2,
+      "rationale": "Largest customer contract terminated."
+    },
+    {
+      "old": "revenue",
+      "new": "revenue",
+      "kind": "changed",
+      "importance": 1,
+      "rationale": "Revenue and fiscal periods updated."
+    },
+    {
+      "old": "margin",
+      "new": "margin",
+      "kind": "changed",
+      "importance": 1,
+      "rationale": "Gross margin rises."
+    },
+    {
+      "old": "cash",
+      "new": "cash",
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Not in compliance becomes in compliance."
+    },
+    {
+      "old": "outlook",
+      "new": "outlook",
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Capital spending outlook falls."
+    },
+    {
+      "old": "buyback",
+      "new": "buyback",
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Board suspends repurchases, which a keyword ranker may under-rank."
+    },
+    {
+      "old": "calendar",
+      "new": "calendar",
+      "kind": "changed",
+      "importance": 0,
+      "rationale": "Routine date rollover."
+    },
+    {
+      "old": "method",
+      "new": "method",
+      "kind": "unchanged",
+      "importance": 0,
+      "rationale": "Whitespace-only edit and reordering."
+    },
+    {
+      "old": "table",
+      "new": "table",
+      "kind": "changed",
+      "importance": 1,
+      "rationale": "Cash increases."
+    },
+    {
+      "old": null,
+      "new": "warehouse",
+      "kind": "added",
+      "importance": 0,
+      "rationale": "Routine operational expansion without quantified impact."
+    }
+  ]
+}

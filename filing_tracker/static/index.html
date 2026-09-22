@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Filing review</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+<a class="skip" href="#detail">Skip to selected change</a>
+<header><div><p class="eyebrow">RESEARCH WORKSPACE / LOCAL</p><h1>Filing review</h1><p id="company">Loading source pair…</p></div><div class="exports"><a href="/report/memo.md" download>Export memo</a><a href="/report/changes.csv" download>Export CSV</a><a id="mode-link" href="/manual">Manual reading</a></div></header>
+<p id="provenance" class="banner"></p><p id="message" role="status" aria-live="polite"></p>
+<div id="stats" class="stats" aria-label="Comparison summary"></div>
+<details class="settings"><summary>Investment assumptions</summary><p>Link changes to your memo using specific terms. A match shows relevance; you decide what it means.</p><div id="assumptions"></div><button id="add-assumption" type="button">Add assumption</button><button id="save-assumptions" type="button">Save assumptions</button></details>
+<details class="settings"><summary>Review session and history</summary><form id="session-form"><label for="reviewer">Reviewer name</label><input id="reviewer" required maxlength="100"><label for="session-mode">Review mode</label><select id="session-mode"><option value="assisted">Assisted comparison</option><option value="manual">Manual source reading</option></select><button type="submit">Start session</button><button id="stop-session" type="button">Finish session</button></form><p>Elapsed wall time includes idle time. Use comparable tasks and different document pairs before drawing a time-saving conclusion.</p><div id="session-list"></div><ol id="history"></ol></details>
+<details class="settings"><summary>Unsaved decision drafts</summary><p>Drafts stay in this browser tab across reloads. Save a decision to include it in exports.</p><div id="draft-list"></div></details>
+<main class="workspace"><aside id="queue"><label for="search">Find a change</label><input id="search" type="search" placeholder="Search disclosures, topics, or IDs"><label for="filter">Review status</label><select id="filter"><option value="active">Needs review and accepted</option><option value="needs_review">Needs review</option><option value="accepted">Accepted</option><option value="dismissed">Dismissed</option><option value="all">All, including unchanged</option></select><p id="queue-count"></p><ol id="changes"></ol></aside><section id="detail" tabindex="-1" aria-label="Selected disclosure"><p>Choose a change to inspect both sources.</p></section></main>
+<footer>Source text stays separate from your interpretation. All edits are saved locally with a revision history.</footer>
+</body></html>

@@ -1,0 +1,157 @@
+{
+  "schema_version": 2,
+  "pair_fingerprint": "1e32cc04438e04d28a187e2ea2a31f13881e7175569a11a650d6139339926ad1",
+  "label_author": "Codex implementation author; NOT independently reviewed",
+  "independent_review": false,
+  "scope": "purposeful sample; not whole-filing ground truth",
+  "labels": [
+    {
+      "id": "brk-2023-2024-01",
+      "old": [
+        "risk-0004"
+      ],
+      "new": [
+        "risk-0004"
+      ],
+      "kind": "unchanged",
+      "importance": 0,
+      "rationale": "Unchanged terrorism disclosure is a negative control.",
+      "old_text": "A nuclear, biological or chemical terrorist attack or armed terrorist incursions could produce significant losses to our worldwide operations. Our business operations could be adversely affected from such acts through the loss of human life, destruction of production facilities and information systems or other property damage. We share these risks with all businesses.",
+      "new_text": "A nuclear, biological or chemical terrorist attack or armed terrorist incursions could produce significant losses to our worldwide operations. Our business operations could be adversely affected from such acts through the loss of human life, destruction of production facilities and information systems or other property damage. We share these risks with all businesses."
+    },
+    {
+      "id": "brk-2023-2024-02",
+      "old": [
+        "risk-0005"
+      ],
+      "new": [
+        "risk-0005"
+      ],
+      "kind": "changed",
+      "importance": 1,
+      "rationale": "Cybersecurity heading now explicitly identifies economic and reputational losses.",
+      "old_text": "Cybersecurity risks.",
+      "new_text": "Cybersecurity risks could result in economic losses to our businesses and reputational damage."
+    },
+    {
+      "id": "brk-2023-2024-03",
+      "old": [
+        "risk-0012"
+      ],
+      "new": [
+        "risk-0012"
+      ],
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Key-person description removes the final allocation-responsibility sentence and appointment history.",
+      "old_text": "Major investment decisions and all major capital allocation decisions are made by Warren E. Buffett, Chairman of the Board of Directors and Chief Executive Officer, age 93. In 2018, Berkshire\u2019s Board of Directors appointed Mr. Gregory Abel as Vice Chairman of Berkshire\u2019s non-insurance operations and Mr. Ajit Jain as Vice Chairman of Berkshire\u2019s insurance operations. Mr. Abel and Mr. Jain each report directly to Mr. Buffett. Mr. Buffett continues to be responsible for major capital allocation and investment decisions.",
+      "new_text": "Major investment decisions and all major capital allocation decisions are made by Warren E. Buffett, Chairman of the Board of Directors and Chief Executive Officer, age 94. Mr. Gregory Abel is Vice Chairman of Berkshire\u2019s non-insurance operations and Mr. Ajit Jain is Vice Chairman of Berkshire\u2019s insurance operations. Mr. Abel and Mr. Jain each report directly to Mr. Buffett."
+    },
+    {
+      "id": "brk-2023-2024-04",
+      "old": [
+        "risk-0013"
+      ],
+      "new": [
+        "risk-0013"
+      ],
+      "kind": "unchanged",
+      "importance": 0,
+      "rationale": "Unchanged succession-plan paragraph is a negative control.",
+      "old_text": "If for any reason the services of our key personnel, particularly Mr. Buffett, were to become unavailable, there could be a material adverse effect on our operations. Should a replacement for Mr. Buffett be needed currently, Berkshire\u2019s Board of Directors has agreed that Mr. Abel should replace Mr. Buffett. The Board continually monitors this risk and could alter its current view regarding a replacement for Mr. Buffett in the future. We believe that the Board\u2019s succession plan, together with the outstanding managers running our numerous and highly diversified operating units, helps to mitigate this risk.",
+      "new_text": "If for any reason the services of our key personnel, particularly Mr. Buffett, were to become unavailable, there could be a material adverse effect on our operations. Should a replacement for Mr. Buffett be needed currently, Berkshire\u2019s Board of Directors has agreed that Mr. Abel should replace Mr. Buffett. The Board continually monitors this risk and could alter its current view regarding a replacement for Mr. Buffett in the future. We believe that the Board\u2019s succession plan, together with the outstanding managers running our numerous and highly diversified operating units, helps to mitigate this risk."
+    },
+    {
+      "id": "brk-2023-2024-05",
+      "old": [
+        "risk-0026"
+      ],
+      "new": [
+        "risk-0026"
+      ],
+      "kind": "changed",
+      "importance": 1,
+      "rationale": "Regulatory exposure now explicitly includes services and income tax policy.",
+      "old_text": "Over time, in response to financial markets crises, global economic recessions, and social and environmental issues, regulatory initiatives were adopted in the United States and elsewhere. Such initiatives addressed, for example, the regulation of banks and other major financial institutions, the regulation of products and environmental and global-warming matters. These initiatives impact all of our businesses, albeit in varying ways. Increased regulatory compliance costs could have a significant negative impact on our operating businesses, as well as on the businesses in which we have significant, but not controlling, economic interests. We cannot predict whether such initiatives will have a material adverse impact on our consolidated financial position, results of operations and/or cash flows.",
+      "new_text": "Over time, regulatory initiatives have been adopted in the United States and elsewhere for a variety of reasons, including as responses to financial markets crises, global economic recessions, and social and environmental issues. Such initiatives address, for example, the regulation of banks and other major financial institutions, the regulation of products and services and environmental and climate change matters and income tax policy. These initiatives impact all of our businesses, albeit in varying ways. Increased regulatory compliance costs could have a significant negative impact on our operating businesses, as well as on the businesses in which we have significant, but not controlling, economic interests. We cannot predict whether such initiatives will have a material adverse impact on our consolidated financial position, results of operations and/or cash flows."
+    },
+    {
+      "id": "brk-2023-2024-06",
+      "old": [
+        "risk-0029"
+      ],
+      "new": [
+        "risk-0029"
+      ],
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Climate risk framing changes from climate-change causation to climate and weather events.",
+      "old_text": "The impacts of climate change and the regulation of GHG emissions could impact our businesses to varying degrees. Climate change could cause or intensify hurricanes, floods, wildfires, and other extreme weather events that may increase the physical risks to and impacts on our operations. An increase in the frequency or intensity of extreme weather events and storms could impact the physical assets of our non-insurance operations and could produce losses affecting our businesses. Similarly, extreme weather events may produce losses affecting our insurance operations as their primary business is to monitor, assess and price risk, including climate-related risk, at an expected economic profit to address the risk-transfer needs of their insurance customers.",
+      "new_text": "Climate and weather-related events and the regulation of GHG emissions could impact our businesses to varying degrees. Climate-related events, including hurricanes, floods, wildfires, and other extreme weather events may increase the physical risks and impacts to our operations. An increase in the frequency or intensity of extreme weather events and storms could negatively impact the physical assets of our non-insurance operations and could produce losses affecting our businesses. Similarly, extreme weather events may produce losses affecting our insurance operations as their primary business is to monitor, assess and price risk, including climate-related risk, at an expected economic profit to address the risk-transfer needs of their insurance customers."
+    },
+    {
+      "id": "brk-2023-2024-07",
+      "old": [
+        "risk-0030"
+      ],
+      "new": [
+        "risk-0030"
+      ],
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Climate policy effects change from accelerating transition and increasing costs to influencing both.",
+      "old_text": "Additional GHG policies, including legislation, may emerge that accelerate the transition to a lower-GHG emitting economy and could, in turn, increase costs for our businesses to comply with those policies, including BNSF and BHE, which combined represent more than 90% of Berkshire\u2019s direct emissions. The failure to comply with new or existing regulations or reinterpretation of existing regulations relating to climate change could have a significant adverse effect on our financial results.",
+      "new_text": "Additional GHG and climate-related policies, including legislation, may emerge that influence the transition to a lower GHG-emitting economy and could, in turn, influence costs for our businesses to comply with those policies, including BNSF and BHE, which combined represent more than 90% of Berkshire\u2019s direct emissions. The failure to comply with new or existing regulations or reinterpretation of existing regulations relating to climate change could have a significant adverse effect on our financial results."
+    },
+    {
+      "id": "brk-2023-2024-08",
+      "old": [
+        "risk-0034"
+      ],
+      "new": [
+        "risk-0034",
+        "risk-0035"
+      ],
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Prior insurance-liability paragraph splits into two paragraphs; litigation language expands and estimated unpaid losses change from $146 billion to $147.6 billion. The topic was already disclosed.",
+      "old_text": "The principal cost associated with the property and casualty insurance business is claims. In writing property and casualty insurance policies, we receive premiums today and promise to pay covered losses in the future. However, it will take decades before all claims that have occurred as of any given balance sheet date will be reported and settled. Although we believe that recorded liabilities for unpaid losses are adequate, we will not know whether these liabilities or the premiums charged for the coverages provided were sufficient until well after the balance sheet date. Estimating insurance claim costs is inherently imprecise. It is possible that significant claims may emerge or develop in the future from the policies we have written in the past. As industry practices and legal, social and other environmental conditions change, unexpected and unintended issues related to claims and coverage may emerge, including new or expanded theories of liability. These or other changes could impose new financial obligations on us by extending coverage beyond our underwriting intent. In some instances, these changes may not become apparent until sometime after we have issued insurance or reinsurance contracts that are affected by the changes. As a result, the full extent of liability under our insurance or reinsurance contracts may not be known for many years after a contract is issued. Our estimated unpaid losses arising under contracts covering property and casualty insurance risks are large ($146 billion at December 31, 2023), and a small percentage increase to those liabilities can result in materially lower reported earnings.",
+      "new_text": "The principal cost associated with the property and casualty insurance business is claims. In writing property and casualty insurance policies, we receive premiums today and promise to pay covered losses in the future. However, it will take decades before all claims that have occurred as of any given balance sheet date will be settled. Although we believe that recorded liabilities for unpaid losses are adequate, we will not know whether these liabilities or the premiums charged for the coverages provided were sufficient until well after the balance sheet date. Estimating insurance claim costs is inherently imprecise. It is possible that significant claims may emerge or develop in the future from the policies we have written in the past.\n\nAs industry practices and legal, social and environmental conditions evolve, unexpected and unintended issues related to claims and coverage may emerge, including new or expanded theories of liability and increased frequency of litigation. These or other changes could impose new financial obligations on us by extending coverage beyond our underwriting intent and result in increased litigation costs and adverse judicial awards. In some instances, these changes may not become apparent until sometime after we have issued insurance or reinsurance contracts that are affected by the changes. As a result, the full extent of liability under our insurance or reinsurance contracts may not be known for many years after a contract is issued. Our estimated unpaid losses arising under contracts covering property and casualty insurance risks are large ($147.6 billion at December 31, 2024), and a small percentage increase to those liabilities can result in a material reduction in reported earnings."
+    },
+    {
+      "id": "brk-2023-2024-09",
+      "old": [
+        "mda-0480"
+      ],
+      "new": [
+        "mda-0475"
+      ],
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Repurchase terms are reworded and annual spending falls from $9.2 billion to $2.9 billion.",
+      "old_text": "Berkshire\u2019s common stock repurchase program, as amended, permits Berkshire to repurchase its Class A and Class B shares at prices below Berkshire\u2019s intrinsic value, as conservatively determined by Warren Buffett, Berkshire\u2019s Chairman of the Board. The program does not specify a maximum number of shares to be repurchased and does not require any specified repurchase amount. The program is expected to continue indefinitely. We will not repurchase our stock if it reduces the total amount of our consolidated cash, cash equivalents and U.S. Treasury Bills holdings to below $30 billion. Financial strength and redundant liquidity will always be of paramount importance at Berkshire. Berkshire paid $9.2 billion in 2023 to repurchase shares of its Class A and B common stock.",
+      "new_text": "Berkshire\u2019s common stock repurchase program, as amended, permits Berkshire to repurchase its Class A and Class B shares at prices below Berkshire\u2019s intrinsic value, as conservatively determined by Warren Buffett, Berkshire\u2019s Chairman of the Board and Chief Executive Officer. We are not committed to a minimum or subject to a maximum repurchase amount. We will not repurchase our stock if it reduces our consolidated cash, cash equivalents and U.S. Treasury Bills holdings to below $30 billion. Financial strength and redundant liquidity will always be of paramount importance at Berkshire. Berkshire paid $2.9 billion in 2024 to repurchase its common stock."
+    },
+    {
+      "id": "brk-2023-2024-10",
+      "old": [
+        "mda-0489"
+      ],
+      "new": [
+        "mda-0485"
+      ],
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Expected annual debt interest changes from a range to a dated declining path; obligation schedule advances.",
+      "old_text": "We are party to other contracts associated with ongoing business activities, which will result in cash payments to counterparties in future periods. Our annual debt maturities for the next five years are summarized in Note 19 to the Consolidated Financial Statements. We also currently expect to pay interest on our debt of between $4 billion and $5 billion per annum over the next five years. Certain other obligations are included in our Consolidated Balance Sheets, such as operating lease liabilities and shared aircraft repurchase liabilities of NetJets. Estimated payments of these liabilities in each of the next five years are (in billions): $1.9 in 2024; $1.7 in 2025; $1.5 in 2026; $1.8 in 2027; and $1.9 in 2028.",
+      "new_text": "We are party to other contracts associated with ongoing business activities, which will result in cash payments to counterparties in future periods. Our annual debt maturities for the next five years are summarized in Note 19 to the Consolidated Financial Statements. We also currently expect to pay interest on our debt ranging from $4.7 billion in 2025 to $4.1 billion in 2029 based on borrowings outstanding at December 31, 2024. Certain other obligations are included in our Consolidated Balance Sheets, such as operating lease liabilities and shared aircraft repurchase liabilities of NetJets. Estimated payments of these liabilities in each of the next five years are as follows (in billions): $2.0 in 2025; $1.8 in 2026; $2.0 in 2027; $2.2 in 2028; and $1.9 in 2029."
+    }
+  ],
+  "corrections": [
+    {
+      "date": "2026-09-22",
+      "label_id": "brk-2023-2024-08",
+      "reason": "Source inspection showed the alleged addition was a split of the prior paragraph. Original labels preserved in docs/v2/labels. Correction is not algorithm improvement."
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "pair_fingerprint": "0fd5a7734a1872f53dd341ababaadd79f8afc71ff742f161eb753acd98b4faef",
+  "label_author": "Project author; no independent financial expert review",
+  "labels": [
+    {
+      "old": "rates",
+      "new": "rates",
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "May becomes will; certainty of demand impact changes."
+    },
+    {
+      "old": "supplier",
+      "new": "supplier",
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Supplier concentration rises from 40% to 65%."
+    },
+    {
+      "old": "cyber",
+      "new": "cyber",
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Negation removed from a delivery-disrupting incident disclosure."
+    },
+    {
+      "old": "permits",
+      "new": "permits",
+      "kind": "changed",
+      "importance": 0,
+      "rationale": "Local versus regional is too vague to infer investment relevance."
+    },
+    {
+      "old": "competition",
+      "new": "competition",
+      "kind": "unchanged",
+      "importance": 0,
+      "rationale": "Exact passage moved earlier."
+    },
+    {
+      "old": "legacy",
+      "new": null,
+      "kind": "removed",
+      "importance": 1,
+      "rationale": "A process risk passage is absent; verify whether the business discontinued it."
+    },
+    {
+      "old": "litigation",
+      "new": "litigation",
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "A trial date now exists."
+    },
+    {
+      "old": "weather",
+      "new": "weather",
+      "kind": "unchanged",
+      "importance": 0,
+      "rationale": "Same weather exposure."
+    },
+    {
+      "old": null,
+      "new": "regulation",
+      "kind": "added",
+      "importance": 2,
+      "rationale": "New restriction affects access to markets."
+    },
+    {
+      "old": null,
+      "new": "climate",
+      "kind": "added",
+      "importance": 1,
+      "rationale": "New facility flood exposure."
+    },
+    {
+      "old": "revenue",
+      "new": "revenue",
+      "kind": "changed",
+      "importance": 1,
+      "rationale": "Revenue amounts and reported periods changed."
+    },
+    {
+      "old": "margin",
+      "new": "margin",
+      "kind": "changed",
+      "importance": 1,
+      "rationale": "Margin falls three percentage points."
+    },
+    {
+      "old": "cash",
+      "new": "cash",
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Compliance becomes noncompliance."
+    },
+    {
+      "old": "outlook",
+      "new": "outlook",
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Expected capital spending rises."
+    },
+    {
+      "old": "plant",
+      "new": null,
+      "kind": "removed",
+      "importance": 0,
+      "rationale": "Unmatched historical plant description needs context."
+    },
+    {
+      "old": null,
+      "new": "buyback",
+      "kind": "added",
+      "importance": 1,
+      "rationale": "New capital allocation disclosure."
+    },
+    {
+      "old": "calendar",
+      "new": "calendar",
+      "kind": "changed",
+      "importance": 0,
+      "rationale": "Routine fiscal year rollover."
+    },
+    {
+      "old": "method",
+      "new": "method",
+      "kind": "unchanged",
+      "importance": 0,
+      "rationale": "No segment definition change."
+    },
+    {
+      "old": "table",
+      "new": "table",
+      "kind": "changed",
+      "importance": 1,
+      "rationale": "Reported cash falls from 12 to 9 million."
+    }
+  ]
+}

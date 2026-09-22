@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "provenance": "issuer",
+  "evaluation_role": "development",
+  "note": "Issuer-hosted 10-K copies; converted text is not byte-identical to SEC HTML.",
+  "documents": [
+    {
+      "id": "msft-2022",
+      "company": "Microsoft Corporation",
+      "cik": "789019",
+      "form": "10-K",
+      "fiscal_year": 2022,
+      "period_end": "2022-06-30",
+      "filed": "2022-07-28",
+      "accession": "0001564590-22-026876",
+      "path": "converted/msft-2022.html",
+      "sha256": "147fbd305cdaa744ffedec17dcf3a52d034d9675af3468d24a52908a2646a10d",
+      "original_path": "originals/msft-2022.docx",
+      "original_sha256": "2969fb943f1d399868ebb8c920edcabe8fe2a56cf3a9f9d72bec2fa5a43850a1",
+      "source_url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/MSFT_FY22Q4_10K",
+      "source_format": "docx",
+      "filing_index_url": "https://www.sec.gov/Archives/edgar/data/789019/0001564590-22-026876-index.htm",
+      "retrieved_on": "2026-09-21",
+      "conversion": "source_formats v2; OOXML paragraphs"
+    },
+    {
+      "id": "msft-2023",
+      "company": "Microsoft Corporation",
+      "cik": "789019",
+      "form": "10-K",
+      "fiscal_year": 2023,
+      "period_end": "2023-06-30",
+      "filed": "2023-07-27",
+      "accession": "0000950170-23-035122",
+      "path": "converted/msft-2023.html",
+      "sha256": "15d5a8df6393ac23b02bf9c0725256f2a853200dccbf93f04f38c1831c4830e1",
+      "original_path": "originals/msft-2023.docx",
+      "original_sha256": "6cdaa2e9710b930ce5f1ddb186753b82e6b1d659734b7d5e5c8fc69b72a2f17c",
+      "source_url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/MSFT_FY23Q4_10K",
+      "source_format": "docx",
+      "filing_index_url": "https://www.sec.gov/Archives/edgar/data/789019/0000950170-23-035122-index.htm",
+      "retrieved_on": "2026-09-21",
+      "conversion": "source_formats v2; OOXML paragraphs"
+    }
+  ]
+}

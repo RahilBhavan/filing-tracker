@@ -1,0 +1,78 @@
+{
+  "label_count": 19,
+  "gold_changes": 15,
+  "predicted_changes": 17,
+  "true_positive": 13,
+  "false_positive": 4,
+  "false_negative": 2,
+  "precision": {
+    "numerator": 13,
+    "denominator": 17,
+    "value": 0.7647
+  },
+  "recall": {
+    "numerator": 13,
+    "denominator": 15,
+    "value": 0.8667
+  },
+  "alignment_and_type_accuracy": {
+    "numerator": 17,
+    "denominator": 19,
+    "value": 0.8947
+  },
+  "high_priority_recall_at_10": {
+    "numerator": 5,
+    "denominator": 6,
+    "value": 0.8333
+  },
+  "precision_at_5": {
+    "numerator": 3,
+    "denominator": 5,
+    "value": 0.6
+  },
+  "precision_at_10": {
+    "numerator": 7,
+    "denominator": 10,
+    "value": 0.7
+  },
+  "local_citation_integrity": {
+    "numerator": 35,
+    "denominator": 35,
+    "value": 1.0
+  },
+  "missed_gold_decisions": [
+    [
+      "competition",
+      "competition_rewrite",
+      "changed"
+    ],
+    [
+      "litigation",
+      "litigation",
+      "changed"
+    ]
+  ],
+  "unexpected_predictions": [
+    [
+      "competition",
+      null,
+      "removed"
+    ],
+    [
+      "litigation",
+      null,
+      "removed"
+    ],
+    [
+      null,
+      "competition_rewrite",
+      "added"
+    ],
+    [
+      null,
+      "litigation",
+      "added"
+    ]
+  ],
+  "scope": "Synthetic, author-labeled block decisions. No real SEC accuracy, finance-expert importance validation, or time savings measured."
+}

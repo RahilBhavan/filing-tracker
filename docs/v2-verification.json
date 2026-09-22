@@ -1,0 +1,30 @@
+{
+  "python_verification": "../verification.json",
+  "additional_checks": [
+    {
+      "command": "python3 scripts/benchmark.py (via benchmark.run)",
+      "exit_status": 0,
+      "result": "Six engine/pair evaluations; 50 author labels; raw counts in real-benchmark.json"
+    },
+    {
+      "command": "python3 scripts/review_packet.py",
+      "exit_status": 0,
+      "result": "Three source-only packets and blank CSV decision sheets"
+    },
+    {
+      "command": "PLAYWRIGHT_MODULE=<bundled playwright> node scripts/browser-check.cjs",
+      "exit_status": 0,
+      "result": "Eight interaction checks passed; no page errors; disposable synthetic state only"
+    },
+    {
+      "command": "Real Microsoft browser smoke and screenshot",
+      "exit_status": 0,
+      "result": "No page errors; two citation links and six highlight spans; revision 0; zero human sessions"
+    },
+    {
+      "command": "Compare current Python module hashes to holdout-freeze.json",
+      "exit_status": 0,
+      "result": "No Python modules changed after the freeze"
+    }
+  ]
+}

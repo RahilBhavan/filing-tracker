@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "provenance": "synthetic",
+  "note": "Author-created fictional annual pair. Never SEC evidence.",
+  "documents": [
+    {
+      "id": "alder-2023",
+      "company": "Alder Components Example Co. \u2014 SYNTHETIC",
+      "cik": "SYNTHETIC-ALDER",
+      "form": "10-K",
+      "fiscal_year": 2023,
+      "period_end": "2023-12-31",
+      "filed": "2024-02-15",
+      "accession": "SYNTHETIC-ALDER-2023",
+      "source_url": null,
+      "path": "alder-2023.html",
+      "sha256": "42982a9a0a5f29a66e3d4b4aeb853a1cb9454bb950b120d536af98ee2dcb68db"
+    },
+    {
+      "id": "alder-2024",
+      "company": "Alder Components Example Co. \u2014 SYNTHETIC",
+      "cik": "SYNTHETIC-ALDER",
+      "form": "10-K",
+      "fiscal_year": 2024,
+      "period_end": "2024-12-31",
+      "filed": "2025-02-15",
+      "accession": "SYNTHETIC-ALDER-2024",
+      "source_url": null,
+      "path": "alder-2024.html",
+      "sha256": "4d3a4dffd238680f0655750fa0b6cbd6b6c105fff5abef328a6b226c453672aa"
+    }
+  ]
+}

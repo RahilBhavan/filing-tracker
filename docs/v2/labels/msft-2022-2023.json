@@ -1,0 +1,285 @@
+{
+  "schema_version": 2,
+  "pair_fingerprint": "5d64b3659466a85375f0cb404fe5598ed770203099677e41625278bc947edeca",
+  "label_author": "Codex implementation author; NOT independently reviewed",
+  "independent_review": false,
+  "scope": "purposeful sample; not whole-filing ground truth",
+  "labels": [
+    {
+      "id": "msft-2022-2023-01",
+      "old": [
+        "risk-0005"
+      ],
+      "new": [
+        "risk-0005"
+      ],
+      "kind": "unchanged",
+      "importance": 0,
+      "rationale": "Unchanged competition paragraph control.",
+      "old_text": "Our competitors range in size from diversified global companies with significant research and development resources to small, specialized firms whose narrower product lines may let them be more effective in deploying technical, marketing, and financial resources. Barriers to entry in many of our businesses are low and many of the areas in which we compete evolve rapidly with changing and disruptive technologies, shifting user needs, and frequent introductions of new products and services. Our ability to remain competitive depends on our success in making innovative products, devices, and services that appeal to businesses and consumers.",
+      "new_text": "Our competitors range in size from diversified global companies with significant research and development resources to small, specialized firms whose narrower product lines may let them be more effective in deploying technical, marketing, and financial resources. Barriers to entry in many of our businesses are low and many of the areas in which we compete evolve rapidly with changing and disruptive technologies, shifting user needs, and frequent introductions of new products and services. Our ability to remain competitive depends on our success in making innovative products, devices, and services that appeal to businesses and consumers."
+    },
+    {
+      "id": "msft-2022-2023-02",
+      "old": [],
+      "new": [
+        "risk-0014"
+      ],
+      "kind": "added",
+      "importance": 2,
+      "rationale": "New standalone AI investment, costs, competition and regulatory passage.",
+      "old_text": "",
+      "new_text": "We are investing in artificial intelligence (“AI”) across the entire company and infusing generative AI capabilities into our consumer and commercial offerings. We expect AI technology and services to be a highly competitive and rapidly evolving market. We will bear significant development and operational costs to build and support the AI capabilities, products, and services necessary to meet the needs of our customers. To compete effectively we must also be responsive to technological change, potential regulatory developments, and public scrutiny."
+    },
+    {
+      "id": "msft-2022-2023-03",
+      "old": [
+        "risk-0014"
+      ],
+      "new": [
+        "risk-0015"
+      ],
+      "kind": "changed",
+      "importance": 0,
+      "rationale": "Punctuation edit to advertising-funded business model.",
+      "old_text": "Other competitors develop and offer free applications, online services and content, and make money by selling third-party advertising. Advertising revenue funds development of products and services these competitors provide to users at no or little cost, competing directly with our revenue-generating products.",
+      "new_text": "Other competitors develop and offer free applications, online services, and content, and make money by selling third-party advertising. Advertising revenue funds development of products and services these competitors provide to users at no or little cost, competing directly with our revenue-generating products."
+    },
+    {
+      "id": "msft-2022-2023-04",
+      "old": [
+        "risk-0015"
+      ],
+      "new": [
+        "risk-0016"
+      ],
+      "kind": "changed",
+      "importance": 1,
+      "rationale": "Open-source competitive discussion now explicitly includes AI models.",
+      "old_text": "Some companies compete with us by modifying and then distributing open source software at little or no cost to end users, and earning revenue on advertising or integrated products and services. These firms do not bear the full costs of research and development for the open source software. Some open source software mimics the features and functionality of our products.",
+      "new_text": "Some companies compete with us by modifying and then distributing open source software at little or no cost to end users, using open source AI models, and earning revenue on advertising or integrated products and services. These firms do not bear the full costs of research and development for the open source products. Some open source products mimic the features and functionality of our products."
+    },
+    {
+      "id": "msft-2022-2023-05",
+      "old": [
+        "risk-0017"
+      ],
+      "new": [
+        "risk-0018"
+      ],
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Cloud execution narrative and adoption risks change.",
+      "old_text": "Our increasing focus on cloud-based services presents execution and competitive risks. A growing part of our business involves cloud-based services available across the spectrum of computing devices. Our strategic vision is to compete and grow by building best-in-class platforms and productivity services for an intelligent cloud and an intelligent edge infused with artificial intelligence (“AI”). At the same time, our competitors are rapidly developing and deploying cloud-based services for consumers and business customers. Pricing and delivery models are evolving. Devices and form factors influence how users access services in the cloud and sometimes the user’s choice of which cloud-based services to use. We are devoting significant resources to develop and deploy our cloud-based strategies. The Windows ecosystem must continue to evolve with this changing environment. We embrace cultural and organizational changes to drive accountability and eliminate obstacles to innovation. Our intelligent cloud and intelligent edge worldview is connected with the growth of the Internet of Things (“IoT”). Our success in the IoT will depend on the level of adoption of our offerings such as Azure, Azure Stack, Azure IoT Edge, and Azure Sphere. We may not establish market share sufficient to achieve scale necessary to meet our business objectives.",
+      "new_text": "Our increasing focus on cloud-based services presents execution and competitive risks. A growing part of our business involves cloud-based services available across the spectrum of computing devices. Our strategic vision is to compete and grow by building best-in-class platforms and productivity services that utilize ubiquitous computing and ambient intelligence to drive insights and productivity gains. At the same time, our competitors are rapidly developing and deploying cloud-based services for consumers and business customers. Pricing and delivery models are evolving. Devices and form factors influence how users access services in the cloud and sometimes the user’s choice of which cloud-based services to use. Certain industries and customers have specific requirements for cloud services and may present enhanced risks. We are devoting significant resources to develop and deploy our cloud-based strategies. The Windows ecosystem must continue to evolve with this changing environment. We embrace cultural and organizational changes to drive accountability and eliminate obstacles to innovation. Our intelligent cloud and intelligent edge offerings are connected to the growth of the Internet of Things (“IoT”), a network of distributed and interconnected devices employing sensors, data, and computing capabilities, including AI. Our success in driving ubiquitous computing and ambient intelligence will depend on the level of adoption of our offerings such as Azure, Azure AI, and Azure IoT Edge. We may not establish market share sufficient to achieve scale necessary to meet our business objectives."
+    },
+    {
+      "id": "msft-2022-2023-06",
+      "old": [
+        "risk-0026"
+      ],
+      "new": [
+        "risk-0028"
+      ],
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Investment discussion explicitly adds new AI platform services.",
+      "old_text": "We make significant investments in products and services that may not achieve expected returns. We will continue to make significant investments in research, development, and marketing for existing products, services, and technologies, including the Windows operating system, Microsoft 365, Office, Bing, SQL Server, Windows Server, Azure, Office 365, Xbox, LinkedIn, and other products and services. We also invest in the development and acquisition of a variety of hardware for productivity, communication, and entertainment including PCs, tablets, gaming devices, and HoloLens. Investments in new technology are speculative. Commercial success depends on many factors, including innovativeness, developer support, and effective distribution and marketing. If customers do not perceive our latest offerings as providing significant new functionality or other value, they may reduce their purchases of new software and hardware products or upgrades, unfavorably affecting revenue. We may not achieve significant revenue from new product, service, and distribution channel investments for several years, if at all. New products and services may not be profitable, and even if they are profitable, operating margins for some new products and businesses will not be as high as the margins we have experienced historically. We may not get engagement in certain features, like Edge and Bing, that drive post-sale monetization opportunities. Our data handling practices across our products and services will continue to be under scrutiny and perceptions of mismanagement, driven by regulatory activity or negative public reaction to our practices or product experiences, could negatively impact product and feature adoption, product design, and product quality.",
+      "new_text": "We make significant investments in products and services that may not achieve expected returns. We will continue to make significant investments in research, development, and marketing for existing products, services, and technologies, including the Windows operating system, Microsoft 365, Bing, SQL Server, Windows Server, Azure, Office 365, Xbox, LinkedIn, and other products and services. In addition, we are focused on developing new AI platform services and incorporating AI into existing products and services. We also invest in the development and acquisition of a variety of hardware for productivity, communication, and entertainment, including PCs, tablets, gaming devices, and HoloLens. Investments in new technology are speculative. Commercial success depends on many factors, including innovativeness, developer support, and effective distribution and marketing. If customers do not perceive our latest offerings as providing significant new functionality or other value, they may reduce their purchases of new software and hardware products or upgrades, unfavorably affecting revenue. We may not achieve significant revenue from new product, service, and distribution channel investments for several years, if at all. New products and services may not be profitable, and even if they are profitable, operating margins for some new products and businesses will not be as high as the margins we have experienced historically. We may not get engagement in certain features, like Microsoft Edge, Bing, and Bing Chat, that drive post-sale monetization opportunities. Our data handling practices across our products and services will continue to be under scrutiny. Perceptions of mismanagement, driven by regulatory activity or negative public reaction to our practices or product experiences, could negatively impact product and feature adoption, product design, and product quality."
+    },
+    {
+      "id": "msft-2022-2023-07",
+      "old": [
+        "risk-0028"
+      ],
+      "new": [
+        "risk-0030"
+      ],
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Strategic transaction discussion adds OpenAI partnership.",
+      "old_text": "Acquisitions, joint ventures, and strategic alliances may have an adverse effect on our business. We expect to continue making acquisitions and entering into joint ventures and strategic alliances as part of our long-term business strategy. For example, in March 2021 we completed our acquisition of ZeniMax Media Inc. for $8.1 billion, and in March 2022 we completed our acquisition of Nuance Communications, Inc. for $18.8 billion. In January 2022 we announced a definitive agreement to acquire Activision Blizzard, Inc. for $68.7 billion. These acquisitions and other transactions and arrangements involve significant challenges and risks, including that they do not advance our business strategy, that we get an unsatisfactory return on our investment, that they raise new compliance-related obligations and challenges, that we have difficulty integrating and retaining new employees, business systems, and technology, that they distract management from our other businesses, or that announced transactions may not be completed. If an arrangement fails to adequately anticipate changing circumstances and interests of a party, it may result in early termination or renegotiation of the arrangement. The success of these transactions and arrangements will depend in part on our ability to leverage them to enhance our existing products and services or develop compelling new ones, as well as acquired companies’ ability to meet our policies and processes in areas such as data governance, privacy, and cybersecurity. It may take longer than expected to realize the full benefits from these transactions and arrangements such as increased revenue or enhanced efficiencies, or the benefits may ultimately be smaller than we expected. These events could adversely affect our consolidated financial statements.",
+      "new_text": "Acquisitions, joint ventures, and strategic alliances may have an adverse effect on our business. We expect to continue making acquisitions and entering into joint ventures and strategic alliances as part of our long-term business strategy. For example, in March 2021 we completed our acquisition of ZeniMax Media Inc. for $8.1 billion, and in March 2022 we completed our acquisition of Nuance Communications, Inc. for $18.8 billion. In January 2022 we announced a definitive agreement to acquire Activision Blizzard, Inc. for $68.7 billion. In January 2023 we announced the third phase of our OpenAI strategic partnership. Acquisitions and other transactions and arrangements involve significant challenges and risks, including that they do not advance our business strategy, that we get an unsatisfactory return on our investment, that they raise new compliance-related obligations and challenges, that we have difficulty integrating and retaining new employees, business systems, and technology, that they distract management from our other businesses, or that announced transactions may not be completed. If an arrangement fails to adequately anticipate changing circumstances and interests of a party, it may result in early termination or renegotiation of the arrangement. The success of these transactions and arrangements will depend in part on our ability to leverage them to enhance our existing products and services or develop compelling new ones, as well as acquired companies’ ability to meet our policies and processes in areas such as data governance, privacy, and cybersecurity. It may take longer than expected to realize the full benefits from these transactions and arrangements such as increased revenue or enhanced efficiencies, or the benefits may ultimately be smaller than we expected. These events could adversely affect our consolidated financial statements."
+    },
+    {
+      "id": "msft-2022-2023-08",
+      "old": [
+        "risk-0033"
+      ],
+      "new": [
+        "risk-0035"
+      ],
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Cyber threat description broadens attack methods and affected parties.",
+      "old_text": "Threats to IT security can take a variety of forms. Individual and groups of hackers and sophisticated organizations, including state-sponsored organizations or nation-states, continuously undertake attacks that pose threats to our customers and our IT. These actors may use a wide variety of methods, which may include developing and deploying malicious software or exploiting vulnerabilities in hardware, software, or other infrastructure in order to attack our products and services or gain access to our networks and datacenters, using social engineering techniques to induce our employees, users, partners, or customers to disclose passwords or other sensitive information or take other actions to gain access to our data or our users’ or customers’ data, or acting in a coordinated manner to launch distributed denial of service or other coordinated attacks. Nation-state and state-sponsored actors can deploy significant resources to plan and carry out exploits. Nation-state attacks against us or our customers may intensify during periods of intense diplomatic or armed conflict, such as the ongoing conflict in Ukraine. Inadequate account security practices may also result in unauthorized access to confidential data. For example, system administrators may fail to timely remove employee account access when no longer appropriate. Employees or third parties may intentionally compromise our or our users’ security or systems or reveal confidential information. Malicious actors may employ the IT supply chain to introduce malware through software updates or compromised supplier accounts or hardware.",
+      "new_text": "Threats to IT security can take a variety of forms. Individual and groups of hackers and sophisticated organizations, including state-sponsored organizations or nation-states, continuously undertake attacks that pose threats to our customers and our IT. These actors may use a wide variety of methods, which may include developing and deploying malicious software or exploiting vulnerabilities or intentionally designed processes in hardware, software, or other infrastructure in order to attack our products and services or gain access to our networks and datacenters, using social engineering techniques to induce our employees, users, partners, or customers to disclose passwords or other sensitive information or take other actions to gain access to our data or our users’ or customers’ data, or acting in a coordinated manner to launch distributed denial of service or other coordinated attacks. Nation-state and state-sponsored actors can deploy significant resources to plan and carry out attacks. Nation-state attacks against us, our customers, or our partners may intensify during periods of intense diplomatic or armed conflict, such as the ongoing conflict in Ukraine. Inadequate account security or organizational security practices may also result in unauthorized access to confidential data. For example, system administrators may fail to timely remove employee account access when no longer appropriate. Employees or third parties may intentionally compromise our or our users’ security or systems or reveal confidential information. Malicious actors may employ the IT supply chain to introduce malware through software updates or compromised supplier accounts or hardware."
+    },
+    {
+      "id": "msft-2022-2023-09",
+      "old": [
+        "risk-0036"
+      ],
+      "new": [
+        "risk-0037"
+      ],
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Internal IT discussion adds generative AI attack methods.",
+      "old_text": "In addition, our internal IT environment continues to evolve. Often, we are early adopters of new devices and technologies. We embrace new ways of sharing data and communicating internally and with partners and customers using methods such as social networking and other consumer-oriented technologies. Our business policies and internal security controls may not keep pace with these changes as new threats emerge, or emerging cybersecurity regulations in jurisdictions worldwide.",
+      "new_text": "In addition, our internal IT environment continues to evolve. Often, we are early adopters of new devices and technologies. We embrace new ways of sharing data and communicating internally and with partners and customers using methods such as social networking and other consumer-oriented technologies. Increasing use of generative AI models in our internal systems may create new attack methods for adversaries. Our business policies and internal security controls may not keep pace with these changes as new threats emerge, or emerging cybersecurity regulations in jurisdictions worldwide."
+    },
+    {
+      "id": "msft-2022-2023-10",
+      "old": [],
+      "new": [
+        "risk-0026"
+      ],
+      "kind": "added",
+      "importance": 1,
+      "rationale": "New cloud-service fraud and abuse paragraph.",
+      "old_text": "",
+      "new_text": "Some users may engage in fraudulent or abusive activities through our cloud-based services. These include unauthorized use of accounts through stolen credentials, use of stolen credit cards or other payment vehicles, failure to pay for services accessed, or other activities that violate our terms of service such as cryptocurrency mining or launching cyberattacks. If our efforts to detect such violations or our actions to control these types of fraud and abuse are not effective, we may experience adverse impacts to our revenue or incur reputational damage."
+    },
+    {
+      "id": "msft-2022-2023-11",
+      "old": [
+        "mda-0006"
+      ],
+      "new": [
+        "mda-0006"
+      ],
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Cloud revenue amount and reported growth update.",
+      "old_text": "•Microsoft Cloud (formerly commercial cloud) revenue increased 32% to $91.2 billion.",
+      "new_text": "•Microsoft Cloud revenue increased 22% to $111.6 billion."
+    },
+    {
+      "id": "msft-2022-2023-12",
+      "old": [
+        "mda-0007"
+      ],
+      "new": [
+        "mda-0007"
+      ],
+      "kind": "changed",
+      "importance": 1,
+      "rationale": "Office Commercial and Office 365 growth update.",
+      "old_text": "•Office Commercial products and cloud services revenue increased 13% driven by Office 365 Commercial growth of 18%.",
+      "new_text": "•Office Commercial products and cloud services revenue increased 10% driven by Office 365 Commercial growth of 13%."
+    },
+    {
+      "id": "msft-2022-2023-13",
+      "old": [
+        "mda-0008"
+      ],
+      "new": [
+        "mda-0008"
+      ],
+      "kind": "changed",
+      "importance": 1,
+      "rationale": "Office Consumer growth and subscriber count update.",
+      "old_text": "•Office Consumer products and cloud services revenue increased 11% and Microsoft 365 Consumer subscribers grew to 59.7 million.",
+      "new_text": "•Office Consumer products and cloud services revenue increased 2% and Microsoft 365 Consumer subscribers increased to 67.0 million."
+    },
+    {
+      "id": "msft-2022-2023-14",
+      "old": [
+        "mda-0009"
+      ],
+      "new": [
+        "mda-0009"
+      ],
+      "kind": "changed",
+      "importance": 1,
+      "rationale": "LinkedIn growth update.",
+      "old_text": "•LinkedIn revenue increased 34%.",
+      "new_text": "•LinkedIn revenue increased 10%."
+    },
+    {
+      "id": "msft-2022-2023-15",
+      "old": [
+        "mda-0010"
+      ],
+      "new": [
+        "mda-0010"
+      ],
+      "kind": "changed",
+      "importance": 1,
+      "rationale": "Dynamics and Dynamics 365 growth update.",
+      "old_text": "•Dynamics products and cloud services revenue increased 25% driven by Dynamics 365 growth of 39%.",
+      "new_text": "•Dynamics products and cloud services revenue increased 16% driven by Dynamics 365 growth of 24%."
+    },
+    {
+      "id": "msft-2022-2023-16",
+      "old": [
+        "mda-0011"
+      ],
+      "new": [
+        "mda-0011"
+      ],
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Server and Azure growth update.",
+      "old_text": "•Server products and cloud services revenue increased 28% driven by Azure and other cloud services growth of 45%.",
+      "new_text": "•Server products and cloud services revenue increased 19% driven by Azure and other cloud services growth of 29%."
+    },
+    {
+      "id": "msft-2022-2023-17",
+      "old": [
+        "mda-0066"
+      ],
+      "new": [
+        "mda-0070"
+      ],
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Consolidated revenue and contributing segments update.",
+      "old_text": "Revenue increased $30.2 billion or 18% driven by growth across each of our segments. Intelligent Cloud revenue increased driven by Azure and other cloud services. Productivity and Business Processes revenue increased driven by Office 365 Commercial and LinkedIn. More Personal Computing revenue increased driven by Search and news advertising and Windows.",
+      "new_text": "Revenue increased $13.6 billion or 7% driven by growth in Intelligent Cloud and Productivity and Business Processes, offset in part by a decline in More Personal Computing. Intelligent Cloud revenue increased driven by Azure and other cloud services. Productivity and Business Processes revenue increased driven by Office 365 Commercial and LinkedIn. More Personal Computing revenue decreased driven by Windows and Devices."
+    },
+    {
+      "id": "msft-2022-2023-18",
+      "old": [
+        "mda-0154"
+      ],
+      "new": [
+        "mda-0159"
+      ],
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Effective tax rate and explanation update.",
+      "old_text": "Our effective tax rate for fiscal years 2022 and 2021 was 13% and 14%, respectively. The decrease in our effective tax rate was primarily due to a $3.3 billion net income tax benefit in the first quarter of fiscal year 2022 related to the transfer of intangible properties, offset in part by changes in the mix of our income before income taxes between the U.S. and foreign countries, as well as tax benefits in the prior year from the India Supreme Court decision on withholding taxes in the case of Engineering Analysis Centre of Excellent Private Limited vs The Commissioner of Income Tax, an agreement between the U.S. and India tax authorities related to transfer pricing, and final Tax Cuts and Jobs Act (“TCJA”) regulations.",
+      "new_text": "Our effective tax rate for fiscal years 2023 and 2022 was 19% and 13%, respectively. The increase in our effective tax rate was primarily due to a $3.3 billion net income tax benefit in the first quarter of fiscal year 2022 related to the transfer of intangible properties and a decrease in tax benefits relating to stock-based compensation."
+    },
+    {
+      "id": "msft-2022-2023-19",
+      "old": [
+        "mda-0179"
+      ],
+      "new": [
+        "mda-0189"
+      ],
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Cash and investment balances update.",
+      "old_text": "Cash, cash equivalents, and short-term investments totaled $104.8 billion and $130.3 billion as of June 30, 2022 and 2021, respectively. Equity investments were $6.9 billion and $6.0 billion as of June 30, 2022 and 2021, respectively. Our short-term investments are primarily intended to facilitate liquidity and capital preservation. They consist predominantly of highly liquid investment-grade fixed-income securities, diversified among industries and individual issuers. The investments are predominantly U.S. dollar-denominated securities, but also include foreign currency-denominated securities to diversify risk. Our fixed-income investments are exposed to interest rate risk and credit risk. The credit risk and average maturity of our fixed-income portfolio are managed to achieve economic returns that correlate to certain fixed-income indices. The settlement risk related to these investments is insignificant given that the short-term investments held are primarily highly liquid investment-grade fixed-income securities.",
+      "new_text": "Cash, cash equivalents, and short-term investments totaled $111.3 billion and $104.8 billion as of June 30, 2023 and 2022, respectively. Equity investments were $9.9 billion and $6.9 billion as of June 30, 2023 and 2022, respectively. Our short-term investments are primarily intended to facilitate liquidity and capital preservation. They consist predominantly of highly liquid investment-grade fixed-income securities, diversified among industries and individual issuers. The investments are predominantly U.S. dollar-denominated securities, but also include foreign currency-denominated securities to diversify risk. Our fixed-income investments are exposed to interest rate risk and credit risk. The credit risk and average maturity of our fixed-income portfolio are managed to achieve economic returns that correlate to certain fixed-income indices. The settlement risk related to these investments is insignificant given that the short-term investments held are primarily highly liquid investment-grade fixed-income securities."
+    },
+    {
+      "id": "msft-2022-2023-20",
+      "old": [
+        "mda-0218"
+      ],
+      "new": [
+        "mda-0228"
+      ],
+      "kind": "changed",
+      "importance": 2,
+      "rationale": "Shares repurchased and purchase amounts update.",
+      "old_text": "During fiscal years 2022 and 2021, we repurchased 95 million shares and 101 million shares of our common stock for $28.0 billion and $23.0 billion, respectively, through our share repurchase programs. All repurchases were made using cash resources. As of June 30, 2022, $40.7 billion remained of our $60 billion share repurchase program. Refer to Note 16 – Stockholders’ Equity of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K) for further discussion.",
+      "new_text": "During fiscal years 2023 and 2022, we repurchased 69 million shares and 95 million shares of our common stock for $18.4 billion and $28.0 billion, respectively, through our share repurchase programs. All repurchases were made using cash resources. As of June 30, 2023, $22.3 billion remained of our $60 billion share repurchase program. Refer to Note 16 – Stockholders’ Equity of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K) for further discussion."
+    }
+  ]
+}

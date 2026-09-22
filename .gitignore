@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+downloads/
+reviews/
+**/review-state.json
+*.tmp

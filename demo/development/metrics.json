@@ -1,0 +1,46 @@
+{
+  "label_count": 19,
+  "gold_changes": 16,
+  "predicted_changes": 16,
+  "true_positive": 16,
+  "false_positive": 0,
+  "false_negative": 0,
+  "precision": {
+    "numerator": 16,
+    "denominator": 16,
+    "value": 1.0
+  },
+  "recall": {
+    "numerator": 16,
+    "denominator": 16,
+    "value": 1.0
+  },
+  "alignment_and_type_accuracy": {
+    "numerator": 19,
+    "denominator": 19,
+    "value": 1.0
+  },
+  "high_priority_recall_at_10": {
+    "numerator": 7,
+    "denominator": 7,
+    "value": 1.0
+  },
+  "precision_at_5": {
+    "numerator": 5,
+    "denominator": 5,
+    "value": 1.0
+  },
+  "precision_at_10": {
+    "numerator": 10,
+    "denominator": 10,
+    "value": 1.0
+  },
+  "local_citation_integrity": {
+    "numerator": 33,
+    "denominator": 33,
+    "value": 1.0
+  },
+  "missed_gold_decisions": [],
+  "unexpected_predictions": [],
+  "scope": "Synthetic, author-labeled block decisions. No real SEC accuracy, finance-expert importance validation, or time savings measured."
+}

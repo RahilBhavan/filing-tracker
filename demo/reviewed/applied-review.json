@@ -1,0 +1,30 @@
+{
+  "pair_fingerprint": "873734bf533a83516d8a888e1358810edd357a57660266ccaea95a955f196ce5",
+  "alignments": [
+    {
+      "old": "risk-0001",
+      "new": "risk-0005"
+    },
+    {
+      "old": "risk-0006",
+      "new": "risk-0006"
+    }
+  ],
+  "reviews": {
+    "e723348b925a": {
+      "priority": "high",
+      "status": "accepted",
+      "note": "Example review on fictional data: the same proceeding moves from discovery to settlement with an $18 million payment."
+    },
+    "7b768b133e92": {
+      "priority": "high",
+      "status": "accepted",
+      "note": "Example review on fictional data: suspension of repurchases warrants review of the capital return assumption."
+    },
+    "4d072b308077": {
+      "priority": "medium",
+      "status": "accepted",
+      "note": "Example review on fictional data: these passages both discuss competition; preserve the changed description of rival bundles."
+    }
+  }
+}

@@ -1,0 +1,1660 @@
+{
+  "schema_version": 2,
+  "engine": "v2",
+  "pair_fingerprint": "0fd5a7734a1872f53dd341ababaadd79f8afc71ff742f161eb753acd98b4faef",
+  "provenance": "synthetic",
+  "threshold": 0.62,
+  "old": {
+    "id": "alder-2023",
+    "company": "Alder Components Example Co. — SYNTHETIC",
+    "cik": "SYNTHETIC-ALDER",
+    "form": "10-K",
+    "fiscal_year": 2023,
+    "period_end": "2023-12-31",
+    "filed": "2024-02-15",
+    "accession": "SYNTHETIC-ALDER-2023",
+    "source_url": null,
+    "path": "alder-2023.html",
+    "sha256": "42982a9a0a5f29a66e3d4b4aeb853a1cb9454bb950b120d536af98ee2dcb68db"
+  },
+  "new": {
+    "id": "alder-2024",
+    "company": "Alder Components Example Co. — SYNTHETIC",
+    "cik": "SYNTHETIC-ALDER",
+    "form": "10-K",
+    "fiscal_year": 2024,
+    "period_end": "2024-12-31",
+    "filed": "2025-02-15",
+    "accession": "SYNTHETIC-ALDER-2024",
+    "source_url": null,
+    "path": "alder-2024.html",
+    "sha256": "4d3a4dffd238680f0655750fa0b6cbd6b6c105fff5abef328a6b226c453672aa"
+  },
+  "assumptions": [],
+  "applied_review": {},
+  "sections": {
+    "risk": {
+      "label": "Item 1A — Risk Factors",
+      "old_blocks": 8,
+      "new_blocks": 9
+    },
+    "mda": {
+      "label": "Item 7 — MD&A",
+      "old_blocks": 8,
+      "new_blocks": 8
+    }
+  },
+  "warnings": [],
+  "changes": [
+    {
+      "id": "45c0c689ae3c",
+      "section": "risk",
+      "kind": "added",
+      "old": null,
+      "new": {
+        "text": "A new export restriction may prevent shipments of our control modules to two markets.",
+        "kind": "paragraph",
+        "dom_id": "regulation",
+        "source_locator": null,
+        "page": null,
+        "id": "risk-0007",
+        "section": "risk",
+        "subsection": "",
+        "index": 7,
+        "start": 499,
+        "end": 584
+      },
+      "method": "unmatched",
+      "similarity": null,
+      "moved": false,
+      "needs_review": true,
+      "ambiguous_alignment": true,
+      "score": 90,
+      "priority": "high",
+      "reasons": [
+        "Disclosure text added",
+        "New unmatched risk passage; analyst must confirm novelty"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "insert",
+          "old": {
+            "start": 0,
+            "end": 0,
+            "text": ""
+          },
+          "new": {
+            "start": 0,
+            "end": 85,
+            "text": "A new export restriction may prevent shipments of our control modules to two markets."
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "",
+      "new_citation": "sources/alder-2024.html#risk-0007",
+      "old_citations": [],
+      "new_citations": [
+        "sources/alder-2024.html#risk-0007"
+      ]
+    },
+    {
+      "id": "7db0f7160e16",
+      "section": "risk",
+      "kind": "added",
+      "old": null,
+      "new": {
+        "text": "Flood exposure at the river facility may interrupt assembly operations for several weeks.",
+        "kind": "paragraph",
+        "dom_id": "climate",
+        "source_locator": null,
+        "page": null,
+        "id": "risk-0008",
+        "section": "risk",
+        "subsection": "",
+        "index": 8,
+        "start": 586,
+        "end": 675
+      },
+      "method": "unmatched",
+      "similarity": null,
+      "moved": false,
+      "needs_review": true,
+      "ambiguous_alignment": true,
+      "score": 90,
+      "priority": "high",
+      "reasons": [
+        "Disclosure text added",
+        "New unmatched risk passage; analyst must confirm novelty"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "insert",
+          "old": {
+            "start": 0,
+            "end": 0,
+            "text": ""
+          },
+          "new": {
+            "start": 0,
+            "end": 89,
+            "text": "Flood exposure at the river facility may interrupt assembly operations for several weeks."
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "",
+      "new_citation": "sources/alder-2024.html#risk-0008",
+      "old_citations": [],
+      "new_citations": [
+        "sources/alder-2024.html#risk-0008"
+      ]
+    },
+    {
+      "id": "b8c61204fcbc",
+      "section": "risk",
+      "kind": "changed",
+      "old": {
+        "text": "Our largest supplier provided 40% of resin purchases during the fiscal year.",
+        "kind": "paragraph",
+        "dom_id": "supplier",
+        "source_locator": null,
+        "page": null,
+        "id": "risk-0002",
+        "section": "risk",
+        "subsection": "",
+        "index": 2,
+        "start": 81,
+        "end": 157
+      },
+      "new": {
+        "text": "Our largest supplier provided 65% of resin purchases during the fiscal year.",
+        "kind": "paragraph",
+        "dom_id": "supplier",
+        "source_locator": null,
+        "page": null,
+        "id": "risk-0003",
+        "section": "risk",
+        "subsection": "",
+        "index": 3,
+        "start": 162,
+        "end": 238
+      },
+      "method": "contextual",
+      "similarity": 0.96,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 88,
+      "priority": "high",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review",
+        "Supplier concentration changed at least 10 percentage points"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 30,
+            "end": 32,
+            "text": "40"
+          },
+          "new": {
+            "start": 30,
+            "end": 32,
+            "text": "65"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [
+          {
+            "metric": "supplier concentration",
+            "unit": "percent",
+            "role": "reported level",
+            "old": {
+              "metric": "supplier concentration",
+              "value": 40.0,
+              "unit": "percent",
+              "role": "reported level",
+              "duration": "annual",
+              "start": 29,
+              "end": 33,
+              "raw": "40%",
+              "period": 2023,
+              "period_basis": "document fiscal year inferred; verify context"
+            },
+            "new": {
+              "metric": "supplier concentration",
+              "value": 65.0,
+              "unit": "percent",
+              "role": "reported level",
+              "duration": "annual",
+              "start": 29,
+              "end": 33,
+              "raw": "65%",
+              "period": 2024,
+              "period_basis": "document fiscal year inferred; verify context"
+            },
+            "absolute_change": 25.0,
+            "percentage_point_change": 25.0,
+            "relative_change_percent": null,
+            "basis": "successive annual reported quantities",
+            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
+          }
+        ],
+        "abstentions": [],
+        "old_facts": [
+          {
+            "metric": "supplier concentration",
+            "value": 40.0,
+            "unit": "percent",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 29,
+            "end": 33,
+            "raw": "40%",
+            "period": 2023,
+            "period_basis": "document fiscal year inferred; verify context"
+          }
+        ],
+        "new_facts": [
+          {
+            "metric": "supplier concentration",
+            "value": 65.0,
+            "unit": "percent",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 29,
+            "end": 33,
+            "raw": "65%",
+            "period": 2024,
+            "period_basis": "document fiscal year inferred; verify context"
+          }
+        ]
+      },
+      "assumption_links": [],
+      "old_citation": "sources/alder-2023.html#risk-0002",
+      "new_citation": "sources/alder-2024.html#risk-0003",
+      "old_citations": [
+        "sources/alder-2023.html#risk-0002"
+      ],
+      "new_citations": [
+        "sources/alder-2024.html#risk-0003"
+      ]
+    },
+    {
+      "id": "60ee629a7896",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "Our credit facility requires a debt coverage ratio of 3.0 and we are in compliance.",
+        "kind": "paragraph",
+        "dom_id": "cash",
+        "source_locator": null,
+        "page": null,
+        "id": "mda-0003",
+        "section": "mda",
+        "subsection": "",
+        "index": 3,
+        "start": 808,
+        "end": 891
+      },
+      "new": {
+        "text": "Our credit facility requires a debt coverage ratio of 3.0 and we are not in compliance.",
+        "kind": "paragraph",
+        "dom_id": "cash",
+        "source_locator": null,
+        "page": null,
+        "id": "mda-0003",
+        "section": "mda",
+        "subsection": "",
+        "index": 3,
+        "start": 912,
+        "end": 999
+      },
+      "method": "contextual",
+      "similarity": 0.964414,
+      "moved": false,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 85,
+      "priority": "high",
+      "reasons": [
+        "Disclosure text changed",
+        "Negation or modal wording changed",
+        "Liquidity or financing language"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "insert",
+          "old": {
+            "start": 69,
+            "end": 69,
+            "text": ""
+          },
+          "new": {
+            "start": 69,
+            "end": 72,
+            "text": "not"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/alder-2023.html#mda-0003",
+      "new_citation": "sources/alder-2024.html#mda-0003",
+      "old_citations": [
+        "sources/alder-2023.html#mda-0003"
+      ],
+      "new_citations": [
+        "sources/alder-2024.html#mda-0003"
+      ]
+    },
+    {
+      "id": "36fd16c8009e",
+      "section": "risk",
+      "kind": "changed",
+      "old": {
+        "text": "The product liability proceeding remains in discovery and no trial date has been set.",
+        "kind": "paragraph",
+        "dom_id": "litigation",
+        "source_locator": null,
+        "page": null,
+        "id": "risk-0007",
+        "section": "risk",
+        "subsection": "",
+        "index": 7,
+        "start": 486,
+        "end": 571
+      },
+      "new": {
+        "text": "The product liability proceeding remains in discovery and a trial date has been set.",
+        "kind": "paragraph",
+        "dom_id": "litigation",
+        "source_locator": null,
+        "page": null,
+        "id": "risk-0006",
+        "section": "risk",
+        "subsection": "",
+        "index": 6,
+        "start": 413,
+        "end": 497
+      },
+      "method": "contextual",
+      "similarity": 0.955833,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 85,
+      "priority": "high",
+      "reasons": [
+        "Disclosure text changed",
+        "Negation or modal wording changed"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 58,
+            "end": 60,
+            "text": "no"
+          },
+          "new": {
+            "start": 58,
+            "end": 59,
+            "text": "a"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/alder-2023.html#risk-0007",
+      "new_citation": "sources/alder-2024.html#risk-0006",
+      "old_citations": [
+        "sources/alder-2023.html#risk-0007"
+      ],
+      "new_citations": [
+        "sources/alder-2024.html#risk-0006"
+      ]
+    },
+    {
+      "id": "3865aea4f81b",
+      "section": "risk",
+      "kind": "changed",
+      "old": {
+        "text": "Higher interest rates may reduce customer demand for our industrial components.",
+        "kind": "paragraph",
+        "dom_id": "rates",
+        "source_locator": null,
+        "page": null,
+        "id": "risk-0001",
+        "section": "risk",
+        "subsection": "",
+        "index": 1,
+        "start": 0,
+        "end": 79
+      },
+      "new": {
+        "text": "Higher interest rates will reduce customer demand for our industrial components.",
+        "kind": "paragraph",
+        "dom_id": "rates",
+        "source_locator": null,
+        "page": null,
+        "id": "risk-0002",
+        "section": "risk",
+        "subsection": "",
+        "index": 2,
+        "start": 80,
+        "end": 160
+      },
+      "method": "contextual",
+      "similarity": 0.895513,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 85,
+      "priority": "high",
+      "reasons": [
+        "Disclosure text changed",
+        "Negation or modal wording changed"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 22,
+            "end": 25,
+            "text": "may"
+          },
+          "new": {
+            "start": 22,
+            "end": 26,
+            "text": "will"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/alder-2023.html#risk-0001",
+      "new_citation": "sources/alder-2024.html#risk-0002",
+      "old_citations": [
+        "sources/alder-2023.html#risk-0001"
+      ],
+      "new_citations": [
+        "sources/alder-2024.html#risk-0002"
+      ]
+    },
+    {
+      "id": "90b322fe34f7",
+      "section": "risk",
+      "kind": "changed",
+      "old": {
+        "text": "We have not experienced a cybersecurity incident that disrupted customer deliveries.",
+        "kind": "paragraph",
+        "dom_id": "cyber",
+        "source_locator": null,
+        "page": null,
+        "id": "risk-0003",
+        "section": "risk",
+        "subsection": "",
+        "index": 3,
+        "start": 159,
+        "end": 243
+      },
+      "new": {
+        "text": "We have experienced a cybersecurity incident that disrupted customer deliveries.",
+        "kind": "paragraph",
+        "dom_id": "cyber",
+        "source_locator": null,
+        "page": null,
+        "id": "risk-0004",
+        "section": "risk",
+        "subsection": "",
+        "index": 4,
+        "start": 240,
+        "end": 320
+      },
+      "method": "contextual",
+      "similarity": 0.944565,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 85,
+      "priority": "high",
+      "reasons": [
+        "Disclosure text changed",
+        "Negation or modal wording changed"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "delete",
+          "old": {
+            "start": 8,
+            "end": 11,
+            "text": "not"
+          },
+          "new": {
+            "start": 8,
+            "end": 8,
+            "text": ""
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/alder-2023.html#risk-0003",
+      "new_citation": "sources/alder-2024.html#risk-0004",
+      "old_citations": [
+        "sources/alder-2023.html#risk-0003"
+      ],
+      "new_citations": [
+        "sources/alder-2024.html#risk-0004"
+      ]
+    },
+    {
+      "id": "7875d63d7716",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "Our outlook anticipates capital spending of $8 million next year.",
+        "kind": "paragraph",
+        "dom_id": "outlook",
+        "source_locator": null,
+        "page": null,
+        "id": "mda-0004",
+        "section": "mda",
+        "subsection": "",
+        "index": 4,
+        "start": 893,
+        "end": 958
+      },
+      "new": {
+        "text": "Our outlook anticipates capital spending of $14 million next year.",
+        "kind": "paragraph",
+        "dom_id": "outlook",
+        "source_locator": null,
+        "page": null,
+        "id": "mda-0004",
+        "section": "mda",
+        "subsection": "",
+        "index": 4,
+        "start": 1001,
+        "end": 1067
+      },
+      "method": "contextual",
+      "similarity": 0.953846,
+      "moved": false,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 75,
+      "priority": "high",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review",
+        "Outlook or guidance language"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 45,
+            "end": 46,
+            "text": "8"
+          },
+          "new": {
+            "start": 45,
+            "end": 47,
+            "text": "14"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "capital spending: unresolved timing or nonannual duration; no arithmetic"
+        ],
+        "old_facts": [
+          {
+            "metric": "capital spending",
+            "value": 8000000.0,
+            "unit": "USD",
+            "role": "reported level",
+            "duration": "forecast",
+            "start": 44,
+            "end": 55,
+            "raw": "$8 million",
+            "period": null,
+            "period_basis": "forecast timing not resolved"
+          }
+        ],
+        "new_facts": [
+          {
+            "metric": "capital spending",
+            "value": 14000000.0,
+            "unit": "USD",
+            "role": "reported level",
+            "duration": "forecast",
+            "start": 44,
+            "end": 56,
+            "raw": "$14 million",
+            "period": null,
+            "period_basis": "forecast timing not resolved"
+          }
+        ]
+      },
+      "assumption_links": [],
+      "old_citation": "sources/alder-2023.html#mda-0004",
+      "new_citation": "sources/alder-2024.html#mda-0004",
+      "old_citations": [
+        "sources/alder-2023.html#mda-0004"
+      ],
+      "new_citations": [
+        "sources/alder-2024.html#mda-0004"
+      ]
+    },
+    {
+      "id": "523bb2217447",
+      "section": "risk",
+      "kind": "removed",
+      "old": {
+        "text": "Our legacy coating process exposes employees to solvent handling risks.",
+        "kind": "paragraph",
+        "dom_id": "legacy",
+        "source_locator": null,
+        "page": null,
+        "id": "risk-0006",
+        "section": "risk",
+        "subsection": "",
+        "index": 6,
+        "start": 413,
+        "end": 484
+      },
+      "new": null,
+      "method": "unmatched",
+      "similarity": null,
+      "moved": false,
+      "needs_review": true,
+      "ambiguous_alignment": true,
+      "score": 70,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text removed",
+        "Risk passage no longer matched in this section"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "delete",
+          "old": {
+            "start": 0,
+            "end": 71,
+            "text": "Our legacy coating process exposes employees to solvent handling risks."
+          },
+          "new": {
+            "start": 0,
+            "end": 0,
+            "text": ""
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/alder-2023.html#risk-0006",
+      "new_citation": "",
+      "old_citations": [
+        "sources/alder-2023.html#risk-0006"
+      ],
+      "new_citations": []
+    },
+    {
+      "id": "773140fad052",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "Gross margin was 24.0%, reflecting raw material costs and product mix.",
+        "kind": "paragraph",
+        "dom_id": "margin",
+        "source_locator": null,
+        "page": null,
+        "id": "mda-0002",
+        "section": "mda",
+        "subsection": "",
+        "index": 2,
+        "start": 736,
+        "end": 806
+      },
+      "new": {
+        "text": "Gross margin was 21.0%, reflecting raw material costs and product mix.",
+        "kind": "paragraph",
+        "dom_id": "margin",
+        "source_locator": null,
+        "page": null,
+        "id": "mda-0002",
+        "section": "mda",
+        "subsection": "",
+        "index": 2,
+        "start": 840,
+        "end": 910
+      },
+      "method": "contextual",
+      "similarity": 0.9625,
+      "moved": false,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 17,
+            "end": 19,
+            "text": "24"
+          },
+          "new": {
+            "start": 17,
+            "end": 19,
+            "text": "21"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [
+          {
+            "metric": "gross margin",
+            "unit": "percent",
+            "role": "reported level",
+            "old": {
+              "metric": "gross margin",
+              "value": 24.0,
+              "unit": "percent",
+              "role": "reported level",
+              "duration": "annual",
+              "start": 16,
+              "end": 22,
+              "raw": "24.0%",
+              "period": 2023,
+              "period_basis": "document fiscal year inferred; verify context"
+            },
+            "new": {
+              "metric": "gross margin",
+              "value": 21.0,
+              "unit": "percent",
+              "role": "reported level",
+              "duration": "annual",
+              "start": 16,
+              "end": 22,
+              "raw": "21.0%",
+              "period": 2024,
+              "period_basis": "document fiscal year inferred; verify context"
+            },
+            "absolute_change": -3.0,
+            "percentage_point_change": -3.0,
+            "relative_change_percent": null,
+            "basis": "successive annual reported quantities",
+            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
+          }
+        ],
+        "abstentions": [],
+        "old_facts": [
+          {
+            "metric": "gross margin",
+            "value": 24.0,
+            "unit": "percent",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 16,
+            "end": 22,
+            "raw": "24.0%",
+            "period": 2023,
+            "period_basis": "document fiscal year inferred; verify context"
+          }
+        ],
+        "new_facts": [
+          {
+            "metric": "gross margin",
+            "value": 21.0,
+            "unit": "percent",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 16,
+            "end": 22,
+            "raw": "21.0%",
+            "period": 2024,
+            "period_basis": "document fiscal year inferred; verify context"
+          }
+        ]
+      },
+      "assumption_links": [],
+      "old_citation": "sources/alder-2023.html#mda-0002",
+      "new_citation": "sources/alder-2024.html#mda-0002",
+      "old_citations": [
+        "sources/alder-2023.html#mda-0002"
+      ],
+      "new_citations": [
+        "sources/alder-2024.html#mda-0002"
+      ]
+    },
+    {
+      "id": "b76636e50abb",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "Net revenue was $120 million for 2023, compared with $110 million for 2022.",
+        "kind": "paragraph",
+        "dom_id": "revenue",
+        "source_locator": null,
+        "page": null,
+        "id": "mda-0001",
+        "section": "mda",
+        "subsection": "",
+        "index": 1,
+        "start": 659,
+        "end": 734
+      },
+      "new": {
+        "text": "Net revenue was $135 million for 2024, compared with $120 million for 2023.",
+        "kind": "paragraph",
+        "dom_id": "revenue",
+        "source_locator": null,
+        "page": null,
+        "id": "mda-0001",
+        "section": "mda",
+        "subsection": "",
+        "index": 1,
+        "start": 763,
+        "end": 838
+      },
+      "method": "contextual",
+      "similarity": 0.925,
+      "moved": false,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "insert",
+          "old": {
+            "start": 16,
+            "end": 16,
+            "text": ""
+          },
+          "new": {
+            "start": 16,
+            "end": 52,
+            "text": "$135 million for 2024, compared with"
+          }
+        },
+        {
+          "operation": "delete",
+          "old": {
+            "start": 37,
+            "end": 74,
+            "text": ", compared with $110 million for 2022"
+          },
+          "new": {
+            "start": 74,
+            "end": 74,
+            "text": ""
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "revenue: unresolved timing or nonannual duration; no arithmetic"
+        ],
+        "old_facts": [
+          {
+            "metric": "revenue",
+            "value": 120000000.0,
+            "unit": "USD",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 16,
+            "end": 29,
+            "raw": "$120 million",
+            "period": null,
+            "period_basis": "ambiguous multiple years"
+          },
+          {
+            "metric": "revenue",
+            "value": 110000000.0,
+            "unit": "USD",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 53,
+            "end": 66,
+            "raw": "$110 million",
+            "period": null,
+            "period_basis": "ambiguous multiple years"
+          }
+        ],
+        "new_facts": [
+          {
+            "metric": "revenue",
+            "value": 135000000.0,
+            "unit": "USD",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 16,
+            "end": 29,
+            "raw": "$135 million",
+            "period": null,
+            "period_basis": "ambiguous multiple years"
+          },
+          {
+            "metric": "revenue",
+            "value": 120000000.0,
+            "unit": "USD",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 53,
+            "end": 66,
+            "raw": "$120 million",
+            "period": null,
+            "period_basis": "ambiguous multiple years"
+          }
+        ]
+      },
+      "assumption_links": [],
+      "old_citation": "sources/alder-2023.html#mda-0001",
+      "new_citation": "sources/alder-2024.html#mda-0001",
+      "old_citations": [
+        "sources/alder-2023.html#mda-0001"
+      ],
+      "new_citations": [
+        "sources/alder-2024.html#mda-0001"
+      ]
+    },
+    {
+      "id": "fbe9536ab01d",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "Cash and equivalents | $12 million",
+        "kind": "table_row",
+        "dom_id": "table",
+        "source_locator": null,
+        "page": null,
+        "id": "mda-0008",
+        "section": "mda",
+        "subsection": "",
+        "index": 8,
+        "start": 1190,
+        "end": 1224
+      },
+      "new": {
+        "text": "Cash and equivalents | $9 million",
+        "kind": "table_row",
+        "dom_id": "table",
+        "source_locator": null,
+        "page": null,
+        "id": "mda-0008",
+        "section": "mda",
+        "subsection": "",
+        "index": 8,
+        "start": 1307,
+        "end": 1340
+      },
+      "method": "contextual",
+      "similarity": 0.965,
+      "moved": false,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 24,
+            "end": 26,
+            "text": "12"
+          },
+          "new": {
+            "start": 24,
+            "end": 25,
+            "text": "9"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [
+          {
+            "metric": "cash and investments",
+            "unit": "USD",
+            "role": "reported level",
+            "old": {
+              "metric": "cash and investments",
+              "value": 12000000.0,
+              "unit": "USD",
+              "role": "reported level",
+              "duration": "annual",
+              "start": 23,
+              "end": 34,
+              "raw": "$12 million",
+              "period": 2023,
+              "period_basis": "document fiscal year inferred; verify context"
+            },
+            "new": {
+              "metric": "cash and investments",
+              "value": 9000000.0,
+              "unit": "USD",
+              "role": "reported level",
+              "duration": "annual",
+              "start": 23,
+              "end": 33,
+              "raw": "$9 million",
+              "period": 2024,
+              "period_basis": "document fiscal year inferred; verify context"
+            },
+            "absolute_change": -3000000.0,
+            "percentage_point_change": null,
+            "relative_change_percent": -25.0,
+            "basis": "successive annual reported quantities",
+            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
+          }
+        ],
+        "abstentions": [],
+        "old_facts": [
+          {
+            "metric": "cash and investments",
+            "value": 12000000.0,
+            "unit": "USD",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 23,
+            "end": 34,
+            "raw": "$12 million",
+            "period": 2023,
+            "period_basis": "document fiscal year inferred; verify context"
+          }
+        ],
+        "new_facts": [
+          {
+            "metric": "cash and investments",
+            "value": 9000000.0,
+            "unit": "USD",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 23,
+            "end": 33,
+            "raw": "$9 million",
+            "period": 2024,
+            "period_basis": "document fiscal year inferred; verify context"
+          }
+        ]
+      },
+      "assumption_links": [],
+      "old_citation": "sources/alder-2023.html#mda-0008",
+      "new_citation": "sources/alder-2024.html#mda-0008",
+      "old_citations": [
+        "sources/alder-2023.html#mda-0008"
+      ],
+      "new_citations": [
+        "sources/alder-2024.html#mda-0008"
+      ]
+    },
+    {
+      "id": "2e677ad3c3bc",
+      "section": "mda",
+      "kind": "added",
+      "old": null,
+      "new": {
+        "text": "The board authorized a $5 million share repurchase program during the fiscal year.",
+        "kind": "paragraph",
+        "dom_id": "buyback",
+        "source_locator": null,
+        "page": null,
+        "id": "mda-0005",
+        "section": "mda",
+        "subsection": "",
+        "index": 5,
+        "start": 1069,
+        "end": 1151
+      },
+      "method": "unmatched",
+      "similarity": null,
+      "moved": false,
+      "needs_review": true,
+      "ambiguous_alignment": true,
+      "score": 30,
+      "priority": "low",
+      "reasons": [
+        "Disclosure text added"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "insert",
+          "old": {
+            "start": 0,
+            "end": 0,
+            "text": ""
+          },
+          "new": {
+            "start": 0,
+            "end": 82,
+            "text": "The board authorized a $5 million share repurchase program during the fiscal year."
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "share repurchases: no matched metric, role, unit, and duration on both sides"
+        ],
+        "old_facts": [],
+        "new_facts": [
+          {
+            "metric": "share repurchases",
+            "value": 5000000.0,
+            "unit": "USD",
+            "role": "repurchase spending",
+            "duration": "annual",
+            "start": 23,
+            "end": 34,
+            "raw": "$5 million",
+            "period": 2024,
+            "period_basis": "document fiscal year inferred; verify context"
+          }
+        ]
+      },
+      "assumption_links": [],
+      "old_citation": "",
+      "new_citation": "sources/alder-2024.html#mda-0005",
+      "old_citations": [],
+      "new_citations": [
+        "sources/alder-2024.html#mda-0005"
+      ]
+    },
+    {
+      "id": "73aed2fdd931",
+      "section": "mda",
+      "kind": "removed",
+      "old": {
+        "text": "The southern plant produced specialty coatings throughout the fiscal year.",
+        "kind": "paragraph",
+        "dom_id": "plant",
+        "source_locator": null,
+        "page": null,
+        "id": "mda-0005",
+        "section": "mda",
+        "subsection": "",
+        "index": 5,
+        "start": 960,
+        "end": 1034
+      },
+      "new": null,
+      "method": "unmatched",
+      "similarity": null,
+      "moved": false,
+      "needs_review": true,
+      "ambiguous_alignment": true,
+      "score": 30,
+      "priority": "low",
+      "reasons": [
+        "Disclosure text removed"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "delete",
+          "old": {
+            "start": 0,
+            "end": 74,
+            "text": "The southern plant produced specialty coatings throughout the fiscal year."
+          },
+          "new": {
+            "start": 0,
+            "end": 0,
+            "text": ""
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/alder-2023.html#mda-0005",
+      "new_citation": "",
+      "old_citations": [
+        "sources/alder-2023.html#mda-0005"
+      ],
+      "new_citations": []
+    },
+    {
+      "id": "fe1e5b506563",
+      "section": "risk",
+      "kind": "changed",
+      "old": {
+        "text": "Operating permits cover our local manufacturing facilities and require annual renewal.",
+        "kind": "paragraph",
+        "dom_id": "permits",
+        "source_locator": null,
+        "page": null,
+        "id": "risk-0004",
+        "section": "risk",
+        "subsection": "",
+        "index": 4,
+        "start": 245,
+        "end": 331
+      },
+      "new": {
+        "text": "Operating permits cover our regional manufacturing facilities and require annual renewal.",
+        "kind": "paragraph",
+        "dom_id": "permits",
+        "source_locator": null,
+        "page": null,
+        "id": "risk-0005",
+        "section": "risk",
+        "subsection": "",
+        "index": 5,
+        "start": 322,
+        "end": 411
+      },
+      "method": "contextual",
+      "similarity": 0.895513,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 30,
+      "priority": "low",
+      "reasons": [
+        "Disclosure text changed"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 28,
+            "end": 33,
+            "text": "local"
+          },
+          "new": {
+            "start": 28,
+            "end": 36,
+            "text": "regional"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/alder-2023.html#risk-0004",
+      "new_citation": "sources/alder-2024.html#risk-0005",
+      "old_citations": [
+        "sources/alder-2023.html#risk-0004"
+      ],
+      "new_citations": [
+        "sources/alder-2024.html#risk-0005"
+      ]
+    },
+    {
+      "id": "37c585001282",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "The fiscal year contained 52 weeks and ended on December 31, 2023.",
+        "kind": "paragraph",
+        "dom_id": "calendar",
+        "source_locator": null,
+        "page": null,
+        "id": "mda-0006",
+        "section": "mda",
+        "subsection": "",
+        "index": 6,
+        "start": 1036,
+        "end": 1102
+      },
+      "new": {
+        "text": "The fiscal year contained 52 weeks and ended on December 31, 2024.",
+        "kind": "paragraph",
+        "dom_id": "calendar",
+        "source_locator": null,
+        "page": null,
+        "id": "mda-0006",
+        "section": "mda",
+        "subsection": "",
+        "index": 6,
+        "start": 1153,
+        "end": 1219
+      },
+      "method": "contextual",
+      "similarity": 1.0,
+      "moved": false,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 5,
+      "priority": "low",
+      "reasons": [
+        "Date/year-only rollover; all other text unchanged"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 61,
+            "end": 65,
+            "text": "2023"
+          },
+          "new": {
+            "start": 61,
+            "end": 65,
+            "text": "2024"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": true,
+        "comparisons": [],
+        "abstentions": [
+          "Only a date or year changed"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/alder-2023.html#mda-0006",
+      "new_citation": "sources/alder-2024.html#mda-0006",
+      "old_citations": [
+        "sources/alder-2023.html#mda-0006"
+      ],
+      "new_citations": [
+        "sources/alder-2024.html#mda-0006"
+      ]
+    },
+    {
+      "id": "1713de598c3a",
+      "section": "mda",
+      "kind": "unchanged",
+      "old": {
+        "text": "Management reviews operating results using the same segment definitions each period.",
+        "kind": "paragraph",
+        "dom_id": "method",
+        "source_locator": null,
+        "page": null,
+        "id": "mda-0007",
+        "section": "mda",
+        "subsection": "",
+        "index": 7,
+        "start": 1104,
+        "end": 1188
+      },
+      "new": {
+        "text": "Management reviews operating results using the same segment definitions each period.",
+        "kind": "paragraph",
+        "dom_id": "method",
+        "source_locator": null,
+        "page": null,
+        "id": "mda-0007",
+        "section": "mda",
+        "subsection": "",
+        "index": 7,
+        "start": 1221,
+        "end": 1305
+      },
+      "method": "exact",
+      "similarity": 1.0,
+      "moved": false,
+      "needs_review": false,
+      "ambiguous_alignment": false,
+      "score": 0,
+      "priority": "low",
+      "reasons": [
+        "Same text after whitespace normalization; paragraph grouping may differ"
+      ],
+      "status": "unchanged",
+      "review_note": "",
+      "edits": [],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/alder-2023.html#mda-0007",
+      "new_citation": "sources/alder-2024.html#mda-0007",
+      "old_citations": [
+        "sources/alder-2023.html#mda-0007"
+      ],
+      "new_citations": [
+        "sources/alder-2024.html#mda-0007"
+      ]
+    },
+    {
+      "id": "52b518e4d7a8",
+      "section": "risk",
+      "kind": "unchanged",
+      "old": {
+        "text": "We face competition from larger manufacturers with broader product portfolios.",
+        "kind": "paragraph",
+        "dom_id": "competition",
+        "source_locator": null,
+        "page": null,
+        "id": "risk-0005",
+        "section": "risk",
+        "subsection": "",
+        "index": 5,
+        "start": 333,
+        "end": 411
+      },
+      "new": {
+        "text": "We face competition from larger manufacturers with broader product portfolios.",
+        "kind": "paragraph",
+        "dom_id": "competition",
+        "source_locator": null,
+        "page": null,
+        "id": "risk-0001",
+        "section": "risk",
+        "subsection": "",
+        "index": 1,
+        "start": 0,
+        "end": 78
+      },
+      "method": "exact",
+      "similarity": 1.0,
+      "moved": true,
+      "needs_review": false,
+      "ambiguous_alignment": false,
+      "score": 0,
+      "priority": "low",
+      "reasons": [
+        "Same text after whitespace normalization; paragraph grouping may differ"
+      ],
+      "status": "unchanged",
+      "review_note": "",
+      "edits": [],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/alder-2023.html#risk-0005",
+      "new_citation": "sources/alder-2024.html#risk-0001",
+      "old_citations": [
+        "sources/alder-2023.html#risk-0005"
+      ],
+      "new_citations": [
+        "sources/alder-2024.html#risk-0001"
+      ]
+    },
+    {
+      "id": "a43de8df342b",
+      "section": "risk",
+      "kind": "unchanged",
+      "old": {
+        "text": "Severe winter weather can interrupt shipments from our northern distribution center.",
+        "kind": "paragraph",
+        "dom_id": "weather",
+        "source_locator": null,
+        "page": null,
+        "id": "risk-0008",
+        "section": "risk",
+        "subsection": "",
+        "index": 8,
+        "start": 573,
+        "end": 657
+      },
+      "new": {
+        "text": "Severe winter weather can interrupt shipments from our northern distribution center.",
+        "kind": "paragraph",
+        "dom_id": "weather",
+        "source_locator": null,
+        "page": null,
+        "id": "risk-0009",
+        "section": "risk",
+        "subsection": "",
+        "index": 9,
+        "start": 677,
+        "end": 761
+      },
+      "method": "exact",
+      "similarity": 1.0,
+      "moved": true,
+      "needs_review": false,
+      "ambiguous_alignment": false,
+      "score": 0,
+      "priority": "low",
+      "reasons": [
+        "Same text after whitespace normalization; paragraph grouping may differ"
+      ],
+      "status": "unchanged",
+      "review_note": "",
+      "edits": [],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/alder-2023.html#risk-0008",
+      "new_citation": "sources/alder-2024.html#risk-0009",
+      "old_citations": [
+        "sources/alder-2023.html#risk-0008"
+      ],
+      "new_citations": [
+        "sources/alder-2024.html#risk-0009"
+      ]
+    }
+  ],
+  "counts": {
+    "added": 3,
+    "changed": 11,
+    "removed": 2,
+    "unchanged": 3
+  }
+}

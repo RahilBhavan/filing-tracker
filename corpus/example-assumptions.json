@@ -1,0 +1,5 @@
+[
+  {"id":"cloud","statement":"Example research hypothesis: cloud revenue growth remains durable.","terms":["Microsoft Cloud","Azure"],"priority":"high"},
+  {"id":"ai-costs","statement":"Example research hypothesis: AI investment can scale without undermining profitability.","terms":["artificial intelligence","AI","datacenters"],"priority":"high"},
+  {"id":"capital","statement":"Example research hypothesis: cash generation supports continued capital returns.","terms":["repurchase","cash flow","liquidity"],"priority":"medium"}
+]
