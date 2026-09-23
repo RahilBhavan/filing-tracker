@@ -120,67 +120,6 @@
       ]
     },
     {
-      "id": "f620db39b703",
-      "section": "risk",
-      "kind": "added",
-      "old": null,
-      "new": {
-        "text": "Cybersecurity risks could result in economic losses to our businesses and reputational damage.",
-        "kind": "heading",
-        "dom_id": "pdf-p026-b006",
-        "source_locator": "PDF page 26, block 6, bbox 54.000000,195.215006,457.060000,206.285006",
-        "page": 26,
-        "id": "risk-0005",
-        "section": "risk",
-        "subsection": "Cybersecurity risks could result in economic losses to our businesses and reputational damage.",
-        "index": 5,
-        "start": 861,
-        "end": 955
-      },
-      "method": "unmatched",
-      "similarity": null,
-      "moved": false,
-      "needs_review": true,
-      "ambiguous_alignment": true,
-      "score": 90,
-      "priority": "high",
-      "reasons": [
-        "Disclosure text added",
-        "New unmatched risk passage; analyst must confirm novelty"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "insert",
-          "old": {
-            "start": 0,
-            "end": 0,
-            "text": ""
-          },
-          "new": {
-            "start": 0,
-            "end": 94,
-            "text": "Cybersecurity risks could result in economic losses to our businesses and reputational damage."
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": false,
-        "comparisons": [],
-        "abstentions": [],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "",
-      "new_citation": "sources/brk-2024.html#risk-0005",
-      "old_citations": [],
-      "new_citations": [
-        "sources/brk-2024.html#risk-0005"
-      ]
-    },
-    {
       "id": "37e948edb8ad",
       "section": "mda",
       "kind": "changed",
@@ -1449,9 +1388,9 @@
         "old_facts": [
           {
             "metric": "revenue",
-            "value": 2.7,
+            "value": -2.7,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 26,
             "end": 31,
@@ -1461,9 +1400,9 @@
           },
           {
             "metric": "revenue",
-            "value": 5.2,
+            "value": -5.2,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 191,
             "end": 196,
@@ -1475,9 +1414,9 @@
         "new_facts": [
           {
             "metric": "revenue",
-            "value": 2.7,
+            "value": -2.7,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 26,
             "end": 31,
@@ -1487,9 +1426,9 @@
           },
           {
             "metric": "revenue",
-            "value": 5.2,
+            "value": -5.2,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 191,
             "end": 196,
@@ -1840,7 +1779,9 @@
       "numeric": {
         "date_only": false,
         "comparisons": [],
-        "abstentions": [],
+        "abstentions": [
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence"
+        ],
         "old_facts": [],
         "new_facts": []
       },
@@ -1928,6 +1869,81 @@
       ],
       "new_citations": [
         "sources/brk-2024.html#risk-0040"
+      ]
+    },
+    {
+      "id": "3508cde9bf82",
+      "section": "risk",
+      "kind": "changed",
+      "old": {
+        "text": "Cybersecurity risks.",
+        "kind": "heading",
+        "dom_id": "pdf-p027-b006",
+        "source_locator": "PDF page 27, block 6, bbox 54.000000,195.215006,140.100000,206.285006",
+        "page": 27,
+        "id": "risk-0005",
+        "section": "risk",
+        "subsection": "Cybersecurity risks.",
+        "index": 5,
+        "start": 861,
+        "end": 881
+      },
+      "new": {
+        "text": "Cybersecurity risks could result in economic losses to our businesses and reputational damage.",
+        "kind": "heading",
+        "dom_id": "pdf-p026-b006",
+        "source_locator": "PDF page 26, block 6, bbox 54.000000,195.215006,457.060000,206.285006",
+        "page": 26,
+        "id": "risk-0005",
+        "section": "risk",
+        "subsection": "Cybersecurity risks could result in economic losses to our businesses and reputational damage.",
+        "index": 5,
+        "start": 861,
+        "end": 955
+      },
+      "method": "contextual",
+      "similarity": 0.66,
+      "moved": false,
+      "needs_review": true,
+      "ambiguous_alignment": true,
+      "score": 85,
+      "priority": "high",
+      "reasons": [
+        "Disclosure text changed",
+        "Negation or modal wording changed"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "insert",
+          "old": {
+            "start": 19,
+            "end": 19,
+            "text": ""
+          },
+          "new": {
+            "start": 20,
+            "end": 93,
+            "text": "could result in economic losses to our businesses and reputational damage"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/brk-2023.html#risk-0005",
+      "new_citation": "sources/brk-2024.html#risk-0005",
+      "old_citations": [
+        "sources/brk-2023.html#risk-0005"
+      ],
+      "new_citations": [
+        "sources/brk-2024.html#risk-0005"
       ]
     },
     {
@@ -5436,67 +5452,6 @@
       ]
     },
     {
-      "id": "0706114aa7fe",
-      "section": "risk",
-      "kind": "removed",
-      "old": {
-        "text": "Cybersecurity risks.",
-        "kind": "heading",
-        "dom_id": "pdf-p027-b006",
-        "source_locator": "PDF page 27, block 6, bbox 54.000000,195.215006,140.100000,206.285006",
-        "page": 27,
-        "id": "risk-0005",
-        "section": "risk",
-        "subsection": "Cybersecurity risks.",
-        "index": 5,
-        "start": 861,
-        "end": 881
-      },
-      "new": null,
-      "method": "unmatched",
-      "similarity": null,
-      "moved": false,
-      "needs_review": true,
-      "ambiguous_alignment": true,
-      "score": 70,
-      "priority": "medium",
-      "reasons": [
-        "Disclosure text removed",
-        "Risk passage no longer matched in this section"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "delete",
-          "old": {
-            "start": 0,
-            "end": 20,
-            "text": "Cybersecurity risks."
-          },
-          "new": {
-            "start": 0,
-            "end": 0,
-            "text": ""
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": false,
-        "comparisons": [],
-        "abstentions": [],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/brk-2023.html#risk-0005",
-      "new_citation": "",
-      "old_citations": [
-        "sources/brk-2023.html#risk-0005"
-      ],
-      "new_citations": []
-    },
-    {
       "id": "6ef8d0df3149",
       "section": "risk",
       "kind": "removed",
@@ -5556,6 +5511,186 @@
         "sources/brk-2023.html#risk-0032"
       ],
       "new_citations": []
+    },
+    {
+      "id": "034f70455ad6",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "2022 versus 2021",
+        "kind": "paragraph",
+        "dom_id": "pdf-p057-b009",
+        "source_locator": "PDF page 57, block 9, bbox 79.200001,420.196985,149.750001,431.266985",
+        "page": 57,
+        "id": "mda-0434",
+        "section": "mda",
+        "subsection": "Retailing",
+        "index": 434,
+        "start": 105180,
+        "end": 105196
+      },
+      "new": {
+        "text": "2024 versus 2023",
+        "kind": "paragraph",
+        "dom_id": "pdf-p048-b030",
+        "source_locator": "PDF page 48, block 30, bbox 79.200001,444.799005,149.750001,455.869005",
+        "page": 48,
+        "id": "mda-0321",
+        "section": "mda",
+        "subsection": "Industrial products",
+        "index": 321,
+        "start": 71012,
+        "end": 71028
+      },
+      "method": "contextual",
+      "similarity": 0.68,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": true,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 0,
+            "end": 4,
+            "text": "2022"
+          },
+          "new": {
+            "start": 0,
+            "end": 4,
+            "text": "2024"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 12,
+            "end": 16,
+            "text": "2021"
+          },
+          "new": {
+            "start": 12,
+            "end": 16,
+            "text": "2023"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/brk-2023.html#mda-0434",
+      "new_citation": "sources/brk-2024.html#mda-0321",
+      "old_citations": [
+        "sources/brk-2023.html#mda-0434"
+      ],
+      "new_citations": [
+        "sources/brk-2024.html#mda-0321"
+      ]
+    },
+    {
+      "id": "0e251329d4b8",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "2022 versus 2021",
+        "kind": "paragraph",
+        "dom_id": "pdf-p040-b006",
+        "source_locator": "PDF page 40, block 6, bbox 79.200001,241.210993,149.750001,252.280993",
+        "page": 40,
+        "id": "mda-0056",
+        "section": "mda",
+        "subsection": "GEICO (Continued)",
+        "index": 56,
+        "start": 34504,
+        "end": 34520
+      },
+      "new": {
+        "text": "2023 versus 2022",
+        "kind": "paragraph",
+        "dom_id": "pdf-p039-b005",
+        "source_locator": "PDF page 39, block 5, bbox 79.200001,143.219004,149.750001,154.289004",
+        "page": 39,
+        "id": "mda-0079",
+        "section": "mda",
+        "subsection": "Berkshire Hathaway Primary Group",
+        "index": 79,
+        "start": 37646,
+        "end": 37662
+      },
+      "method": "contextual",
+      "similarity": 0.77,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": true,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "insert",
+          "old": {
+            "start": 0,
+            "end": 0,
+            "text": ""
+          },
+          "new": {
+            "start": 0,
+            "end": 11,
+            "text": "2023 versus"
+          }
+        },
+        {
+          "operation": "delete",
+          "old": {
+            "start": 5,
+            "end": 16,
+            "text": "versus 2021"
+          },
+          "new": {
+            "start": 16,
+            "end": 16,
+            "text": ""
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/brk-2023.html#mda-0056",
+      "new_citation": "sources/brk-2024.html#mda-0079",
+      "old_citations": [
+        "sources/brk-2023.html#mda-0056"
+      ],
+      "new_citations": [
+        "sources/brk-2024.html#mda-0079"
+      ]
     },
     {
       "id": "0ebbdb65707d",
@@ -6134,6 +6269,96 @@
       ],
       "new_citations": [
         "sources/brk-2024.html#mda-0549"
+      ]
+    },
+    {
+      "id": "1e5f756249e9",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "2022 versus 2021",
+        "kind": "paragraph",
+        "dom_id": "pdf-p054-b003",
+        "source_locator": "PDF page 54, block 3, bbox 79.200001,85.222999,149.750001,96.292999",
+        "page": 54,
+        "id": "mda-0370",
+        "section": "mda",
+        "subsection": "Manufacturing, Service and Retailing",
+        "index": 370,
+        "start": 90078,
+        "end": 90094
+      },
+      "new": {
+        "text": "2024 versus 2023",
+        "kind": "paragraph",
+        "dom_id": "pdf-p039-b036",
+        "source_locator": "PDF page 39, block 36, bbox 79.200001,617.633997,149.750001,628.703997",
+        "page": 39,
+        "id": "mda-0106",
+        "section": "mda",
+        "subsection": "%",
+        "index": 106,
+        "start": 40045,
+        "end": 40061
+      },
+      "method": "contextual",
+      "similarity": 0.68,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": true,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 0,
+            "end": 4,
+            "text": "2022"
+          },
+          "new": {
+            "start": 0,
+            "end": 4,
+            "text": "2024"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 12,
+            "end": 16,
+            "text": "2021"
+          },
+          "new": {
+            "start": 12,
+            "end": 16,
+            "text": "2023"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/brk-2023.html#mda-0370",
+      "new_citation": "sources/brk-2024.html#mda-0106",
+      "old_citations": [
+        "sources/brk-2023.html#mda-0370"
+      ],
+      "new_citations": [
+        "sources/brk-2024.html#mda-0106"
       ]
     },
     {
@@ -6883,6 +7108,96 @@
       ],
       "new_citations": [
         "sources/brk-2024.html#mda-0333"
+      ]
+    },
+    {
+      "id": "36dd6a064a9a",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "2022 versus 2021",
+        "kind": "paragraph",
+        "dom_id": "pdf-p055-b004",
+        "source_locator": "PDF page 55, block 4, bbox 79.200001,148.717996,149.750001,159.787996",
+        "page": 55,
+        "id": "mda-0385",
+        "section": "mda",
+        "subsection": "Manufacturing, Service and Retailing",
+        "index": 385,
+        "start": 95219,
+        "end": 95235
+      },
+      "new": {
+        "text": "2024 versus 2023",
+        "kind": "paragraph",
+        "dom_id": "pdf-p043-b029",
+        "source_locator": "PDF page 43, block 29, bbox 79.200001,395.528986,149.750001,406.598986",
+        "page": 43,
+        "id": "mda-0220",
+        "section": "mda",
+        "subsection": "A summary of BNSF’s railroad freight volumes by business group follows (cars/units in thousands).",
+        "index": 220,
+        "start": 52539,
+        "end": 52555
+      },
+      "method": "contextual",
+      "similarity": 0.68,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": true,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 0,
+            "end": 4,
+            "text": "2022"
+          },
+          "new": {
+            "start": 0,
+            "end": 4,
+            "text": "2024"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 12,
+            "end": 16,
+            "text": "2021"
+          },
+          "new": {
+            "start": 12,
+            "end": 16,
+            "text": "2023"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/brk-2023.html#mda-0385",
+      "new_citation": "sources/brk-2024.html#mda-0220",
+      "old_citations": [
+        "sources/brk-2023.html#mda-0385"
+      ],
+      "new_citations": [
+        "sources/brk-2024.html#mda-0220"
       ]
     },
     {
@@ -7672,7 +7987,7 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
-          "gross margin: unresolved timing or nonannual duration; no arithmetic",
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence",
           "revenue: no matched metric, role, unit, and duration on both sides"
         ],
         "old_facts": [
@@ -7687,34 +8002,9 @@
             "raw": "14.5%",
             "period": 2023,
             "period_basis": "explicit adjoining year"
-          },
-          {
-            "metric": "gross margin",
-            "value": 17.3,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 460,
-            "end": 466,
-            "raw": "17.3%",
-            "period": null,
-            "period_basis": "ambiguous multiple years"
           }
         ],
-        "new_facts": [
-          {
-            "metric": "gross margin",
-            "value": 17.3,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 421,
-            "end": 427,
-            "raw": "17.3%",
-            "period": 2023,
-            "period_basis": "explicit adjoining year"
-          }
-        ]
+        "new_facts": []
       },
       "assumption_links": [],
       "old_citation": "sources/brk-2023.html#mda-0422",
@@ -7724,6 +8014,96 @@
       ],
       "new_citations": [
         "sources/brk-2024.html#mda-0403"
+      ]
+    },
+    {
+      "id": "431842e67bce",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "2022 versus 2021",
+        "kind": "paragraph",
+        "dom_id": "pdf-p052-b004",
+        "source_locator": "PDF page 52, block 4, bbox 79.200001,183.214998,149.750001,194.284998",
+        "page": 52,
+        "id": "mda-0349",
+        "section": "mda",
+        "subsection": "Manufacturing, Service and Retailing",
+        "index": 349,
+        "start": 81679,
+        "end": 81695
+      },
+      "new": {
+        "text": "2024 versus 2023",
+        "kind": "paragraph",
+        "dom_id": "pdf-p038-b026",
+        "source_locator": "PDF page 38, block 26, bbox 79.200001,513.240991,149.750001,524.310991",
+        "page": 38,
+        "id": "mda-0072",
+        "section": "mda",
+        "subsection": "%",
+        "index": 72,
+        "start": 35569,
+        "end": 35585
+      },
+      "method": "contextual",
+      "similarity": 0.68,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": true,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 0,
+            "end": 4,
+            "text": "2022"
+          },
+          "new": {
+            "start": 0,
+            "end": 4,
+            "text": "2024"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 12,
+            "end": 16,
+            "text": "2021"
+          },
+          "new": {
+            "start": 12,
+            "end": 16,
+            "text": "2023"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/brk-2023.html#mda-0349",
+      "new_citation": "sources/brk-2024.html#mda-0072",
+      "old_citations": [
+        "sources/brk-2023.html#mda-0349"
+      ],
+      "new_citations": [
+        "sources/brk-2024.html#mda-0072"
       ]
     },
     {
@@ -8207,7 +8587,7 @@
             "role": "reported change amount",
             "old": {
               "metric": "revenue",
-              "value": 1600000000.0,
+              "value": -1600000000.0,
               "unit": "USD",
               "role": "reported change amount",
               "duration": "annual",
@@ -8219,7 +8599,7 @@
             },
             "new": {
               "metric": "revenue",
-              "value": 1600000000.0,
+              "value": -1600000000.0,
               "unit": "USD",
               "role": "reported change amount",
               "duration": "annual",
@@ -8231,7 +8611,7 @@
             },
             "absolute_change": 0.0,
             "percentage_point_change": null,
-            "relative_change_percent": 0.0,
+            "relative_change_percent": null,
             "basis": "same-period reported value change",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
           },
@@ -8313,7 +8693,7 @@
           },
           {
             "metric": "revenue",
-            "value": 1600000000.0,
+            "value": -1600000000.0,
             "unit": "USD",
             "role": "reported change amount",
             "duration": "annual",
@@ -8399,7 +8779,7 @@
           },
           {
             "metric": "revenue",
-            "value": 1600000000.0,
+            "value": -1600000000.0,
             "unit": "USD",
             "role": "reported change amount",
             "duration": "annual",
@@ -10981,7 +11361,7 @@
         "comparisons": [],
         "abstentions": [
           "revenue: unresolved timing or nonannual duration; no arithmetic",
-          "revenue: duplicate quantities or nonadjacent periods; no arithmetic",
+          "revenue: unresolved timing or nonannual duration; no arithmetic",
           "revenue: unresolved timing or nonannual duration; no arithmetic"
         ],
         "old_facts": [
@@ -11035,9 +11415,9 @@
           },
           {
             "metric": "revenue",
-            "value": 9.4,
+            "value": -9.4,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 362,
             "end": 367,
@@ -11059,9 +11439,9 @@
           },
           {
             "metric": "revenue",
-            "value": 5.6,
+            "value": -5.6,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 758,
             "end": 763,
@@ -11133,9 +11513,9 @@
           },
           {
             "metric": "revenue",
-            "value": 9.4,
+            "value": -9.4,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 362,
             "end": 367,
@@ -11157,9 +11537,9 @@
           },
           {
             "metric": "revenue",
-            "value": 5.6,
+            "value": -5.6,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 640,
             "end": 645,
@@ -11189,6 +11569,96 @@
       ],
       "new_citations": [
         "sources/brk-2024.html#mda-0413"
+      ]
+    },
+    {
+      "id": "7df0074080bb",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "Percentage change 2023 vs 2022 2022 vs 2021",
+        "kind": "paragraph",
+        "dom_id": "pdf-p044-b010",
+        "source_locator": "PDF page 44, block 10, bbox 444.817988,107.236999,546.554994,125.791999",
+        "page": 44,
+        "id": "mda-0162",
+        "section": "mda",
+        "subsection": "$",
+        "index": 162,
+        "start": 49747,
+        "end": 49790
+      },
+      "new": {
+        "text": "Percentage change 2024 vs 2023 2023 vs 2022",
+        "kind": "paragraph",
+        "dom_id": "pdf-p041-b028",
+        "source_locator": "PDF page 41, block 28, bbox 446.617988,460.911002,548.729988,480.166002",
+        "page": 41,
+        "id": "mda-0165",
+        "section": "mda",
+        "subsection": "$",
+        "index": 165,
+        "start": 47689,
+        "end": 47732
+      },
+      "method": "contextual",
+      "similarity": 0.994286,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": true,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "insert",
+          "old": {
+            "start": 18,
+            "end": 18,
+            "text": ""
+          },
+          "new": {
+            "start": 18,
+            "end": 30,
+            "text": "2024 vs 2023"
+          }
+        },
+        {
+          "operation": "delete",
+          "old": {
+            "start": 31,
+            "end": 43,
+            "text": "2022 vs 2021"
+          },
+          "new": {
+            "start": 43,
+            "end": 43,
+            "text": ""
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/brk-2023.html#mda-0162",
+      "new_citation": "sources/brk-2024.html#mda-0165",
+      "old_citations": [
+        "sources/brk-2023.html#mda-0162"
+      ],
+      "new_citations": [
+        "sources/brk-2024.html#mda-0165"
       ]
     },
     {
@@ -11880,6 +12350,96 @@
       ]
     },
     {
+      "id": "8ad5d2cb9d4f",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "Percentage change 2023 vs 2022 2022 vs 2021",
+        "kind": "paragraph",
+        "dom_id": "pdf-p055-b027",
+        "source_locator": "PDF page 55, block 27, bbox 435.393000,444.761002,542.355006,463.316002",
+        "page": 55,
+        "id": "mda-0406",
+        "section": "mda",
+        "subsection": "$",
+        "index": 406,
+        "start": 97724,
+        "end": 97767
+      },
+      "new": {
+        "text": "Percentage change 2024 vs 2023 2023 vs 2022",
+        "kind": "paragraph",
+        "dom_id": "pdf-p047-b023",
+        "source_locator": "PDF page 47, block 23, bbox 432.117994,293.701995,541.454994,312.956996",
+        "page": 47,
+        "id": "mda-0289",
+        "section": "mda",
+        "subsection": "$",
+        "index": 289,
+        "start": 68529,
+        "end": 68572
+      },
+      "method": "contextual",
+      "similarity": 0.994286,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": true,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "insert",
+          "old": {
+            "start": 18,
+            "end": 18,
+            "text": ""
+          },
+          "new": {
+            "start": 18,
+            "end": 30,
+            "text": "2024 vs 2023"
+          }
+        },
+        {
+          "operation": "delete",
+          "old": {
+            "start": 31,
+            "end": 43,
+            "text": "2022 vs 2021"
+          },
+          "new": {
+            "start": 43,
+            "end": 43,
+            "text": ""
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/brk-2023.html#mda-0406",
+      "new_citation": "sources/brk-2024.html#mda-0289",
+      "old_citations": [
+        "sources/brk-2023.html#mda-0406"
+      ],
+      "new_citations": [
+        "sources/brk-2024.html#mda-0289"
+      ]
+    },
+    {
       "id": "8beeab5e19ed",
       "section": "mda",
       "kind": "changed",
@@ -11967,6 +12527,96 @@
       ],
       "new_citations": [
         "sources/brk-2024.html#mda-0489"
+      ]
+    },
+    {
+      "id": "93e843a18020",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "A summary of cash and investments held in our insurance businesses as of December 31, 2023 and 2022 follows (in millions).",
+        "kind": "paragraph",
+        "dom_id": "pdf-p044-b019",
+        "source_locator": "PDF page 44, block 19, bbox 54.000000,502.339990,557.990001,524.908991",
+        "page": 44,
+        "id": "mda-0170",
+        "section": "mda",
+        "subsection": "$",
+        "index": 170,
+        "start": 52438,
+        "end": 52560
+      },
+      "new": {
+        "text": "A summary of cash and investments held in our insurance businesses as of December 31, 2024 and 2023 follows (in millions).",
+        "kind": "paragraph",
+        "dom_id": "pdf-p042-b006",
+        "source_locator": "PDF page 42, block 6, bbox 54.000000,275.708002,557.990001,298.277002",
+        "page": 42,
+        "id": "mda-0175",
+        "section": "mda",
+        "subsection": "Insurance—Investment Income",
+        "index": 175,
+        "start": 50105,
+        "end": 50227
+      },
+      "method": "contextual",
+      "similarity": 0.933913,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "insert",
+          "old": {
+            "start": 86,
+            "end": 86,
+            "text": ""
+          },
+          "new": {
+            "start": 86,
+            "end": 94,
+            "text": "2024 and"
+          }
+        },
+        {
+          "operation": "delete",
+          "old": {
+            "start": 91,
+            "end": 99,
+            "text": "and 2022"
+          },
+          "new": {
+            "start": 100,
+            "end": 100,
+            "text": ""
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/brk-2023.html#mda-0170",
+      "new_citation": "sources/brk-2024.html#mda-0175",
+      "old_citations": [
+        "sources/brk-2023.html#mda-0170"
+      ],
+      "new_citations": [
+        "sources/brk-2024.html#mda-0175"
       ]
     },
     {
@@ -12281,6 +12931,96 @@
       ]
     },
     {
+      "id": "95465985328f",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "Our net assets subject to financial statement translation into U.S. Dollars are primarily in our insurance, utilities and energy and certain manufacturing subsidiaries. A portion of our financial statement translation-related impact from changes in foreign currency rates is recorded in other comprehensive income. In addition, we include gains or losses from changes in foreign currency exchange rates in net earnings related to non-U.S. Dollar denominated assets and liabilities of Berkshire and its U.S.-based subsidiaries. A summary of these gains (losses), after-tax, for each of the years ending December 31, 2023 and 2022 follows (in millions).",
+        "kind": "paragraph",
+        "dom_id": "pdf-p068-b003",
+        "source_locator": "PDF page 68, block 3, bbox 54.000000,85.223001,558.010000,153.788002",
+        "page": 68,
+        "id": "mda-0632",
+        "section": "mda",
+        "subsection": "Foreign Currency Risk",
+        "index": 632,
+        "start": 149627,
+        "end": 150278
+      },
+      "new": {
+        "text": "Our net assets subject to financial statement translation into U.S. Dollars are primarily in our insurance, utilities and energy and certain manufacturing subsidiaries. A portion of our financial statement translation-related impact from changes in foreign currency rates is recorded in other comprehensive income. In addition, we include gains or losses from changes in foreign currency exchange rates in net earnings related to non-U.S. Dollar denominated assets and liabilities of Berkshire and its U.S.-based subsidiaries. A summary of these gains (losses), after-tax, for each of the years ending December 31, 2024 and 2023 follows (in millions).",
+        "kind": "paragraph",
+        "dom_id": "pdf-p065-b003",
+        "source_locator": "PDF page 65, block 3, bbox 54.000000,85.223001,558.010000,153.788002",
+        "page": 65,
+        "id": "mda-0630",
+        "section": "mda",
+        "subsection": "Foreign Currency Risk",
+        "index": 630,
+        "start": 142162,
+        "end": 142813
+      },
+      "method": "contextual",
+      "similarity": 1.0,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "insert",
+          "old": {
+            "start": 615,
+            "end": 615,
+            "text": ""
+          },
+          "new": {
+            "start": 615,
+            "end": 623,
+            "text": "2024 and"
+          }
+        },
+        {
+          "operation": "delete",
+          "old": {
+            "start": 620,
+            "end": 628,
+            "text": "and 2022"
+          },
+          "new": {
+            "start": 629,
+            "end": 629,
+            "text": ""
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/brk-2023.html#mda-0632",
+      "new_citation": "sources/brk-2024.html#mda-0630",
+      "old_citations": [
+        "sources/brk-2023.html#mda-0632"
+      ],
+      "new_citations": [
+        "sources/brk-2024.html#mda-0630"
+      ]
+    },
+    {
       "id": "9721c3d5166c",
       "section": "mda",
       "kind": "changed",
@@ -12384,6 +13124,96 @@
       ]
     },
     {
+      "id": "9a4b629b65d0",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "2022 versus 2021",
+        "kind": "paragraph",
+        "dom_id": "pdf-p046-b008",
+        "source_locator": "PDF page 46, block 8, bbox 79.200001,356.701990,149.750001,367.771990",
+        "page": 46,
+        "id": "mda-0230",
+        "section": "mda",
+        "subsection": "Railroad",
+        "index": 230,
+        "start": 57830,
+        "end": 57846
+      },
+      "new": {
+        "text": "2023 versus 2022",
+        "kind": "paragraph",
+        "dom_id": "pdf-p040-b006",
+        "source_locator": "PDF page 40, block 6, bbox 79.200001,241.210993,149.750001,252.280993",
+        "page": 40,
+        "id": "mda-0113",
+        "section": "mda",
+        "subsection": "Berkshire Hathaway Reinsurance Group",
+        "index": 113,
+        "start": 41736,
+        "end": 41752
+      },
+      "method": "contextual",
+      "similarity": 0.77,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": true,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "insert",
+          "old": {
+            "start": 0,
+            "end": 0,
+            "text": ""
+          },
+          "new": {
+            "start": 0,
+            "end": 11,
+            "text": "2023 versus"
+          }
+        },
+        {
+          "operation": "delete",
+          "old": {
+            "start": 5,
+            "end": 16,
+            "text": "versus 2021"
+          },
+          "new": {
+            "start": 16,
+            "end": 16,
+            "text": ""
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/brk-2023.html#mda-0230",
+      "new_citation": "sources/brk-2024.html#mda-0113",
+      "old_citations": [
+        "sources/brk-2023.html#mda-0230"
+      ],
+      "new_citations": [
+        "sources/brk-2024.html#mda-0113"
+      ]
+    },
+    {
       "id": "9abce7bead7c",
       "section": "mda",
       "kind": "changed",
@@ -12477,7 +13307,7 @@
         "old_facts": [
           {
             "metric": "revenue",
-            "value": 2900000000.0,
+            "value": -2900000000.0,
             "unit": "USD",
             "role": "reported change amount",
             "duration": "annual",
@@ -12489,7 +13319,7 @@
           },
           {
             "metric": "revenue",
-            "value": 602000000.0,
+            "value": -602000000.0,
             "unit": "USD",
             "role": "reported change amount",
             "duration": "annual",
@@ -12551,7 +13381,7 @@
         "new_facts": [
           {
             "metric": "revenue",
-            "value": 2900000000.0,
+            "value": -2900000000.0,
             "unit": "USD",
             "role": "reported change amount",
             "duration": "annual",
@@ -12563,7 +13393,7 @@
           },
           {
             "metric": "revenue",
-            "value": 602000000.0,
+            "value": -602000000.0,
             "unit": "USD",
             "role": "reported change amount",
             "duration": "annual",
@@ -12607,6 +13437,340 @@
       ],
       "new_citations": [
         "sources/brk-2024.html#mda-0348"
+      ]
+    },
+    {
+      "id": "9ca167442275",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "PCC’s revenues were $7.5 billion in 2022, an increase of $1.1 billion (16.5%) compared to 2021. The revenue increase in 2022 was primarily attributable to higher demand for aerospace products. Commercial aircraft delivery rates by original equipment manufacturers (“OEMs”) of narrow-body aircraft rebounded since the onset of the pandemic. Deliveries of wide- body aircraft were relatively low, in part, attributable to the pause in the Boeing 787 program. However, Boeing resumed deliveries in the third quarter of 2022.",
+        "kind": "paragraph",
+        "dom_id": "pdf-p052-b006",
+        "source_locator": "PDF page 52, block 6, bbox 54.000000,241.210993,558.000000,298.276993",
+        "page": 52,
+        "id": "mda-0351",
+        "section": "mda",
+        "subsection": "Manufacturing, Service and Retailing",
+        "index": 351,
+        "start": 81965,
+        "end": 82486
+      },
+      "new": {
+        "text": "PCC’s revenues were $9.3 billion in 2023, an increase of $1.7 billion (22.7%) compared to 2022. The revenue increase in 2023 was primarily attributable to higher demand for aerospace products, and, to a lesser degree, power generation products. PCC’s pre-tax earnings were $1.5 billion in 2023, an increase of 30.0% compared to 2022 attributable to increases in sales and manufacturing and operating efficiencies in aerospace businesses, partially offset by operating losses in energy products businesses.",
+        "kind": "paragraph",
+        "dom_id": "pdf-p049-b008",
+        "source_locator": "PDF page 49, block 8, bbox 54.000000,379.700006,558.010000,436.766007",
+        "page": 49,
+        "id": "mda-0332",
+        "section": "mda",
+        "subsection": "Manufacturing, Service and Retailing",
+        "index": 332,
+        "start": 75176,
+        "end": 75681
+      },
+      "method": "contextual",
+      "similarity": 0.66,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": true,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 21,
+            "end": 22,
+            "text": "7"
+          },
+          "new": {
+            "start": 21,
+            "end": 22,
+            "text": "9"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 23,
+            "end": 24,
+            "text": "5"
+          },
+          "new": {
+            "start": 23,
+            "end": 24,
+            "text": "3"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 36,
+            "end": 40,
+            "text": "2022"
+          },
+          "new": {
+            "start": 36,
+            "end": 40,
+            "text": "2023"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 60,
+            "end": 61,
+            "text": "1"
+          },
+          "new": {
+            "start": 60,
+            "end": 61,
+            "text": "7"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 71,
+            "end": 73,
+            "text": "16"
+          },
+          "new": {
+            "start": 71,
+            "end": 73,
+            "text": "22"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 74,
+            "end": 75,
+            "text": "5"
+          },
+          "new": {
+            "start": 74,
+            "end": 75,
+            "text": "7"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 90,
+            "end": 94,
+            "text": "2021"
+          },
+          "new": {
+            "start": 90,
+            "end": 94,
+            "text": "2022"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 120,
+            "end": 124,
+            "text": "2022"
+          },
+          "new": {
+            "start": 120,
+            "end": 124,
+            "text": "2023"
+          }
+        },
+        {
+          "operation": "insert",
+          "old": {
+            "start": 191,
+            "end": 191,
+            "text": ""
+          },
+          "new": {
+            "start": 191,
+            "end": 243,
+            "text": ", and, to a lesser degree, power generation products"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 193,
+            "end": 272,
+            "text": "Commercial aircraft delivery rates by original equipment manufacturers (“OEMs”)"
+          },
+          "new": {
+            "start": 245,
+            "end": 306,
+            "text": "PCC’s pre-tax earnings were $1.5 billion in 2023, an increase"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 276,
+            "end": 338,
+            "text": "narrow-body aircraft rebounded since the onset of the pandemic"
+          },
+          "new": {
+            "start": 310,
+            "end": 312,
+            "text": "30"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 340,
+            "end": 403,
+            "text": "Deliveries of wide- body aircraft were relatively low, in part,"
+          },
+          "new": {
+            "start": 313,
+            "end": 332,
+            "text": "0% compared to 2022"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 420,
+            "end": 429,
+            "text": "the pause"
+          },
+          "new": {
+            "start": 349,
+            "end": 358,
+            "text": "increases"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 433,
+            "end": 455,
+            "text": "the Boeing 787 program"
+          },
+          "new": {
+            "start": 362,
+            "end": 504,
+            "text": "sales and manufacturing and operating efficiencies in aerospace businesses, partially offset by operating losses in energy products businesses"
+          }
+        },
+        {
+          "operation": "delete",
+          "old": {
+            "start": 457,
+            "end": 521,
+            "text": "However, Boeing resumed deliveries in the third quarter of 2022."
+          },
+          "new": {
+            "start": 505,
+            "end": 505,
+            "text": ""
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "revenue: unresolved timing or nonannual duration; no arithmetic",
+          "revenue: unresolved timing or nonannual duration; no arithmetic"
+        ],
+        "old_facts": [
+          {
+            "metric": "revenue",
+            "value": 7500000000.0,
+            "unit": "USD",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 20,
+            "end": 33,
+            "raw": "$7.5 billion",
+            "period": null,
+            "period_basis": "ambiguous multiple years"
+          },
+          {
+            "metric": "revenue",
+            "value": 1100000000.0,
+            "unit": "USD",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 57,
+            "end": 70,
+            "raw": "$1.1 billion",
+            "period": null,
+            "period_basis": "ambiguous multiple years"
+          },
+          {
+            "metric": "revenue",
+            "value": -16.5,
+            "unit": "percent",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 70,
+            "end": 76,
+            "raw": "(16.5%",
+            "period": null,
+            "period_basis": "ambiguous multiple years"
+          }
+        ],
+        "new_facts": [
+          {
+            "metric": "revenue",
+            "value": 9300000000.0,
+            "unit": "USD",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 20,
+            "end": 33,
+            "raw": "$9.3 billion",
+            "period": null,
+            "period_basis": "ambiguous multiple years"
+          },
+          {
+            "metric": "revenue",
+            "value": 1700000000.0,
+            "unit": "USD",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 57,
+            "end": 70,
+            "raw": "$1.7 billion",
+            "period": null,
+            "period_basis": "ambiguous multiple years"
+          },
+          {
+            "metric": "revenue",
+            "value": -22.7,
+            "unit": "percent",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 70,
+            "end": 76,
+            "raw": "(22.7%",
+            "period": null,
+            "period_basis": "ambiguous multiple years"
+          }
+        ]
+      },
+      "assumption_links": [],
+      "old_citation": "sources/brk-2023.html#mda-0351",
+      "new_citation": "sources/brk-2024.html#mda-0332",
+      "old_citations": [
+        "sources/brk-2023.html#mda-0351"
+      ],
+      "new_citations": [
+        "sources/brk-2024.html#mda-0332"
       ]
     },
     {
@@ -12695,16 +13859,51 @@
       ],
       "numeric": {
         "date_only": false,
-        "comparisons": [],
+        "comparisons": [
+          {
+            "metric": "revenue",
+            "unit": "percent",
+            "role": "reported growth rate",
+            "old": {
+              "metric": "revenue",
+              "value": -26.2,
+              "unit": "percent",
+              "role": "reported growth rate",
+              "duration": "annual",
+              "start": 30,
+              "end": 36,
+              "raw": "26.2%",
+              "period": 2023,
+              "period_basis": "explicit adjoining year"
+            },
+            "new": {
+              "metric": "revenue",
+              "value": -26.2,
+              "unit": "percent",
+              "role": "reported growth rate",
+              "duration": "annual",
+              "start": 30,
+              "end": 36,
+              "raw": "26.2%",
+              "period": 2023,
+              "period_basis": "explicit adjoining year"
+            },
+            "absolute_change": 0.0,
+            "percentage_point_change": 0.0,
+            "relative_change_percent": null,
+            "basis": "same-period reported value change",
+            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
+          }
+        ],
         "abstentions": [
           "revenue: unresolved timing or nonannual duration; no arithmetic"
         ],
         "old_facts": [
           {
             "metric": "revenue",
-            "value": 26.2,
+            "value": -26.2,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 30,
             "end": 36,
@@ -12728,9 +13927,9 @@
         "new_facts": [
           {
             "metric": "revenue",
-            "value": 26.2,
+            "value": -26.2,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 30,
             "end": 36,
@@ -12889,6 +14088,96 @@
       ],
       "new_citations": [
         "sources/brk-2024.html#mda-0414"
+      ]
+    },
+    {
+      "id": "a97425fcae99",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "2022 versus 2021",
+        "kind": "paragraph",
+        "dom_id": "pdf-p048-b010",
+        "source_locator": "PDF page 48, block 10, bbox 79.200001,495.191004,149.750001,506.261004",
+        "page": 48,
+        "id": "mda-0266",
+        "section": "mda",
+        "subsection": "Utilities and Energy",
+        "index": 266,
+        "start": 67214,
+        "end": 67230
+      },
+      "new": {
+        "text": "2024 versus 2023",
+        "kind": "paragraph",
+        "dom_id": "pdf-p037-b021",
+        "source_locator": "PDF page 37, block 21, bbox 79.200001,276.258997,149.750001,287.328997",
+        "page": 37,
+        "id": "mda-0042",
+        "section": "mda",
+        "subsection": "%",
+        "index": 42,
+        "start": 30000,
+        "end": 30016
+      },
+      "method": "contextual",
+      "similarity": 0.68,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": true,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 0,
+            "end": 4,
+            "text": "2022"
+          },
+          "new": {
+            "start": 0,
+            "end": 4,
+            "text": "2024"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 12,
+            "end": 16,
+            "text": "2021"
+          },
+          "new": {
+            "start": 12,
+            "end": 16,
+            "text": "2023"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/brk-2023.html#mda-0266",
+      "new_citation": "sources/brk-2024.html#mda-0042",
+      "old_citations": [
+        "sources/brk-2023.html#mda-0266"
+      ],
+      "new_citations": [
+        "sources/brk-2024.html#mda-0042"
       ]
     },
     {
@@ -13056,6 +14345,83 @@
       ],
       "new_citations": [
         "sources/brk-2024.html#mda-0087"
+      ]
+    },
+    {
+      "id": "b2c234c4b147",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "Cars/Units 2022",
+        "kind": "paragraph",
+        "dom_id": "pdf-p045-b039",
+        "source_locator": "PDF page 45, block 39, bbox 335.054001,528.982987,371.942001,547.537987",
+        "page": 45,
+        "id": "mda-0213",
+        "section": "mda",
+        "subsection": "A summary of BNSF’s railroad freight volumes by business group (cars/units in thousands) follows.",
+        "index": 213,
+        "start": 54858,
+        "end": 54873
+      },
+      "new": {
+        "text": "Cars/Units 2023",
+        "kind": "paragraph",
+        "dom_id": "pdf-p043-b020",
+        "source_locator": "PDF page 43, block 20, bbox 333.953995,304.450992,370.841995,323.705992",
+        "page": 43,
+        "id": "mda-0212",
+        "section": "mda",
+        "subsection": "A summary of BNSF’s railroad freight volumes by business group follows (cars/units in thousands).",
+        "index": 212,
+        "start": 52345,
+        "end": 52360
+      },
+      "method": "contextual",
+      "similarity": 1.0,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 11,
+            "end": 15,
+            "text": "2022"
+          },
+          "new": {
+            "start": 11,
+            "end": 15,
+            "text": "2023"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/brk-2023.html#mda-0213",
+      "new_citation": "sources/brk-2024.html#mda-0212",
+      "old_citations": [
+        "sources/brk-2023.html#mda-0213"
+      ],
+      "new_citations": [
+        "sources/brk-2024.html#mda-0212"
       ]
     },
     {
@@ -13483,6 +14849,96 @@
       ],
       "new_citations": [
         "sources/brk-2024.html#mda-0565"
+      ]
+    },
+    {
+      "id": "c2d437561c88",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "Percentage change 2023 vs 2022 2022 vs 2021",
+        "kind": "paragraph",
+        "dom_id": "pdf-p050-b026",
+        "source_locator": "PDF page 50, block 26, bbox 437.842988,507.914013,541.905000,526.469014",
+        "page": 50,
+        "id": "mda-0316",
+        "section": "mda",
+        "subsection": "Manufacturing",
+        "index": 316,
+        "start": 75282,
+        "end": 75325
+      },
+      "new": {
+        "text": "Percentage change 2024 vs 2023 2023 vs 2022",
+        "kind": "paragraph",
+        "dom_id": "pdf-p048-b008",
+        "source_locator": "PDF page 48, block 8, bbox 436.943000,137.713996,541.405006,156.968997",
+        "page": 48,
+        "id": "mda-0302",
+        "section": "mda",
+        "subsection": "Manufacturing",
+        "index": 302,
+        "start": 69775,
+        "end": 69818
+      },
+      "method": "contextual",
+      "similarity": 1.0,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "insert",
+          "old": {
+            "start": 18,
+            "end": 18,
+            "text": ""
+          },
+          "new": {
+            "start": 18,
+            "end": 30,
+            "text": "2024 vs 2023"
+          }
+        },
+        {
+          "operation": "delete",
+          "old": {
+            "start": 31,
+            "end": 43,
+            "text": "2022 vs 2021"
+          },
+          "new": {
+            "start": 43,
+            "end": 43,
+            "text": ""
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/brk-2023.html#mda-0316",
+      "new_citation": "sources/brk-2024.html#mda-0302",
+      "old_citations": [
+        "sources/brk-2023.html#mda-0316"
+      ],
+      "new_citations": [
+        "sources/brk-2024.html#mda-0302"
       ]
     },
     {
@@ -14259,73 +15715,11 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
-          "operating expenses: duplicate quantities or nonadjacent periods; no arithmetic",
-          "operating expenses: no matched metric, role, unit, and duration on both sides"
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence",
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
-        "old_facts": [
-          {
-            "metric": "operating expenses",
-            "value": 21280.0,
-            "unit": "USD",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 35,
-            "end": 44,
-            "raw": "$ 21,280",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "operating expenses",
-            "value": 2331.0,
-            "unit": "USD",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 603,
-            "end": 611,
-            "raw": "$ 2,331",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "operating expenses",
-            "value": -215.1,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 638,
-            "end": 647,
-            "raw": "(215.1)%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ],
-        "new_facts": [
-          {
-            "metric": "operating expenses",
-            "value": 21566.0,
-            "unit": "USD",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 35,
-            "end": 44,
-            "raw": "$ 21,566",
-            "period": 2024,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "operating expenses",
-            "value": 3730.0,
-            "unit": "USD",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 591,
-            "end": 599,
-            "raw": "$ 3,730",
-            "period": 2024,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ]
+        "old_facts": [],
+        "new_facts": []
       },
       "assumption_links": [],
       "old_citation": "sources/brk-2023.html#mda-0241",
@@ -16150,6 +17544,96 @@
       ],
       "new_citations": [
         "sources/brk-2024.html#mda-0353"
+      ]
+    },
+    {
+      "id": "f29b214a2d40",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "2022 versus 2021",
+        "kind": "paragraph",
+        "dom_id": "pdf-p056-b009",
+        "source_locator": "PDF page 56, block 9, bbox 79.200001,420.196985,149.750001,431.266985",
+        "page": 56,
+        "id": "mda-0423",
+        "section": "mda",
+        "subsection": "Service",
+        "index": 423,
+        "start": 100679,
+        "end": 100695
+      },
+      "new": {
+        "text": "2024 versus 2023",
+        "kind": "paragraph",
+        "dom_id": "pdf-p046-b003",
+        "source_locator": "PDF page 46, block 3, bbox 79.200001,85.222999,149.750001,96.292999",
+        "page": 46,
+        "id": "mda-0259",
+        "section": "mda",
+        "subsection": "Berkshire Hathaway Energy",
+        "index": 259,
+        "start": 61301,
+        "end": 61317
+      },
+      "method": "contextual",
+      "similarity": 0.68,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": true,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 0,
+            "end": 4,
+            "text": "2022"
+          },
+          "new": {
+            "start": 0,
+            "end": 4,
+            "text": "2024"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 12,
+            "end": 16,
+            "text": "2021"
+          },
+          "new": {
+            "start": 12,
+            "end": 16,
+            "text": "2023"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/brk-2023.html#mda-0423",
+      "new_citation": "sources/brk-2024.html#mda-0259",
+      "old_citations": [
+        "sources/brk-2023.html#mda-0423"
+      ],
+      "new_citations": [
+        "sources/brk-2024.html#mda-0259"
       ]
     },
     {
@@ -20060,9 +21544,9 @@
         "new_facts": [
           {
             "metric": "revenue",
-            "value": 1.2,
+            "value": -1.2,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 52,
             "end": 57,
@@ -22133,6 +23617,7 @@
           }
         ],
         "abstentions": [
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence",
           "operating expenses: unresolved timing or nonannual duration; no arithmetic",
           "operating expenses: unresolved timing or nonannual duration; no arithmetic"
         ],
@@ -22172,18 +23657,6 @@
             "raw": "(3.3%",
             "period": null,
             "period_basis": "ambiguous multiple years"
-          },
-          {
-            "metric": "operating expenses",
-            "value": 68.4,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 213,
-            "end": 219,
-            "raw": "68.4%",
-            "period": 2023,
-            "period_basis": "explicit adjoining year"
           },
           {
             "metric": "revenue",
@@ -22234,18 +23707,6 @@
             "raw": "(3.3%",
             "period": null,
             "period_basis": "ambiguous multiple years"
-          },
-          {
-            "metric": "operating expenses",
-            "value": 68.4,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 213,
-            "end": 219,
-            "raw": "68.4%",
-            "period": 2023,
-            "period_basis": "explicit adjoining year"
           },
           {
             "metric": "revenue",
@@ -22582,68 +24043,6 @@
       "new_citations": []
     },
     {
-      "id": "2e677ad3c3bc",
-      "section": "mda",
-      "kind": "added",
-      "old": null,
-      "new": {
-        "text": "Through our subsidiaries, we engage in numerous diverse business activities. The business segment data (Note 26 to the accompanying Consolidated Financial Statements) should be referenced in conjunction with this discussion.",
-        "kind": "paragraph",
-        "dom_id": "pdf-p035-b009",
-        "source_locator": "PDF page 35, block 9, bbox 54.000000,279.958002,558.010001,302.527002",
-        "page": 35,
-        "id": "mda-0005",
-        "section": "mda",
-        "subsection": "Results of Operations",
-        "index": 5,
-        "start": 21804,
-        "end": 22028
-      },
-      "method": "unmatched",
-      "similarity": null,
-      "moved": false,
-      "needs_review": true,
-      "ambiguous_alignment": true,
-      "score": 30,
-      "priority": "low",
-      "reasons": [
-        "Disclosure text added"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "insert",
-          "old": {
-            "start": 0,
-            "end": 0,
-            "text": ""
-          },
-          "new": {
-            "start": 0,
-            "end": 224,
-            "text": "Through our subsidiaries, we engage in numerous diverse business activities. The business segment data (Note 26 to the accompanying Consolidated Financial Statements) should be referenced in conjunction with this discussion."
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": false,
-        "comparisons": [],
-        "abstentions": [
-          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "",
-      "new_citation": "sources/brk-2024.html#mda-0005",
-      "old_citations": [],
-      "new_citations": [
-        "sources/brk-2024.html#mda-0005"
-      ]
-    },
-    {
       "id": "2e6f58aa946a",
       "section": "mda",
       "kind": "added",
@@ -22916,15 +24315,16 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
+          "revenue: no matched metric, role, unit, and duration on both sides",
           "revenue: no matched metric, role, unit, and duration on both sides"
         ],
         "old_facts": [],
         "new_facts": [
           {
             "metric": "revenue",
-            "value": 0.5,
+            "value": -0.5,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 36,
             "end": 41,
@@ -23851,9 +25251,9 @@
           },
           {
             "metric": "revenue",
-            "value": 15.7,
+            "value": -15.7,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "quarter",
             "start": 390,
             "end": 396,
@@ -24303,106 +25703,6 @@
       "new_citations": []
     },
     {
-      "id": "3d0ef1675f64",
-      "section": "mda",
-      "kind": "removed",
-      "old": {
-        "text": "PCC’s revenues were $7.5 billion in 2022, an increase of $1.1 billion (16.5%) compared to 2021. The revenue increase in 2022 was primarily attributable to higher demand for aerospace products. Commercial aircraft delivery rates by original equipment manufacturers (“OEMs”) of narrow-body aircraft rebounded since the onset of the pandemic. Deliveries of wide- body aircraft were relatively low, in part, attributable to the pause in the Boeing 787 program. However, Boeing resumed deliveries in the third quarter of 2022.",
-        "kind": "paragraph",
-        "dom_id": "pdf-p052-b006",
-        "source_locator": "PDF page 52, block 6, bbox 54.000000,241.210993,558.000000,298.276993",
-        "page": 52,
-        "id": "mda-0351",
-        "section": "mda",
-        "subsection": "Manufacturing, Service and Retailing",
-        "index": 351,
-        "start": 81965,
-        "end": 82486
-      },
-      "new": null,
-      "method": "unmatched",
-      "similarity": null,
-      "moved": false,
-      "needs_review": true,
-      "ambiguous_alignment": true,
-      "score": 30,
-      "priority": "low",
-      "reasons": [
-        "Disclosure text removed"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "delete",
-          "old": {
-            "start": 0,
-            "end": 521,
-            "text": "PCC’s revenues were $7.5 billion in 2022, an increase of $1.1 billion (16.5%) compared to 2021. The revenue increase in 2022 was primarily attributable to higher demand for aerospace products. Commercial aircraft delivery rates by original equipment manufacturers (“OEMs”) of narrow-body aircraft rebounded since the onset of the pandemic. Deliveries of wide- body aircraft were relatively low, in part, attributable to the pause in the Boeing 787 program. However, Boeing resumed deliveries in the third quarter of 2022."
-          },
-          "new": {
-            "start": 0,
-            "end": 0,
-            "text": ""
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": false,
-        "comparisons": [],
-        "abstentions": [
-          "revenue: no matched metric, role, unit, and duration on both sides",
-          "revenue: no matched metric, role, unit, and duration on both sides"
-        ],
-        "old_facts": [
-          {
-            "metric": "revenue",
-            "value": 7500000000.0,
-            "unit": "USD",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 20,
-            "end": 33,
-            "raw": "$7.5 billion",
-            "period": null,
-            "period_basis": "ambiguous multiple years"
-          },
-          {
-            "metric": "revenue",
-            "value": 1100000000.0,
-            "unit": "USD",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 57,
-            "end": 70,
-            "raw": "$1.1 billion",
-            "period": null,
-            "period_basis": "ambiguous multiple years"
-          },
-          {
-            "metric": "revenue",
-            "value": -16.5,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 70,
-            "end": 76,
-            "raw": "(16.5%",
-            "period": null,
-            "period_basis": "ambiguous multiple years"
-          }
-        ],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/brk-2023.html#mda-0351",
-      "new_citation": "",
-      "old_citations": [
-        "sources/brk-2023.html#mda-0351"
-      ],
-      "new_citations": []
-    },
-    {
       "id": "3d4cfe36c223",
       "section": "mda",
       "kind": "added",
@@ -24587,7 +25887,6 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
-          "operating expenses: no matched metric, role, unit, and duration on both sides",
           "operating expenses: no matched metric, role, unit, and duration on both sides"
         ],
         "old_facts": [
@@ -24608,12 +25907,12 @@
             "value": 60000000.0,
             "unit": "USD",
             "role": "reported level",
-            "duration": "forecast",
+            "duration": "annual",
             "start": 662,
             "end": 674,
             "raw": "$60 million",
-            "period": null,
-            "period_basis": "forecast timing not resolved"
+            "period": 2023,
+            "period_basis": "document fiscal year inferred; verify context"
           }
         ],
         "new_facts": []
@@ -25280,7 +26579,42 @@
       ],
       "numeric": {
         "date_only": false,
-        "comparisons": [],
+        "comparisons": [
+          {
+            "metric": "revenue",
+            "unit": "percent",
+            "role": "reported growth rate",
+            "old": {
+              "metric": "revenue",
+              "value": -14.7,
+              "unit": "percent",
+              "role": "reported growth rate",
+              "duration": "annual",
+              "start": 50,
+              "end": 56,
+              "raw": "14.7%",
+              "period": 2023,
+              "period_basis": "explicit adjoining year"
+            },
+            "new": {
+              "metric": "revenue",
+              "value": -14.7,
+              "unit": "percent",
+              "role": "reported growth rate",
+              "duration": "annual",
+              "start": 50,
+              "end": 56,
+              "raw": "14.7%",
+              "period": 2023,
+              "period_basis": "explicit adjoining year"
+            },
+            "absolute_change": 0.0,
+            "percentage_point_change": 0.0,
+            "relative_change_percent": null,
+            "basis": "same-period reported value change",
+            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
+          }
+        ],
         "abstentions": [
           "revenue: unresolved timing or nonannual duration; no arithmetic",
           "revenue: unresolved timing or nonannual duration; no arithmetic"
@@ -25288,27 +26622,15 @@
         "old_facts": [
           {
             "metric": "revenue",
-            "value": 14.7,
+            "value": -14.7,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 50,
             "end": 56,
             "raw": "14.7%",
             "period": 2023,
             "period_basis": "explicit adjoining year"
-          },
-          {
-            "metric": "revenue",
-            "value": 8.4,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 130,
-            "end": 135,
-            "raw": "8.4%",
-            "period": null,
-            "period_basis": "ambiguous multiple years"
           },
           {
             "metric": "revenue",
@@ -25319,6 +26641,18 @@
             "start": 68,
             "end": 81,
             "raw": "$7.9 billion",
+            "period": null,
+            "period_basis": "ambiguous multiple years"
+          },
+          {
+            "metric": "revenue",
+            "value": 8.4,
+            "unit": "percent",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 130,
+            "end": 135,
+            "raw": "8.4%",
             "period": null,
             "period_basis": "ambiguous multiple years"
           }
@@ -25326,27 +26660,15 @@
         "new_facts": [
           {
             "metric": "revenue",
-            "value": 14.7,
+            "value": -14.7,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 50,
             "end": 56,
             "raw": "14.7%",
             "period": 2023,
             "period_basis": "explicit adjoining year"
-          },
-          {
-            "metric": "revenue",
-            "value": 8.4,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 130,
-            "end": 135,
-            "raw": "8.4%",
-            "period": null,
-            "period_basis": "ambiguous multiple years"
           },
           {
             "metric": "revenue",
@@ -25357,6 +26679,18 @@
             "start": 68,
             "end": 81,
             "raw": "$7.9 billion",
+            "period": null,
+            "period_basis": "ambiguous multiple years"
+          },
+          {
+            "metric": "revenue",
+            "value": 8.4,
+            "unit": "percent",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 130,
+            "end": 135,
+            "raw": "8.4%",
             "period": null,
             "period_basis": "ambiguous multiple years"
           }
@@ -25430,12 +26764,12 @@
             "value": 1600000000.0,
             "unit": "USD",
             "role": "reported level",
-            "duration": "forecast",
+            "duration": "annual",
             "start": 236,
             "end": 249,
             "raw": "$1.6 billion",
-            "period": null,
-            "period_basis": "forecast timing not resolved"
+            "period": 2024,
+            "period_basis": "document fiscal year inferred; verify context"
           }
         ]
       },
@@ -25570,6 +26904,95 @@
         "sources/brk-2023.html#mda-0208"
       ],
       "new_citations": []
+    },
+    {
+      "id": "460b20927633",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "Through our subsidiaries, we engage in numerous diverse business activities. We manage our operating businesses on an unusually decentralized basis. There are few centralized or integrated business functions. Our senior corporate management team participates in and is ultimately responsible for significant capital allocation decisions, investment activities and the selection of the Chief Executive to head each of the operating businesses. The business segment data (Note 26 to the accompanying Consolidated Financial Statements) should be read in conjunction with this discussion.",
+        "kind": "paragraph",
+        "dom_id": "pdf-p037-b009",
+        "source_locator": "PDF page 37, block 9, bbox 54.000000,284.456995,558.010000,341.522995",
+        "page": 37,
+        "id": "mda-0005",
+        "section": "mda",
+        "subsection": "Results of Operations",
+        "index": 5,
+        "start": 20725,
+        "end": 21309
+      },
+      "new": {
+        "text": "Through our subsidiaries, we engage in numerous diverse business activities. The business segment data (Note 26 to the accompanying Consolidated Financial Statements) should be referenced in conjunction with this discussion.",
+        "kind": "paragraph",
+        "dom_id": "pdf-p035-b009",
+        "source_locator": "PDF page 35, block 9, bbox 54.000000,279.958002,558.010001,302.527002",
+        "page": 35,
+        "id": "mda-0005",
+        "section": "mda",
+        "subsection": "Results of Operations",
+        "index": 5,
+        "start": 21804,
+        "end": 22028
+      },
+      "method": "contextual",
+      "similarity": 0.66,
+      "moved": false,
+      "needs_review": true,
+      "ambiguous_alignment": true,
+      "score": 30,
+      "priority": "low",
+      "reasons": [
+        "Disclosure text changed"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "delete",
+          "old": {
+            "start": 75,
+            "end": 441,
+            "text": ". We manage our operating businesses on an unusually decentralized basis. There are few centralized or integrated business functions. Our senior corporate management team participates in and is ultimately responsible for significant capital allocation decisions, investment activities and the selection of the Chief Executive to head each of the operating businesses"
+          },
+          "new": {
+            "start": 75,
+            "end": 75,
+            "text": ""
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 543,
+            "end": 547,
+            "text": "read"
+          },
+          "new": {
+            "start": 177,
+            "end": 187,
+            "text": "referenced"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/brk-2023.html#mda-0005",
+      "new_citation": "sources/brk-2024.html#mda-0005",
+      "old_citations": [
+        "sources/brk-2023.html#mda-0005"
+      ],
+      "new_citations": [
+        "sources/brk-2024.html#mda-0005"
+      ]
     },
     {
       "id": "46373e67477f",
@@ -26092,6 +27515,7 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence",
           "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
         "old_facts": [],
@@ -26439,106 +27863,6 @@
       "old_citations": [],
       "new_citations": [
         "sources/brk-2024.html#mda-0619"
-      ]
-    },
-    {
-      "id": "4b43afb2f7df",
-      "section": "mda",
-      "kind": "added",
-      "old": null,
-      "new": {
-        "text": "PCC’s revenues were $9.3 billion in 2023, an increase of $1.7 billion (22.7%) compared to 2022. The revenue increase in 2023 was primarily attributable to higher demand for aerospace products, and, to a lesser degree, power generation products. PCC’s pre-tax earnings were $1.5 billion in 2023, an increase of 30.0% compared to 2022 attributable to increases in sales and manufacturing and operating efficiencies in aerospace businesses, partially offset by operating losses in energy products businesses.",
-        "kind": "paragraph",
-        "dom_id": "pdf-p049-b008",
-        "source_locator": "PDF page 49, block 8, bbox 54.000000,379.700006,558.010000,436.766007",
-        "page": 49,
-        "id": "mda-0332",
-        "section": "mda",
-        "subsection": "Manufacturing, Service and Retailing",
-        "index": 332,
-        "start": 75176,
-        "end": 75681
-      },
-      "method": "unmatched",
-      "similarity": null,
-      "moved": false,
-      "needs_review": true,
-      "ambiguous_alignment": true,
-      "score": 30,
-      "priority": "low",
-      "reasons": [
-        "Disclosure text added"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "insert",
-          "old": {
-            "start": 0,
-            "end": 0,
-            "text": ""
-          },
-          "new": {
-            "start": 0,
-            "end": 505,
-            "text": "PCC’s revenues were $9.3 billion in 2023, an increase of $1.7 billion (22.7%) compared to 2022. The revenue increase in 2023 was primarily attributable to higher demand for aerospace products, and, to a lesser degree, power generation products. PCC’s pre-tax earnings were $1.5 billion in 2023, an increase of 30.0% compared to 2022 attributable to increases in sales and manufacturing and operating efficiencies in aerospace businesses, partially offset by operating losses in energy products businesses."
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": false,
-        "comparisons": [],
-        "abstentions": [
-          "revenue: no matched metric, role, unit, and duration on both sides",
-          "revenue: no matched metric, role, unit, and duration on both sides"
-        ],
-        "old_facts": [],
-        "new_facts": [
-          {
-            "metric": "revenue",
-            "value": 9300000000.0,
-            "unit": "USD",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 20,
-            "end": 33,
-            "raw": "$9.3 billion",
-            "period": null,
-            "period_basis": "ambiguous multiple years"
-          },
-          {
-            "metric": "revenue",
-            "value": 1700000000.0,
-            "unit": "USD",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 57,
-            "end": 70,
-            "raw": "$1.7 billion",
-            "period": null,
-            "period_basis": "ambiguous multiple years"
-          },
-          {
-            "metric": "revenue",
-            "value": -22.7,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 70,
-            "end": 76,
-            "raw": "(22.7%",
-            "period": null,
-            "period_basis": "ambiguous multiple years"
-          }
-        ]
-      },
-      "assumption_links": [],
-      "old_citation": "",
-      "new_citation": "sources/brk-2024.html#mda-0332",
-      "old_citations": [],
-      "new_citations": [
-        "sources/brk-2024.html#mda-0332"
       ]
     },
     {
@@ -27594,7 +28918,9 @@
       "numeric": {
         "date_only": false,
         "comparisons": [],
-        "abstentions": [],
+        "abstentions": [
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence"
+        ],
         "old_facts": [],
         "new_facts": []
       },
@@ -28643,7 +29969,9 @@
       "numeric": {
         "date_only": false,
         "comparisons": [],
-        "abstentions": [],
+        "abstentions": [
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence"
+        ],
         "old_facts": [],
         "new_facts": []
       },
@@ -29564,9 +30892,9 @@
           },
           {
             "metric": "revenue",
-            "value": 2.6,
+            "value": -2.6,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 677,
             "end": 682,
@@ -29576,9 +30904,9 @@
           },
           {
             "metric": "revenue",
-            "value": 8.9,
+            "value": -8.9,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 730,
             "end": 735,
@@ -30024,12 +31352,12 @@
             "value": 1600000000.0,
             "unit": "USD",
             "role": "reported level",
-            "duration": "forecast",
+            "duration": "annual",
             "start": 371,
             "end": 383,
             "raw": "$1.6 billion",
             "period": null,
-            "period_basis": "forecast timing not resolved"
+            "period_basis": "ambiguous multiple years"
           }
         ],
         "new_facts": []
@@ -30537,68 +31865,6 @@
       ]
     },
     {
-      "id": "73aed2fdd931",
-      "section": "mda",
-      "kind": "removed",
-      "old": {
-        "text": "Through our subsidiaries, we engage in numerous diverse business activities. We manage our operating businesses on an unusually decentralized basis. There are few centralized or integrated business functions. Our senior corporate management team participates in and is ultimately responsible for significant capital allocation decisions, investment activities and the selection of the Chief Executive to head each of the operating businesses. The business segment data (Note 26 to the accompanying Consolidated Financial Statements) should be read in conjunction with this discussion.",
-        "kind": "paragraph",
-        "dom_id": "pdf-p037-b009",
-        "source_locator": "PDF page 37, block 9, bbox 54.000000,284.456995,558.010000,341.522995",
-        "page": 37,
-        "id": "mda-0005",
-        "section": "mda",
-        "subsection": "Results of Operations",
-        "index": 5,
-        "start": 20725,
-        "end": 21309
-      },
-      "new": null,
-      "method": "unmatched",
-      "similarity": null,
-      "moved": false,
-      "needs_review": true,
-      "ambiguous_alignment": true,
-      "score": 30,
-      "priority": "low",
-      "reasons": [
-        "Disclosure text removed"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "delete",
-          "old": {
-            "start": 0,
-            "end": 584,
-            "text": "Through our subsidiaries, we engage in numerous diverse business activities. We manage our operating businesses on an unusually decentralized basis. There are few centralized or integrated business functions. Our senior corporate management team participates in and is ultimately responsible for significant capital allocation decisions, investment activities and the selection of the Chief Executive to head each of the operating businesses. The business segment data (Note 26 to the accompanying Consolidated Financial Statements) should be read in conjunction with this discussion."
-          },
-          "new": {
-            "start": 0,
-            "end": 0,
-            "text": ""
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": false,
-        "comparisons": [],
-        "abstentions": [
-          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/brk-2023.html#mda-0005",
-      "new_citation": "",
-      "old_citations": [
-        "sources/brk-2023.html#mda-0005"
-      ],
-      "new_citations": []
-    },
-    {
       "id": "74062d85821d",
       "section": "mda",
       "kind": "removed",
@@ -30809,22 +32075,10 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
-          "operating expenses: no matched metric, role, unit, and duration on both sides"
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence",
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
-        "old_facts": [
-          {
-            "metric": "operating expenses",
-            "value": 50.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 276,
-            "end": 280,
-            "raw": "50%",
-            "period": 2023,
-            "period_basis": "single year in sentence"
-          }
-        ],
+        "old_facts": [],
         "new_facts": []
       },
       "assumption_links": [],
@@ -32085,7 +33339,7 @@
         "new_facts": [
           {
             "metric": "revenue",
-            "value": 22.5,
+            "value": -22.5,
             "unit": "percent",
             "role": "reported growth rate",
             "duration": "annual",
@@ -32999,9 +34253,9 @@
         "new_facts": [
           {
             "metric": "revenue",
-            "value": 9900000000.0,
+            "value": -9900000000.0,
             "unit": "USD",
-            "role": "reported level",
+            "role": "reported change amount",
             "duration": "annual",
             "start": 26,
             "end": 39,
@@ -34106,6 +35360,7 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence",
           "operating expenses: no matched metric, role, unit, and duration on both sides",
           "operating expenses: no matched metric, role, unit, and duration on both sides"
         ],
@@ -34145,18 +35400,6 @@
             "raw": "(21.2%",
             "period": null,
             "period_basis": "ambiguous multiple years"
-          },
-          {
-            "metric": "operating expenses",
-            "value": 65.9,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 216,
-            "end": 222,
-            "raw": "65.9%",
-            "period": 2022,
-            "period_basis": "explicit adjoining year"
           }
         ],
         "new_facts": []
@@ -36128,16 +37371,15 @@
         "comparisons": [],
         "abstentions": [
           "revenue: no matched metric, role, unit, and duration on both sides",
-          "revenue: no matched metric, role, unit, and duration on both sides",
           "revenue: no matched metric, role, unit, and duration on both sides"
         ],
         "old_facts": [],
         "new_facts": [
           {
             "metric": "revenue",
-            "value": 1.2,
+            "value": -1.2,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 33,
             "end": 38,
@@ -36171,9 +37413,9 @@
           },
           {
             "metric": "revenue",
-            "value": 6.4,
+            "value": -6.4,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 561,
             "end": 566,
@@ -36183,9 +37425,9 @@
           },
           {
             "metric": "revenue",
-            "value": 5.8,
+            "value": -5.8,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 720,
             "end": 725,
@@ -37315,15 +38557,16 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
+          "revenue: no matched metric, role, unit, and duration on both sides",
           "revenue: no matched metric, role, unit, and duration on both sides"
         ],
         "old_facts": [],
         "new_facts": [
           {
             "metric": "revenue",
-            "value": 1.3,
+            "value": -1.3,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 17,
             "end": 22,
@@ -40411,9 +41654,9 @@
         "new_facts": [
           {
             "metric": "revenue",
-            "value": 10.0,
+            "value": -10.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 21,
             "end": 27,
@@ -41919,16 +43162,51 @@
       ],
       "numeric": {
         "date_only": false,
-        "comparisons": [],
+        "comparisons": [
+          {
+            "metric": "revenue",
+            "unit": "percent",
+            "role": "reported growth rate",
+            "old": {
+              "metric": "revenue",
+              "value": -6.9,
+              "unit": "percent",
+              "role": "reported growth rate",
+              "duration": "annual",
+              "start": 36,
+              "end": 41,
+              "raw": "6.9%",
+              "period": 2023,
+              "period_basis": "explicit adjoining year"
+            },
+            "new": {
+              "metric": "revenue",
+              "value": -6.9,
+              "unit": "percent",
+              "role": "reported growth rate",
+              "duration": "annual",
+              "start": 36,
+              "end": 41,
+              "raw": "6.9%",
+              "period": 2023,
+              "period_basis": "explicit adjoining year"
+            },
+            "absolute_change": 0.0,
+            "percentage_point_change": 0.0,
+            "relative_change_percent": null,
+            "basis": "same-period reported value change",
+            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
+          }
+        ],
         "abstentions": [
           "revenue: unresolved timing or nonannual duration; no arithmetic"
         ],
         "old_facts": [
           {
             "metric": "revenue",
-            "value": 6.9,
+            "value": -6.9,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 36,
             "end": 41,
@@ -41964,9 +43242,9 @@
         "new_facts": [
           {
             "metric": "revenue",
-            "value": 6.9,
+            "value": -6.9,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 36,
             "end": 41,
@@ -43281,44 +44559,10 @@
       ],
       "numeric": {
         "date_only": false,
-        "comparisons": [
-          {
-            "metric": "revenue",
-            "unit": "percent",
-            "role": "reported growth rate",
-            "old": {
-              "metric": "revenue",
-              "value": 1.9,
-              "unit": "percent",
-              "role": "reported growth rate",
-              "duration": "annual",
-              "start": 230,
-              "end": 235,
-              "raw": "1.9%",
-              "period": 2022,
-              "period_basis": "explicit ordered years and respectively"
-            },
-            "new": {
-              "metric": "revenue",
-              "value": 1.9,
-              "unit": "percent",
-              "role": "reported growth rate",
-              "duration": "annual",
-              "start": 228,
-              "end": 233,
-              "raw": "1.9%",
-              "period": 2022,
-              "period_basis": "explicit ordered years and respectively"
-            },
-            "absolute_change": 0.0,
-            "percentage_point_change": 0.0,
-            "relative_change_percent": null,
-            "basis": "same-period reported value change",
-            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
-          }
-        ],
+        "comparisons": [],
         "abstentions": [
           "revenue: unresolved timing or nonannual duration; no arithmetic",
+          "revenue: duplicate quantities or nonadjacent periods; no arithmetic",
           "revenue: unresolved timing or nonannual duration; no arithmetic"
         ],
         "old_facts": [
@@ -43360,25 +44604,13 @@
           },
           {
             "metric": "revenue",
-            "value": 0.8,
+            "value": -0.8,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 149,
             "end": 154,
             "raw": "0.8%",
-            "period": 2022,
-            "period_basis": "single year in sentence"
-          },
-          {
-            "metric": "revenue",
-            "value": 2.2,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 158,
-            "end": 163,
-            "raw": "2.2%",
             "period": 2022,
             "period_basis": "single year in sentence"
           },
@@ -43391,6 +44623,18 @@
             "start": 230,
             "end": 235,
             "raw": "1.9%",
+            "period": 2022,
+            "period_basis": "single year in sentence"
+          },
+          {
+            "metric": "revenue",
+            "value": 2.2,
+            "unit": "percent",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 158,
+            "end": 163,
+            "raw": "2.2%",
             "period": 2022,
             "period_basis": "explicit ordered years and respectively"
           }
@@ -43434,25 +44678,13 @@
           },
           {
             "metric": "revenue",
-            "value": 0.8,
+            "value": -0.8,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 147,
             "end": 152,
             "raw": "0.8%",
-            "period": 2022,
-            "period_basis": "single year in sentence"
-          },
-          {
-            "metric": "revenue",
-            "value": 2.2,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 156,
-            "end": 161,
-            "raw": "2.2%",
             "period": 2022,
             "period_basis": "single year in sentence"
           },
@@ -43465,6 +44697,18 @@
             "start": 228,
             "end": 233,
             "raw": "1.9%",
+            "period": 2022,
+            "period_basis": "single year in sentence"
+          },
+          {
+            "metric": "revenue",
+            "value": 2.2,
+            "unit": "percent",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 156,
+            "end": 161,
+            "raw": "2.2%",
             "period": 2022,
             "period_basis": "explicit ordered years and respectively"
           }
@@ -44383,7 +45627,9 @@
       "numeric": {
         "date_only": false,
         "comparisons": [],
-        "abstentions": [],
+        "abstentions": [
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence"
+        ],
         "old_facts": [],
         "new_facts": []
       },
@@ -46708,6 +47954,7 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence",
           "operating expenses: no matched metric, role, unit, and duration on both sides",
           "operating expenses: no matched metric, role, unit, and duration on both sides"
         ],
@@ -46748,18 +47995,6 @@
             "raw": "(1.1%",
             "period": null,
             "period_basis": "ambiguous multiple years"
-          },
-          {
-            "metric": "operating expenses",
-            "value": 68.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 213,
-            "end": 219,
-            "raw": "68.0%",
-            "period": 2024,
-            "period_basis": "explicit adjoining year"
           }
         ]
       },
@@ -47651,23 +48886,11 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
-          "operating expenses: no matched metric, role, unit, and duration on both sides"
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence",
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
         "old_facts": [],
-        "new_facts": [
-          {
-            "metric": "operating expenses",
-            "value": 157000000.0,
-            "unit": "USD",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 217,
-            "end": 229,
-            "raw": "$157 million",
-            "period": 2024,
-            "period_basis": "single year in sentence"
-          }
-        ]
+        "new_facts": []
       },
       "assumption_links": [],
       "old_citation": "",
@@ -48276,95 +49499,6 @@
       ]
     },
     {
-      "id": "034f70455ad6",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "2022 versus 2021",
-        "kind": "paragraph",
-        "dom_id": "pdf-p057-b009",
-        "source_locator": "PDF page 57, block 9, bbox 79.200001,420.196985,149.750001,431.266985",
-        "page": 57,
-        "id": "mda-0434",
-        "section": "mda",
-        "subsection": "Retailing",
-        "index": 434,
-        "start": 105180,
-        "end": 105196
-      },
-      "new": {
-        "text": "2024 versus 2023",
-        "kind": "paragraph",
-        "dom_id": "pdf-p048-b030",
-        "source_locator": "PDF page 48, block 30, bbox 79.200001,444.799005,149.750001,455.869005",
-        "page": 48,
-        "id": "mda-0321",
-        "section": "mda",
-        "subsection": "Industrial products",
-        "index": 321,
-        "start": 71012,
-        "end": 71028
-      },
-      "method": "contextual",
-      "similarity": 0.68,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": true,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "replace",
-          "old": {
-            "start": 0,
-            "end": 4,
-            "text": "2022"
-          },
-          "new": {
-            "start": 0,
-            "end": 4,
-            "text": "2024"
-          }
-        },
-        {
-          "operation": "replace",
-          "old": {
-            "start": 12,
-            "end": 16,
-            "text": "2021"
-          },
-          "new": {
-            "start": 12,
-            "end": 16,
-            "text": "2023"
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/brk-2023.html#mda-0434",
-      "new_citation": "sources/brk-2024.html#mda-0321",
-      "old_citations": [
-        "sources/brk-2023.html#mda-0434"
-      ],
-      "new_citations": [
-        "sources/brk-2024.html#mda-0321"
-      ]
-    },
-    {
       "id": "0726cb5e1876",
       "section": "mda",
       "kind": "changed",
@@ -48438,540 +49572,6 @@
       ],
       "new_citations": [
         "sources/brk-2024.html#mda-0570"
-      ]
-    },
-    {
-      "id": "0e251329d4b8",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "2022 versus 2021",
-        "kind": "paragraph",
-        "dom_id": "pdf-p040-b006",
-        "source_locator": "PDF page 40, block 6, bbox 79.200001,241.210993,149.750001,252.280993",
-        "page": 40,
-        "id": "mda-0056",
-        "section": "mda",
-        "subsection": "GEICO (Continued)",
-        "index": 56,
-        "start": 34504,
-        "end": 34520
-      },
-      "new": {
-        "text": "2023 versus 2022",
-        "kind": "paragraph",
-        "dom_id": "pdf-p039-b005",
-        "source_locator": "PDF page 39, block 5, bbox 79.200001,143.219004,149.750001,154.289004",
-        "page": 39,
-        "id": "mda-0079",
-        "section": "mda",
-        "subsection": "Berkshire Hathaway Primary Group",
-        "index": 79,
-        "start": 37646,
-        "end": 37662
-      },
-      "method": "contextual",
-      "similarity": 0.77,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": true,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "insert",
-          "old": {
-            "start": 0,
-            "end": 0,
-            "text": ""
-          },
-          "new": {
-            "start": 0,
-            "end": 11,
-            "text": "2023 versus"
-          }
-        },
-        {
-          "operation": "delete",
-          "old": {
-            "start": 5,
-            "end": 16,
-            "text": "versus 2021"
-          },
-          "new": {
-            "start": 16,
-            "end": 16,
-            "text": ""
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/brk-2023.html#mda-0056",
-      "new_citation": "sources/brk-2024.html#mda-0079",
-      "old_citations": [
-        "sources/brk-2023.html#mda-0056"
-      ],
-      "new_citations": [
-        "sources/brk-2024.html#mda-0079"
-      ]
-    },
-    {
-      "id": "1e5f756249e9",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "2022 versus 2021",
-        "kind": "paragraph",
-        "dom_id": "pdf-p054-b003",
-        "source_locator": "PDF page 54, block 3, bbox 79.200001,85.222999,149.750001,96.292999",
-        "page": 54,
-        "id": "mda-0370",
-        "section": "mda",
-        "subsection": "Manufacturing, Service and Retailing",
-        "index": 370,
-        "start": 90078,
-        "end": 90094
-      },
-      "new": {
-        "text": "2024 versus 2023",
-        "kind": "paragraph",
-        "dom_id": "pdf-p039-b036",
-        "source_locator": "PDF page 39, block 36, bbox 79.200001,617.633997,149.750001,628.703997",
-        "page": 39,
-        "id": "mda-0106",
-        "section": "mda",
-        "subsection": "%",
-        "index": 106,
-        "start": 40045,
-        "end": 40061
-      },
-      "method": "contextual",
-      "similarity": 0.68,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": true,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "replace",
-          "old": {
-            "start": 0,
-            "end": 4,
-            "text": "2022"
-          },
-          "new": {
-            "start": 0,
-            "end": 4,
-            "text": "2024"
-          }
-        },
-        {
-          "operation": "replace",
-          "old": {
-            "start": 12,
-            "end": 16,
-            "text": "2021"
-          },
-          "new": {
-            "start": 12,
-            "end": 16,
-            "text": "2023"
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/brk-2023.html#mda-0370",
-      "new_citation": "sources/brk-2024.html#mda-0106",
-      "old_citations": [
-        "sources/brk-2023.html#mda-0370"
-      ],
-      "new_citations": [
-        "sources/brk-2024.html#mda-0106"
-      ]
-    },
-    {
-      "id": "36dd6a064a9a",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "2022 versus 2021",
-        "kind": "paragraph",
-        "dom_id": "pdf-p055-b004",
-        "source_locator": "PDF page 55, block 4, bbox 79.200001,148.717996,149.750001,159.787996",
-        "page": 55,
-        "id": "mda-0385",
-        "section": "mda",
-        "subsection": "Manufacturing, Service and Retailing",
-        "index": 385,
-        "start": 95219,
-        "end": 95235
-      },
-      "new": {
-        "text": "2024 versus 2023",
-        "kind": "paragraph",
-        "dom_id": "pdf-p043-b029",
-        "source_locator": "PDF page 43, block 29, bbox 79.200001,395.528986,149.750001,406.598986",
-        "page": 43,
-        "id": "mda-0220",
-        "section": "mda",
-        "subsection": "A summary of BNSF’s railroad freight volumes by business group follows (cars/units in thousands).",
-        "index": 220,
-        "start": 52539,
-        "end": 52555
-      },
-      "method": "contextual",
-      "similarity": 0.68,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": true,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "replace",
-          "old": {
-            "start": 0,
-            "end": 4,
-            "text": "2022"
-          },
-          "new": {
-            "start": 0,
-            "end": 4,
-            "text": "2024"
-          }
-        },
-        {
-          "operation": "replace",
-          "old": {
-            "start": 12,
-            "end": 16,
-            "text": "2021"
-          },
-          "new": {
-            "start": 12,
-            "end": 16,
-            "text": "2023"
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/brk-2023.html#mda-0385",
-      "new_citation": "sources/brk-2024.html#mda-0220",
-      "old_citations": [
-        "sources/brk-2023.html#mda-0385"
-      ],
-      "new_citations": [
-        "sources/brk-2024.html#mda-0220"
-      ]
-    },
-    {
-      "id": "431842e67bce",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "2022 versus 2021",
-        "kind": "paragraph",
-        "dom_id": "pdf-p052-b004",
-        "source_locator": "PDF page 52, block 4, bbox 79.200001,183.214998,149.750001,194.284998",
-        "page": 52,
-        "id": "mda-0349",
-        "section": "mda",
-        "subsection": "Manufacturing, Service and Retailing",
-        "index": 349,
-        "start": 81679,
-        "end": 81695
-      },
-      "new": {
-        "text": "2024 versus 2023",
-        "kind": "paragraph",
-        "dom_id": "pdf-p038-b026",
-        "source_locator": "PDF page 38, block 26, bbox 79.200001,513.240991,149.750001,524.310991",
-        "page": 38,
-        "id": "mda-0072",
-        "section": "mda",
-        "subsection": "%",
-        "index": 72,
-        "start": 35569,
-        "end": 35585
-      },
-      "method": "contextual",
-      "similarity": 0.68,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": true,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "replace",
-          "old": {
-            "start": 0,
-            "end": 4,
-            "text": "2022"
-          },
-          "new": {
-            "start": 0,
-            "end": 4,
-            "text": "2024"
-          }
-        },
-        {
-          "operation": "replace",
-          "old": {
-            "start": 12,
-            "end": 16,
-            "text": "2021"
-          },
-          "new": {
-            "start": 12,
-            "end": 16,
-            "text": "2023"
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/brk-2023.html#mda-0349",
-      "new_citation": "sources/brk-2024.html#mda-0072",
-      "old_citations": [
-        "sources/brk-2023.html#mda-0349"
-      ],
-      "new_citations": [
-        "sources/brk-2024.html#mda-0072"
-      ]
-    },
-    {
-      "id": "7df0074080bb",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "Percentage change 2023 vs 2022 2022 vs 2021",
-        "kind": "paragraph",
-        "dom_id": "pdf-p044-b010",
-        "source_locator": "PDF page 44, block 10, bbox 444.817988,107.236999,546.554994,125.791999",
-        "page": 44,
-        "id": "mda-0162",
-        "section": "mda",
-        "subsection": "$",
-        "index": 162,
-        "start": 49747,
-        "end": 49790
-      },
-      "new": {
-        "text": "Percentage change 2024 vs 2023 2023 vs 2022",
-        "kind": "paragraph",
-        "dom_id": "pdf-p041-b028",
-        "source_locator": "PDF page 41, block 28, bbox 446.617988,460.911002,548.729988,480.166002",
-        "page": 41,
-        "id": "mda-0165",
-        "section": "mda",
-        "subsection": "$",
-        "index": 165,
-        "start": 47689,
-        "end": 47732
-      },
-      "method": "contextual",
-      "similarity": 0.994286,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": true,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "insert",
-          "old": {
-            "start": 18,
-            "end": 18,
-            "text": ""
-          },
-          "new": {
-            "start": 18,
-            "end": 30,
-            "text": "2024 vs 2023"
-          }
-        },
-        {
-          "operation": "delete",
-          "old": {
-            "start": 31,
-            "end": 43,
-            "text": "2022 vs 2021"
-          },
-          "new": {
-            "start": 43,
-            "end": 43,
-            "text": ""
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/brk-2023.html#mda-0162",
-      "new_citation": "sources/brk-2024.html#mda-0165",
-      "old_citations": [
-        "sources/brk-2023.html#mda-0162"
-      ],
-      "new_citations": [
-        "sources/brk-2024.html#mda-0165"
-      ]
-    },
-    {
-      "id": "8ad5d2cb9d4f",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "Percentage change 2023 vs 2022 2022 vs 2021",
-        "kind": "paragraph",
-        "dom_id": "pdf-p055-b027",
-        "source_locator": "PDF page 55, block 27, bbox 435.393000,444.761002,542.355006,463.316002",
-        "page": 55,
-        "id": "mda-0406",
-        "section": "mda",
-        "subsection": "$",
-        "index": 406,
-        "start": 97724,
-        "end": 97767
-      },
-      "new": {
-        "text": "Percentage change 2024 vs 2023 2023 vs 2022",
-        "kind": "paragraph",
-        "dom_id": "pdf-p047-b023",
-        "source_locator": "PDF page 47, block 23, bbox 432.117994,293.701995,541.454994,312.956996",
-        "page": 47,
-        "id": "mda-0289",
-        "section": "mda",
-        "subsection": "$",
-        "index": 289,
-        "start": 68529,
-        "end": 68572
-      },
-      "method": "contextual",
-      "similarity": 0.994286,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": true,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "insert",
-          "old": {
-            "start": 18,
-            "end": 18,
-            "text": ""
-          },
-          "new": {
-            "start": 18,
-            "end": 30,
-            "text": "2024 vs 2023"
-          }
-        },
-        {
-          "operation": "delete",
-          "old": {
-            "start": 31,
-            "end": 43,
-            "text": "2022 vs 2021"
-          },
-          "new": {
-            "start": 43,
-            "end": 43,
-            "text": ""
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/brk-2023.html#mda-0406",
-      "new_citation": "sources/brk-2024.html#mda-0289",
-      "old_citations": [
-        "sources/brk-2023.html#mda-0406"
-      ],
-      "new_citations": [
-        "sources/brk-2024.html#mda-0289"
       ]
     },
     {
@@ -49051,273 +49651,6 @@
       ]
     },
     {
-      "id": "93e843a18020",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "A summary of cash and investments held in our insurance businesses as of December 31, 2023 and 2022 follows (in millions).",
-        "kind": "paragraph",
-        "dom_id": "pdf-p044-b019",
-        "source_locator": "PDF page 44, block 19, bbox 54.000000,502.339990,557.990001,524.908991",
-        "page": 44,
-        "id": "mda-0170",
-        "section": "mda",
-        "subsection": "$",
-        "index": 170,
-        "start": 52438,
-        "end": 52560
-      },
-      "new": {
-        "text": "A summary of cash and investments held in our insurance businesses as of December 31, 2024 and 2023 follows (in millions).",
-        "kind": "paragraph",
-        "dom_id": "pdf-p042-b006",
-        "source_locator": "PDF page 42, block 6, bbox 54.000000,275.708002,557.990001,298.277002",
-        "page": 42,
-        "id": "mda-0175",
-        "section": "mda",
-        "subsection": "Insurance—Investment Income",
-        "index": 175,
-        "start": 50105,
-        "end": 50227
-      },
-      "method": "contextual",
-      "similarity": 0.933913,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": false,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "insert",
-          "old": {
-            "start": 86,
-            "end": 86,
-            "text": ""
-          },
-          "new": {
-            "start": 86,
-            "end": 94,
-            "text": "2024 and"
-          }
-        },
-        {
-          "operation": "delete",
-          "old": {
-            "start": 91,
-            "end": 99,
-            "text": "and 2022"
-          },
-          "new": {
-            "start": 100,
-            "end": 100,
-            "text": ""
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/brk-2023.html#mda-0170",
-      "new_citation": "sources/brk-2024.html#mda-0175",
-      "old_citations": [
-        "sources/brk-2023.html#mda-0170"
-      ],
-      "new_citations": [
-        "sources/brk-2024.html#mda-0175"
-      ]
-    },
-    {
-      "id": "95465985328f",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "Our net assets subject to financial statement translation into U.S. Dollars are primarily in our insurance, utilities and energy and certain manufacturing subsidiaries. A portion of our financial statement translation-related impact from changes in foreign currency rates is recorded in other comprehensive income. In addition, we include gains or losses from changes in foreign currency exchange rates in net earnings related to non-U.S. Dollar denominated assets and liabilities of Berkshire and its U.S.-based subsidiaries. A summary of these gains (losses), after-tax, for each of the years ending December 31, 2023 and 2022 follows (in millions).",
-        "kind": "paragraph",
-        "dom_id": "pdf-p068-b003",
-        "source_locator": "PDF page 68, block 3, bbox 54.000000,85.223001,558.010000,153.788002",
-        "page": 68,
-        "id": "mda-0632",
-        "section": "mda",
-        "subsection": "Foreign Currency Risk",
-        "index": 632,
-        "start": 149627,
-        "end": 150278
-      },
-      "new": {
-        "text": "Our net assets subject to financial statement translation into U.S. Dollars are primarily in our insurance, utilities and energy and certain manufacturing subsidiaries. A portion of our financial statement translation-related impact from changes in foreign currency rates is recorded in other comprehensive income. In addition, we include gains or losses from changes in foreign currency exchange rates in net earnings related to non-U.S. Dollar denominated assets and liabilities of Berkshire and its U.S.-based subsidiaries. A summary of these gains (losses), after-tax, for each of the years ending December 31, 2024 and 2023 follows (in millions).",
-        "kind": "paragraph",
-        "dom_id": "pdf-p065-b003",
-        "source_locator": "PDF page 65, block 3, bbox 54.000000,85.223001,558.010000,153.788002",
-        "page": 65,
-        "id": "mda-0630",
-        "section": "mda",
-        "subsection": "Foreign Currency Risk",
-        "index": 630,
-        "start": 142162,
-        "end": 142813
-      },
-      "method": "contextual",
-      "similarity": 1.0,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": false,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "insert",
-          "old": {
-            "start": 615,
-            "end": 615,
-            "text": ""
-          },
-          "new": {
-            "start": 615,
-            "end": 623,
-            "text": "2024 and"
-          }
-        },
-        {
-          "operation": "delete",
-          "old": {
-            "start": 620,
-            "end": 628,
-            "text": "and 2022"
-          },
-          "new": {
-            "start": 629,
-            "end": 629,
-            "text": ""
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/brk-2023.html#mda-0632",
-      "new_citation": "sources/brk-2024.html#mda-0630",
-      "old_citations": [
-        "sources/brk-2023.html#mda-0632"
-      ],
-      "new_citations": [
-        "sources/brk-2024.html#mda-0630"
-      ]
-    },
-    {
-      "id": "9a4b629b65d0",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "2022 versus 2021",
-        "kind": "paragraph",
-        "dom_id": "pdf-p046-b008",
-        "source_locator": "PDF page 46, block 8, bbox 79.200001,356.701990,149.750001,367.771990",
-        "page": 46,
-        "id": "mda-0230",
-        "section": "mda",
-        "subsection": "Railroad",
-        "index": 230,
-        "start": 57830,
-        "end": 57846
-      },
-      "new": {
-        "text": "2023 versus 2022",
-        "kind": "paragraph",
-        "dom_id": "pdf-p040-b006",
-        "source_locator": "PDF page 40, block 6, bbox 79.200001,241.210993,149.750001,252.280993",
-        "page": 40,
-        "id": "mda-0113",
-        "section": "mda",
-        "subsection": "Berkshire Hathaway Reinsurance Group",
-        "index": 113,
-        "start": 41736,
-        "end": 41752
-      },
-      "method": "contextual",
-      "similarity": 0.77,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": true,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "insert",
-          "old": {
-            "start": 0,
-            "end": 0,
-            "text": ""
-          },
-          "new": {
-            "start": 0,
-            "end": 11,
-            "text": "2023 versus"
-          }
-        },
-        {
-          "operation": "delete",
-          "old": {
-            "start": 5,
-            "end": 16,
-            "text": "versus 2021"
-          },
-          "new": {
-            "start": 16,
-            "end": 16,
-            "text": ""
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/brk-2023.html#mda-0230",
-      "new_citation": "sources/brk-2024.html#mda-0113",
-      "old_citations": [
-        "sources/brk-2023.html#mda-0230"
-      ],
-      "new_citations": [
-        "sources/brk-2024.html#mda-0113"
-      ]
-    },
-    {
       "id": "a471f721915e",
       "section": "mda",
       "kind": "changed",
@@ -49391,349 +49724,6 @@
       ],
       "new_citations": [
         "sources/brk-2024.html#mda-0593"
-      ]
-    },
-    {
-      "id": "a97425fcae99",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "2022 versus 2021",
-        "kind": "paragraph",
-        "dom_id": "pdf-p048-b010",
-        "source_locator": "PDF page 48, block 10, bbox 79.200001,495.191004,149.750001,506.261004",
-        "page": 48,
-        "id": "mda-0266",
-        "section": "mda",
-        "subsection": "Utilities and Energy",
-        "index": 266,
-        "start": 67214,
-        "end": 67230
-      },
-      "new": {
-        "text": "2024 versus 2023",
-        "kind": "paragraph",
-        "dom_id": "pdf-p037-b021",
-        "source_locator": "PDF page 37, block 21, bbox 79.200001,276.258997,149.750001,287.328997",
-        "page": 37,
-        "id": "mda-0042",
-        "section": "mda",
-        "subsection": "%",
-        "index": 42,
-        "start": 30000,
-        "end": 30016
-      },
-      "method": "contextual",
-      "similarity": 0.68,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": true,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "replace",
-          "old": {
-            "start": 0,
-            "end": 4,
-            "text": "2022"
-          },
-          "new": {
-            "start": 0,
-            "end": 4,
-            "text": "2024"
-          }
-        },
-        {
-          "operation": "replace",
-          "old": {
-            "start": 12,
-            "end": 16,
-            "text": "2021"
-          },
-          "new": {
-            "start": 12,
-            "end": 16,
-            "text": "2023"
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/brk-2023.html#mda-0266",
-      "new_citation": "sources/brk-2024.html#mda-0042",
-      "old_citations": [
-        "sources/brk-2023.html#mda-0266"
-      ],
-      "new_citations": [
-        "sources/brk-2024.html#mda-0042"
-      ]
-    },
-    {
-      "id": "b2c234c4b147",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "Cars/Units 2022",
-        "kind": "paragraph",
-        "dom_id": "pdf-p045-b039",
-        "source_locator": "PDF page 45, block 39, bbox 335.054001,528.982987,371.942001,547.537987",
-        "page": 45,
-        "id": "mda-0213",
-        "section": "mda",
-        "subsection": "A summary of BNSF’s railroad freight volumes by business group (cars/units in thousands) follows.",
-        "index": 213,
-        "start": 54858,
-        "end": 54873
-      },
-      "new": {
-        "text": "Cars/Units 2023",
-        "kind": "paragraph",
-        "dom_id": "pdf-p043-b020",
-        "source_locator": "PDF page 43, block 20, bbox 333.953995,304.450992,370.841995,323.705992",
-        "page": 43,
-        "id": "mda-0212",
-        "section": "mda",
-        "subsection": "A summary of BNSF’s railroad freight volumes by business group follows (cars/units in thousands).",
-        "index": 212,
-        "start": 52345,
-        "end": 52360
-      },
-      "method": "contextual",
-      "similarity": 1.0,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": false,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "replace",
-          "old": {
-            "start": 11,
-            "end": 15,
-            "text": "2022"
-          },
-          "new": {
-            "start": 11,
-            "end": 15,
-            "text": "2023"
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/brk-2023.html#mda-0213",
-      "new_citation": "sources/brk-2024.html#mda-0212",
-      "old_citations": [
-        "sources/brk-2023.html#mda-0213"
-      ],
-      "new_citations": [
-        "sources/brk-2024.html#mda-0212"
-      ]
-    },
-    {
-      "id": "c2d437561c88",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "Percentage change 2023 vs 2022 2022 vs 2021",
-        "kind": "paragraph",
-        "dom_id": "pdf-p050-b026",
-        "source_locator": "PDF page 50, block 26, bbox 437.842988,507.914013,541.905000,526.469014",
-        "page": 50,
-        "id": "mda-0316",
-        "section": "mda",
-        "subsection": "Manufacturing",
-        "index": 316,
-        "start": 75282,
-        "end": 75325
-      },
-      "new": {
-        "text": "Percentage change 2024 vs 2023 2023 vs 2022",
-        "kind": "paragraph",
-        "dom_id": "pdf-p048-b008",
-        "source_locator": "PDF page 48, block 8, bbox 436.943000,137.713996,541.405006,156.968997",
-        "page": 48,
-        "id": "mda-0302",
-        "section": "mda",
-        "subsection": "Manufacturing",
-        "index": 302,
-        "start": 69775,
-        "end": 69818
-      },
-      "method": "contextual",
-      "similarity": 1.0,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": false,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "insert",
-          "old": {
-            "start": 18,
-            "end": 18,
-            "text": ""
-          },
-          "new": {
-            "start": 18,
-            "end": 30,
-            "text": "2024 vs 2023"
-          }
-        },
-        {
-          "operation": "delete",
-          "old": {
-            "start": 31,
-            "end": 43,
-            "text": "2022 vs 2021"
-          },
-          "new": {
-            "start": 43,
-            "end": 43,
-            "text": ""
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/brk-2023.html#mda-0316",
-      "new_citation": "sources/brk-2024.html#mda-0302",
-      "old_citations": [
-        "sources/brk-2023.html#mda-0316"
-      ],
-      "new_citations": [
-        "sources/brk-2024.html#mda-0302"
-      ]
-    },
-    {
-      "id": "f29b214a2d40",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "2022 versus 2021",
-        "kind": "paragraph",
-        "dom_id": "pdf-p056-b009",
-        "source_locator": "PDF page 56, block 9, bbox 79.200001,420.196985,149.750001,431.266985",
-        "page": 56,
-        "id": "mda-0423",
-        "section": "mda",
-        "subsection": "Service",
-        "index": 423,
-        "start": 100679,
-        "end": 100695
-      },
-      "new": {
-        "text": "2024 versus 2023",
-        "kind": "paragraph",
-        "dom_id": "pdf-p046-b003",
-        "source_locator": "PDF page 46, block 3, bbox 79.200001,85.222999,149.750001,96.292999",
-        "page": 46,
-        "id": "mda-0259",
-        "section": "mda",
-        "subsection": "Berkshire Hathaway Energy",
-        "index": 259,
-        "start": 61301,
-        "end": 61317
-      },
-      "method": "contextual",
-      "similarity": 0.68,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": true,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "replace",
-          "old": {
-            "start": 0,
-            "end": 4,
-            "text": "2022"
-          },
-          "new": {
-            "start": 0,
-            "end": 4,
-            "text": "2024"
-          }
-        },
-        {
-          "operation": "replace",
-          "old": {
-            "start": 12,
-            "end": 16,
-            "text": "2021"
-          },
-          "new": {
-            "start": 12,
-            "end": 16,
-            "text": "2023"
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/brk-2023.html#mda-0423",
-      "new_citation": "sources/brk-2024.html#mda-0259",
-      "old_citations": [
-        "sources/brk-2023.html#mda-0423"
-      ],
-      "new_citations": [
-        "sources/brk-2024.html#mda-0259"
       ]
     },
     {
@@ -54736,14 +54726,15 @@
         "comparisons": [],
         "abstentions": [
           "revenue: unresolved timing or nonannual duration; no arithmetic",
+          "revenue: unresolved timing or nonannual duration; no arithmetic",
           "revenue: unresolved timing or nonannual duration; no arithmetic"
         ],
         "old_facts": [
           {
             "metric": "revenue",
-            "value": 1500000000.0,
+            "value": -1500000000.0,
             "unit": "USD",
-            "role": "reported level",
+            "role": "reported change amount",
             "duration": "annual",
             "start": 42,
             "end": 55,
@@ -54791,9 +54782,9 @@
         "new_facts": [
           {
             "metric": "revenue",
-            "value": 1500000000.0,
+            "value": -1500000000.0,
             "unit": "USD",
-            "role": "reported level",
+            "role": "reported change amount",
             "duration": "annual",
             "start": 42,
             "end": 55,
@@ -56233,7 +56224,7 @@
         "old_facts": [
           {
             "metric": "revenue",
-            "value": 2.8,
+            "value": -2.8,
             "unit": "percent",
             "role": "reported growth rate",
             "duration": "annual",
@@ -56271,7 +56262,7 @@
         "new_facts": [
           {
             "metric": "revenue",
-            "value": 2.8,
+            "value": -2.8,
             "unit": "percent",
             "role": "reported growth rate",
             "duration": "annual",
@@ -59992,9 +59983,9 @@
         "old_facts": [
           {
             "metric": "revenue",
-            "value": 452000000.0,
+            "value": -452000000.0,
             "unit": "USD",
-            "role": "reported level",
+            "role": "reported change amount",
             "duration": "annual",
             "start": 57,
             "end": 70,
@@ -60018,9 +60009,9 @@
         "new_facts": [
           {
             "metric": "revenue",
-            "value": 452000000.0,
+            "value": -452000000.0,
             "unit": "USD",
-            "role": "reported level",
+            "role": "reported change amount",
             "duration": "annual",
             "start": 57,
             "end": 70,
@@ -63667,7 +63658,42 @@
       "edits": [],
       "numeric": {
         "date_only": false,
-        "comparisons": [],
+        "comparisons": [
+          {
+            "metric": "revenue",
+            "unit": "percent",
+            "role": "reported level",
+            "old": {
+              "metric": "revenue",
+              "value": 4.0,
+              "unit": "percent",
+              "role": "reported level",
+              "duration": "annual",
+              "start": 146,
+              "end": 151,
+              "raw": "4.0%",
+              "period": 2023,
+              "period_basis": "document fiscal year inferred; verify context"
+            },
+            "new": {
+              "metric": "revenue",
+              "value": 4.0,
+              "unit": "percent",
+              "role": "reported level",
+              "duration": "annual",
+              "start": 146,
+              "end": 151,
+              "raw": "4.0%",
+              "period": 2024,
+              "period_basis": "document fiscal year inferred; verify context"
+            },
+            "absolute_change": 0.0,
+            "percentage_point_change": 0.0,
+            "relative_change_percent": null,
+            "basis": "successive annual reported quantities",
+            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
+          }
+        ],
         "abstentions": [
           "revenue: unresolved timing or nonannual duration; no arithmetic",
           "revenue: unresolved timing or nonannual duration; no arithmetic"
@@ -63675,9 +63701,9 @@
         "old_facts": [
           {
             "metric": "revenue",
-            "value": 3.4,
+            "value": -3.4,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 37,
             "end": 42,
@@ -63713,9 +63739,9 @@
         "new_facts": [
           {
             "metric": "revenue",
-            "value": 3.4,
+            "value": -3.4,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 37,
             "end": 42,
@@ -69187,9 +69213,9 @@
     }
   ],
   "counts": {
-    "added": 206,
-    "changed": 153,
-    "removed": 205,
+    "added": 203,
+    "changed": 156,
+    "removed": 202,
     "unchanged": 317
   }
 }

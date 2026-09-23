@@ -1,6 +1,7 @@
 """Reproduce tests, baseline evaluations, and the corrected demo locally."""
 
 import json
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -22,7 +23,9 @@ def main():
         process = subprocess.run([sys.executable] + args, cwd=ROOT, capture_output=True, text=True)
         command = "python3 " + " ".join(args)
         record = {"command": command, "exit_status": process.returncode,
-                  "stdout": process.stdout, "stderr": process.stderr}
+                  "stdout": process.stdout,
+                  # Elapsed time varies per run; keep the committed record reproducible.
+                  "stderr": re.sub(r"(Ran \d+ tests?) in [\d.]+s", r"\1", process.stderr)}
         runs.append(record)
         print("exit=%d %s" % (process.returncode, command))
         if process.returncode:

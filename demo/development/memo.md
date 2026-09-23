@@ -165,8 +165,6 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
-Calculated from the cited passages: cash and investments, reported level, 12000000.0 USD in 2023 to 9000000.0 in 2024. Absolute change -3000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
-
 ## 2e677ad3c3bc · added · low · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: unmatched; uncertain match.

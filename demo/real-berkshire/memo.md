@@ -8,7 +8,7 @@ Old: Berkshire Hathaway Inc., CIK 1067983, 10-K, FY 2023, period end 2023-12-31,
 
 New: Berkshire Hathaway Inc., CIK 1067983, 10-K, FY 2024, period end 2024-12-31, filed 2025-02-24, accession 0000950170-25-025210. [Source snapshot](sources/brk-2024.html).
 
-Counts: added=206, changed=153, removed=205, unchanged=317
+Counts: added=203, changed=156, removed=202, unchanged=317
 
 Full excerpts and all unchanged matches are in changes.csv and comparison.json. Omitted passages mean unmatched text in the selected section, not proof that a disclosure disappeared from the entire filing.
 
@@ -24,18 +24,6 @@ Observed text comparison in Item 1A — Risk Factors. Alignment: unmatched; unce
 Old: no matched passage in this section.
 
 New ([source](sources/brk-2024.html#risk-0032)): Our tolerance for underwriting risk assumed in our various insurance businesses may result in significant underwriting losses.
-
-Review rule: Disclosure text added; New unmatched risk passage; analyst must confirm novelty.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
-## f620db39b703 · added · high · needs_review
-
-Observed text comparison in Item 1A — Risk Factors. Alignment: unmatched; uncertain match.
-
-Old: no matched passage in this section.
-
-New ([source](sources/brk-2024.html#risk-0005)): Cybersecurity risks could result in economic losses to our businesses and reputational damage.
 
 Review rule: Disclosure text added; New unmatched risk passage; analyst must confirm novelty.
 
@@ -184,6 +172,18 @@ Old ([source](sources/brk-2023.html#risk-0039)): Our utilities and energy busine
 New ([source](sources/brk-2024.html#risk-0040)): Our utilities and energy businesses operated under BHE are highly regulated by numerous federal, state, local and foreign governmental authorities in the jurisdictions in which they operate. These laws and regulations are complex, dynamic and subject to new interpretations or change. Regulations affect almost every aspect of our utilities and energy businesses. Regulations broadly apply and may limit management’s ability to independently make and implement decisions regarding numerous matters including: acquiring businesses; constructing, acquiring, disposing or retiring of operating assets; operating and maintaining generating facilities and transmission and distribution system assets; complying with pipeline safety and integrity and environmental requirements; setting rates charged to customers; establishing capital structures and issuing debt; managing and reporting transactions between our domestic utilities and our other subsidiaries and affiliates; and paying dividends or similar distributions. Failure to comply with or reinterpretations of existing regulations and new legislation or regulations, such as those relating to air quality, climate change, emissions performance standards, water quality, coal ash disposal and other environmental matters, or changes in the nature of the regulatory process may have a significant adverse impact on our financial results. Furthermore, our regulated energy subsidiaries are exposed to losses arising from wildfires and related litigation and judicial outcomes. The energy rates charged by our regulated energy subsidiaries to customers are based on the costs of the business and require regulatory approval. To the extent costs are not recoverable through approved rates, the operating results and financial condition of these businesses can be negatively impacted, perhaps materially.
 
 Review rule: Disclosure text changed; Negation or modal wording changed; Liquidity or financing language.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
+## 3508cde9bf82 · changed · high · needs_review
+
+Observed text comparison in Item 1A — Risk Factors. Alignment: contextual; uncertain match.
+
+Old ([source](sources/brk-2023.html#risk-0005)): Cybersecurity risks.
+
+New ([source](sources/brk-2024.html#risk-0005)): Cybersecurity risks could result in economic losses to our businesses and reputational damage.
+
+Review rule: Disclosure text changed; Negation or modal wording changed.
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
@@ -499,18 +499,6 @@ Review rule: Disclosure text changed; Liquidity or financing language.
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
-## 0706114aa7fe · removed · medium · needs_review
-
-Observed text comparison in Item 1A — Risk Factors. Alignment: unmatched; uncertain match.
-
-Old ([source](sources/brk-2023.html#risk-0005)): Cybersecurity risks.
-
-New: no matched passage in this section.
-
-Review rule: Disclosure text removed; Risk passage no longer matched in this section.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
 ## 6ef8d0df3149 · removed · medium · needs_review
 
 Observed text comparison in Item 1A — Risk Factors. Alignment: unmatched; uncertain match.
@@ -520,6 +508,30 @@ Old ([source](sources/brk-2023.html#risk-0032)): Our tolerance for underwriting 
 New: no matched passage in this section.
 
 Review rule: Disclosure text removed; Risk passage no longer matched in this section.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
+## 034f70455ad6 · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
+
+Old ([source](sources/brk-2023.html#mda-0434)): 2022 versus 2021
+
+New ([source](sources/brk-2024.html#mda-0321)): 2024 versus 2023
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
+## 0e251329d4b8 · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
+
+Old ([source](sources/brk-2023.html#mda-0056)): 2022 versus 2021
+
+New ([source](sources/brk-2024.html#mda-0079)): 2023 versus 2022
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
@@ -566,6 +578,18 @@ Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertai
 Old ([source](sources/brk-2023.html#mda-0553)): We increased estimated ultimate liabilities for prior years’ retroactive reinsurance contracts by $1.1 billion in the fourth quarter of 2023, primarily for asbestos, environmental and other casualty exposures. This increase, net of related changes in unamortized deferred charges, produced an incremental pre-tax underwriting loss of approximately $650 million.
 
 New ([source](sources/brk-2024.html#mda-0549)): Overall, we increased estimated ultimate liabilities for prior year retroactive reinsurance contracts by $196 million in 2024, primarily for asbestos, environmental and other casualty exposures. This increase, net of the related changes in deferred charge assets had an insignificant impact on underwriting results.
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
+## 1e5f756249e9 · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
+
+Old ([source](sources/brk-2023.html#mda-0370)): 2022 versus 2021
+
+New ([source](sources/brk-2024.html#mda-0106)): 2024 versus 2023
 
 Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
 
@@ -633,6 +657,18 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
+## 36dd6a064a9a · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
+
+Old ([source](sources/brk-2023.html#mda-0385)): 2022 versus 2021
+
+New ([source](sources/brk-2024.html#mda-0220)): 2024 versus 2023
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
 ## 3bb4aaf40766 · changed · medium · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
@@ -681,6 +717,18 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
+## 431842e67bce · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
+
+Old ([source](sources/brk-2023.html#mda-0349)): 2022 versus 2021
+
+New ([source](sources/brk-2024.html#mda-0072)): 2024 versus 2023
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
 ## 4345243c9789 · changed · medium · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
@@ -717,7 +765,7 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
-Calculated from the cited passages: revenue, reported change amount, 1600000000.0 USD in 2023 to 1600000000.0 in 2023. Absolute change 0.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
+Calculated from the cited passages: revenue, reported change amount, -1600000000.0 USD in 2023 to -1600000000.0 in 2023. Absolute change 0.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 Calculated from the cited passages: revenue, reported growth rate, 12.2 percent in 2023 to 12.2 in 2023. Absolute change 0.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
@@ -877,6 +925,18 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
+## 7df0074080bb · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
+
+Old ([source](sources/brk-2023.html#mda-0162)): Percentage change 2023 vs 2022 2022 vs 2021
+
+New ([source](sources/brk-2024.html#mda-0165)): Percentage change 2024 vs 2023 2023 vs 2022
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
 ## 804d81727740 · changed · medium · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
@@ -927,6 +987,18 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
+## 8ad5d2cb9d4f · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
+
+Old ([source](sources/brk-2023.html#mda-0406)): Percentage change 2023 vs 2022 2022 vs 2021
+
+New ([source](sources/brk-2024.html#mda-0289)): Percentage change 2024 vs 2023 2023 vs 2022
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
 ## 8beeab5e19ed · changed · medium · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
@@ -934,6 +1006,18 @@ Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
 Old ([source](sources/brk-2023.html#mda-0493)): Certain accounting policies require us to make estimates and judgments in determining the amounts reflected in our Consolidated Financial Statements. Such estimates and judgments necessarily involve varying and possibly significant degrees of uncertainty. Accordingly, certain amounts currently recorded in our Consolidated Financial Statements will likely be adjusted in the future based on new available information and changes in other facts and circumstances. A discussion of our principal accounting policies that required the application of significant judgments as of December 31, 2023 follows.
 
 New ([source](sources/brk-2024.html#mda-0489)): Certain accounting policies require us to make estimates and judgments in determining the amounts reflected in our Consolidated Financial Statements. Such estimates and judgments necessarily involve varying and significant degrees of uncertainty. Accordingly, certain amounts currently recorded in our Consolidated Financial Statements will likely be adjusted in the future based on new available information and changes in other facts and circumstances. A discussion of our principal accounting policies that required the application of significant judgments as of December 31, 2024 follows.
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
+## 93e843a18020 · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
+
+Old ([source](sources/brk-2023.html#mda-0170)): A summary of cash and investments held in our insurance businesses as of December 31, 2023 and 2022 follows \(in millions\).
+
+New ([source](sources/brk-2024.html#mda-0175)): A summary of cash and investments held in our insurance businesses as of December 31, 2024 and 2023 follows \(in millions\).
 
 Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
 
@@ -951,6 +1035,18 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
+## 95465985328f · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
+
+Old ([source](sources/brk-2023.html#mda-0632)): Our net assets subject to financial statement translation into U.S. Dollars are primarily in our insurance, utilities and energy and certain manufacturing subsidiaries. A portion of our financial statement translation-related impact from changes in foreign currency rates is recorded in other comprehensive income. In addition, we include gains or losses from changes in foreign currency exchange rates in net earnings related to non-U.S. Dollar denominated assets and liabilities of Berkshire and its U.S.-based subsidiaries. A summary of these gains \(losses\), after-tax, for each of the years ending December 31, 2023 and 2022 follows \(in millions\).
+
+New ([source](sources/brk-2024.html#mda-0630)): Our net assets subject to financial statement translation into U.S. Dollars are primarily in our insurance, utilities and energy and certain manufacturing subsidiaries. A portion of our financial statement translation-related impact from changes in foreign currency rates is recorded in other comprehensive income. In addition, we include gains or losses from changes in foreign currency exchange rates in net earnings related to non-U.S. Dollar denominated assets and liabilities of Berkshire and its U.S.-based subsidiaries. A summary of these gains \(losses\), after-tax, for each of the years ending December 31, 2024 and 2023 follows \(in millions\).
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
 ## 9721c3d5166c · changed · medium · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
@@ -958,6 +1054,18 @@ Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
 Old ([source](sources/brk-2023.html#mda-0555)): Our Consolidated Balance Sheet at December 31, 2023 includes goodwill of acquired businesses of $84.6 billion and indefinite-lived other intangible assets of $18.9 billion. We evaluate these assets for impairment annually in the fourth quarter and on an interim basis if the facts and circumstances lead us to believe that more likely than not there has been an impairment.
 
 New ([source](sources/brk-2024.html#mda-0551)): Our Consolidated Balance Sheet at December 31, 2024 includes goodwill of acquired businesses of $83.9 billion and indefinite-lived other intangible assets of $18.9 billion. We evaluate these assets for impairment annually in the fourth quarter and on an interim basis if the facts and circumstances lead us to believe that more likely than not there has been an impairment.
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
+## 9a4b629b65d0 · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
+
+Old ([source](sources/brk-2023.html#mda-0230)): 2022 versus 2021
+
+New ([source](sources/brk-2024.html#mda-0113)): 2023 versus 2022
 
 Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
 
@@ -975,6 +1083,18 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
+## 9ca167442275 · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
+
+Old ([source](sources/brk-2023.html#mda-0351)): PCC’s revenues were $7.5 billion in 2022, an increase of $1.1 billion \(16.5%\) compared to 2021. The revenue increase in 2022 was primarily attributable to higher demand for aerospace products. Commercial aircraft delivery rates by original equipment manufacturers \(“OEMs”\) of narrow-body aircraft rebounded since the onset of the pandemic. Deliveries of wide- body aircraft were relatively low, in part, attributable to the pause in the Boeing 787 program. However, Boeing resumed deliveries in the third quarter of 2022.
+
+New ([source](sources/brk-2024.html#mda-0332)): PCC’s revenues were $9.3 billion in 2023, an increase of $1.7 billion \(22.7%\) compared to 2022. The revenue increase in 2023 was primarily attributable to higher demand for aerospace products, and, to a lesser degree, power generation products. PCC’s pre-tax earnings were $1.5 billion in 2023, an increase of 30.0% compared to 2022 attributable to increases in sales and manufacturing and operating efficiencies in aerospace businesses, partially offset by operating losses in energy products businesses.
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
 ## a152b4b80a43 · changed · medium · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
@@ -987,6 +1107,8 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
+Calculated from the cited passages: revenue, reported growth rate, -26.2 percent in 2023 to -26.2 in 2023. Absolute change 0.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
+
 ## a56a7296af83 · changed · medium · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
@@ -994,6 +1116,18 @@ Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
 Old ([source](sources/brk-2023.html#mda-0433)): Retailing group pre-tax earnings were $1.7 billion in 2023, unchanged from 2022. BHA’s pre-tax earnings increased 17.7%, primarily due to earnings increases from the parts/service/repair and finance/service contract operations, as well as from higher investment income and lower operating and liability remeasurement expenses, partially offset by lower vehicle gross profit margin rates and higher floor plan interest expense. BHA’s comparative vehicle gross profit margin rates peaked in mid- 2022 due to supply chain disruptions and have since declined. Aggregate pre-tax earnings for the remainder of our retailing group declined $168 million \(21.8%\) in 2023 compared to 2022, primarily due to a 28.3% decrease in home furnishings businesses earnings and the impact of a gain in 2022 from the divestiture of certain jewelry stores.
 
 New ([source](sources/brk-2024.html#mda-0414)): Retailing group pre-tax earnings were $1.7 billion in 2023, unchanged from 2022. BHA’s pre-tax earnings increased 17.7%, primarily due to earnings increases from the parts/service/repair and finance/service contract operations, as well as from higher investment income and lower selling, general and administrative and other expenses, partially offset by lower vehicle gross profit margin rates and higher floor plan interest expense. BHA’s comparative vehicle gross profit margin rates peaked in mid-2022 and declined through 2023. Aggregate pre-tax earnings for the remainder of our retailing group declined $168 million \(21.8%\) in 2023 compared to 2022, primarily due to a 28.3% decrease in home furnishings businesses earnings and the impact of a gain in 2022 from the divestiture of certain jewelry stores.
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
+## a97425fcae99 · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
+
+Old ([source](sources/brk-2023.html#mda-0266)): 2022 versus 2021
+
+New ([source](sources/brk-2024.html#mda-0042)): 2024 versus 2023
 
 Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
 
@@ -1023,6 +1157,18 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
+## b2c234c4b147 · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
+
+Old ([source](sources/brk-2023.html#mda-0213)): Cars/Units 2022
+
+New ([source](sources/brk-2024.html#mda-0212)): Cars/Units 2023
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
 ## bcb814c4f16a · changed · medium · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
@@ -1042,6 +1188,18 @@ Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
 Old ([source](sources/brk-2023.html#mda-0567)): The following table summarizes our investments in equity securities, other than our investments in Kraft Heinz and Occidental common stocks, and the estimated effects of a hypothetical 30% increase and a 30% decrease in market prices as of those dates. The selected 30% hypothetical increase and decrease does not reflect the best or worst case scenario. Indeed, results from declines could be far worse due both to the nature of equity markets and the aforementioned concentrations existing in our equity investment portfolio. Dollar amounts are in millions.
 
 New ([source](sources/brk-2024.html#mda-0565)): The following table summarizes our investments in equity securities, excluding our investments in Kraft Heinz and Occidental common stocks that are accounted for under the equity method, and the estimated effects of a hypothetical 30% increase and a 30% decrease in market prices as December 31, 2024 and 2023. The selected 30% hypothetical increase and decrease does not represent the best or worst case scenario. Indeed, results from declines could be far worse due both to the nature of equity markets and the concentrations existing in our investment portfolio. Dollar amounts are in millions.
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
+## c2d437561c88 · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
+
+Old ([source](sources/brk-2023.html#mda-0316)): Percentage change 2023 vs 2022 2022 vs 2021
+
+New ([source](sources/brk-2024.html#mda-0302)): Percentage change 2024 vs 2023 2023 vs 2022
 
 Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
 
@@ -1224,6 +1382,18 @@ Old ([source](sources/brk-2023.html#mda-0366)): Aggregate revenues of our other 
 Old ([source](sources/brk-2023.html#mda-0367)): Pre-tax earnings of the other building products businesses were approximately $2.1 billion in 2023, a decrease of 11.4% compared to 2022. Pre-tax earnings as a percentage of revenues were 14.7% in 2023, a 0.3 percentage point decrease compared to 2022. The earnings decline in 2023 was driven by lower sales volumes, reduced manufacturing efficiencies and higher losses from restructurings, plant closures and divestitures in 2023, partially offset by lower raw materials costs and energy costs as well as reduced freight, shipping and utilities expenses. Earnings in 2022 benefited from higher selling prices, strong demand in certain product categories and an increase in gains from a business divestiture and asset sales.
 
 New ([source](sources/brk-2024.html#mda-0353)): Aggregate revenues of our other building products businesses were approximately $14.5 billion in 2023, a decrease of 10.0% versus 2022. The decline in revenues reflected overall lower sales volumes and changes in product mix, partly offset by higher average selling prices. Pre-tax earnings of the other building products businesses were approximately $2.1 billion in 2023, a decrease of 11.4% compared to 2022. Pre-tax earnings as a percentage of revenues were 14.7% in 2023, a 0.3 percentage point decrease compared to 2022. The earnings decline in 2023 was driven by lower sales volumes, reduced manufacturing efficiencies and losses from restructurings, plant closures and divestitures in 2023, partially offset by lower raw material costs and energy costs as well as reduced freight, shipping and utilities expenses.
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
+## f29b214a2d40 · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
+
+Old ([source](sources/brk-2023.html#mda-0423)): 2022 versus 2021
+
+New ([source](sources/brk-2024.html#mda-0259)): 2024 versus 2023
 
 Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
 
@@ -2205,18 +2375,6 @@ Review rule: Disclosure text removed.
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
-## 2e677ad3c3bc · added · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: unmatched; uncertain match.
-
-Old: no matched passage in this section.
-
-New ([source](sources/brk-2024.html#mda-0005)): Through our subsidiaries, we engage in numerous diverse business activities. The business segment data \(Note 26 to the accompanying Consolidated Financial Statements\) should be referenced in conjunction with this discussion.
-
-Review rule: Disclosure text added.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
 ## 2e6f58aa946a · added · low · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: unmatched; uncertain match.
@@ -2505,18 +2663,6 @@ Review rule: Disclosure text removed.
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
-## 3d0ef1675f64 · removed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: unmatched; uncertain match.
-
-Old ([source](sources/brk-2023.html#mda-0351)): PCC’s revenues were $7.5 billion in 2022, an increase of $1.1 billion \(16.5%\) compared to 2021. The revenue increase in 2022 was primarily attributable to higher demand for aerospace products. Commercial aircraft delivery rates by original equipment manufacturers \(“OEMs”\) of narrow-body aircraft rebounded since the onset of the pandemic. Deliveries of wide- body aircraft were relatively low, in part, attributable to the pause in the Boeing 787 program. However, Boeing resumed deliveries in the third quarter of 2022.
-
-New: no matched passage in this section.
-
-Review rule: Disclosure text removed.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
 ## 3d4cfe36c223 · added · low · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: unmatched; uncertain match.
@@ -2673,6 +2819,8 @@ Review rule: Disclosure text changed.
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
+Calculated from the cited passages: revenue, reported growth rate, -14.7 percent in 2023 to -14.7 in 2023. Absolute change 0.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
+
 ## 4531ffe9400f · added · low · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: unmatched; uncertain match.
@@ -2706,6 +2854,18 @@ Old ([source](sources/brk-2023.html#mda-0208)): 4.7 \(19.6\) \(2.5\) 4.0 2.9 \(3
 New: no matched passage in this section.
 
 Review rule: Disclosure text removed.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
+## 460b20927633 · changed · low · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
+
+Old ([source](sources/brk-2023.html#mda-0005)): Through our subsidiaries, we engage in numerous diverse business activities. We manage our operating businesses on an unusually decentralized basis. There are few centralized or integrated business functions. Our senior corporate management team participates in and is ultimately responsible for significant capital allocation decisions, investment activities and the selection of the Chief Executive to head each of the operating businesses. The business segment data \(Note 26 to the accompanying Consolidated Financial Statements\) should be read in conjunction with this discussion.
+
+New ([source](sources/brk-2024.html#mda-0005)): Through our subsidiaries, we engage in numerous diverse business activities. The business segment data \(Note 26 to the accompanying Consolidated Financial Statements\) should be referenced in conjunction with this discussion.
+
+Review rule: Disclosure text changed.
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
@@ -2848,18 +3008,6 @@ Observed text comparison in Item 7 — MD&amp;A. Alignment: unmatched; uncertain
 Old: no matched passage in this section.
 
 New ([source](sources/brk-2024.html#mda-0619)): 39,378 62,995
-
-Review rule: Disclosure text added.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
-## 4b43afb2f7df · added · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: unmatched; uncertain match.
-
-Old: no matched passage in this section.
-
-New ([source](sources/brk-2024.html#mda-0332)): PCC’s revenues were $9.3 billion in 2023, an increase of $1.7 billion \(22.7%\) compared to 2022. The revenue increase in 2023 was primarily attributable to higher demand for aerospace products, and, to a lesser degree, power generation products. PCC’s pre-tax earnings were $1.5 billion in 2023, an increase of 30.0% compared to 2022 attributable to increases in sales and manufacturing and operating efficiencies in aerospace businesses, partially offset by operating losses in energy products businesses.
 
 Review rule: Disclosure text added.
 
@@ -3570,18 +3718,6 @@ Old: no matched passage in this section.
 New ([source](sources/brk-2024.html#mda-0358)): Consumer products group pre-tax earnings increased $172 million \(10.9%\) in 2024 versus 2023. The increase was primarily attributable to higher earnings from our apparel and footwear businesses and Duracell, partially offset by lower earnings from Jazwares. Apparel and footwear earnings increased 37.0% in 2024 from 2023, primarily due to gross sales margin rate increases from lower sales markdowns, lower manufacturing costs and increased gains on asset sales, as well as from the favorable effects of past restructuring and cost management efforts. The earnings increase at Duracell was attributable to increased gross sales margins and lower selling, general and administrative expenses, including lower restructuring costs. The decline in earnings from Jazwares in 2024 was primarily due to increased amortization expense, as well as reduced orders from retailers during the fourth quarter.
 
 Review rule: Disclosure text added.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
-## 73aed2fdd931 · removed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: unmatched; uncertain match.
-
-Old ([source](sources/brk-2023.html#mda-0005)): Through our subsidiaries, we engage in numerous diverse business activities. We manage our operating businesses on an unusually decentralized basis. There are few centralized or integrated business functions. Our senior corporate management team participates in and is ultimately responsible for significant capital allocation decisions, investment activities and the selection of the Chief Executive to head each of the operating businesses. The business segment data \(Note 26 to the accompanying Consolidated Financial Statements\) should be read in conjunction with this discussion.
-
-New: no matched passage in this section.
-
-Review rule: Disclosure text removed.
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
@@ -5541,6 +5677,8 @@ Review rule: Disclosure text changed.
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
+Calculated from the cited passages: revenue, reported growth rate, -6.9 percent in 2023 to -6.9 in 2023. Absolute change 0.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
+
 ## d1ccb244228a · removed · low · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: unmatched; uncertain match.
@@ -5734,8 +5872,6 @@ New ([source](sources/brk-2024.html#mda-0442)): Revenues were $52.6 billion in 2
 Review rule: Disclosure text changed.
 
 Analyst interpretation: Pending. No investment conclusion generated.
-
-Calculated from the cited passages: revenue, reported growth rate, 1.9 percent in 2022 to 1.9 in 2022. Absolute change 0.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 ## dba46830ce32 · added · low · needs_review
 
@@ -6601,18 +6737,6 @@ Review rule: Disclosure text changed.
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
-## 034f70455ad6 · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
-
-Old ([source](sources/brk-2023.html#mda-0434)): 2022 versus 2021
-
-New ([source](sources/brk-2024.html#mda-0321)): 2024 versus 2023
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
 ## 0726cb5e1876 · changed · low · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
@@ -6620,78 +6744,6 @@ Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
 Old ([source](sources/brk-2023.html#mda-0579)): December 31, 2022 Investments in equity securities
 
 New ([source](sources/brk-2024.html#mda-0570)): December 31, 2024 Investments in equity securities
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
-## 0e251329d4b8 · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
-
-Old ([source](sources/brk-2023.html#mda-0056)): 2022 versus 2021
-
-New ([source](sources/brk-2024.html#mda-0079)): 2023 versus 2022
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
-## 1e5f756249e9 · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
-
-Old ([source](sources/brk-2023.html#mda-0370)): 2022 versus 2021
-
-New ([source](sources/brk-2024.html#mda-0106)): 2024 versus 2023
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
-## 36dd6a064a9a · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
-
-Old ([source](sources/brk-2023.html#mda-0385)): 2022 versus 2021
-
-New ([source](sources/brk-2024.html#mda-0220)): 2024 versus 2023
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
-## 431842e67bce · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
-
-Old ([source](sources/brk-2023.html#mda-0349)): 2022 versus 2021
-
-New ([source](sources/brk-2024.html#mda-0072)): 2024 versus 2023
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
-## 7df0074080bb · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
-
-Old ([source](sources/brk-2023.html#mda-0162)): Percentage change 2023 vs 2022 2022 vs 2021
-
-New ([source](sources/brk-2024.html#mda-0165)): Percentage change 2024 vs 2023 2023 vs 2022
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
-## 8ad5d2cb9d4f · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
-
-Old ([source](sources/brk-2023.html#mda-0406)): Percentage change 2023 vs 2022 2022 vs 2021
-
-New ([source](sources/brk-2024.html#mda-0289)): Percentage change 2024 vs 2023 2023 vs 2022
 
 Review rule: Date/year-only rollover; all other text unchanged.
 
@@ -6709,42 +6761,6 @@ Review rule: Date/year-only rollover; all other text unchanged.
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
-## 93e843a18020 · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
-
-Old ([source](sources/brk-2023.html#mda-0170)): A summary of cash and investments held in our insurance businesses as of December 31, 2023 and 2022 follows \(in millions\).
-
-New ([source](sources/brk-2024.html#mda-0175)): A summary of cash and investments held in our insurance businesses as of December 31, 2024 and 2023 follows \(in millions\).
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
-## 95465985328f · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
-
-Old ([source](sources/brk-2023.html#mda-0632)): Our net assets subject to financial statement translation into U.S. Dollars are primarily in our insurance, utilities and energy and certain manufacturing subsidiaries. A portion of our financial statement translation-related impact from changes in foreign currency rates is recorded in other comprehensive income. In addition, we include gains or losses from changes in foreign currency exchange rates in net earnings related to non-U.S. Dollar denominated assets and liabilities of Berkshire and its U.S.-based subsidiaries. A summary of these gains \(losses\), after-tax, for each of the years ending December 31, 2023 and 2022 follows \(in millions\).
-
-New ([source](sources/brk-2024.html#mda-0630)): Our net assets subject to financial statement translation into U.S. Dollars are primarily in our insurance, utilities and energy and certain manufacturing subsidiaries. A portion of our financial statement translation-related impact from changes in foreign currency rates is recorded in other comprehensive income. In addition, we include gains or losses from changes in foreign currency exchange rates in net earnings related to non-U.S. Dollar denominated assets and liabilities of Berkshire and its U.S.-based subsidiaries. A summary of these gains \(losses\), after-tax, for each of the years ending December 31, 2024 and 2023 follows \(in millions\).
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
-## 9a4b629b65d0 · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
-
-Old ([source](sources/brk-2023.html#mda-0230)): 2022 versus 2021
-
-New ([source](sources/brk-2024.html#mda-0113)): 2023 versus 2022
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
 ## a471f721915e · changed · low · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
@@ -6752,54 +6768,6 @@ Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
 Old ([source](sources/brk-2023.html#mda-0596)): December 31, 2022 Assets: Investments in fixed maturity securities Investments in equity securities\* Loans and finance receivables Liabilities: Notes payable and other borrowings: Insurance and other Railroad, utilities and energy
 
 New ([source](sources/brk-2024.html#mda-0593)): December 31, 2024 Assets: Investments in fixed maturity securities Investments in equity securities\* Loans and finance receivables Liabilities: Notes payable and other borrowings: Insurance and other Railroad, utilities and energy
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
-## a97425fcae99 · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
-
-Old ([source](sources/brk-2023.html#mda-0266)): 2022 versus 2021
-
-New ([source](sources/brk-2024.html#mda-0042)): 2024 versus 2023
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
-## b2c234c4b147 · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
-
-Old ([source](sources/brk-2023.html#mda-0213)): Cars/Units 2022
-
-New ([source](sources/brk-2024.html#mda-0212)): Cars/Units 2023
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
-## c2d437561c88 · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
-
-Old ([source](sources/brk-2023.html#mda-0316)): Percentage change 2023 vs 2022 2022 vs 2021
-
-New ([source](sources/brk-2024.html#mda-0302)): Percentage change 2024 vs 2023 2023 vs 2022
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
-## f29b214a2d40 · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
-
-Old ([source](sources/brk-2023.html#mda-0423)): 2022 versus 2021
-
-New ([source](sources/brk-2024.html#mda-0259)): 2024 versus 2023
 
 Review rule: Date/year-only rollover; all other text unchanged.
 

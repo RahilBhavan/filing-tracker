@@ -8,7 +8,7 @@ Old: Microsoft Corporation, CIK 789019, 10-K, FY 2023, period end 2023-06-30, fi
 
 New: Microsoft Corporation, CIK 789019, 10-K, FY 2024, period end 2024-06-30, filed 2024-07-30, accession 0000950170-24-087843. [Source snapshot](sources/msft-2024.html).
 
-Counts: added=29, changed=191, removed=35, unchanged=138
+Counts: added=28, changed=192, removed=34, unchanged=138
 
 Full excerpts and all unchanged matches are in changes.csv and comparison.json. Omitted passages mean unmatched text in the selected section, not proof that a disclosure disappeared from the entire filing.
 
@@ -681,8 +681,6 @@ Analyst interpretation: Pending. No investment conclusion generated.
 
 Calculated from the cited passages: revenue, reported change amount, 12600000000.0 USD in 2023 to 17800000000.0 in 2024. Absolute change 5200000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
-Calculated from the cited passages: revenue, reported level, 19.0 percent in 2023 to 22.0 in 2024. Absolute change 3.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
-
 Related assumption cloud: Example research hypothesis: cloud revenue growth remains durable.. Matched terms: Azure. Analyst assessment pending.
 
 ## 37c585001282 · changed · high · needs_review
@@ -743,7 +741,7 @@ Analyst interpretation: Pending. No investment conclusion generated.
 
 Calculated from the cited passages: operating expenses, reported change amount, 4200000000.0 USD in 2023 to 3900000000.0 in 2024. Absolute change -300000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
-Calculated from the cited passages: operating expenses, reported level, 21.0 percent in 2023 to 31.0 in 2024. Absolute change 10.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
+Calculated from the cited passages: operating expenses, reported growth rate, 21.0 percent in 2023 to 31.0 in 2024. Absolute change 10.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 Related assumption cloud: Example research hypothesis: cloud revenue growth remains durable.. Matched terms: Azure. Analyst assessment pending.
 
@@ -761,7 +759,7 @@ Analyst interpretation: Pending. No investment conclusion generated.
 
 Calculated from the cited passages: revenue, reported change amount, 13600000000.0 USD in 2023 to 33200000000.0 in 2024. Absolute change 19600000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
-Calculated from the cited passages: revenue, reported level, 7.0 percent in 2023 to 16.0 in 2024. Absolute change 9.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
+Calculated from the cited passages: revenue, reported growth rate, 7.0 percent in 2023 to 16.0 in 2024. Absolute change 9.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 Related assumption cloud: Example research hypothesis: cloud revenue growth remains durable.. Matched terms: Azure. Analyst assessment pending.
 
@@ -779,7 +777,7 @@ Analyst interpretation: Pending. No investment conclusion generated.
 
 Calculated from the cited passages: gross margin, reported change amount, 8900000000.0 USD in 2023 to 11600000000.0 in 2024. Absolute change 2700000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
-Calculated from the cited passages: gross margin, reported level, 17.0 percent in 2023 to 19.0 in 2024. Absolute change 2.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
+Calculated from the cited passages: gross margin, reported growth rate, 17.0 percent in 2023 to 19.0 in 2024. Absolute change 2.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 Related assumption cloud: Example research hypothesis: cloud revenue growth remains durable.. Matched terms: Azure. Analyst assessment pending.
 
@@ -809,9 +807,9 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
-Calculated from the cited passages: revenue, reported change amount, 3200000000.0 USD in 2023 to 8300000000.0 in 2024. Absolute change 5100000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
+Calculated from the cited passages: cost of revenue, reported change amount, 3200000000.0 USD in 2023 to 8300000000.0 in 2024. Absolute change 5100000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
-Calculated from the cited passages: revenue, reported level, 5.0 percent in 2023 to 13.0 in 2024. Absolute change 8.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
+Calculated from the cited passages: cost of revenue, reported growth rate, 5.0 percent in 2023 to 13.0 in 2024. Absolute change 8.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 Related assumption cloud: Example research hypothesis: cloud revenue growth remains durable.. Matched terms: Microsoft Cloud. Analyst assessment pending.
 
@@ -905,8 +903,6 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
-Calculated from the cited passages: operating income, reported level, 8.0 percent in 2023 to 22.0 in 2024. Absolute change 14.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
-
 ## 0fcf22678edb · changed · medium · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
@@ -919,6 +915,18 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
+## 138dd67ac920 · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
+
+Old ([source](sources/msft-2023.html#mda-0146)): Year Ended June 30, \| \| \| 2023 \| \| \| \| 2022 \|
+
+New ([source](sources/msft-2024.html#mda-0141)): Year Ended June 30, \| \| \| 2024 \| \| \| \| 2023 \|
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
 ## 1502b348ced7 · changed · medium · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
@@ -926,6 +934,18 @@ Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
 Old ([source](sources/msft-2023.html#mda-0204)): March 31, 2024 \| \| \| 10,801 \|
 
 New ([source](sources/msft-2024.html#mda-0196)): March 31, 2025 \| \| \| 12,076 \|
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
+## 15a07166405b · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
+
+Old ([source](sources/msft-2023.html#mda-0130)): \(In millions, except percentages\) \| \| 2023 \| \| \| 2022 \| \| \| PercentageChange \|
+
+New ([source](sources/msft-2024.html#mda-0125)): \(In millions, except percentages\) \| \| 2024 \| \| \| 2023 \| \| \| PercentageChange \|
 
 Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
 
@@ -967,9 +987,23 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
-Calculated from the cited passages: operating income, reported change amount, 4000000000.0 USD in 2023 to 2900000000.0 in 2024. Absolute change -1100000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
+Calculated from the cited passages: operating income, reported change amount, -4000000000.0 USD in 2023 to 2900000000.0 in 2024. Absolute change 6900000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
-Calculated from the cited passages: operating income, reported level, 20.0 percent in 2023 to 17.0 in 2024. Absolute change -3.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
+Calculated from the cited passages: operating income, reported growth rate, -20.0 percent in 2023 to 17.0 in 2024. Absolute change 37.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
+
+## 1ca32b03c54d · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
+
+Old ([source](sources/msft-2023.html#mda-0159)): Our effective tax rate for fiscal years 2023 and 2022 was 19% and 13%, respectively. The increase in our effective tax rate was primarily due to a $3.3 billion net income tax benefit in the first quarter of fiscal year 2022 related to the transfer of intangible properties and a decrease in tax benefits relating to stock-based compensation.
+
+New ([source](sources/msft-2024.html#mda-0154)): Our effective tax rate for fiscal years 2024 and 2023 was 18% and 19%, respectively. The decrease in our effective tax rate was primarily due to tax benefits from tax law changes, including the impact from the issuance of Notice 2023-55 and Notice 2023-80 by the Internal Revenue Service \(“IRS”\) and U.S. Treasury Department. Notice 2023-55, issued in the first quarter of fiscal year 2024, delayed the effective date of final foreign tax credit regulations to fiscal year 2024 for Microsoft. Notice 2023-80, issued in the second quarter of fiscal year 2024, further delayed the effective date of final foreign tax credit regulations indefinitely.
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
+Calculated from the cited passages: effective tax rate, reported level, 19.0 percent in 2023 to 18.0 in 2024. Absolute change -1.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 ## 1ef3d75f5940 · changed · medium · needs_review
 
@@ -982,8 +1016,6 @@ New ([source](sources/msft-2024.html#mda-0060)): Operating income \| \| \| 109,4
 Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
 
 Analyst interpretation: Pending. No investment conclusion generated.
-
-Calculated from the cited passages: operating income, reported level, 6.0 percent in 2023 to 24.0 in 2024. Absolute change 18.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 ## 21d284db27a8 · changed · medium · needs_review
 
@@ -1035,10 +1067,6 @@ Analyst interpretation: Pending. No investment conclusion generated.
 
 Calculated from the cited passages: revenue, reported change amount, 617000000.0 USD in 2023 to 418000000.0 in 2024. Absolute change -199000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
-Calculated from the cited passages: revenue, reported growth rate, 11.0 percent in 2023 to 12.0 in 2024. Absolute change 1.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
-
-Calculated from the cited passages: revenue, reported level, 5.0 percent in 2023 to 3.0 in 2024. Absolute change -2.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
-
 ## 2bb5efd235b8 · changed · medium · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
@@ -1058,6 +1086,30 @@ Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
 Old ([source](sources/msft-2023.html#mda-0138)): General and administrative \| \| $ \| 7,575 \| \| \| $ \| 5,900 \| \| 28% \|
 
 New ([source](sources/msft-2024.html#mda-0133)): General and administrative \| \| $ \| 7,609 \| \| \| $ \| 7,575 \| \| 0% \|
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
+## 3412680e4be9 · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
+
+Old ([source](sources/msft-2023.html#mda-0080)): \(In millions, except percentages\) \| \| 2023 \| \| \| 2022 \| \| \| PercentageChange \|
+
+New ([source](sources/msft-2024.html#mda-0078)): \(In millions, except percentages\) \| \| 2024 \| \| \| 2023 \| \| \| PercentageChange \|
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
+## 353e657abd60 · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
+
+Old ([source](sources/msft-2023.html#mda-0212)): \(In millions\) \| \| 2024 \| \| \| Thereafter \| \| \| Total \|
+
+New ([source](sources/msft-2024.html#mda-0204)): \(In millions\) \| \| 2025 \| \| \| Thereafter \| \| \| Total \|
 
 Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
 
@@ -1125,9 +1177,7 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
-Calculated from the cited passages: revenue, reported change amount, 3200000000.0 USD in 2023 to 1700000000.0 in 2024. Absolute change -1500000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
-
-Calculated from the cited passages: revenue, reported level, 13.0 percent in 2023 to 8.0 in 2024. Absolute change -5.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
+Calculated from the cited passages: revenue, reported change amount, -3200000000.0 USD in 2023 to 1700000000.0 in 2024. Absolute change 4900000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 ## 4470cc2eba75 · changed · medium · needs_review
 
@@ -1152,8 +1202,6 @@ New ([source](sources/msft-2024.html#mda-0059)): Gross margin \| \| \| 171,008 \
 Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
 
 Analyst interpretation: Pending. No investment conclusion generated.
-
-Calculated from the cited passages: gross margin, reported level, 8.0 percent in 2023 to 17.0 in 2024. Absolute change 9.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 ## 47df5e200a7f · changed · medium · needs_review
 
@@ -1183,7 +1231,7 @@ Analyst interpretation: Pending. No investment conclusion generated.
 
 Calculated from the cited passages: revenue, reported change amount, 12900000000.0 USD in 2023 to 17500000000.0 in 2024. Absolute change 4600000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
-Calculated from the cited passages: revenue, reported level, 17.0 percent in 2023 to 20.0 in 2024. Absolute change 3.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
+Calculated from the cited passages: revenue, reported growth rate, 17.0 percent in 2023 to 20.0 in 2024. Absolute change 3.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 ## 4b69598c2960 · changed · medium · needs_review
 
@@ -1245,8 +1293,6 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
-Calculated from the cited passages: operating income, reported level, 8.0 percent in 2023 to 22.0 in 2024. Absolute change 14.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
-
 ## 56ff0487a2c2 · changed · medium · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
@@ -1259,9 +1305,9 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
-Calculated from the cited passages: revenue, reported change amount, 315000000.0 USD in 2023 to 306000000.0 in 2024. Absolute change -9000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
+Calculated from the cited passages: revenue, reported change amount, 315000000.0 USD in 2023 to -306000000.0 in 2024. Absolute change -621000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
-Calculated from the cited passages: revenue, reported level, 4.0 percent in 2023 to 4.0 in 2024. Absolute change 0.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
+Calculated from the cited passages: revenue, reported growth rate, 4.0 percent in 2023 to -4.0 in 2024. Absolute change -8.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 ## 5bdf26997a01 · changed · medium · needs_review
 
@@ -1277,7 +1323,7 @@ Analyst interpretation: Pending. No investment conclusion generated.
 
 Calculated from the cited passages: operating income, reported change amount, 4500000000.0 USD in 2023 to 6400000000.0 in 2024. Absolute change 1900000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
-Calculated from the cited passages: operating income, reported level, 15.0 percent in 2023 to 19.0 in 2024. Absolute change 4.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
+Calculated from the cited passages: operating income, reported growth rate, 15.0 percent in 2023 to 19.0 in 2024. Absolute change 4.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 ## 5ef1c7ace3ff · changed · medium · needs_review
 
@@ -1291,7 +1337,7 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
-Calculated from the cited passages: revenue, reported growth rate, 24.0 percent in 2023 to 15.0 in 2024. Absolute change -9.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
+Calculated from the cited passages: revenue, reported growth rate, -24.0 percent in 2023 to -15.0 in 2024. Absolute change 9.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 ## 61f8e0f32b3e · changed · medium · needs_review
 
@@ -1317,9 +1363,9 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
-Calculated from the cited passages: revenue, reported change amount, 5200000000.0 USD in 2023 to 7300000000.0 in 2024. Absolute change 2100000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
+Calculated from the cited passages: revenue, reported change amount, -5200000000.0 USD in 2023 to 7300000000.0 in 2024. Absolute change 12500000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
-Calculated from the cited passages: revenue, reported level, 9.0 percent in 2023 to 13.0 in 2024. Absolute change 4.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
+Calculated from the cited passages: revenue, reported growth rate, -9.0 percent in 2023 to 13.0 in 2024. Absolute change 22.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 ## 6df1ee5b3400 · changed · medium · needs_review
 
@@ -1361,7 +1407,7 @@ Analyst interpretation: Pending. No investment conclusion generated.
 
 Calculated from the cited passages: revenue, reported change amount, 140000000.0 USD in 2023 to 237000000.0 in 2024. Absolute change 97000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
-Calculated from the cited passages: revenue, reported level, 2.0 percent in 2023 to 4.0 in 2024. Absolute change 2.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
+Calculated from the cited passages: revenue, reported growth rate, 2.0 percent in 2023 to 4.0 in 2024. Absolute change 2.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 ## 7cc7f62812e7 · changed · medium · needs_review
 
@@ -1437,7 +1483,7 @@ Analyst interpretation: Pending. No investment conclusion generated.
 
 Calculated from the cited passages: operating income, reported change amount, 4700000000.0 USD in 2023 to 11700000000.0 in 2024. Absolute change 7000000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
-Calculated from the cited passages: operating income, reported level, 14.0 percent in 2023 to 31.0 in 2024. Absolute change 17.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
+Calculated from the cited passages: operating income, reported growth rate, 14.0 percent in 2023 to 31.0 in 2024. Absolute change 17.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 ## 821bf15d285c · changed · medium · needs_review
 
@@ -1464,10 +1510,6 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 Analyst interpretation: Pending. No investment conclusion generated.
 
 Calculated from the cited passages: revenue, reported change amount, 750000000.0 USD in 2023 to 1000000000.0 in 2024. Absolute change 250000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
-
-Calculated from the cited passages: revenue, reported growth rate, 24.0 percent in 2023 to 24.0 in 2024. Absolute change 0.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
-
-Calculated from the cited passages: revenue, reported level, 16.0 percent in 2023 to 19.0 in 2024. Absolute change 3.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 ## 833b556a3a5b · changed · medium · needs_review
 
@@ -1529,8 +1571,6 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
-Calculated from the cited passages: gross margin, reported level, 8.0 percent in 2023 to 17.0 in 2024. Absolute change 9.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
-
 ## 99a5d9695a9a · changed · medium · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
@@ -1543,7 +1583,17 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
-Calculated from the cited passages: revenue, reported level, 7.0 percent in 2023 to 16.0 in 2024. Absolute change 9.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
+## 99e430dc13c3 · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
+
+Old ([source](sources/msft-2023.html#mda-0058)): \(In millions, except percentages and per share amounts\) \| \| 2023 \| \| \| 2022 \| \| PercentageChange \|
+
+New ([source](sources/msft-2024.html#mda-0057)): \(In millions, except percentages and per share amounts\) \| \| 2024 \| \| \| 2023 \| \| PercentageChange \|
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
 
 ## 9a47a510f5af · changed · medium · needs_review
 
@@ -1605,6 +1655,18 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
+## aef7249ec880 · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
+
+Old ([source](sources/msft-2023.html#mda-0166)): We are subject to income tax in many jurisdictions outside the U.S. Our operations in certain jurisdictions remain subject to examination for tax years 1996 to 2022, some of which are currently under audit by local tax authorities. The resolution of each of these audits is not expected to be material to our consolidated financial statements.
+
+New ([source](sources/msft-2024.html#mda-0160)): We are subject to income tax in many jurisdictions outside the U.S. Our operations in certain jurisdictions remain subject to examination for tax years 1996 to 2023, some of which are currently under audit by local tax authorities. The resolution of each of these audits is not expected to be material to our consolidated financial statements.
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
 ## b01d4fed0de1 · changed · medium · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
@@ -1619,7 +1681,7 @@ Analyst interpretation: Pending. No investment conclusion generated.
 
 Calculated from the cited passages: revenue, reported change amount, 1300000000.0 USD in 2023 to 1400000000.0 in 2024. Absolute change 100000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
-Calculated from the cited passages: revenue, reported level, 10.0 percent in 2023 to 9.0 in 2024. Absolute change -1.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
+Calculated from the cited passages: revenue, reported growth rate, 10.0 percent in 2023 to 9.0 in 2024. Absolute change -1.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 ## b5bef2b1329f · changed · medium · needs_review
 
@@ -1633,6 +1695,18 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
+## be2e0129d676 · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
+
+Old ([source](sources/msft-2023.html#mda-0170)): \(In millions, except percentages and per share amounts\) \| \| 2023 \| \| \| 2022 \| \| PercentageChange \|
+
+New ([source](sources/msft-2024.html#mda-0164)): \(In millions, except percentages and per share amounts\) \| \| 2024 \| \| \| 2023 \| \| PercentageChange \|
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
 ## c6fd3ea99caf · changed · medium · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
@@ -1640,6 +1714,18 @@ Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
 Old ([source](sources/msft-2023.html#mda-0218)): Purchase commitments \(d\) \| \| \| 64,703 \| \| \| \| 3,115 \| \| \| \| 67,818 \|
 
 New ([source](sources/msft-2024.html#mda-0210)): Purchase commitments \(d\) \| \| \| 68,280 \| \| \| \| 3,742 \| \| \| \| 72,022 \|
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
+## ca2ada012722 · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
+
+Old ([source](sources/msft-2023.html#mda-0123)): \(In millions, except percentages\) \| \| 2023 \| \| \| 2022 \| \| \| PercentageChange \|
+
+New ([source](sources/msft-2024.html#mda-0118)): \(In millions, except percentages\) \| \| 2024 \| \| \| 2023 \| \| \| PercentageChange \|
 
 Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
 
@@ -1688,6 +1774,18 @@ Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
 Old ([source](sources/msft-2023.html#mda-0083)): Intelligent Cloud \| \| \| 87,907 \| \| \| \| 74,965 \| \| \| 17% \|
 
 New ([source](sources/msft-2024.html#mda-0081)): Intelligent Cloud \| \| \| 105,362 \| \| \| \| 87,907 \| \| \| 20% \|
+
+Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
+
+Analyst interpretation: Pending. No investment conclusion generated.
+
+## d4dc59409981 · changed · medium · needs_review
+
+Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
+
+Old ([source](sources/msft-2023.html#mda-0137)): \(In millions, except percentages\) \| \| 2023 \| \| \| 2022 \| \| PercentageChange \|
+
+New ([source](sources/msft-2024.html#mda-0132)): \(In millions, except percentages\) \| \| 2024 \| \| \| 2023 \| \| PercentageChange \|
 
 Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
 
@@ -1779,7 +1877,7 @@ Analyst interpretation: Pending. No investment conclusion generated.
 
 Calculated from the cited passages: revenue, reported change amount, 5900000000.0 USD in 2023 to 8500000000.0 in 2024. Absolute change 2600000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
-Calculated from the cited passages: revenue, reported level, 9.0 percent in 2023 to 12.0 in 2024. Absolute change 3.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
+Calculated from the cited passages: revenue, reported growth rate, 9.0 percent in 2023 to 12.0 in 2024. Absolute change 3.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 ## e568a7562c2c · changed · medium · needs_review
 
@@ -1792,8 +1890,6 @@ New ([source](sources/msft-2024.html#mda-0168)): Operating income \| \| $ \| 109
 Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
 
 Analyst interpretation: Pending. No investment conclusion generated.
-
-Calculated from the cited passages: operating income, reported level, 6.0 percent in 2023 to 24.0 in 2024. Absolute change 18.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 ## e58d0419a9c2 · changed · medium · needs_review
 
@@ -1903,8 +1999,6 @@ Review rule: Disclosure text changed; Number tokens changed; period, unit, and s
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
-Calculated from the cited passages: gross margin, reported level, 8.0 percent in 2023 to 17.0 in 2024. Absolute change 9.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
-
 ## f2218b0991ca · changed · medium · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
@@ -1931,7 +2025,7 @@ Analyst interpretation: Pending. No investment conclusion generated.
 
 Calculated from the cited passages: gross margin, reported change amount, 5800000000.0 USD in 2023 to 6500000000.0 in 2024. Absolute change 700000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
-Calculated from the cited passages: gross margin, reported level, 12.0 percent in 2023 to 12.0 in 2024. Absolute change 0.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
+Calculated from the cited passages: gross margin, reported growth rate, 12.0 percent in 2023 to 12.0 in 2024. Absolute change 0.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 ## f86377f9be5e · changed · medium · needs_review
 
@@ -1947,7 +2041,7 @@ Analyst interpretation: Pending. No investment conclusion generated.
 
 Calculated from the cited passages: operating expenses, reported change amount, 5300000000.0 USD in 2023 to 4000000000.0 in 2024. Absolute change -1300000000.0 USD. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
-Calculated from the cited passages: operating expenses, reported level, 10.0 percent in 2023 to 7.0 in 2024. Absolute change -3.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
+Calculated from the cited passages: operating expenses, reported growth rate, 10.0 percent in 2023 to 7.0 in 2024. Absolute change -3.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 ## f9072481f7ac · changed · medium · needs_review
 
@@ -1960,8 +2054,6 @@ New ([source](sources/msft-2024.html#mda-0165)): Gross margin \| \| $ \| 171,008
 Review rule: Disclosure text changed; Number tokens changed; period, unit, and significance need review.
 
 Analyst interpretation: Pending. No investment conclusion generated.
-
-Calculated from the cited passages: gross margin, reported level, 8.0 percent in 2023 to 17.0 in 2024. Absolute change 9.0 percentage points. Verify constant metric definition and scope; no currency conversion or restatement inference.
 
 ## f9dbcd3df60f · changed · medium · needs_review
 
@@ -2519,18 +2611,6 @@ Review rule: Disclosure text changed.
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
-## 8b4249d89665 · added · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: unmatched; uncertain match.
-
-Old: no matched passage in this section.
-
-New ([source](sources/msft-2024.html#mda-0154)): Our effective tax rate for fiscal years 2024 and 2023 was 18% and 19%, respectively. The decrease in our effective tax rate was primarily due to tax benefits from tax law changes, including the impact from the issuance of Notice 2023-55 and Notice 2023-80 by the Internal Revenue Service \(“IRS”\) and U.S. Treasury Department. Notice 2023-55, issued in the first quarter of fiscal year 2024, delayed the effective date of final foreign tax credit regulations to fiscal year 2024 for Microsoft. Notice 2023-80, issued in the second quarter of fiscal year 2024, further delayed the effective date of final foreign tax credit regulations indefinitely.
-
-Review rule: Disclosure text added.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
 ## 8b5e7cdb9241 · removed · low · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: unmatched; uncertain match.
@@ -2636,18 +2716,6 @@ Old ([source](sources/msft-2023.html#mda-0027)): Our revenue fluctuates quarterl
 New ([source](sources/msft-2024.html#mda-0026)): Our revenue fluctuates quarterly and is generally higher in the fourth quarter of our fiscal year. Fourth quarter revenue is driven by a higher volume of multi-year contracts executed during the period.
 
 Review rule: Disclosure text changed.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
-## abe8767c4b71 · removed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: unmatched; uncertain match.
-
-Old ([source](sources/msft-2023.html#mda-0159)): Our effective tax rate for fiscal years 2023 and 2022 was 19% and 13%, respectively. The increase in our effective tax rate was primarily due to a $3.3 billion net income tax benefit in the first quarter of fiscal year 2022 related to the transfer of intangible properties and a decrease in tax benefits relating to stock-based compensation.
-
-New: no matched passage in this section.
-
-Review rule: Disclosure text removed.
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
@@ -3071,54 +3139,6 @@ Review rule: Disclosure text changed.
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
-## 138dd67ac920 · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
-
-Old ([source](sources/msft-2023.html#mda-0146)): Year Ended June 30, \| \| \| 2023 \| \| \| \| 2022 \|
-
-New ([source](sources/msft-2024.html#mda-0141)): Year Ended June 30, \| \| \| 2024 \| \| \| \| 2023 \|
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
-## 15a07166405b · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
-
-Old ([source](sources/msft-2023.html#mda-0130)): \(In millions, except percentages\) \| \| 2023 \| \| \| 2022 \| \| \| PercentageChange \|
-
-New ([source](sources/msft-2024.html#mda-0125)): \(In millions, except percentages\) \| \| 2024 \| \| \| 2023 \| \| \| PercentageChange \|
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
-## 3412680e4be9 · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
-
-Old ([source](sources/msft-2023.html#mda-0080)): \(In millions, except percentages\) \| \| 2023 \| \| \| 2022 \| \| \| PercentageChange \|
-
-New ([source](sources/msft-2024.html#mda-0078)): \(In millions, except percentages\) \| \| 2024 \| \| \| 2023 \| \| \| PercentageChange \|
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
-## 353e657abd60 · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
-
-Old ([source](sources/msft-2023.html#mda-0212)): \(In millions\) \| \| 2024 \| \| \| Thereafter \| \| \| Total \|
-
-New ([source](sources/msft-2024.html#mda-0204)): \(In millions\) \| \| 2025 \| \| \| Thereafter \| \| \| Total \|
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
 ## 40930e331ef1 · changed · low · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
@@ -3167,18 +3187,6 @@ Review rule: Date/year-only rollover; all other text unchanged.
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
-## 99e430dc13c3 · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
-
-Old ([source](sources/msft-2023.html#mda-0058)): \(In millions, except percentages and per share amounts\) \| \| 2023 \| \| \| 2022 \| \| PercentageChange \|
-
-New ([source](sources/msft-2024.html#mda-0057)): \(In millions, except percentages and per share amounts\) \| \| 2024 \| \| \| 2023 \| \| PercentageChange \|
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
 ## a5c4ff0901c3 · changed · low · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual; uncertain match.
@@ -3203,18 +3211,6 @@ Review rule: Date/year-only rollover; all other text unchanged.
 
 Analyst interpretation: Pending. No investment conclusion generated.
 
-## aef7249ec880 · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
-
-Old ([source](sources/msft-2023.html#mda-0166)): We are subject to income tax in many jurisdictions outside the U.S. Our operations in certain jurisdictions remain subject to examination for tax years 1996 to 2022, some of which are currently under audit by local tax authorities. The resolution of each of these audits is not expected to be material to our consolidated financial statements.
-
-New ([source](sources/msft-2024.html#mda-0160)): We are subject to income tax in many jurisdictions outside the U.S. Our operations in certain jurisdictions remain subject to examination for tax years 1996 to 2023, some of which are currently under audit by local tax authorities. The resolution of each of these audits is not expected to be material to our consolidated financial statements.
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
 ## b1c6b208fa1b · changed · low · needs_review
 
 Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
@@ -3234,42 +3230,6 @@ Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
 Old ([source](sources/msft-2023.html#mda-0001)): The following Management’s Discussion and Analysis of Financial Condition and Results of Operations \(“MD&amp;A”\) is intended to help the reader understand the results of operations and financial condition of Microsoft Corporation. MD&amp;A is provided as a supplement to, and should be read in conjunction with, our consolidated financial statements and the accompanying Notes to Financial Statements \(Part II, Item 8 of this Form 10-K\). This section generally discusses the results of our operations for the year ended June 30, 2023 compared to the year ended June 30, 2022. For a discussion of the year ended June 30, 2022 compared to the year ended June 30, 2021, please refer to Part II, Item 7, “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in our Annual Report on Form 10-K for the year ended June 30, 2022.
 
 New ([source](sources/msft-2024.html#mda-0001)): The following Management’s Discussion and Analysis of Financial Condition and Results of Operations \(“MD&amp;A”\) is intended to help the reader understand the results of operations and financial condition of Microsoft Corporation. MD&amp;A is provided as a supplement to, and should be read in conjunction with, our consolidated financial statements and the accompanying Notes to Financial Statements \(Part II, Item 8 of this Form 10-K\). This section generally discusses the results of our operations for the year ended June 30, 2024 compared to the year ended June 30, 2023. For a discussion of the year ended June 30, 2023 compared to the year ended June 30, 2022, please refer to Part II, Item 7, “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in our Annual Report on Form 10-K for the year ended June 30, 2023.
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
-## be2e0129d676 · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
-
-Old ([source](sources/msft-2023.html#mda-0170)): \(In millions, except percentages and per share amounts\) \| \| 2023 \| \| \| 2022 \| \| PercentageChange \|
-
-New ([source](sources/msft-2024.html#mda-0164)): \(In millions, except percentages and per share amounts\) \| \| 2024 \| \| \| 2023 \| \| PercentageChange \|
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
-## ca2ada012722 · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
-
-Old ([source](sources/msft-2023.html#mda-0123)): \(In millions, except percentages\) \| \| 2023 \| \| \| 2022 \| \| \| PercentageChange \|
-
-New ([source](sources/msft-2024.html#mda-0118)): \(In millions, except percentages\) \| \| 2024 \| \| \| 2023 \| \| \| PercentageChange \|
-
-Review rule: Date/year-only rollover; all other text unchanged.
-
-Analyst interpretation: Pending. No investment conclusion generated.
-
-## d4dc59409981 · changed · low · needs_review
-
-Observed text comparison in Item 7 — MD&amp;A. Alignment: contextual.
-
-Old ([source](sources/msft-2023.html#mda-0137)): \(In millions, except percentages\) \| \| 2023 \| \| \| 2022 \| \| PercentageChange \|
-
-New ([source](sources/msft-2024.html#mda-0132)): \(In millions, except percentages\) \| \| 2024 \| \| \| 2023 \| \| PercentageChange \|
 
 Review rule: Date/year-only rollover; all other text unchanged.
 

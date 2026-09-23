@@ -1156,71 +1156,12 @@
       ],
       "numeric": {
         "date_only": false,
-        "comparisons": [
-          {
-            "metric": "cash and investments",
-            "unit": "USD",
-            "role": "reported level",
-            "old": {
-              "metric": "cash and investments",
-              "value": 9000000.0,
-              "unit": "USD",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 23,
-              "end": 33,
-              "raw": "$9 million",
-              "period": 2024,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "new": {
-              "metric": "cash and investments",
-              "value": 15000000.0,
-              "unit": "USD",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 23,
-              "end": 34,
-              "raw": "$15 million",
-              "period": 2025,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "absolute_change": 6000000.0,
-            "percentage_point_change": null,
-            "relative_change_percent": 66.666667,
-            "basis": "successive annual reported quantities",
-            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
-          }
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
-        "abstentions": [],
-        "old_facts": [
-          {
-            "metric": "cash and investments",
-            "value": 9000000.0,
-            "unit": "USD",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 23,
-            "end": 33,
-            "raw": "$9 million",
-            "period": 2024,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ],
-        "new_facts": [
-          {
-            "metric": "cash and investments",
-            "value": 15000000.0,
-            "unit": "USD",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 23,
-            "end": 34,
-            "raw": "$15 million",
-            "period": 2025,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ]
+        "old_facts": [],
+        "new_facts": []
       },
       "assumption_links": [],
       "old_citation": "sources/alder-2024.html#mda-0008",

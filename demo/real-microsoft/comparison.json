@@ -1278,7 +1278,7 @@
         "end": 17549
       },
       "method": "contextual",
-      "similarity": 0.63842,
+      "similarity": 0.66,
       "moved": false,
       "needs_review": true,
       "ambiguous_alignment": true,
@@ -2555,6 +2555,7 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence",
           "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
         "old_facts": [],
@@ -7128,40 +7129,6 @@
             },
             "absolute_change": 5200000000.0,
             "percentage_point_change": null,
-            "relative_change_percent": 41.269841,
-            "basis": "successive annual reported quantities",
-            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
-          },
-          {
-            "metric": "revenue",
-            "unit": "percent",
-            "role": "reported level",
-            "old": {
-              "metric": "revenue",
-              "value": 19.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 70,
-              "end": 74,
-              "raw": "19%",
-              "period": 2023,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "new": {
-              "metric": "revenue",
-              "value": 22.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 70,
-              "end": 74,
-              "raw": "22%",
-              "period": 2024,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "absolute_change": 3.0,
-            "percentage_point_change": 3.0,
             "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
@@ -7187,7 +7154,7 @@
             "metric": "revenue",
             "value": 19.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 70,
             "end": 74,
@@ -7209,7 +7176,7 @@
           },
           {
             "metric": "revenue",
-            "value": 1.0,
+            "value": -1.0,
             "unit": "percent",
             "role": "reported growth rate",
             "duration": "annual",
@@ -7237,7 +7204,7 @@
             "metric": "revenue",
             "value": 22.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 70,
             "end": 74,
@@ -7904,19 +7871,19 @@
             },
             "absolute_change": -300000000.0,
             "percentage_point_change": null,
-            "relative_change_percent": -7.142857,
+            "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
           },
           {
             "metric": "operating expenses",
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "old": {
               "metric": "operating expenses",
               "value": 21.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 45,
               "end": 49,
@@ -7928,7 +7895,7 @@
               "metric": "operating expenses",
               "value": 31.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 45,
               "end": 49,
@@ -7961,7 +7928,7 @@
             "metric": "operating expenses",
             "value": 21.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 45,
             "end": 49,
@@ -7987,7 +7954,7 @@
             "metric": "operating expenses",
             "value": 31.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 45,
             "end": 49,
@@ -8200,19 +8167,19 @@
             },
             "absolute_change": 19600000000.0,
             "percentage_point_change": null,
-            "relative_change_percent": 144.117647,
+            "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
           },
           {
             "metric": "revenue",
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "old": {
               "metric": "revenue",
               "value": 7.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 34,
               "end": 37,
@@ -8224,7 +8191,7 @@
               "metric": "revenue",
               "value": 16.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 34,
               "end": 38,
@@ -8257,7 +8224,7 @@
             "metric": "revenue",
             "value": 7.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 34,
             "end": 37,
@@ -8283,7 +8250,7 @@
             "metric": "revenue",
             "value": 16.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 34,
             "end": 38,
@@ -8483,19 +8450,19 @@
             },
             "absolute_change": 2700000000.0,
             "percentage_point_change": null,
-            "relative_change_percent": 30.337079,
+            "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
           },
           {
             "metric": "gross margin",
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "old": {
               "metric": "gross margin",
               "value": 17.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 39,
               "end": 43,
@@ -8507,7 +8474,7 @@
               "metric": "gross margin",
               "value": 19.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 40,
               "end": 44,
@@ -8540,7 +8507,7 @@
             "metric": "gross margin",
             "value": 17.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 39,
             "end": 43,
@@ -8566,7 +8533,7 @@
             "metric": "gross margin",
             "value": 19.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 40,
             "end": 44,
@@ -8796,11 +8763,11 @@
         "date_only": false,
         "comparisons": [
           {
-            "metric": "revenue",
+            "metric": "cost of revenue",
             "unit": "USD",
             "role": "reported change amount",
             "old": {
-              "metric": "revenue",
+              "metric": "cost of revenue",
               "value": 3200000000.0,
               "unit": "USD",
               "role": "reported change amount",
@@ -8812,7 +8779,7 @@
               "period_basis": "document fiscal year inferred; verify context"
             },
             "new": {
-              "metric": "revenue",
+              "metric": "cost of revenue",
               "value": 8300000000.0,
               "unit": "USD",
               "role": "reported change amount",
@@ -8825,19 +8792,19 @@
             },
             "absolute_change": 5100000000.0,
             "percentage_point_change": null,
-            "relative_change_percent": 159.375,
+            "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
           },
           {
-            "metric": "revenue",
+            "metric": "cost of revenue",
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "old": {
-              "metric": "revenue",
+              "metric": "cost of revenue",
               "value": 5.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 41,
               "end": 44,
@@ -8846,10 +8813,10 @@
               "period_basis": "document fiscal year inferred; verify context"
             },
             "new": {
-              "metric": "revenue",
+              "metric": "cost of revenue",
               "value": 13.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 41,
               "end": 45,
@@ -8867,7 +8834,7 @@
         "abstentions": [],
         "old_facts": [
           {
-            "metric": "revenue",
+            "metric": "cost of revenue",
             "value": 3200000000.0,
             "unit": "USD",
             "role": "reported change amount",
@@ -8879,10 +8846,10 @@
             "period_basis": "document fiscal year inferred; verify context"
           },
           {
-            "metric": "revenue",
+            "metric": "cost of revenue",
             "value": 5.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 41,
             "end": 44,
@@ -8893,7 +8860,7 @@
         ],
         "new_facts": [
           {
-            "metric": "revenue",
+            "metric": "cost of revenue",
             "value": 8300000000.0,
             "unit": "USD",
             "role": "reported change amount",
@@ -8905,10 +8872,10 @@
             "period_basis": "document fiscal year inferred; verify context"
           },
           {
-            "metric": "revenue",
+            "metric": "cost of revenue",
             "value": 13.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 41,
             "end": 45,
@@ -9066,6 +9033,7 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence",
           "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
         "old_facts": [],
@@ -9784,71 +9752,12 @@
       ],
       "numeric": {
         "date_only": false,
-        "comparisons": [
-          {
-            "metric": "operating income",
-            "unit": "percent",
-            "role": "reported level",
-            "old": {
-              "metric": "operating income",
-              "value": 8.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 70,
-              "end": 73,
-              "raw": "8%",
-              "period": 2023,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "new": {
-              "metric": "operating income",
-              "value": 22.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 71,
-              "end": 75,
-              "raw": "22%",
-              "period": 2024,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "absolute_change": 14.0,
-            "percentage_point_change": 14.0,
-            "relative_change_percent": null,
-            "basis": "successive annual reported quantities",
-            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
-          }
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
-        "abstentions": [],
-        "old_facts": [
-          {
-            "metric": "operating income",
-            "value": 8.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 70,
-            "end": 73,
-            "raw": "8%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ],
-        "new_facts": [
-          {
-            "metric": "operating income",
-            "value": 22.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 71,
-            "end": 75,
-            "raw": "22%",
-            "period": 2024,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ]
+        "old_facts": [],
+        "new_facts": []
       },
       "assumption_links": [],
       "old_citation": "sources/msft-2023.html#mda-0065",
@@ -9948,6 +9857,96 @@
       ],
       "new_citations": [
         "sources/msft-2024.html#mda-0087"
+      ]
+    },
+    {
+      "id": "138dd67ac920",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "Year Ended June 30, | | | 2023 | | | | 2022 |",
+        "kind": "table_row",
+        "dom_id": "docx-p02058",
+        "source_locator": "word/document.xml table row beginning at paragraph 2058",
+        "page": null,
+        "id": "mda-0146",
+        "section": "mda",
+        "subsection": "OTHER INCOME (EXPENSE), NET",
+        "index": 146,
+        "start": 94687,
+        "end": 94732
+      },
+      "new": {
+        "text": "Year Ended June 30, | | | 2024 | | | | 2023 |",
+        "kind": "table_row",
+        "dom_id": "docx-p02063",
+        "source_locator": "word/document.xml table row beginning at paragraph 2063",
+        "page": null,
+        "id": "mda-0141",
+        "section": "mda",
+        "subsection": "OTHER INCOME (EXPENSE), NET",
+        "index": 141,
+        "start": 96831,
+        "end": 96876
+      },
+      "method": "contextual",
+      "similarity": 1.0,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 26,
+            "end": 30,
+            "text": "2023"
+          },
+          "new": {
+            "start": 26,
+            "end": 30,
+            "text": "2024"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 39,
+            "end": 43,
+            "text": "2022"
+          },
+          "new": {
+            "start": 39,
+            "end": 43,
+            "text": "2023"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/msft-2023.html#mda-0146",
+      "new_citation": "sources/msft-2024.html#mda-0141",
+      "old_citations": [
+        "sources/msft-2023.html#mda-0146"
+      ],
+      "new_citations": [
+        "sources/msft-2024.html#mda-0141"
       ]
     },
     {
@@ -10051,6 +10050,96 @@
       ],
       "new_citations": [
         "sources/msft-2024.html#mda-0196"
+      ]
+    },
+    {
+      "id": "15a07166405b",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "(In millions, except percentages) | | 2023 | | | 2022 | | | PercentageChange |",
+        "kind": "table_row",
+        "dom_id": "docx-p01943",
+        "source_locator": "word/document.xml table row beginning at paragraph 1943",
+        "page": null,
+        "id": "mda-0130",
+        "section": "mda",
+        "subsection": "Sales and Marketing",
+        "index": 130,
+        "start": 92808,
+        "end": 92886
+      },
+      "new": {
+        "text": "(In millions, except percentages) | | 2024 | | | 2023 | | | PercentageChange |",
+        "kind": "table_row",
+        "dom_id": "docx-p01948",
+        "source_locator": "word/document.xml table row beginning at paragraph 1948",
+        "page": null,
+        "id": "mda-0125",
+        "section": "mda",
+        "subsection": "Sales and Marketing",
+        "index": 125,
+        "start": 95237,
+        "end": 95315
+      },
+      "method": "contextual",
+      "similarity": 1.0,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 38,
+            "end": 42,
+            "text": "2023"
+          },
+          "new": {
+            "start": 38,
+            "end": 42,
+            "text": "2024"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 49,
+            "end": 53,
+            "text": "2022"
+          },
+          "new": {
+            "start": 49,
+            "end": 53,
+            "text": "2023"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/msft-2023.html#mda-0130",
+      "new_citation": "sources/msft-2024.html#mda-0125",
+      "old_citations": [
+        "sources/msft-2023.html#mda-0130"
+      ],
+      "new_citations": [
+        "sources/msft-2024.html#mda-0125"
       ]
     },
     {
@@ -10320,6 +10409,7 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence",
           "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
         "old_facts": [],
@@ -10441,7 +10531,7 @@
             "role": "reported change amount",
             "old": {
               "metric": "operating income",
-              "value": 4000000000.0,
+              "value": -4000000000.0,
               "unit": "USD",
               "role": "reported change amount",
               "duration": "annual",
@@ -10463,21 +10553,21 @@
               "period": 2024,
               "period_basis": "document fiscal year inferred; verify context"
             },
-            "absolute_change": -1100000000.0,
+            "absolute_change": 6900000000.0,
             "percentage_point_change": null,
-            "relative_change_percent": -27.5,
+            "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
           },
           {
             "metric": "operating income",
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "old": {
               "metric": "operating income",
-              "value": 20.0,
+              "value": -20.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 42,
               "end": 46,
@@ -10489,7 +10579,7 @@
               "metric": "operating income",
               "value": 17.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 42,
               "end": 46,
@@ -10497,8 +10587,8 @@
               "period": 2024,
               "period_basis": "document fiscal year inferred; verify context"
             },
-            "absolute_change": -3.0,
-            "percentage_point_change": -3.0,
+            "absolute_change": 37.0,
+            "percentage_point_change": 37.0,
             "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
@@ -10508,7 +10598,7 @@
         "old_facts": [
           {
             "metric": "operating income",
-            "value": 4000000000.0,
+            "value": -4000000000.0,
             "unit": "USD",
             "role": "reported change amount",
             "duration": "annual",
@@ -10520,9 +10610,9 @@
           },
           {
             "metric": "operating income",
-            "value": 20.0,
+            "value": -20.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 42,
             "end": 46,
@@ -10548,7 +10638,7 @@
             "metric": "operating income",
             "value": 17.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 42,
             "end": 46,
@@ -10566,6 +10656,311 @@
       ],
       "new_citations": [
         "sources/msft-2024.html#mda-0113"
+      ]
+    },
+    {
+      "id": "1ca32b03c54d",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "Our effective tax rate for fiscal years 2023 and 2022 was 19% and 13%, respectively. The increase in our effective tax rate was primarily due to a $3.3 billion net income tax benefit in the first quarter of fiscal year 2022 related to the transfer of intangible properties and a decrease in tax benefits relating to stock-based compensation.",
+        "kind": "paragraph",
+        "dom_id": "docx-p02160",
+        "source_locator": "word/document.xml paragraph 2160",
+        "page": null,
+        "id": "mda-0159",
+        "section": "mda",
+        "subsection": "Effective Tax Rate",
+        "index": 159,
+        "start": 95992,
+        "end": 96333
+      },
+      "new": {
+        "text": "Our effective tax rate for fiscal years 2024 and 2023 was 18% and 19%, respectively. The decrease in our effective tax rate was primarily due to tax benefits from tax law changes, including the impact from the issuance of Notice 2023-55 and Notice 2023-80 by the Internal Revenue Service (“IRS”) and U.S. Treasury Department. Notice 2023-55, issued in the first quarter of fiscal year 2024, delayed the effective date of final foreign tax credit regulations to fiscal year 2024 for Microsoft. Notice 2023-80, issued in the second quarter of fiscal year 2024, further delayed the effective date of final foreign tax credit regulations indefinitely.",
+        "kind": "paragraph",
+        "dom_id": "docx-p02165",
+        "source_locator": "word/document.xml paragraph 2165",
+        "page": null,
+        "id": "mda-0154",
+        "section": "mda",
+        "subsection": "Effective Tax Rate",
+        "index": 154,
+        "start": 98164,
+        "end": 98811
+      },
+      "method": "contextual",
+      "similarity": 0.66,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": true,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "insert",
+          "old": {
+            "start": 40,
+            "end": 40,
+            "text": ""
+          },
+          "new": {
+            "start": 40,
+            "end": 48,
+            "text": "2024 and"
+          }
+        },
+        {
+          "operation": "delete",
+          "old": {
+            "start": 45,
+            "end": 53,
+            "text": "and 2022"
+          },
+          "new": {
+            "start": 54,
+            "end": 54,
+            "text": ""
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 58,
+            "end": 60,
+            "text": "19"
+          },
+          "new": {
+            "start": 58,
+            "end": 60,
+            "text": "18"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 66,
+            "end": 68,
+            "text": "13"
+          },
+          "new": {
+            "start": 66,
+            "end": 68,
+            "text": "19"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 89,
+            "end": 97,
+            "text": "increase"
+          },
+          "new": {
+            "start": 89,
+            "end": 97,
+            "text": "decrease"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 145,
+            "end": 149,
+            "text": "a $3"
+          },
+          "new": {
+            "start": 145,
+            "end": 301,
+            "text": "tax benefits from tax law changes, including the impact from the issuance of Notice 2023-55 and Notice 2023-80 by the Internal Revenue Service (“IRS”) and U"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 150,
+            "end": 182,
+            "text": "3 billion net income tax benefit"
+          },
+          "new": {
+            "start": 302,
+            "end": 348,
+            "text": "S. Treasury Department. Notice 2023-55, issued"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 219,
+            "end": 231,
+            "text": "2022 related"
+          },
+          "new": {
+            "start": 385,
+            "end": 457,
+            "text": "2024, delayed the effective date of final foreign tax credit regulations"
+          }
+        },
+        {
+          "operation": "insert",
+          "old": {
+            "start": 235,
+            "end": 235,
+            "text": ""
+          },
+          "new": {
+            "start": 461,
+            "end": 518,
+            "text": "fiscal year 2024 for Microsoft. Notice 2023-80, issued in"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 239,
+            "end": 247,
+            "text": "transfer"
+          },
+          "new": {
+            "start": 523,
+            "end": 537,
+            "text": "second quarter"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 251,
+            "end": 290,
+            "text": "intangible properties and a decrease in"
+          },
+          "new": {
+            "start": 541,
+            "end": 610,
+            "text": "fiscal year 2024, further delayed the effective date of final foreign"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 295,
+            "end": 340,
+            "text": "benefits relating to stock-based compensation"
+          },
+          "new": {
+            "start": 615,
+            "end": 646,
+            "text": "credit regulations indefinitely"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [
+          {
+            "metric": "effective tax rate",
+            "unit": "percent",
+            "role": "reported level",
+            "old": {
+              "metric": "effective tax rate",
+              "value": 19.0,
+              "unit": "percent",
+              "role": "reported level",
+              "duration": "annual",
+              "start": 57,
+              "end": 61,
+              "raw": "19%",
+              "period": 2023,
+              "period_basis": "explicit ordered years and respectively"
+            },
+            "new": {
+              "metric": "effective tax rate",
+              "value": 18.0,
+              "unit": "percent",
+              "role": "reported level",
+              "duration": "annual",
+              "start": 57,
+              "end": 61,
+              "raw": "18%",
+              "period": 2024,
+              "period_basis": "explicit ordered years and respectively"
+            },
+            "absolute_change": -1.0,
+            "percentage_point_change": -1.0,
+            "relative_change_percent": null,
+            "basis": "successive annual reported quantities",
+            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
+          }
+        ],
+        "abstentions": [
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence"
+        ],
+        "old_facts": [
+          {
+            "metric": "effective tax rate",
+            "value": 19.0,
+            "unit": "percent",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 57,
+            "end": 61,
+            "raw": "19%",
+            "period": 2023,
+            "period_basis": "explicit ordered years and respectively"
+          },
+          {
+            "metric": "effective tax rate",
+            "value": 13.0,
+            "unit": "percent",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 65,
+            "end": 69,
+            "raw": "13%",
+            "period": 2022,
+            "period_basis": "explicit ordered years and respectively"
+          }
+        ],
+        "new_facts": [
+          {
+            "metric": "effective tax rate",
+            "value": 18.0,
+            "unit": "percent",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 57,
+            "end": 61,
+            "raw": "18%",
+            "period": 2024,
+            "period_basis": "explicit ordered years and respectively"
+          },
+          {
+            "metric": "effective tax rate",
+            "value": 19.0,
+            "unit": "percent",
+            "role": "reported level",
+            "duration": "annual",
+            "start": 65,
+            "end": 69,
+            "raw": "19%",
+            "period": 2023,
+            "period_basis": "explicit ordered years and respectively"
+          }
+        ]
+      },
+      "assumption_links": [],
+      "old_citation": "sources/msft-2023.html#mda-0159",
+      "new_citation": "sources/msft-2024.html#mda-0154",
+      "old_citations": [
+        "sources/msft-2023.html#mda-0159"
+      ],
+      "new_citations": [
+        "sources/msft-2024.html#mda-0154"
       ]
     },
     {
@@ -10641,71 +11036,12 @@
       ],
       "numeric": {
         "date_only": false,
-        "comparisons": [
-          {
-            "metric": "operating income",
-            "unit": "percent",
-            "role": "reported level",
-            "old": {
-              "metric": "operating income",
-              "value": 6.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 50,
-              "end": 53,
-              "raw": "6%",
-              "period": 2023,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "new": {
-              "metric": "operating income",
-              "value": 24.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 51,
-              "end": 55,
-              "raw": "24%",
-              "period": 2024,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "absolute_change": 18.0,
-            "percentage_point_change": 18.0,
-            "relative_change_percent": null,
-            "basis": "successive annual reported quantities",
-            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
-          }
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
-        "abstentions": [],
-        "old_facts": [
-          {
-            "metric": "operating income",
-            "value": 6.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 50,
-            "end": 53,
-            "raw": "6%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ],
-        "new_facts": [
-          {
-            "metric": "operating income",
-            "value": 24.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 51,
-            "end": 55,
-            "raw": "24%",
-            "period": 2024,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ]
+        "old_facts": [],
+        "new_facts": []
       },
       "assumption_links": [],
       "old_citation": "sources/msft-2023.html#mda-0061",
@@ -11169,80 +11505,14 @@
             },
             "absolute_change": -199000000.0,
             "percentage_point_change": null,
-            "relative_change_percent": -32.252836,
-            "basis": "successive annual reported quantities",
-            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
-          },
-          {
-            "metric": "revenue",
-            "unit": "percent",
-            "role": "reported growth rate",
-            "old": {
-              "metric": "revenue",
-              "value": 11.0,
-              "unit": "percent",
-              "role": "reported growth rate",
-              "duration": "annual",
-              "start": 148,
-              "end": 152,
-              "raw": "11%",
-              "period": 2023,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "new": {
-              "metric": "revenue",
-              "value": 12.0,
-              "unit": "percent",
-              "role": "reported growth rate",
-              "duration": "annual",
-              "start": 148,
-              "end": 152,
-              "raw": "12%",
-              "period": 2024,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "absolute_change": 1.0,
-            "percentage_point_change": 1.0,
-            "relative_change_percent": null,
-            "basis": "successive annual reported quantities",
-            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
-          },
-          {
-            "metric": "revenue",
-            "unit": "percent",
-            "role": "reported level",
-            "old": {
-              "metric": "revenue",
-              "value": 5.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 62,
-              "end": 65,
-              "raw": "5%",
-              "period": 2023,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "new": {
-              "metric": "revenue",
-              "value": 3.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 62,
-              "end": 65,
-              "raw": "3%",
-              "period": 2024,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "absolute_change": -2.0,
-            "percentage_point_change": -2.0,
             "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
           }
         ],
-        "abstentions": [],
+        "abstentions": [
+          "revenue: duplicate quantities or nonadjacent periods; no arithmetic"
+        ],
         "old_facts": [
           {
             "metric": "revenue",
@@ -11260,7 +11530,7 @@
             "metric": "revenue",
             "value": 5.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 62,
             "end": 65,
@@ -11298,7 +11568,7 @@
             "metric": "revenue",
             "value": 3.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 62,
             "end": 65,
@@ -11547,6 +11817,173 @@
       ],
       "new_citations": [
         "sources/msft-2024.html#mda-0133"
+      ]
+    },
+    {
+      "id": "3412680e4be9",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "(In millions, except percentages) | | 2023 | | | 2022 | | | PercentageChange |",
+        "kind": "table_row",
+        "dom_id": "docx-p01641",
+        "source_locator": "word/document.xml table row beginning at paragraph 1641",
+        "page": null,
+        "id": "mda-0080",
+        "section": "mda",
+        "subsection": "SEGMENT RESULTS OF OPERATIONS",
+        "index": 80,
+        "start": 86827,
+        "end": 86905
+      },
+      "new": {
+        "text": "(In millions, except percentages) | | 2024 | | | 2023 | | | PercentageChange |",
+        "kind": "table_row",
+        "dom_id": "docx-p01649",
+        "source_locator": "word/document.xml table row beginning at paragraph 1649",
+        "page": null,
+        "id": "mda-0078",
+        "section": "mda",
+        "subsection": "SEGMENT RESULTS OF OPERATIONS",
+        "index": 78,
+        "start": 89907,
+        "end": 89985
+      },
+      "method": "contextual",
+      "similarity": 1.0,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 38,
+            "end": 42,
+            "text": "2023"
+          },
+          "new": {
+            "start": 38,
+            "end": 42,
+            "text": "2024"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 49,
+            "end": 53,
+            "text": "2022"
+          },
+          "new": {
+            "start": 49,
+            "end": 53,
+            "text": "2023"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/msft-2023.html#mda-0080",
+      "new_citation": "sources/msft-2024.html#mda-0078",
+      "old_citations": [
+        "sources/msft-2023.html#mda-0080"
+      ],
+      "new_citations": [
+        "sources/msft-2024.html#mda-0078"
+      ]
+    },
+    {
+      "id": "353e657abd60",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "(In millions) | | 2024 | | | Thereafter | | | Total |",
+        "kind": "table_row",
+        "dom_id": "docx-p02566",
+        "source_locator": "word/document.xml table row beginning at paragraph 2566",
+        "page": null,
+        "id": "mda-0212",
+        "section": "mda",
+        "subsection": "Contractual Obligations",
+        "index": 212,
+        "start": 108463,
+        "end": 108516
+      },
+      "new": {
+        "text": "(In millions) | | 2025 | | | Thereafter | | | Total |",
+        "kind": "table_row",
+        "dom_id": "docx-p02548",
+        "source_locator": "word/document.xml table row beginning at paragraph 2548",
+        "page": null,
+        "id": "mda-0204",
+        "section": "mda",
+        "subsection": "Contractual Obligations",
+        "index": 204,
+        "start": 110271,
+        "end": 110324
+      },
+      "method": "contextual",
+      "similarity": 1.0,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 18,
+            "end": 22,
+            "text": "2024"
+          },
+          "new": {
+            "start": 18,
+            "end": 22,
+            "text": "2025"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/msft-2023.html#mda-0212",
+      "new_citation": "sources/msft-2024.html#mda-0204",
+      "old_citations": [
+        "sources/msft-2023.html#mda-0212"
+      ],
+      "new_citations": [
+        "sources/msft-2024.html#mda-0204"
       ]
     },
     {
@@ -12165,7 +12602,7 @@
             "role": "reported change amount",
             "old": {
               "metric": "revenue",
-              "value": 3200000000.0,
+              "value": -3200000000.0,
               "unit": "USD",
               "role": "reported change amount",
               "duration": "annual",
@@ -12187,42 +12624,8 @@
               "period": 2024,
               "period_basis": "document fiscal year inferred; verify context"
             },
-            "absolute_change": -1500000000.0,
+            "absolute_change": 4900000000.0,
             "percentage_point_change": null,
-            "relative_change_percent": -46.875,
-            "basis": "successive annual reported quantities",
-            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
-          },
-          {
-            "metric": "revenue",
-            "unit": "percent",
-            "role": "reported level",
-            "old": {
-              "metric": "revenue",
-              "value": 13.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 42,
-              "end": 46,
-              "raw": "13%",
-              "period": 2023,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "new": {
-              "metric": "revenue",
-              "value": 8.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 42,
-              "end": 45,
-              "raw": "8%",
-              "period": 2024,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "absolute_change": -5.0,
-            "percentage_point_change": -5.0,
             "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
@@ -12234,7 +12637,7 @@
         "old_facts": [
           {
             "metric": "revenue",
-            "value": 3200000000.0,
+            "value": -3200000000.0,
             "unit": "USD",
             "role": "reported change amount",
             "duration": "annual",
@@ -12246,9 +12649,9 @@
           },
           {
             "metric": "revenue",
-            "value": 13.0,
+            "value": -13.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 42,
             "end": 46,
@@ -12258,7 +12661,7 @@
           },
           {
             "metric": "revenue",
-            "value": 25.0,
+            "value": -25.0,
             "unit": "percent",
             "role": "reported growth rate",
             "duration": "annual",
@@ -12298,7 +12701,7 @@
             "metric": "revenue",
             "value": 8.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 42,
             "end": 45,
@@ -12505,71 +12908,12 @@
       ],
       "numeric": {
         "date_only": false,
-        "comparisons": [
-          {
-            "metric": "gross margin",
-            "unit": "percent",
-            "role": "reported level",
-            "old": {
-              "metric": "gross margin",
-              "value": 8.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 48,
-              "end": 51,
-              "raw": "8%",
-              "period": 2023,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "new": {
-              "metric": "gross margin",
-              "value": 17.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 48,
-              "end": 52,
-              "raw": "17%",
-              "period": 2024,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "absolute_change": 9.0,
-            "percentage_point_change": 9.0,
-            "relative_change_percent": null,
-            "basis": "successive annual reported quantities",
-            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
-          }
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
-        "abstentions": [],
-        "old_facts": [
-          {
-            "metric": "gross margin",
-            "value": 8.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 48,
-            "end": 51,
-            "raw": "8%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ],
-        "new_facts": [
-          {
-            "metric": "gross margin",
-            "value": 17.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 48,
-            "end": 52,
-            "raw": "17%",
-            "period": 2024,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ]
+        "old_facts": [],
+        "new_facts": []
       },
       "assumption_links": [],
       "old_citation": "sources/msft-2023.html#mda-0060",
@@ -12737,13 +13081,12 @@
             },
             "absolute_change": 2100000000.0,
             "percentage_point_change": null,
-            "relative_change_percent": 56.756757,
+            "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
           }
         ],
         "abstentions": [
-          "revenue: duplicate quantities or nonadjacent periods; no arithmetic",
           "revenue: duplicate quantities or nonadjacent periods; no arithmetic"
         ],
         "old_facts": [
@@ -12763,7 +13106,7 @@
             "metric": "revenue",
             "value": 10.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 80,
             "end": 84,
@@ -12797,9 +13140,9 @@
           },
           {
             "metric": "revenue",
-            "value": 21.0,
+            "value": -21.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 300,
             "end": 304,
@@ -12825,7 +13168,7 @@
             "metric": "revenue",
             "value": 14.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 80,
             "end": 84,
@@ -12859,9 +13202,9 @@
           },
           {
             "metric": "revenue",
-            "value": 16.0,
+            "value": -16.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 299,
             "end": 303,
@@ -12998,19 +13341,19 @@
             },
             "absolute_change": 4600000000.0,
             "percentage_point_change": null,
-            "relative_change_percent": 35.658915,
+            "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
           },
           {
             "metric": "revenue",
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "old": {
               "metric": "revenue",
               "value": 17.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 34,
               "end": 38,
@@ -13022,7 +13365,7 @@
               "metric": "revenue",
               "value": 20.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 34,
               "end": 38,
@@ -13055,7 +13398,7 @@
             "metric": "revenue",
             "value": 17.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 34,
             "end": 38,
@@ -13081,7 +13424,7 @@
             "metric": "revenue",
             "value": 20.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 34,
             "end": 38,
@@ -13509,60 +13852,10 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
-          "revenue: duplicate quantities or nonadjacent periods; no arithmetic"
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
-        "old_facts": [
-          {
-            "metric": "revenue",
-            "value": 13.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 29,
-            "end": 33,
-            "raw": "13%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "revenue",
-            "value": 12.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 41,
-            "end": 45,
-            "raw": "12%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ],
-        "new_facts": [
-          {
-            "metric": "revenue",
-            "value": 12.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 29,
-            "end": 33,
-            "raw": "12%",
-            "period": 2024,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "revenue",
-            "value": 13.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 41,
-            "end": 45,
-            "raw": "13%",
-            "period": 2024,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ]
+        "old_facts": [],
+        "new_facts": []
       },
       "assumption_links": [],
       "old_citation": "sources/msft-2023.html#mda-0125",
@@ -13647,71 +13940,12 @@
       ],
       "numeric": {
         "date_only": false,
-        "comparisons": [
-          {
-            "metric": "operating income",
-            "unit": "percent",
-            "role": "reported level",
-            "old": {
-              "metric": "operating income",
-              "value": 8.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 72,
-              "end": 75,
-              "raw": "8%",
-              "period": 2023,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "new": {
-              "metric": "operating income",
-              "value": 22.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 73,
-              "end": 77,
-              "raw": "22%",
-              "period": 2024,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "absolute_change": 14.0,
-            "percentage_point_change": 14.0,
-            "relative_change_percent": null,
-            "basis": "successive annual reported quantities",
-            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
-          }
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
-        "abstentions": [],
-        "old_facts": [
-          {
-            "metric": "operating income",
-            "value": 8.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 72,
-            "end": 75,
-            "raw": "8%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ],
-        "new_facts": [
-          {
-            "metric": "operating income",
-            "value": 22.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 73,
-            "end": 77,
-            "raw": "22%",
-            "period": 2024,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ]
+        "old_facts": [],
+        "new_facts": []
       },
       "assumption_links": [],
       "old_citation": "sources/msft-2023.html#mda-0176",
@@ -13867,7 +14101,7 @@
             },
             "new": {
               "metric": "revenue",
-              "value": 306000000.0,
+              "value": -306000000.0,
               "unit": "USD",
               "role": "reported change amount",
               "duration": "annual",
@@ -13877,21 +14111,21 @@
               "period": 2024,
               "period_basis": "document fiscal year inferred; verify context"
             },
-            "absolute_change": -9000000.0,
+            "absolute_change": -621000000.0,
             "percentage_point_change": null,
-            "relative_change_percent": -2.857143,
+            "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
           },
           {
             "metric": "revenue",
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "old": {
               "metric": "revenue",
               "value": 4.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 54,
               "end": 57,
@@ -13901,9 +14135,9 @@
             },
             "new": {
               "metric": "revenue",
-              "value": 4.0,
+              "value": -4.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 66,
               "end": 69,
@@ -13911,8 +14145,8 @@
               "period": 2024,
               "period_basis": "document fiscal year inferred; verify context"
             },
-            "absolute_change": 0.0,
-            "percentage_point_change": 0.0,
+            "absolute_change": -8.0,
+            "percentage_point_change": -8.0,
             "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
@@ -13936,7 +14170,7 @@
             "metric": "revenue",
             "value": 4.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 54,
             "end": 57,
@@ -13948,7 +14182,7 @@
         "new_facts": [
           {
             "metric": "revenue",
-            "value": 306000000.0,
+            "value": -306000000.0,
             "unit": "USD",
             "role": "reported change amount",
             "duration": "annual",
@@ -13960,9 +14194,9 @@
           },
           {
             "metric": "revenue",
-            "value": 4.0,
+            "value": -4.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 66,
             "end": 69,
@@ -14099,19 +14333,19 @@
             },
             "absolute_change": 1900000000.0,
             "percentage_point_change": null,
-            "relative_change_percent": 42.222222,
+            "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
           },
           {
             "metric": "operating income",
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "old": {
               "metric": "operating income",
               "value": 15.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 42,
               "end": 46,
@@ -14123,7 +14357,7 @@
               "metric": "operating income",
               "value": 19.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 42,
               "end": 46,
@@ -14156,7 +14390,7 @@
             "metric": "operating income",
             "value": 15.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 42,
             "end": 46,
@@ -14182,7 +14416,7 @@
             "metric": "operating income",
             "value": 19.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 42,
             "end": 46,
@@ -14269,7 +14503,7 @@
             "role": "reported growth rate",
             "old": {
               "metric": "revenue",
-              "value": 24.0,
+              "value": -24.0,
               "unit": "percent",
               "role": "reported growth rate",
               "duration": "annual",
@@ -14281,7 +14515,7 @@
             },
             "new": {
               "metric": "revenue",
-              "value": 15.0,
+              "value": -15.0,
               "unit": "percent",
               "role": "reported growth rate",
               "duration": "annual",
@@ -14291,8 +14525,8 @@
               "period": 2024,
               "period_basis": "document fiscal year inferred; verify context"
             },
-            "absolute_change": -9.0,
-            "percentage_point_change": -9.0,
+            "absolute_change": 9.0,
+            "percentage_point_change": 9.0,
             "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
@@ -14302,7 +14536,7 @@
         "old_facts": [
           {
             "metric": "revenue",
-            "value": 24.0,
+            "value": -24.0,
             "unit": "percent",
             "role": "reported growth rate",
             "duration": "annual",
@@ -14316,7 +14550,7 @@
         "new_facts": [
           {
             "metric": "revenue",
-            "value": 15.0,
+            "value": -15.0,
             "unit": "percent",
             "role": "reported growth rate",
             "duration": "annual",
@@ -14586,7 +14820,7 @@
             "role": "reported change amount",
             "old": {
               "metric": "revenue",
-              "value": 5200000000.0,
+              "value": -5200000000.0,
               "unit": "USD",
               "role": "reported change amount",
               "duration": "annual",
@@ -14608,21 +14842,21 @@
               "period": 2024,
               "period_basis": "document fiscal year inferred; verify context"
             },
-            "absolute_change": 2100000000.0,
+            "absolute_change": 12500000000.0,
             "percentage_point_change": null,
-            "relative_change_percent": 40.384615,
+            "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
           },
           {
             "metric": "revenue",
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "old": {
               "metric": "revenue",
-              "value": 9.0,
+              "value": -9.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 33,
               "end": 36,
@@ -14634,7 +14868,7 @@
               "metric": "revenue",
               "value": 13.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 33,
               "end": 37,
@@ -14642,8 +14876,8 @@
               "period": 2024,
               "period_basis": "document fiscal year inferred; verify context"
             },
-            "absolute_change": 4.0,
-            "percentage_point_change": 4.0,
+            "absolute_change": 22.0,
+            "percentage_point_change": 22.0,
             "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
@@ -14653,7 +14887,7 @@
         "old_facts": [
           {
             "metric": "revenue",
-            "value": 5200000000.0,
+            "value": -5200000000.0,
             "unit": "USD",
             "role": "reported change amount",
             "duration": "annual",
@@ -14665,9 +14899,9 @@
           },
           {
             "metric": "revenue",
-            "value": 9.0,
+            "value": -9.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 33,
             "end": 36,
@@ -14693,7 +14927,7 @@
             "metric": "revenue",
             "value": 13.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 33,
             "end": 37,
@@ -15095,19 +15329,19 @@
             },
             "absolute_change": 97000000.0,
             "percentage_point_change": null,
-            "relative_change_percent": 69.285714,
+            "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
           },
           {
             "metric": "revenue",
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "old": {
               "metric": "revenue",
               "value": 2.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 78,
               "end": 81,
@@ -15119,7 +15353,7 @@
               "metric": "revenue",
               "value": 4.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 78,
               "end": 81,
@@ -15152,7 +15386,7 @@
             "metric": "revenue",
             "value": 2.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 78,
             "end": 81,
@@ -15178,7 +15412,7 @@
             "metric": "revenue",
             "value": 4.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 78,
             "end": 81,
@@ -15880,19 +16114,19 @@
             },
             "absolute_change": 7000000000.0,
             "percentage_point_change": null,
-            "relative_change_percent": 148.93617,
+            "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
           },
           {
             "metric": "operating income",
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "old": {
               "metric": "operating income",
               "value": 14.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 42,
               "end": 46,
@@ -15904,7 +16138,7 @@
               "metric": "operating income",
               "value": 31.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 43,
               "end": 47,
@@ -15937,7 +16171,7 @@
             "metric": "operating income",
             "value": 14.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 42,
             "end": 46,
@@ -15963,7 +16197,7 @@
             "metric": "operating income",
             "value": 31.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 43,
             "end": 47,
@@ -16203,80 +16437,14 @@
             },
             "absolute_change": 250000000.0,
             "percentage_point_change": null,
-            "relative_change_percent": 33.333333,
-            "basis": "successive annual reported quantities",
-            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
-          },
-          {
-            "metric": "revenue",
-            "unit": "percent",
-            "role": "reported growth rate",
-            "old": {
-              "metric": "revenue",
-              "value": 24.0,
-              "unit": "percent",
-              "role": "reported growth rate",
-              "duration": "annual",
-              "start": 108,
-              "end": 112,
-              "raw": "24%",
-              "period": 2023,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "new": {
-              "metric": "revenue",
-              "value": 24.0,
-              "unit": "percent",
-              "role": "reported growth rate",
-              "duration": "annual",
-              "start": 125,
-              "end": 129,
-              "raw": "24%",
-              "period": 2024,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "absolute_change": 0.0,
-            "percentage_point_change": 0.0,
-            "relative_change_percent": null,
-            "basis": "successive annual reported quantities",
-            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
-          },
-          {
-            "metric": "revenue",
-            "unit": "percent",
-            "role": "reported level",
-            "old": {
-              "metric": "revenue",
-              "value": 16.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 71,
-              "end": 75,
-              "raw": "16%",
-              "period": 2023,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "new": {
-              "metric": "revenue",
-              "value": 19.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 71,
-              "end": 75,
-              "raw": "19%",
-              "period": 2024,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "absolute_change": 3.0,
-            "percentage_point_change": 3.0,
             "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
           }
         ],
-        "abstentions": [],
+        "abstentions": [
+          "revenue: duplicate quantities or nonadjacent periods; no arithmetic"
+        ],
         "old_facts": [
           {
             "metric": "revenue",
@@ -16294,7 +16462,7 @@
             "metric": "revenue",
             "value": 16.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 71,
             "end": 75,
@@ -16332,7 +16500,7 @@
             "metric": "revenue",
             "value": 19.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 71,
             "end": 75,
@@ -16542,60 +16710,10 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
-          "revenue: duplicate quantities or nonadjacent periods; no arithmetic"
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
-        "old_facts": [
-          {
-            "metric": "revenue",
-            "value": 4.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 29,
-            "end": 32,
-            "raw": "4%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "revenue",
-            "value": 3.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 40,
-            "end": 43,
-            "raw": "3%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ],
-        "new_facts": [
-          {
-            "metric": "revenue",
-            "value": 3.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 29,
-            "end": 32,
-            "raw": "3%",
-            "period": 2024,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "revenue",
-            "value": 4.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 40,
-            "end": 43,
-            "raw": "4%",
-            "period": 2024,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ]
+        "old_facts": [],
+        "new_facts": []
       },
       "assumption_links": [],
       "old_citation": "sources/msft-2023.html#mda-0139",
@@ -16772,6 +16890,7 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence",
           "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
         "old_facts": [],
@@ -16860,71 +16979,12 @@
       ],
       "numeric": {
         "date_only": false,
-        "comparisons": [
-          {
-            "metric": "gross margin",
-            "unit": "percent",
-            "role": "reported level",
-            "old": {
-              "metric": "gross margin",
-              "value": 8.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 68,
-              "end": 71,
-              "raw": "8%",
-              "period": 2023,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "new": {
-              "metric": "gross margin",
-              "value": 17.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 68,
-              "end": 72,
-              "raw": "17%",
-              "period": 2024,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "absolute_change": 9.0,
-            "percentage_point_change": 9.0,
-            "relative_change_percent": null,
-            "basis": "successive annual reported quantities",
-            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
-          }
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
-        "abstentions": [],
-        "old_facts": [
-          {
-            "metric": "gross margin",
-            "value": 8.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 68,
-            "end": 71,
-            "raw": "8%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ],
-        "new_facts": [
-          {
-            "metric": "gross margin",
-            "value": 17.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 68,
-            "end": 72,
-            "raw": "17%",
-            "period": 2024,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ]
+        "old_facts": [],
+        "new_facts": []
       },
       "assumption_links": [],
       "old_citation": "sources/msft-2023.html#mda-0064",
@@ -17009,71 +17069,12 @@
       ],
       "numeric": {
         "date_only": false,
-        "comparisons": [
-          {
-            "metric": "revenue",
-            "unit": "percent",
-            "role": "reported level",
-            "old": {
-              "metric": "revenue",
-              "value": 7.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 47,
-              "end": 50,
-              "raw": "7%",
-              "period": 2023,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "new": {
-              "metric": "revenue",
-              "value": 16.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 47,
-              "end": 51,
-              "raw": "16%",
-              "period": 2024,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "absolute_change": 9.0,
-            "percentage_point_change": 9.0,
-            "relative_change_percent": null,
-            "basis": "successive annual reported quantities",
-            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
-          }
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
-        "abstentions": [],
-        "old_facts": [
-          {
-            "metric": "revenue",
-            "value": 7.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 47,
-            "end": 50,
-            "raw": "7%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ],
-        "new_facts": [
-          {
-            "metric": "revenue",
-            "value": 16.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 47,
-            "end": 51,
-            "raw": "16%",
-            "period": 2024,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ]
+        "old_facts": [],
+        "new_facts": []
       },
       "assumption_links": [],
       "old_citation": "sources/msft-2023.html#mda-0059",
@@ -17083,6 +17084,96 @@
       ],
       "new_citations": [
         "sources/msft-2024.html#mda-0058"
+      ]
+    },
+    {
+      "id": "99e430dc13c3",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "(In millions, except percentages and per share amounts) | | 2023 | | | 2022 | | PercentageChange |",
+        "kind": "table_row",
+        "dom_id": "docx-p01484",
+        "source_locator": "word/document.xml table row beginning at paragraph 1484",
+        "page": null,
+        "id": "mda-0058",
+        "section": "mda",
+        "subsection": "SUMMARY RESULTS OF OPERATIONS",
+        "index": 58,
+        "start": 82742,
+        "end": 82840
+      },
+      "new": {
+        "text": "(In millions, except percentages and per share amounts) | | 2024 | | | 2023 | | PercentageChange |",
+        "kind": "table_row",
+        "dom_id": "docx-p01493",
+        "source_locator": "word/document.xml table row beginning at paragraph 1493",
+        "page": null,
+        "id": "mda-0057",
+        "section": "mda",
+        "subsection": "SUMMARY RESULTS OF OPERATIONS",
+        "index": 57,
+        "start": 86907,
+        "end": 87005
+      },
+      "method": "contextual",
+      "similarity": 1.0,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 60,
+            "end": 64,
+            "text": "2023"
+          },
+          "new": {
+            "start": 60,
+            "end": 64,
+            "text": "2024"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 71,
+            "end": 75,
+            "text": "2022"
+          },
+          "new": {
+            "start": 71,
+            "end": 75,
+            "text": "2023"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/msft-2023.html#mda-0058",
+      "new_citation": "sources/msft-2024.html#mda-0057",
+      "old_citations": [
+        "sources/msft-2023.html#mda-0058"
+      ],
+      "new_citations": [
+        "sources/msft-2024.html#mda-0057"
       ]
     },
     {
@@ -17575,6 +17666,83 @@
       ]
     },
     {
+      "id": "aef7249ec880",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "We are subject to income tax in many jurisdictions outside the U.S. Our operations in certain jurisdictions remain subject to examination for tax years 1996 to 2022, some of which are currently under audit by local tax authorities. The resolution of each of these audits is not expected to be material to our consolidated financial statements.",
+        "kind": "paragraph",
+        "dom_id": "docx-p02167",
+        "source_locator": "word/document.xml paragraph 2167",
+        "page": null,
+        "id": "mda-0166",
+        "section": "mda",
+        "subsection": "Uncertain Tax Positions",
+        "index": 166,
+        "start": 98812,
+        "end": 99155
+      },
+      "new": {
+        "text": "We are subject to income tax in many jurisdictions outside the U.S. Our operations in certain jurisdictions remain subject to examination for tax years 1996 to 2023, some of which are currently under audit by local tax authorities. The resolution of each of these audits is not expected to be material to our consolidated financial statements.",
+        "kind": "paragraph",
+        "dom_id": "docx-p02171",
+        "source_locator": "word/document.xml paragraph 2171",
+        "page": null,
+        "id": "mda-0160",
+        "section": "mda",
+        "subsection": "Uncertain Tax Positions",
+        "index": 160,
+        "start": 101165,
+        "end": 101508
+      },
+      "method": "contextual",
+      "similarity": 1.0,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 160,
+            "end": 164,
+            "text": "2022"
+          },
+          "new": {
+            "start": 160,
+            "end": 164,
+            "text": "2023"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/msft-2023.html#mda-0166",
+      "new_citation": "sources/msft-2024.html#mda-0160",
+      "old_citations": [
+        "sources/msft-2023.html#mda-0166"
+      ],
+      "new_citations": [
+        "sources/msft-2024.html#mda-0160"
+      ]
+    },
+    {
       "id": "b01d4fed0de1",
       "section": "mda",
       "kind": "changed",
@@ -17704,19 +17872,19 @@
             },
             "absolute_change": 100000000.0,
             "percentage_point_change": null,
-            "relative_change_percent": 7.692308,
+            "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
           },
           {
             "metric": "revenue",
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "old": {
               "metric": "revenue",
               "value": 10.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 43,
               "end": 47,
@@ -17728,7 +17896,7 @@
               "metric": "revenue",
               "value": 9.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 43,
               "end": 46,
@@ -17761,7 +17929,7 @@
             "metric": "revenue",
             "value": 10.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 43,
             "end": 47,
@@ -17787,7 +17955,7 @@
             "metric": "revenue",
             "value": 9.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 43,
             "end": 46,
@@ -17895,6 +18063,96 @@
       ],
       "new_citations": [
         "sources/msft-2024.html#mda-0062"
+      ]
+    },
+    {
+      "id": "be2e0129d676",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "(In millions, except percentages and per share amounts) | | 2023 | | | 2022 | | PercentageChange |",
+        "kind": "table_row",
+        "dom_id": "docx-p02172",
+        "source_locator": "word/document.xml table row beginning at paragraph 2172",
+        "page": null,
+        "id": "mda-0170",
+        "section": "mda",
+        "subsection": "NON-GAAP FINANCIAL MEASURES",
+        "index": 170,
+        "start": 100299,
+        "end": 100397
+      },
+      "new": {
+        "text": "(In millions, except percentages and per share amounts) | | 2024 | | | 2023 | | PercentageChange |",
+        "kind": "table_row",
+        "dom_id": "docx-p02176",
+        "source_locator": "word/document.xml table row beginning at paragraph 2176",
+        "page": null,
+        "id": "mda-0164",
+        "section": "mda",
+        "subsection": "NON-GAAP FINANCIAL MEASURES",
+        "index": 164,
+        "start": 102489,
+        "end": 102587
+      },
+      "method": "contextual",
+      "similarity": 1.0,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 60,
+            "end": 64,
+            "text": "2023"
+          },
+          "new": {
+            "start": 60,
+            "end": 64,
+            "text": "2024"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 71,
+            "end": 75,
+            "text": "2022"
+          },
+          "new": {
+            "start": 71,
+            "end": 75,
+            "text": "2023"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/msft-2023.html#mda-0170",
+      "new_citation": "sources/msft-2024.html#mda-0164",
+      "old_citations": [
+        "sources/msft-2023.html#mda-0170"
+      ],
+      "new_citations": [
+        "sources/msft-2024.html#mda-0164"
       ]
     },
     {
@@ -18027,6 +18285,96 @@
       ]
     },
     {
+      "id": "ca2ada012722",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "(In millions, except percentages) | | 2023 | | | 2022 | | | PercentageChange |",
+        "kind": "table_row",
+        "dom_id": "docx-p01891",
+        "source_locator": "word/document.xml table row beginning at paragraph 1891",
+        "page": null,
+        "id": "mda-0123",
+        "section": "mda",
+        "subsection": "Research and Development",
+        "index": 123,
+        "start": 92064,
+        "end": 92142
+      },
+      "new": {
+        "text": "(In millions, except percentages) | | 2024 | | | 2023 | | | PercentageChange |",
+        "kind": "table_row",
+        "dom_id": "docx-p01896",
+        "source_locator": "word/document.xml table row beginning at paragraph 1896",
+        "page": null,
+        "id": "mda-0118",
+        "section": "mda",
+        "subsection": "Research and Development",
+        "index": 118,
+        "start": 94428,
+        "end": 94506
+      },
+      "method": "contextual",
+      "similarity": 1.0,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 38,
+            "end": 42,
+            "text": "2023"
+          },
+          "new": {
+            "start": 38,
+            "end": 42,
+            "text": "2024"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 49,
+            "end": 53,
+            "text": "2022"
+          },
+          "new": {
+            "start": 49,
+            "end": 53,
+            "text": "2023"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/msft-2023.html#mda-0123",
+      "new_citation": "sources/msft-2024.html#mda-0118",
+      "old_citations": [
+        "sources/msft-2023.html#mda-0123"
+      ],
+      "new_citations": [
+        "sources/msft-2024.html#mda-0118"
+      ]
+    },
+    {
       "id": "cbcd3ed1704c",
       "section": "mda",
       "kind": "changed",
@@ -18106,7 +18454,7 @@
         "old_facts": [
           {
             "metric": "revenue",
-            "value": 25.0,
+            "value": -25.0,
             "unit": "percent",
             "role": "reported growth rate",
             "duration": "annual",
@@ -18447,6 +18795,96 @@
       ],
       "new_citations": [
         "sources/msft-2024.html#mda-0081"
+      ]
+    },
+    {
+      "id": "d4dc59409981",
+      "section": "mda",
+      "kind": "changed",
+      "old": {
+        "text": "(In millions, except percentages) | | 2023 | | | 2022 | | PercentageChange |",
+        "kind": "table_row",
+        "dom_id": "docx-p01989",
+        "source_locator": "word/document.xml table row beginning at paragraph 1989",
+        "page": null,
+        "id": "mda-0137",
+        "section": "mda",
+        "subsection": "General and Administrative",
+        "index": 137,
+        "start": 93646,
+        "end": 93722
+      },
+      "new": {
+        "text": "(In millions, except percentages) | | 2024 | | | 2023 | | PercentageChange |",
+        "kind": "table_row",
+        "dom_id": "docx-p01994",
+        "source_locator": "word/document.xml table row beginning at paragraph 1994",
+        "page": null,
+        "id": "mda-0132",
+        "section": "mda",
+        "subsection": "General and Administrative",
+        "index": 132,
+        "start": 95932,
+        "end": 96008
+      },
+      "method": "contextual",
+      "similarity": 1.0,
+      "moved": true,
+      "needs_review": true,
+      "ambiguous_alignment": false,
+      "score": 60,
+      "priority": "medium",
+      "reasons": [
+        "Disclosure text changed",
+        "Number tokens changed; period, unit, and significance need review"
+      ],
+      "status": "needs_review",
+      "review_note": "",
+      "edits": [
+        {
+          "operation": "replace",
+          "old": {
+            "start": 38,
+            "end": 42,
+            "text": "2023"
+          },
+          "new": {
+            "start": 38,
+            "end": 42,
+            "text": "2024"
+          }
+        },
+        {
+          "operation": "replace",
+          "old": {
+            "start": 49,
+            "end": 53,
+            "text": "2022"
+          },
+          "new": {
+            "start": 49,
+            "end": 53,
+            "text": "2023"
+          }
+        }
+      ],
+      "numeric": {
+        "date_only": false,
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
+        ],
+        "old_facts": [],
+        "new_facts": []
+      },
+      "assumption_links": [],
+      "old_citation": "sources/msft-2023.html#mda-0137",
+      "new_citation": "sources/msft-2024.html#mda-0132",
+      "old_citations": [
+        "sources/msft-2023.html#mda-0137"
+      ],
+      "new_citations": [
+        "sources/msft-2024.html#mda-0132"
       ]
     },
     {
@@ -19288,19 +19726,19 @@
             },
             "absolute_change": 2600000000.0,
             "percentage_point_change": null,
-            "relative_change_percent": 44.067797,
+            "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
           },
           {
             "metric": "revenue",
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "old": {
               "metric": "revenue",
               "value": 9.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 33,
               "end": 36,
@@ -19312,7 +19750,7 @@
               "metric": "revenue",
               "value": 12.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 33,
               "end": 37,
@@ -19345,7 +19783,7 @@
             "metric": "revenue",
             "value": 9.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 33,
             "end": 36,
@@ -19371,7 +19809,7 @@
             "metric": "revenue",
             "value": 12.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 33,
             "end": 37,
@@ -19464,71 +19902,12 @@
       ],
       "numeric": {
         "date_only": false,
-        "comparisons": [
-          {
-            "metric": "operating income",
-            "unit": "percent",
-            "role": "reported level",
-            "old": {
-              "metric": "operating income",
-              "value": 6.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 52,
-              "end": 55,
-              "raw": "6%",
-              "period": 2023,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "new": {
-              "metric": "operating income",
-              "value": 24.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 53,
-              "end": 57,
-              "raw": "24%",
-              "period": 2024,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "absolute_change": 18.0,
-            "percentage_point_change": 18.0,
-            "relative_change_percent": null,
-            "basis": "successive annual reported quantities",
-            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
-          }
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
-        "abstentions": [],
-        "old_facts": [
-          {
-            "metric": "operating income",
-            "value": 6.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 52,
-            "end": 55,
-            "raw": "6%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ],
-        "new_facts": [
-          {
-            "metric": "operating income",
-            "value": 24.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 53,
-            "end": 57,
-            "raw": "24%",
-            "period": 2024,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ]
+        "old_facts": [],
+        "new_facts": []
       },
       "assumption_links": [],
       "old_citation": "sources/msft-2023.html#mda-0174",
@@ -19821,108 +20200,11 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
-          "gross margin: duplicate quantities or nonadjacent periods; no arithmetic"
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence",
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
-        "old_facts": [
-          {
-            "metric": "gross margin",
-            "value": 152000000.0,
-            "unit": "USD",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 147,
-            "end": 159,
-            "raw": "$152 million",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "gross margin",
-            "value": 1200000000.0,
-            "unit": "USD",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 161,
-            "end": 173,
-            "raw": "$1.2 billion",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "gross margin",
-            "value": 946000000.0,
-            "unit": "USD",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 175,
-            "end": 187,
-            "raw": "$946 million",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "gross margin",
-            "value": 0.13,
-            "unit": "USD",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 193,
-            "end": 198,
-            "raw": "$0.13",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ],
-        "new_facts": [
-          {
-            "metric": "gross margin",
-            "value": 152000000.0,
-            "unit": "USD",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 145,
-            "end": 157,
-            "raw": "$152 million",
-            "period": 2024,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "gross margin",
-            "value": 1200000000.0,
-            "unit": "USD",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 159,
-            "end": 171,
-            "raw": "$1.2 billion",
-            "period": 2024,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "gross margin",
-            "value": 946000000.0,
-            "unit": "USD",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 173,
-            "end": 185,
-            "raw": "$946 million",
-            "period": 2024,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "gross margin",
-            "value": 0.13,
-            "unit": "USD",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 191,
-            "end": 196,
-            "raw": "$0.13",
-            "period": 2024,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ]
+        "old_facts": [],
+        "new_facts": []
       },
       "assumption_links": [],
       "old_citation": "sources/msft-2023.html#mda-0078",
@@ -20496,71 +20778,12 @@
       ],
       "numeric": {
         "date_only": false,
-        "comparisons": [
-          {
-            "metric": "gross margin",
-            "unit": "percent",
-            "role": "reported level",
-            "old": {
-              "metric": "gross margin",
-              "value": 8.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 70,
-              "end": 73,
-              "raw": "8%",
-              "period": 2023,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "new": {
-              "metric": "gross margin",
-              "value": 17.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 70,
-              "end": 74,
-              "raw": "17%",
-              "period": 2024,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "absolute_change": 9.0,
-            "percentage_point_change": 9.0,
-            "relative_change_percent": null,
-            "basis": "successive annual reported quantities",
-            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
-          }
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
-        "abstentions": [],
-        "old_facts": [
-          {
-            "metric": "gross margin",
-            "value": 8.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 70,
-            "end": 73,
-            "raw": "8%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ],
-        "new_facts": [
-          {
-            "metric": "gross margin",
-            "value": 17.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 70,
-            "end": 74,
-            "raw": "17%",
-            "period": 2024,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ]
+        "old_facts": [],
+        "new_facts": []
       },
       "assumption_links": [],
       "old_citation": "sources/msft-2023.html#mda-0173",
@@ -20805,19 +21028,19 @@
             },
             "absolute_change": 700000000.0,
             "percentage_point_change": null,
-            "relative_change_percent": 12.068966,
+            "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
           },
           {
             "metric": "gross margin",
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "old": {
               "metric": "gross margin",
               "value": 12.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 38,
               "end": 42,
@@ -20829,7 +21052,7 @@
               "metric": "gross margin",
               "value": 12.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 38,
               "end": 42,
@@ -20862,7 +21085,7 @@
             "metric": "gross margin",
             "value": 12.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 38,
             "end": 42,
@@ -20888,7 +21111,7 @@
             "metric": "gross margin",
             "value": 12.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 38,
             "end": 42,
@@ -21090,19 +21313,19 @@
             },
             "absolute_change": -1300000000.0,
             "percentage_point_change": null,
-            "relative_change_percent": -24.528302,
+            "relative_change_percent": null,
             "basis": "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
           },
           {
             "metric": "operating expenses",
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "old": {
               "metric": "operating expenses",
               "value": 10.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 44,
               "end": 48,
@@ -21114,7 +21337,7 @@
               "metric": "operating expenses",
               "value": 7.0,
               "unit": "percent",
-              "role": "reported level",
+              "role": "reported growth rate",
               "duration": "annual",
               "start": 44,
               "end": 47,
@@ -21147,7 +21370,7 @@
             "metric": "operating expenses",
             "value": 10.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 44,
             "end": 48,
@@ -21173,7 +21396,7 @@
             "metric": "operating expenses",
             "value": 7.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 44,
             "end": 47,
@@ -21266,71 +21489,12 @@
       ],
       "numeric": {
         "date_only": false,
-        "comparisons": [
-          {
-            "metric": "gross margin",
-            "unit": "percent",
-            "role": "reported level",
-            "old": {
-              "metric": "gross margin",
-              "value": 8.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 50,
-              "end": 53,
-              "raw": "8%",
-              "period": 2023,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "new": {
-              "metric": "gross margin",
-              "value": 17.0,
-              "unit": "percent",
-              "role": "reported level",
-              "duration": "annual",
-              "start": 50,
-              "end": 54,
-              "raw": "17%",
-              "period": 2024,
-              "period_basis": "document fiscal year inferred; verify context"
-            },
-            "absolute_change": 9.0,
-            "percentage_point_change": 9.0,
-            "relative_change_percent": null,
-            "basis": "successive annual reported quantities",
-            "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."
-          }
+        "comparisons": [],
+        "abstentions": [
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
-        "abstentions": [],
-        "old_facts": [
-          {
-            "metric": "gross margin",
-            "value": 8.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 50,
-            "end": 53,
-            "raw": "8%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ],
-        "new_facts": [
-          {
-            "metric": "gross margin",
-            "value": 17.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 50,
-            "end": 54,
-            "raw": "17%",
-            "period": 2024,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ]
+        "old_facts": [],
+        "new_facts": []
       },
       "assumption_links": [],
       "old_citation": "sources/msft-2023.html#mda-0171",
@@ -21417,60 +21581,10 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
-          "revenue: duplicate quantities or nonadjacent periods; no arithmetic"
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
-        "old_facts": [
-          {
-            "metric": "revenue",
-            "value": 11.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 29,
-            "end": 33,
-            "raw": "11%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "revenue",
-            "value": 11.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 41,
-            "end": 45,
-            "raw": "11%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ],
-        "new_facts": [
-          {
-            "metric": "revenue",
-            "value": 10.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 29,
-            "end": 33,
-            "raw": "10%",
-            "period": 2024,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "revenue",
-            "value": 11.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 41,
-            "end": 45,
-            "raw": "11%",
-            "period": 2024,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ]
+        "old_facts": [],
+        "new_facts": []
       },
       "assumption_links": [],
       "old_citation": "sources/msft-2023.html#mda-0132",
@@ -21966,6 +22080,7 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence",
           "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
         "old_facts": [],
@@ -23560,7 +23675,7 @@
             "metric": "operating expenses",
             "value": 1.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 44,
             "end": 47,
@@ -23627,46 +23742,10 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
-          "gross margin: no matched metric, role, unit, and duration on both sides",
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence",
           "operating expenses: no matched metric, role, unit, and duration on both sides"
         ],
         "old_facts": [
-          {
-            "metric": "gross margin",
-            "value": 4.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 94,
-            "end": 97,
-            "raw": "4%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "gross margin",
-            "value": 4.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 98,
-            "end": 101,
-            "raw": "4%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "gross margin",
-            "value": 6.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 106,
-            "end": 109,
-            "raw": "6%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
           {
             "metric": "operating expenses",
             "value": 2.0,
@@ -23958,7 +24037,7 @@
             "metric": "gross margin",
             "value": 17.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 39,
             "end": 43,
@@ -24026,7 +24105,6 @@
         "comparisons": [],
         "abstentions": [
           "revenue: no matched metric, role, unit, and duration on both sides",
-          "revenue: no matched metric, role, unit, and duration on both sides",
           "revenue: no matched metric, role, unit, and duration on both sides"
         ],
         "old_facts": [],
@@ -24047,7 +24125,7 @@
             "metric": "revenue",
             "value": 39.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 41,
             "end": 45,
@@ -24069,7 +24147,7 @@
           },
           {
             "metric": "revenue",
-            "value": 13.0,
+            "value": -13.0,
             "unit": "percent",
             "role": "reported growth rate",
             "duration": "annual",
@@ -24469,7 +24547,7 @@
             "metric": "operating expenses",
             "value": 7.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 44,
             "end": 47,
@@ -24537,46 +24615,10 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
-          "gross margin: no matched metric, role, unit, and duration on both sides"
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence",
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
-        "old_facts": [
-          {
-            "metric": "gross margin",
-            "value": 5.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 94,
-            "end": 97,
-            "raw": "5%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "gross margin",
-            "value": 5.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 98,
-            "end": 101,
-            "raw": "5%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "gross margin",
-            "value": 8.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 106,
-            "end": 109,
-            "raw": "8%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ],
+        "old_facts": [],
         "new_facts": []
       },
       "assumption_links": [],
@@ -24840,7 +24882,7 @@
         "old_facts": [
           {
             "metric": "operating expenses",
-            "value": 195000000.0,
+            "value": -195000000.0,
             "unit": "USD",
             "role": "reported change amount",
             "duration": "annual",
@@ -24852,9 +24894,9 @@
           },
           {
             "metric": "operating expenses",
-            "value": 2.0,
+            "value": -2.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 45,
             "end": 48,
@@ -24928,7 +24970,7 @@
         "old_facts": [
           {
             "metric": "revenue",
-            "value": 1800000000.0,
+            "value": -1800000000.0,
             "unit": "USD",
             "role": "reported change amount",
             "duration": "annual",
@@ -24940,9 +24982,9 @@
           },
           {
             "metric": "revenue",
-            "value": 24.0,
+            "value": -24.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 42,
             "end": 46,
@@ -25072,59 +25114,10 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
-          "gross margin: no matched metric, role, unit, and duration on both sides",
-          "operating expenses: no matched metric, role, unit, and duration on both sides"
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence",
+          "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
-        "old_facts": [
-          {
-            "metric": "gross margin",
-            "value": 4.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 94,
-            "end": 97,
-            "raw": "4%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "gross margin",
-            "value": 4.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 98,
-            "end": 101,
-            "raw": "4%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "gross margin",
-            "value": 6.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 106,
-            "end": 109,
-            "raw": "6%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "operating expenses",
-            "value": 2.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 216,
-            "end": 219,
-            "raw": "2%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          }
-        ],
+        "old_facts": [],
         "new_facts": []
       },
       "assumption_links": [],
@@ -25284,93 +25277,6 @@
       ],
       "new_citations": [
         "sources/msft-2024.html#mda-0042"
-      ]
-    },
-    {
-      "id": "8b4249d89665",
-      "section": "mda",
-      "kind": "added",
-      "old": null,
-      "new": {
-        "text": "Our effective tax rate for fiscal years 2024 and 2023 was 18% and 19%, respectively. The decrease in our effective tax rate was primarily due to tax benefits from tax law changes, including the impact from the issuance of Notice 2023-55 and Notice 2023-80 by the Internal Revenue Service (“IRS”) and U.S. Treasury Department. Notice 2023-55, issued in the first quarter of fiscal year 2024, delayed the effective date of final foreign tax credit regulations to fiscal year 2024 for Microsoft. Notice 2023-80, issued in the second quarter of fiscal year 2024, further delayed the effective date of final foreign tax credit regulations indefinitely.",
-        "kind": "paragraph",
-        "dom_id": "docx-p02165",
-        "source_locator": "word/document.xml paragraph 2165",
-        "page": null,
-        "id": "mda-0154",
-        "section": "mda",
-        "subsection": "Effective Tax Rate",
-        "index": 154,
-        "start": 98164,
-        "end": 98811
-      },
-      "method": "unmatched",
-      "similarity": null,
-      "moved": false,
-      "needs_review": true,
-      "ambiguous_alignment": true,
-      "score": 30,
-      "priority": "low",
-      "reasons": [
-        "Disclosure text added"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "insert",
-          "old": {
-            "start": 0,
-            "end": 0,
-            "text": ""
-          },
-          "new": {
-            "start": 0,
-            "end": 647,
-            "text": "Our effective tax rate for fiscal years 2024 and 2023 was 18% and 19%, respectively. The decrease in our effective tax rate was primarily due to tax benefits from tax law changes, including the impact from the issuance of Notice 2023-55 and Notice 2023-80 by the Internal Revenue Service (“IRS”) and U.S. Treasury Department. Notice 2023-55, issued in the first quarter of fiscal year 2024, delayed the effective date of final foreign tax credit regulations to fiscal year 2024 for Microsoft. Notice 2023-80, issued in the second quarter of fiscal year 2024, further delayed the effective date of final foreign tax credit regulations indefinitely."
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": false,
-        "comparisons": [],
-        "abstentions": [
-          "effective tax rate: no matched metric, role, unit, and duration on both sides"
-        ],
-        "old_facts": [],
-        "new_facts": [
-          {
-            "metric": "effective tax rate",
-            "value": 18.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 57,
-            "end": 61,
-            "raw": "18%",
-            "period": 2024,
-            "period_basis": "explicit ordered years and respectively"
-          },
-          {
-            "metric": "effective tax rate",
-            "value": 19.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 65,
-            "end": 69,
-            "raw": "19%",
-            "period": 2023,
-            "period_basis": "explicit ordered years and respectively"
-          }
-        ]
-      },
-      "assumption_links": [],
-      "old_citation": "",
-      "new_citation": "sources/msft-2024.html#mda-0154",
-      "old_citations": [],
-      "new_citations": [
-        "sources/msft-2024.html#mda-0154"
       ]
     },
     {
@@ -25546,46 +25452,10 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
-          "gross margin: no matched metric, role, unit, and duration on both sides",
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence",
           "operating expenses: no matched metric, role, unit, and duration on both sides"
         ],
         "old_facts": [
-          {
-            "metric": "gross margin",
-            "value": 3.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 94,
-            "end": 97,
-            "raw": "3%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "gross margin",
-            "value": 4.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 98,
-            "end": 101,
-            "raw": "4%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
-          {
-            "metric": "gross margin",
-            "value": 6.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 106,
-            "end": 109,
-            "raw": "6%",
-            "period": 2023,
-            "period_basis": "document fiscal year inferred; verify context"
-          },
           {
             "metric": "operating expenses",
             "value": 2.0,
@@ -25725,7 +25595,7 @@
         "new_facts": [
           {
             "metric": "revenue",
-            "value": 815000000.0,
+            "value": -815000000.0,
             "unit": "USD",
             "role": "reported change amount",
             "duration": "annual",
@@ -25737,9 +25607,9 @@
           },
           {
             "metric": "revenue",
-            "value": 15.0,
+            "value": -15.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 42,
             "end": 46,
@@ -25889,7 +25759,7 @@
             "metric": "gross margin",
             "value": 23.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 39,
             "end": 43,
@@ -25961,7 +25831,7 @@
         "old_facts": [
           {
             "metric": "revenue",
-            "value": 3.0,
+            "value": -3.0,
             "unit": "percent",
             "role": "reported growth rate",
             "duration": "annual",
@@ -26107,106 +25977,6 @@
       "new_citations": [
         "sources/msft-2024.html#mda-0026"
       ]
-    },
-    {
-      "id": "abe8767c4b71",
-      "section": "mda",
-      "kind": "removed",
-      "old": {
-        "text": "Our effective tax rate for fiscal years 2023 and 2022 was 19% and 13%, respectively. The increase in our effective tax rate was primarily due to a $3.3 billion net income tax benefit in the first quarter of fiscal year 2022 related to the transfer of intangible properties and a decrease in tax benefits relating to stock-based compensation.",
-        "kind": "paragraph",
-        "dom_id": "docx-p02160",
-        "source_locator": "word/document.xml paragraph 2160",
-        "page": null,
-        "id": "mda-0159",
-        "section": "mda",
-        "subsection": "Effective Tax Rate",
-        "index": 159,
-        "start": 95992,
-        "end": 96333
-      },
-      "new": null,
-      "method": "unmatched",
-      "similarity": null,
-      "moved": false,
-      "needs_review": true,
-      "ambiguous_alignment": true,
-      "score": 30,
-      "priority": "low",
-      "reasons": [
-        "Disclosure text removed"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "delete",
-          "old": {
-            "start": 0,
-            "end": 341,
-            "text": "Our effective tax rate for fiscal years 2023 and 2022 was 19% and 13%, respectively. The increase in our effective tax rate was primarily due to a $3.3 billion net income tax benefit in the first quarter of fiscal year 2022 related to the transfer of intangible properties and a decrease in tax benefits relating to stock-based compensation."
-          },
-          "new": {
-            "start": 0,
-            "end": 0,
-            "text": ""
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": false,
-        "comparisons": [],
-        "abstentions": [
-          "effective tax rate: no matched metric, role, unit, and duration on both sides",
-          "effective tax rate: no matched metric, role, unit, and duration on both sides"
-        ],
-        "old_facts": [
-          {
-            "metric": "effective tax rate",
-            "value": 19.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 57,
-            "end": 61,
-            "raw": "19%",
-            "period": 2023,
-            "period_basis": "explicit ordered years and respectively"
-          },
-          {
-            "metric": "effective tax rate",
-            "value": 13.0,
-            "unit": "percent",
-            "role": "reported level",
-            "duration": "annual",
-            "start": 65,
-            "end": 69,
-            "raw": "13%",
-            "period": 2022,
-            "period_basis": "explicit ordered years and respectively"
-          },
-          {
-            "metric": "effective tax rate",
-            "value": 3300000000.0,
-            "unit": "USD",
-            "role": "reported level",
-            "duration": "quarter",
-            "start": 147,
-            "end": 160,
-            "raw": "$3.3 billion",
-            "period": 2022,
-            "period_basis": "single year in sentence"
-          }
-        ],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/msft-2023.html#mda-0159",
-      "new_citation": "",
-      "old_citations": [
-        "sources/msft-2023.html#mda-0159"
-      ],
-      "new_citations": []
     },
     {
       "id": "adb6e1a95ac4",
@@ -26549,7 +26319,7 @@
         "old_facts": [
           {
             "metric": "gross margin",
-            "value": 4200000000.0,
+            "value": -4200000000.0,
             "unit": "USD",
             "role": "reported change amount",
             "duration": "annual",
@@ -26561,9 +26331,9 @@
           },
           {
             "metric": "gross margin",
-            "value": 13.0,
+            "value": -13.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 39,
             "end": 43,
@@ -26711,7 +26481,7 @@
             "metric": "gross margin",
             "value": 8.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 39,
             "end": 42,
@@ -26780,13 +26550,12 @@
         "comparisons": [],
         "abstentions": [
           "revenue: no matched metric, role, unit, and duration on both sides",
-          "revenue: no matched metric, role, unit, and duration on both sides",
           "revenue: no matched metric, role, unit, and duration on both sides"
         ],
         "old_facts": [
           {
             "metric": "revenue",
-            "value": 764000000.0,
+            "value": -764000000.0,
             "unit": "USD",
             "role": "reported change amount",
             "duration": "annual",
@@ -26798,9 +26567,9 @@
           },
           {
             "metric": "revenue",
-            "value": 5.0,
+            "value": -5.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 41,
             "end": 44,
@@ -26810,7 +26579,7 @@
           },
           {
             "metric": "revenue",
-            "value": 11.0,
+            "value": -11.0,
             "unit": "percent",
             "role": "reported growth rate",
             "duration": "annual",
@@ -26822,7 +26591,7 @@
           },
           {
             "metric": "revenue",
-            "value": 3.0,
+            "value": -3.0,
             "unit": "percent",
             "role": "reported growth rate",
             "duration": "annual",
@@ -27051,7 +26820,7 @@
             "metric": "operating income",
             "value": 24.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 43,
             "end": 47,
@@ -27324,7 +27093,7 @@
             "metric": "operating income",
             "value": 6.0,
             "unit": "percent",
-            "role": "reported level",
+            "role": "reported growth rate",
             "duration": "annual",
             "start": 42,
             "end": 45,
@@ -28177,7 +27946,9 @@
       "numeric": {
         "date_only": false,
         "comparisons": [],
-        "abstentions": [],
+        "abstentions": [
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence"
+        ],
         "old_facts": [],
         "new_facts": []
       },
@@ -28892,7 +28663,9 @@
       "numeric": {
         "date_only": false,
         "comparisons": [],
-        "abstentions": [],
+        "abstentions": [
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence"
+        ],
         "old_facts": [],
         "new_facts": []
       },
@@ -29498,349 +29271,6 @@
       ]
     },
     {
-      "id": "138dd67ac920",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "Year Ended June 30, | | | 2023 | | | | 2022 |",
-        "kind": "table_row",
-        "dom_id": "docx-p02058",
-        "source_locator": "word/document.xml table row beginning at paragraph 2058",
-        "page": null,
-        "id": "mda-0146",
-        "section": "mda",
-        "subsection": "OTHER INCOME (EXPENSE), NET",
-        "index": 146,
-        "start": 94687,
-        "end": 94732
-      },
-      "new": {
-        "text": "Year Ended June 30, | | | 2024 | | | | 2023 |",
-        "kind": "table_row",
-        "dom_id": "docx-p02063",
-        "source_locator": "word/document.xml table row beginning at paragraph 2063",
-        "page": null,
-        "id": "mda-0141",
-        "section": "mda",
-        "subsection": "OTHER INCOME (EXPENSE), NET",
-        "index": 141,
-        "start": 96831,
-        "end": 96876
-      },
-      "method": "contextual",
-      "similarity": 1.0,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": false,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "replace",
-          "old": {
-            "start": 26,
-            "end": 30,
-            "text": "2023"
-          },
-          "new": {
-            "start": 26,
-            "end": 30,
-            "text": "2024"
-          }
-        },
-        {
-          "operation": "replace",
-          "old": {
-            "start": 39,
-            "end": 43,
-            "text": "2022"
-          },
-          "new": {
-            "start": 39,
-            "end": 43,
-            "text": "2023"
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/msft-2023.html#mda-0146",
-      "new_citation": "sources/msft-2024.html#mda-0141",
-      "old_citations": [
-        "sources/msft-2023.html#mda-0146"
-      ],
-      "new_citations": [
-        "sources/msft-2024.html#mda-0141"
-      ]
-    },
-    {
-      "id": "15a07166405b",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "(In millions, except percentages) | | 2023 | | | 2022 | | | PercentageChange |",
-        "kind": "table_row",
-        "dom_id": "docx-p01943",
-        "source_locator": "word/document.xml table row beginning at paragraph 1943",
-        "page": null,
-        "id": "mda-0130",
-        "section": "mda",
-        "subsection": "Sales and Marketing",
-        "index": 130,
-        "start": 92808,
-        "end": 92886
-      },
-      "new": {
-        "text": "(In millions, except percentages) | | 2024 | | | 2023 | | | PercentageChange |",
-        "kind": "table_row",
-        "dom_id": "docx-p01948",
-        "source_locator": "word/document.xml table row beginning at paragraph 1948",
-        "page": null,
-        "id": "mda-0125",
-        "section": "mda",
-        "subsection": "Sales and Marketing",
-        "index": 125,
-        "start": 95237,
-        "end": 95315
-      },
-      "method": "contextual",
-      "similarity": 1.0,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": false,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "replace",
-          "old": {
-            "start": 38,
-            "end": 42,
-            "text": "2023"
-          },
-          "new": {
-            "start": 38,
-            "end": 42,
-            "text": "2024"
-          }
-        },
-        {
-          "operation": "replace",
-          "old": {
-            "start": 49,
-            "end": 53,
-            "text": "2022"
-          },
-          "new": {
-            "start": 49,
-            "end": 53,
-            "text": "2023"
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/msft-2023.html#mda-0130",
-      "new_citation": "sources/msft-2024.html#mda-0125",
-      "old_citations": [
-        "sources/msft-2023.html#mda-0130"
-      ],
-      "new_citations": [
-        "sources/msft-2024.html#mda-0125"
-      ]
-    },
-    {
-      "id": "3412680e4be9",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "(In millions, except percentages) | | 2023 | | | 2022 | | | PercentageChange |",
-        "kind": "table_row",
-        "dom_id": "docx-p01641",
-        "source_locator": "word/document.xml table row beginning at paragraph 1641",
-        "page": null,
-        "id": "mda-0080",
-        "section": "mda",
-        "subsection": "SEGMENT RESULTS OF OPERATIONS",
-        "index": 80,
-        "start": 86827,
-        "end": 86905
-      },
-      "new": {
-        "text": "(In millions, except percentages) | | 2024 | | | 2023 | | | PercentageChange |",
-        "kind": "table_row",
-        "dom_id": "docx-p01649",
-        "source_locator": "word/document.xml table row beginning at paragraph 1649",
-        "page": null,
-        "id": "mda-0078",
-        "section": "mda",
-        "subsection": "SEGMENT RESULTS OF OPERATIONS",
-        "index": 78,
-        "start": 89907,
-        "end": 89985
-      },
-      "method": "contextual",
-      "similarity": 1.0,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": false,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "replace",
-          "old": {
-            "start": 38,
-            "end": 42,
-            "text": "2023"
-          },
-          "new": {
-            "start": 38,
-            "end": 42,
-            "text": "2024"
-          }
-        },
-        {
-          "operation": "replace",
-          "old": {
-            "start": 49,
-            "end": 53,
-            "text": "2022"
-          },
-          "new": {
-            "start": 49,
-            "end": 53,
-            "text": "2023"
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/msft-2023.html#mda-0080",
-      "new_citation": "sources/msft-2024.html#mda-0078",
-      "old_citations": [
-        "sources/msft-2023.html#mda-0080"
-      ],
-      "new_citations": [
-        "sources/msft-2024.html#mda-0078"
-      ]
-    },
-    {
-      "id": "353e657abd60",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "(In millions) | | 2024 | | | Thereafter | | | Total |",
-        "kind": "table_row",
-        "dom_id": "docx-p02566",
-        "source_locator": "word/document.xml table row beginning at paragraph 2566",
-        "page": null,
-        "id": "mda-0212",
-        "section": "mda",
-        "subsection": "Contractual Obligations",
-        "index": 212,
-        "start": 108463,
-        "end": 108516
-      },
-      "new": {
-        "text": "(In millions) | | 2025 | | | Thereafter | | | Total |",
-        "kind": "table_row",
-        "dom_id": "docx-p02548",
-        "source_locator": "word/document.xml table row beginning at paragraph 2548",
-        "page": null,
-        "id": "mda-0204",
-        "section": "mda",
-        "subsection": "Contractual Obligations",
-        "index": 204,
-        "start": 110271,
-        "end": 110324
-      },
-      "method": "contextual",
-      "similarity": 1.0,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": false,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "replace",
-          "old": {
-            "start": 18,
-            "end": 22,
-            "text": "2024"
-          },
-          "new": {
-            "start": 18,
-            "end": 22,
-            "text": "2025"
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/msft-2023.html#mda-0212",
-      "new_citation": "sources/msft-2024.html#mda-0204",
-      "old_citations": [
-        "sources/msft-2023.html#mda-0212"
-      ],
-      "new_citations": [
-        "sources/msft-2024.html#mda-0204"
-      ]
-    },
-    {
       "id": "40930e331ef1",
       "section": "mda",
       "kind": "changed",
@@ -30184,95 +29614,6 @@
       ]
     },
     {
-      "id": "99e430dc13c3",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "(In millions, except percentages and per share amounts) | | 2023 | | | 2022 | | PercentageChange |",
-        "kind": "table_row",
-        "dom_id": "docx-p01484",
-        "source_locator": "word/document.xml table row beginning at paragraph 1484",
-        "page": null,
-        "id": "mda-0058",
-        "section": "mda",
-        "subsection": "SUMMARY RESULTS OF OPERATIONS",
-        "index": 58,
-        "start": 82742,
-        "end": 82840
-      },
-      "new": {
-        "text": "(In millions, except percentages and per share amounts) | | 2024 | | | 2023 | | PercentageChange |",
-        "kind": "table_row",
-        "dom_id": "docx-p01493",
-        "source_locator": "word/document.xml table row beginning at paragraph 1493",
-        "page": null,
-        "id": "mda-0057",
-        "section": "mda",
-        "subsection": "SUMMARY RESULTS OF OPERATIONS",
-        "index": 57,
-        "start": 86907,
-        "end": 87005
-      },
-      "method": "contextual",
-      "similarity": 1.0,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": false,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "replace",
-          "old": {
-            "start": 60,
-            "end": 64,
-            "text": "2023"
-          },
-          "new": {
-            "start": 60,
-            "end": 64,
-            "text": "2024"
-          }
-        },
-        {
-          "operation": "replace",
-          "old": {
-            "start": 71,
-            "end": 75,
-            "text": "2022"
-          },
-          "new": {
-            "start": 71,
-            "end": 75,
-            "text": "2023"
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/msft-2023.html#mda-0058",
-      "new_citation": "sources/msft-2024.html#mda-0057",
-      "old_citations": [
-        "sources/msft-2023.html#mda-0058"
-      ],
-      "new_citations": [
-        "sources/msft-2024.html#mda-0057"
-      ]
-    },
-    {
       "id": "a5c4ff0901c3",
       "section": "mda",
       "kind": "changed",
@@ -30448,82 +29789,6 @@
       ],
       "new_citations": [
         "sources/msft-2024.html#mda-0122"
-      ]
-    },
-    {
-      "id": "aef7249ec880",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "We are subject to income tax in many jurisdictions outside the U.S. Our operations in certain jurisdictions remain subject to examination for tax years 1996 to 2022, some of which are currently under audit by local tax authorities. The resolution of each of these audits is not expected to be material to our consolidated financial statements.",
-        "kind": "paragraph",
-        "dom_id": "docx-p02167",
-        "source_locator": "word/document.xml paragraph 2167",
-        "page": null,
-        "id": "mda-0166",
-        "section": "mda",
-        "subsection": "Uncertain Tax Positions",
-        "index": 166,
-        "start": 98812,
-        "end": 99155
-      },
-      "new": {
-        "text": "We are subject to income tax in many jurisdictions outside the U.S. Our operations in certain jurisdictions remain subject to examination for tax years 1996 to 2023, some of which are currently under audit by local tax authorities. The resolution of each of these audits is not expected to be material to our consolidated financial statements.",
-        "kind": "paragraph",
-        "dom_id": "docx-p02171",
-        "source_locator": "word/document.xml paragraph 2171",
-        "page": null,
-        "id": "mda-0160",
-        "section": "mda",
-        "subsection": "Uncertain Tax Positions",
-        "index": 160,
-        "start": 101165,
-        "end": 101508
-      },
-      "method": "contextual",
-      "similarity": 1.0,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": false,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "replace",
-          "old": {
-            "start": 160,
-            "end": 164,
-            "text": "2022"
-          },
-          "new": {
-            "start": 160,
-            "end": 164,
-            "text": "2023"
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/msft-2023.html#mda-0166",
-      "new_citation": "sources/msft-2024.html#mda-0160",
-      "old_citations": [
-        "sources/msft-2023.html#mda-0166"
-      ],
-      "new_citations": [
-        "sources/msft-2024.html#mda-0160"
       ]
     },
     {
@@ -30728,273 +29993,6 @@
       ],
       "new_citations": [
         "sources/msft-2024.html#mda-0001"
-      ]
-    },
-    {
-      "id": "be2e0129d676",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "(In millions, except percentages and per share amounts) | | 2023 | | | 2022 | | PercentageChange |",
-        "kind": "table_row",
-        "dom_id": "docx-p02172",
-        "source_locator": "word/document.xml table row beginning at paragraph 2172",
-        "page": null,
-        "id": "mda-0170",
-        "section": "mda",
-        "subsection": "NON-GAAP FINANCIAL MEASURES",
-        "index": 170,
-        "start": 100299,
-        "end": 100397
-      },
-      "new": {
-        "text": "(In millions, except percentages and per share amounts) | | 2024 | | | 2023 | | PercentageChange |",
-        "kind": "table_row",
-        "dom_id": "docx-p02176",
-        "source_locator": "word/document.xml table row beginning at paragraph 2176",
-        "page": null,
-        "id": "mda-0164",
-        "section": "mda",
-        "subsection": "NON-GAAP FINANCIAL MEASURES",
-        "index": 164,
-        "start": 102489,
-        "end": 102587
-      },
-      "method": "contextual",
-      "similarity": 1.0,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": false,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "replace",
-          "old": {
-            "start": 60,
-            "end": 64,
-            "text": "2023"
-          },
-          "new": {
-            "start": 60,
-            "end": 64,
-            "text": "2024"
-          }
-        },
-        {
-          "operation": "replace",
-          "old": {
-            "start": 71,
-            "end": 75,
-            "text": "2022"
-          },
-          "new": {
-            "start": 71,
-            "end": 75,
-            "text": "2023"
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/msft-2023.html#mda-0170",
-      "new_citation": "sources/msft-2024.html#mda-0164",
-      "old_citations": [
-        "sources/msft-2023.html#mda-0170"
-      ],
-      "new_citations": [
-        "sources/msft-2024.html#mda-0164"
-      ]
-    },
-    {
-      "id": "ca2ada012722",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "(In millions, except percentages) | | 2023 | | | 2022 | | | PercentageChange |",
-        "kind": "table_row",
-        "dom_id": "docx-p01891",
-        "source_locator": "word/document.xml table row beginning at paragraph 1891",
-        "page": null,
-        "id": "mda-0123",
-        "section": "mda",
-        "subsection": "Research and Development",
-        "index": 123,
-        "start": 92064,
-        "end": 92142
-      },
-      "new": {
-        "text": "(In millions, except percentages) | | 2024 | | | 2023 | | | PercentageChange |",
-        "kind": "table_row",
-        "dom_id": "docx-p01896",
-        "source_locator": "word/document.xml table row beginning at paragraph 1896",
-        "page": null,
-        "id": "mda-0118",
-        "section": "mda",
-        "subsection": "Research and Development",
-        "index": 118,
-        "start": 94428,
-        "end": 94506
-      },
-      "method": "contextual",
-      "similarity": 1.0,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": false,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "replace",
-          "old": {
-            "start": 38,
-            "end": 42,
-            "text": "2023"
-          },
-          "new": {
-            "start": 38,
-            "end": 42,
-            "text": "2024"
-          }
-        },
-        {
-          "operation": "replace",
-          "old": {
-            "start": 49,
-            "end": 53,
-            "text": "2022"
-          },
-          "new": {
-            "start": 49,
-            "end": 53,
-            "text": "2023"
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/msft-2023.html#mda-0123",
-      "new_citation": "sources/msft-2024.html#mda-0118",
-      "old_citations": [
-        "sources/msft-2023.html#mda-0123"
-      ],
-      "new_citations": [
-        "sources/msft-2024.html#mda-0118"
-      ]
-    },
-    {
-      "id": "d4dc59409981",
-      "section": "mda",
-      "kind": "changed",
-      "old": {
-        "text": "(In millions, except percentages) | | 2023 | | | 2022 | | PercentageChange |",
-        "kind": "table_row",
-        "dom_id": "docx-p01989",
-        "source_locator": "word/document.xml table row beginning at paragraph 1989",
-        "page": null,
-        "id": "mda-0137",
-        "section": "mda",
-        "subsection": "General and Administrative",
-        "index": 137,
-        "start": 93646,
-        "end": 93722
-      },
-      "new": {
-        "text": "(In millions, except percentages) | | 2024 | | | 2023 | | PercentageChange |",
-        "kind": "table_row",
-        "dom_id": "docx-p01994",
-        "source_locator": "word/document.xml table row beginning at paragraph 1994",
-        "page": null,
-        "id": "mda-0132",
-        "section": "mda",
-        "subsection": "General and Administrative",
-        "index": 132,
-        "start": 95932,
-        "end": 96008
-      },
-      "method": "contextual",
-      "similarity": 1.0,
-      "moved": true,
-      "needs_review": true,
-      "ambiguous_alignment": false,
-      "score": 5,
-      "priority": "low",
-      "reasons": [
-        "Date/year-only rollover; all other text unchanged"
-      ],
-      "status": "needs_review",
-      "review_note": "",
-      "edits": [
-        {
-          "operation": "replace",
-          "old": {
-            "start": 38,
-            "end": 42,
-            "text": "2023"
-          },
-          "new": {
-            "start": 38,
-            "end": 42,
-            "text": "2024"
-          }
-        },
-        {
-          "operation": "replace",
-          "old": {
-            "start": 49,
-            "end": 53,
-            "text": "2022"
-          },
-          "new": {
-            "start": 49,
-            "end": 53,
-            "text": "2023"
-          }
-        }
-      ],
-      "numeric": {
-        "date_only": true,
-        "comparisons": [],
-        "abstentions": [
-          "Only a date or year changed"
-        ],
-        "old_facts": [],
-        "new_facts": []
-      },
-      "assumption_links": [],
-      "old_citation": "sources/msft-2023.html#mda-0137",
-      "new_citation": "sources/msft-2024.html#mda-0132",
-      "old_citations": [
-        "sources/msft-2023.html#mda-0137"
-      ],
-      "new_citations": [
-        "sources/msft-2024.html#mda-0132"
       ]
     },
     {
@@ -35926,6 +34924,7 @@
         "date_only": false,
         "comparisons": [],
         "abstentions": [
+          "Multiple metrics in one sentence; quantity attribution is ambiguous; no arithmetic for that sentence",
           "No supported, explicitly unit-qualified narrative metric; tables and bare numbers need review"
         ],
         "old_facts": [],
@@ -39487,9 +38486,9 @@
     }
   ],
   "counts": {
-    "changed": 191,
-    "added": 29,
-    "removed": 35,
+    "changed": 192,
+    "added": 28,
+    "removed": 34,
     "unchanged": 138
   }
 }
