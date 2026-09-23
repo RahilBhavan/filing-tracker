@@ -1,6 +1,6 @@
 # V2 delivery and measured results
 
-Implemented September 21, 2026. All six engineering workstreams in [the plan](../PLAN.md) are delivered. Independent human labels, a fully judged top-ten noise rate, and human time-saving validation remain pending.
+Implemented September 21, 2026. All six engineering workstreams in [the plan](../../PLAN.md) are delivered. Independent human labels, a fully judged top-ten noise rate, and human time-saving validation remain pending.
 
 ## Delivered
 
@@ -43,17 +43,17 @@ Berkshire was excluded from scoring/tuning until the comparison implementation w
 
 ## Verification evidence
 
-- `python3 verify.py`: exit 0. **41 tests passed**, followed by four successful synthetic comparison/evaluation commands. Exact command output is in [verification.json](../verification.json).
+- `python3 verify.py`: exit 0. **41 tests passed**, followed by four successful synthetic comparison/evaluation commands. Exact command output is in [verification.json](../../verification.json).
 - Real corpus loading checks original/converted SHA-256 and every extracted block's normalized source span. Group-correction tests verify all member citations.
 - Browser verification: exit 0, no page errors. Checked highlighted edits, decision persistence, assumption save, session start/finish, matching save, citation HTTP access, 390px layout without horizontal overflow, and manual reading. The browser test used disposable synthetic state; its timings are not human measurements.
 - `python3 scripts/benchmark.py` equivalent `benchmark.run('.')`: exit 0; all six engine/pair results saved. Both real report-export commands exited 0.
-- `python3 scripts/review_packet.py`: exit 0. Blank decisions and complete source passages are in [blind-review](../corpus/blind-review/README.md).
+- `python3 scripts/review_packet.py`: exit 0. Blank decisions and complete source passages are in [blind-review](../../corpus/blind-review/README.md).
 - Berkshire 2024 page 27 was rendered and visually inspected for source order. No full visual audit of all PDF pages was performed.
 
 Earlier checks caught and resolved a mismatched test search term, missing accessible control labels, and browser-test URL/revision assumptions. Loopback tests needed sandbox permission; the final permitted run passed. Port 8765 was occupied, so browser verification used 8873.
 
-Additional check records: [v2-verification.json](v2-verification.json). Screenshot: [real Microsoft review](review-preview.png).
+Additional check records: [v2-verification.json](../v2-verification.json). Screenshot: [real Microsoft review](../review-preview.png).
 
 ## Human validation still required
 
-Have another reviewer complete the source-only packet before seeing the author labels. Resolve disagreements with a second person. Counterbalance manual and assisted sessions on different pairs, grade accuracy, then compare time and corrections. See [the protocol](../corpus/blind-review/README.md). No independent reviews or human sessions are claimed complete.
+Have another reviewer complete the source-only packet before seeing the author labels. Resolve disagreements with a second person. Counterbalance manual and assisted sessions on different pairs, grade accuracy, then compare time and corrections. See [the protocol](../../corpus/blind-review/README.md). No independent reviews or human sessions are claimed complete.

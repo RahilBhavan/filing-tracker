@@ -61,7 +61,7 @@ The test suite has 29 tests. It covers section boundaries, table-of-contents sel
 
 ## Deviations and remaining limits
 
-- Real SEC retrieval failed; the demo and measured evaluation use explicitly synthetic fixtures. The optional network loader is verified with mocks only. The attempted download and exit statuses are in [source access](source-access.md).
+- Real SEC retrieval failed; the demo and measured evaluation use explicitly synthetic fixtures. The optional network loader is verified with mocks only. The attempted download and exit statuses are in [source access](../source-access.md).
 - The memo is a source-excerpt draft with visible rule explanations. It does not synthesize an investment recommendation or generate financial claims with a language model.
 - Review uses editable JSON rather than a graphical interface. Every changed item begins in a needs-review state. Dismissed items remain in exports as an audit trail.
 - The parser is an HTML block baseline. It has no OCR, cross-page reconstruction, colspan or rowspan accounting semantics, or robust support for all issuer layouts. It can miss sections or choose a wrong long candidate; warnings and source inspection remain necessary.
