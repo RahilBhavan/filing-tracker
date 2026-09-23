@@ -2,12 +2,12 @@
   "engine_hashes": {
     "filing_tracker/__init__.py": "55ae576662c4968d1f623638e5bd96a7b9fac83267b96be37700bcef061631ec",
     "filing_tracker/__main__.py": "aedc369c814f2406969a1af3808648cd3c4971f1d58e938a6d7984a3cdc859b1",
-    "filing_tracker/alignment.py": "a70cc49d2eb6e03463cae41d7e42070666b9691070a1e9734f6d0db0d64463ca",
+    "filing_tracker/alignment.py": "75499e53524cfacf3e6f821032ff53c2bd24f0625cafec873a4e1cd02e573dfe",
     "filing_tracker/baseline.py": "c99f69da1977fe4b7abe77021880a0c693733893a0c55f1fadd944e155a3f9f2",
     "filing_tracker/benchmark.py": "f5c192f8001d646526d4d975210445454ce0a80c2d30546cb01c9a27e01f985e",
     "filing_tracker/core.py": "caac51b8d6042ddadf8da5f64423dd25f9a3665478a296d538341d089929fa9d",
     "filing_tracker/evaluation.py": "e58e310df5bf899101a308d68964e98903a0a09c1fb43494085ba82220bc2b80",
-    "filing_tracker/numbers.py": "cad7a955d4ec5b24b073a5527d6c9d9fe6c2675bf8781904214930e1593a9c68",
+    "filing_tracker/numbers.py": "8d1931ad6cb7d038d08855ac7fb70acb0536aaf7f5988ca5f9e860e833479fe2",
     "filing_tracker/report.py": "a30cc4da3d6099334e1d3644fe0b773511c8f9a7defa93fc142557e523a24c73",
     "filing_tracker/review_app.py": "e497c729c89350acf5a7cef1beac594267f28280dee9b06f618b76c538464654",
     "filing_tracker/sec.py": "617855e12e59ef9a11d8aff7f908b4e753a05687c1bf65ae2337ef465ba6dc5c",
@@ -18,7 +18,7 @@
     {
       "pair": "msft-2022-2023",
       "engine": "v1",
-      "comparison_seconds": 3.4018,
+      "comparison_seconds": 4.5006,
       "label_count": 20,
       "scope": "purposeful sample; not whole-filing ground truth",
       "independent_review": false,
@@ -64,19 +64,19 @@
     {
       "pair": "msft-2022-2023",
       "engine": "v2",
-      "comparison_seconds": 0.9082,
+      "comparison_seconds": 1.0087,
       "label_count": 20,
       "scope": "purposeful sample; not whole-filing ground truth",
       "independent_review": false,
       "changed_decision_recall": {
-        "numerator": 18,
+        "numerator": 19,
         "denominator": 19,
-        "value": 0.9474
+        "value": 1.0
       },
       "important_change_recall": {
-        "numerator": 11,
+        "numerator": 12,
         "denominator": 12,
-        "value": 0.9167
+        "value": 1.0
       },
       "important_change_recall_at_10": {
         "numerator": 2,
@@ -84,12 +84,12 @@
         "value": 0.1667
       },
       "exact_alignment_and_type": {
-        "numerator": 19,
+        "numerator": 20,
         "denominator": 20,
-        "value": 0.95
+        "value": 1.0
       },
-      "labelled_decisions_needing_correction": 1,
-      "predictions_touching_labelled_blocks": 21,
+      "labelled_decisions_needing_correction": 0,
+      "predictions_touching_labelled_blocks": 20,
       "top_10": {
         "count": 10,
         "judged": 3,
@@ -102,15 +102,13 @@
           "value": 0.0
         }
       },
-      "missed_labels": [
-        "msft-2022-2023-18"
-      ],
+      "missed_labels": [],
       "measurement_note": "Correction count is unmatched author decisions, not measured user actions. Unjudged top-ten items remain unknown."
     },
     {
       "pair": "msft-2023-2024",
       "engine": "v1",
-      "comparison_seconds": 4.2175,
+      "comparison_seconds": 4.1603,
       "label_count": 20,
       "scope": "purposeful sample; not whole-filing ground truth",
       "independent_review": false,
@@ -156,19 +154,19 @@
     {
       "pair": "msft-2023-2024",
       "engine": "v2",
-      "comparison_seconds": 1.0976,
+      "comparison_seconds": 1.1985,
       "label_count": 20,
       "scope": "purposeful sample; not whole-filing ground truth",
       "independent_review": false,
       "changed_decision_recall": {
-        "numerator": 18,
+        "numerator": 19,
         "denominator": 19,
-        "value": 0.9474
+        "value": 1.0
       },
       "important_change_recall": {
-        "numerator": 9,
+        "numerator": 10,
         "denominator": 10,
-        "value": 0.9
+        "value": 1.0
       },
       "important_change_recall_at_10": {
         "numerator": 0,
@@ -176,12 +174,12 @@
         "value": 0.0
       },
       "exact_alignment_and_type": {
-        "numerator": 19,
+        "numerator": 20,
         "denominator": 20,
-        "value": 0.95
+        "value": 1.0
       },
-      "labelled_decisions_needing_correction": 1,
-      "predictions_touching_labelled_blocks": 21,
+      "labelled_decisions_needing_correction": 0,
+      "predictions_touching_labelled_blocks": 20,
       "top_10": {
         "count": 10,
         "judged": 0,
@@ -194,15 +192,13 @@
           "value": null
         }
       },
-      "missed_labels": [
-        "msft-2023-2024-18"
-      ],
+      "missed_labels": [],
       "measurement_note": "Correction count is unmatched author decisions, not measured user actions. Unjudged top-ten items remain unknown."
     },
     {
       "pair": "brk-2023-2024",
       "engine": "v1",
-      "comparison_seconds": 17.1533,
+      "comparison_seconds": 27.4355,
       "label_count": 10,
       "scope": "purposeful sample; not whole-filing ground truth",
       "independent_review": false,
@@ -227,7 +223,7 @@
         "value": 0.8
       },
       "labelled_decisions_needing_correction": 2,
-      "predictions_touching_labelled_blocks": 11,
+      "predictions_touching_labelled_blocks": 12,
       "top_10": {
         "count": 10,
         "judged": 1,
@@ -249,19 +245,19 @@
     {
       "pair": "brk-2023-2024",
       "engine": "v2",
-      "comparison_seconds": 3.2625,
+      "comparison_seconds": 3.5648,
       "label_count": 10,
       "scope": "purposeful sample; not whole-filing ground truth",
       "independent_review": false,
       "changed_decision_recall": {
-        "numerator": 6,
+        "numerator": 8,
         "denominator": 8,
-        "value": 0.75
+        "value": 1.0
       },
       "important_change_recall": {
-        "numerator": 5,
+        "numerator": 6,
         "denominator": 6,
-        "value": 0.8333
+        "value": 1.0
       },
       "important_change_recall_at_10": {
         "numerator": 1,
@@ -269,12 +265,12 @@
         "value": 0.1667
       },
       "exact_alignment_and_type": {
-        "numerator": 8,
+        "numerator": 10,
         "denominator": 10,
-        "value": 0.8
+        "value": 1.0
       },
-      "labelled_decisions_needing_correction": 2,
-      "predictions_touching_labelled_blocks": 11,
+      "labelled_decisions_needing_correction": 0,
+      "predictions_touching_labelled_blocks": 10,
       "top_10": {
         "count": 10,
         "judged": 1,
@@ -287,10 +283,7 @@
           "value": 0.0
         }
       },
-      "missed_labels": [
-        "brk-2023-2024-02",
-        "brk-2023-2024-08"
-      ],
+      "missed_labels": [],
       "measurement_note": "Correction count is unmatched author decisions, not measured user actions. Unjudged top-ten items remain unknown."
     }
   ],

@@ -59,6 +59,6 @@ Regenerating the converted corpus uses `python3 scripts/prepare_corpus.py` and r
 
 ## Evidence limits
 
-V2 recovered 42/46 sampled changed decisions, the same as v1. The sample is purposeful and author-labelled, not a whole-filing accuracy estimate. Top-ten coverage of important changes remains weak. Independent importance judgments and human time savings are **not yet validated**; the packet and session workflow are ready for that work.
+The September 22 revision recovered 46/46 sampled changed decisions, compared with 42/46 for v1. This uses corrected author labels, including a Berkshire paragraph split previously mislabeled as an addition. These previously inspected samples are development evidence, not a fresh holdout or whole-filing accuracy estimate. Top-ten coverage of important changes remains weak. Independent importance judgments and human time savings are **not yet validated**; the packet and session workflow are ready for that work. See the [current completion audit](docs/completion-audit.md).
 
 PDF columns, tables, and page breaks can create misleading paragraph boundaries. Automatic grouping handles only two adjacent paragraphs. Numeric interpretation is deliberately limited to supported narrative metrics; there is no XBRL reconciliation, semantic model, OCR, 10-Q support, or claim of financial materiality.

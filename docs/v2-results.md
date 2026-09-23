@@ -56,6 +56,6 @@ Additional check records: [v2-verification.json](v2-verification.json). Screensh
 
 ## Human validation still required
 
-The September 22 follow-up corrected signed percentage changes, ambiguous mixed-metric sentences, monetary/date rollover handling, and browser draft preservation. These changes have dedicated regression tests. The historical benchmark JSON above predates that follow-up and is retained for comparison; rerunning the complete all-pair benchmark currently exceeds the practical local runtime budget because full-filing pairwise matching is quadratic.
+The September 22 follow-up corrected signed percentage changes, ambiguous mixed-metric sentences, monetary/date rollover handling, and browser draft preservation. These changes have dedicated regression tests. Historical results are preserved under `docs/v2/`; see `completion-audit.md` for the latest verification. The earlier benchmark was interrupted before completion, which did not establish a runtime limit or a PDF parsing defect.
 
 Have another reviewer complete the source-only packet before seeing the author labels. Resolve disagreements with a second person. Counterbalance manual and assisted sessions on different pairs, grade accuracy, then compare time and corrections. See [the protocol](../corpus/blind-review/README.md). No independent reviews or human sessions are claimed complete.
