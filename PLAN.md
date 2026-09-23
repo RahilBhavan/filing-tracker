@@ -25,7 +25,7 @@ Status at start: planned. Completion evidence and any remaining human validation
 - [x] Reproducible engine comparison, source-only packets, and human measurement workflow.
 - [ ] Independent human labeling, complete top-ten relevance judgments, and accuracy-controlled human timing study. Requires actual reviewers; no substituted measurements.
 
-Engineering verification: 41 Python tests and browser interactions passed. Author-sample detection remains 42/46 in both engines; see [results](docs/v2-results.md) for remaining failures and limitations.
+Engineering verification at the September 21 release: 41 Python tests and browser interactions passed, and both engines recovered 42/46 author-sample changes ([historical results](docs/v2/results.md)). Current status: 54 Python tests pass, V2 recovers 46/46 changed decisions and V1 42/46 on the corrected labels; see [current results](docs/v2-results.md) for limitations. These pairs are now development data, not a holdout.
 
 ## Completion follow-up — September 22
 

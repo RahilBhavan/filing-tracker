@@ -4,9 +4,9 @@ The project is a verified local research prototype. It is ready to share as a pr
 
 ## Verified on the committed implementation
 
-- `python3 -m unittest discover -s tests -q`: exit 0, 47 tests passed in 29.189 seconds. Includes original-file hashes, numeric regressions, grouping, persisted reviews, and localhost boundaries.
+- `python3 -m unittest discover -s tests -q`: exit 0, 54 tests passed. Includes original-file hashes, numeric regressions, grouping, persisted reviews, and localhost boundaries.
 - `python3 scripts/benchmark.py`: exit 0; completed all six engine/pair runs. Current raw results are in `real-benchmark.json`.
-- `PLAYWRIGHT_MODULE=<installed Playwright> REVIEW_URL=http://127.0.0.1:8893 node scripts/browser-check.cjs`: exit 0; nine checks passed, no page errors. This includes draft preservation across saving assumptions and reloading, persisted decisions, source citations, matching correction, sessions, manual reading, and mobile layout. Used disposable synthetic state, not human study data.
+- `PLAYWRIGHT_MODULE=<installed Playwright> REVIEW_URL=http://127.0.0.1:8893 node scripts/browser-check.cjs`: exit 0; nine checks passed, no page errors (the September 21 V2 run in `v2-verification.json` had eight; draft preservation was added September 22). This includes draft preservation across saving assumptions and reloading, persisted decisions, source citations, matching correction, sessions, manual reading, and mobile layout. Used disposable synthetic state, not human study data.
 - Publication inspection found no tracked personal review state, environment files, private-key files, or common token patterns. Personal reviews remain ignored.
 
 ## Current results and what remains
@@ -17,7 +17,7 @@ Only 3/28 labelled important changes appear across the three global top-ten list
 
 Independent human labels and accuracy-controlled manual/assisted review timing remain open. There are no completed human sessions. The existing blank packets and timing workflow enable those studies but do not substitute for reviewers. Previously inspected pairs are now development data; a new untouched pair is required for a fresh holdout claim.
 
-PDF table/column boundaries and semantic rewrites remain limitations. Numeric extraction deliberately abstains on mixed-metric sentences. Existing demo reports and earlier verification documents are historical snapshots; regenerate reports with the current CLI when reviewing current behavior.
+PDF table/column boundaries and semantic rewrites remain limitations. Numeric extraction deliberately abstains on mixed-metric sentences. The demo reports and `verification.json` were regenerated on September 23 after the running page-header and numeric extraction fixes. `v1/` and `v2/` documents are historical snapshots.
 
 ## Next acceptance gates
 

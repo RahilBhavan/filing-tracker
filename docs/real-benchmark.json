@@ -1,15 +1,15 @@
 {
   "engine_hashes": {
     "filing_tracker/__init__.py": "55ae576662c4968d1f623638e5bd96a7b9fac83267b96be37700bcef061631ec",
-    "filing_tracker/__main__.py": "aedc369c814f2406969a1af3808648cd3c4971f1d58e938a6d7984a3cdc859b1",
+    "filing_tracker/__main__.py": "d25af0a6104a72492a86d23c648363fd33ca6cbcfe6180df6f18e8c17c0d03da",
     "filing_tracker/alignment.py": "75499e53524cfacf3e6f821032ff53c2bd24f0625cafec873a4e1cd02e573dfe",
     "filing_tracker/baseline.py": "c99f69da1977fe4b7abe77021880a0c693733893a0c55f1fadd944e155a3f9f2",
     "filing_tracker/benchmark.py": "f5c192f8001d646526d4d975210445454ce0a80c2d30546cb01c9a27e01f985e",
-    "filing_tracker/core.py": "caac51b8d6042ddadf8da5f64423dd25f9a3665478a296d538341d089929fa9d",
+    "filing_tracker/core.py": "122e086e39bfe99e0efea7b5ed36d4ba62d8a6fa796999f153113b0152f0ddcf",
     "filing_tracker/evaluation.py": "e58e310df5bf899101a308d68964e98903a0a09c1fb43494085ba82220bc2b80",
-    "filing_tracker/numbers.py": "8d1931ad6cb7d038d08855ac7fb70acb0536aaf7f5988ca5f9e860e833479fe2",
-    "filing_tracker/report.py": "a30cc4da3d6099334e1d3644fe0b773511c8f9a7defa93fc142557e523a24c73",
-    "filing_tracker/review_app.py": "e497c729c89350acf5a7cef1beac594267f28280dee9b06f618b76c538464654",
+    "filing_tracker/numbers.py": "c9387dca42ff521be0c8c95a7c7e9722ab65833bb362a7f2fd06eaed4bdf37b8",
+    "filing_tracker/report.py": "a3a7b6eefca4fa05cb443b0c0e3be95b3c7e9f743325ad6ac114eb1eef41e5b4",
+    "filing_tracker/review_app.py": "8d373e0aa2bd71219d914bb04dc8afc345de8bd1c2d6eb3342a8f93a3b6adb18",
     "filing_tracker/sec.py": "617855e12e59ef9a11d8aff7f908b4e753a05687c1bf65ae2337ef465ba6dc5c",
     "filing_tracker/source_formats.py": "4c4aee8aba696e8c680f97370b1698674cb832804816136119de0e12004d2185",
     "filing_tracker/thesis.py": "bace340bf8d7ac32b47104cc642a1a844ab3ffb02ab789f021ed4e39ba8c8c08"
@@ -18,7 +18,7 @@
     {
       "pair": "msft-2022-2023",
       "engine": "v1",
-      "comparison_seconds": 4.5006,
+      "comparison_seconds": 3.8809,
       "label_count": 20,
       "scope": "purposeful sample; not whole-filing ground truth",
       "independent_review": false,
@@ -64,7 +64,7 @@
     {
       "pair": "msft-2022-2023",
       "engine": "v2",
-      "comparison_seconds": 1.0087,
+      "comparison_seconds": 1.2301,
       "label_count": 20,
       "scope": "purposeful sample; not whole-filing ground truth",
       "independent_review": false,
@@ -108,7 +108,7 @@
     {
       "pair": "msft-2023-2024",
       "engine": "v1",
-      "comparison_seconds": 4.1603,
+      "comparison_seconds": 5.0395,
       "label_count": 20,
       "scope": "purposeful sample; not whole-filing ground truth",
       "independent_review": false,
@@ -154,7 +154,7 @@
     {
       "pair": "msft-2023-2024",
       "engine": "v2",
-      "comparison_seconds": 1.1985,
+      "comparison_seconds": 1.3706,
       "label_count": 20,
       "scope": "purposeful sample; not whole-filing ground truth",
       "independent_review": false,
@@ -198,7 +198,7 @@
     {
       "pair": "brk-2023-2024",
       "engine": "v1",
-      "comparison_seconds": 27.4355,
+      "comparison_seconds": 16.9341,
       "label_count": 10,
       "scope": "purposeful sample; not whole-filing ground truth",
       "independent_review": false,
@@ -245,7 +245,7 @@
     {
       "pair": "brk-2023-2024",
       "engine": "v2",
-      "comparison_seconds": 3.5648,
+      "comparison_seconds": 3.4097,
       "label_count": 10,
       "scope": "purposeful sample; not whole-filing ground truth",
       "independent_review": false,
