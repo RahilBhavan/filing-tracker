@@ -13,6 +13,7 @@ from pathlib import Path
 SECTIONS = {"risk": "Item 1A — Risk Factors", "mda": "Item 7 — MD&A"}
 TOKEN = re.compile(r"\w+|[^\w\s]", re.UNICODE)
 NUMBER = re.compile(r"(?<!\w)[+-]?\d[\d,]*(?:\.\d+)?%?")
+PAGE_FURNITURE = re.compile(r"\d{1,3}|PART\s+[IV]+(?:\s*,\s*[IV]+)*", re.I)
 MODALS = {"not", "no", "never", "may", "might", "will", "cannot", "could"}
 
 
@@ -136,11 +137,13 @@ def parse_html(html):
 
     for row in parser.rows:
         boundary = item_heading(row["text"])
+        if boundary == active:
+            continue  # A running page header such as "Item 1A" continues the open section.
         if boundary:
             save()
             active = boundary if boundary in SECTIONS else None
             current = []
-        elif active:
+        elif active and not PAGE_FURNITURE.fullmatch(row["text"]):
             current.append(row)
     save()
     blocks = []

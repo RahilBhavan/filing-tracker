@@ -69,6 +69,17 @@ class ParserTests(unittest.TestCase):
         self.assertNotIn("page 5", text)
         self.assertEqual(len(warnings), 2)
 
+    def test_running_page_headers_continue_the_section(self):
+        blocks, text, warnings = parse_html((FIXTURES / "page-headers.html").read_text(encoding="utf-8"))
+        risk = [b["text"] for b in blocks if b["section"] == "risk"]
+        self.assertEqual(len(risk), 3)
+        self.assertIn("First page", risk[0])
+        self.assertIn("Third page", risk[2])
+        self.assertEqual(len([b for b in blocks if b["section"] == "mda"]), 2)
+        for furniture in ("22", "PART I", "PART II"):
+            self.assertNotIn(furniture + "\n", text)
+        self.assertEqual(warnings, [])
+
 
 class AlignmentTests(unittest.TestCase):
     def test_reordering_is_unchanged_and_one_to_one(self):

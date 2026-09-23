@@ -9,3 +9,5 @@ Gold `old` and `new` fields refer to source DOM IDs, independently of the parser
 The two pairs share the 2024 document and the same author. The challenge pair is a second test case, not a statistically independent or blind test set. The numeric-rollover failure on development informed the implementation. Substantial rewrite failures remain in the challenge results.
 
 `challenge-review.json` is a worked example of reviewer overrides based on inspecting the fictional passages. It is excluded from baseline evaluation. SHA-256 changes require deliberate updates to the manifests and pair fingerprints before old labels or reviews can be reused.
+
+`page-headers.html` is a small parser fixture with SEC-style running page headers ("Item 1A" repeated on every page), page numbers, and "PART I" rows. It is not a pair.
