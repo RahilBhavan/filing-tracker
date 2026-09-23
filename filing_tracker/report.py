@@ -93,7 +93,7 @@ def write_report(pair, result, out):
         (out / "review.json").write_text(json.dumps(template, indent=2) + "\n", encoding="utf-8")
     fields = ["id", "section", "kind", "priority", "score", "status", "ambiguous_alignment", "moved", "old_block", "new_block", "old_text", "new_text", "old_citation", "new_citation", "old_citations", "new_citations", "reasons", "review_note", "numeric_comparisons", "assumptions", "provenance"]
     with (out / "changes.csv").open("w", newline="", encoding="utf-8") as stream:
-        writer = csv.DictWriter(stream, fieldnames=fields)
+        writer = csv.DictWriter(stream, fieldnames=fields, lineterminator="\n")
         writer.writeheader()
         for change in result["changes"]:
             row = {k: change[k] for k in fields if k in change}

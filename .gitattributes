@@ -1,1 +1,7 @@
-* -text
+* text=auto
+*.pdf binary
+*.docx binary
+*.png binary
+# SHA-256-pinned sources must stay byte-identical on every checkout.
+corpus/converted/*.html -text
+fixtures/*.html -text

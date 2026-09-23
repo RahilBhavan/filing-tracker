@@ -17,7 +17,7 @@ for name in ['msft-2022-2023','msft-2023-2024','brk-2023-2024']:
         'sources':{side:{'metadata':pair[side]['metadata'],'blocks':pair[side]['blocks']} for side in ['old','new']}}
     (OUT/f'{name}-sources.json').write_text(json.dumps(packet,indent=2,ensure_ascii=False)+'\n')
     with (OUT/f'{name}-decisions.csv').open('w',newline='') as f:
-        writer=csv.writer(f);writer.writerow(['old_ids','new_ids','kind','importance','rationale','reviewer'])
+        writer=csv.writer(f,lineterminator='\n');writer.writerow(['old_ids','new_ids','kind','importance','rationale','reviewer'])
         for b in pair['old']['blocks']:writer.writerow([b['id'],'','','','',''])
 (OUT/'README.md').write_text('''# Independent review packet
 
