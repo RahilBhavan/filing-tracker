@@ -10,7 +10,7 @@
     {
       "command": "python3 -m filing_tracker compare fixtures/development-pair.json --out demo/quickstart",
       "exit_status": 0,
-      "stdout": "{\"out\": \"/Users/rbhavan/Documents/Codex/2026-09-21/set-up-a-learning-and-build-2/outputs/filing-tracker/demo/quickstart\", \"provenance\": \"synthetic\", \"counts\": {\"added\": 3, \"changed\": 11, \"removed\": 2, \"unchanged\": 3}}\n",
+      "stdout": "{\"out\": \"<repo>/demo/quickstart\", \"provenance\": \"synthetic\", \"counts\": {\"added\": 3, \"changed\": 11, \"removed\": 2, \"unchanged\": 3}}\n",
       "stderr": ""
     },
     {
@@ -28,7 +28,7 @@
     {
       "command": "python3 -m filing_tracker compare fixtures/challenge-pair.json --review fixtures/challenge-review.json --out demo/reviewed",
       "exit_status": 0,
-      "stdout": "{\"out\": \"/Users/rbhavan/Documents/Codex/2026-09-21/set-up-a-learning-and-build-2/outputs/filing-tracker/demo/reviewed\", \"provenance\": \"synthetic\", \"counts\": {\"changed\": 12, \"added\": 2, \"removed\": 1, \"unchanged\": 4}}\n",
+      "stdout": "{\"out\": \"<repo>/demo/reviewed\", \"provenance\": \"synthetic\", \"counts\": {\"changed\": 12, \"added\": 2, \"removed\": 1, \"unchanged\": 4}}\n",
       "stderr": ""
     }
   ]

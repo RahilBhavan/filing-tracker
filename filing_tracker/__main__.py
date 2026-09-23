@@ -41,8 +41,8 @@ def main(argv=None):
             pair = load_pair(args.manifest)
             review = json.loads(Path(args.review).read_text(encoding="utf-8")) if args.review else None
             result = compare(pair, review, args.threshold, assumptions=json.loads(Path(args.assumptions).read_text()) if args.assumptions else None, engine=args.engine)
-            out = write_report(pair, result, args.out)
-            print(json.dumps({"out": str(out), "provenance": result["provenance"], "changes": len(result["changes"])}))
+            write_report(pair, result, args.out)
+            print(json.dumps({"out": args.out, "provenance": result["provenance"], "changes": len(result["changes"])}))
         elif args.command == "evaluate":
             metrics = evaluate(args.manifest, args.gold, args.out)
             print(json.dumps(metrics, indent=2))
@@ -52,7 +52,7 @@ def main(argv=None):
         else:
             print(fetch_pair(args.cik, args.accessions, args.out, args.user_agent))
         return 0
-    except (TrackerError, OSError, ValueError, KeyError, TypeError) as exc:
+    except (TrackerError, OSError, ValueError) as exc:
         print("error: %s" % exc, file=sys.stderr)
         return 2
 
