@@ -35,3 +35,29 @@ class NumericRegressions(unittest.TestCase):
         rows=compare_numbers('Microsoft Cloud revenue increased 22% to $111.6 billion.','Microsoft Cloud revenue increased 23% to $137.4 billion.',2023,2024)['comparisons']
         self.assertEqual(len(rows),2)
         self.assertTrue(all(r['metric']=='Microsoft Cloud revenue' for r in rows))
+
+    def test_direction_carries_through_or(self):
+        rows = compare_numbers('Revenue decreased $306 million or 4%.', 'Revenue increased $100 million or 2%.', 2023, 2024)['comparisons']
+        rate = next(r for r in rows if r['unit'] == 'percent')
+        self.assertEqual((rate['role'], rate['old']['value'], rate['new']['value']), ('reported growth rate', -4, 2))
+
+    def test_cost_of_revenue_is_not_revenue(self):
+        rows = compare_numbers('Cost of revenue was $10 million.', 'Cost of revenue was $12 million.', 2023, 2024)['comparisons']
+        self.assertEqual([r['metric'] for r in rows], ['cost of revenue'])
+
+    def test_change_roles_have_no_relative_change(self):
+        rows = compare_numbers('Revenue increased $10 million or 5%.', 'Revenue increased $20 million or 8%.', 2023, 2024)['comparisons']
+        self.assertEqual({r['role'] for r in rows}, {'reported change amount', 'reported growth rate'})
+        self.assertTrue(all(r['relative_change_percent'] is None for r in rows))
+
+    def test_table_rows_abstain(self):
+        result = compare_numbers('Revenue | $10 million | $9 million', 'Revenue | $12 million | $10 million', 2023, 2024)
+        self.assertEqual((result['comparisons'], result['old_facts']), ([], []))
+        self.assertTrue(result['abstentions'])
+
+    def test_word_boundaries_for_quarter_and_expect(self):
+        for a, b in [('Our headquarters revenue was $10 million.', 'Our headquarters revenue was $12 million.'),
+                     ('Revenue was an unexpected $10 million.', 'Revenue was an unexpected $12 million.'),
+                     ('Revenue was $10 million, as expected.', 'Revenue was $12 million, as expected.')]:
+            self.assertEqual(len(compare_numbers(a, b, 2023, 2024)['comparisons']), 1, a)
+        self.assertEqual(compare_numbers('We expect revenue of $10 million.', 'We expect revenue of $12 million.', 2023, 2024)['comparisons'], [])

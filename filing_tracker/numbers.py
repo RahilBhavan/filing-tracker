@@ -6,6 +6,7 @@ from decimal import Decimal
 
 AMOUNT = re.compile(r"(?P<currency>\$|USD\s+|EUR\s+|€|GBP\s+|£)?\s*(?P<number>\(?[+-]?\d[\d,]*(?:\.\d+)?\)?)\s*(?P<scale>billion|million|thousand)?\s*(?P<unit>%|percent\b|shares\b)?", re.I)
 YEAR = re.compile(r"\b(?:19|20)\d{2}\b")
+CHANGE_ROLES = {"reported change amount", "reported growth rate"}
 METRICS = [
     (r"microsoft cloud(?: \(formerly commercial cloud\))? revenue", "Microsoft Cloud revenue"),
     (r"effective tax rate", "effective tax rate"),
@@ -16,6 +17,7 @@ METRICS = [
     (r"(?:capital spending|capital expenditures)", "capital spending"),
     (r"largest supplier", "supplier concentration"),
     (r"(?:repurchased|repurchase)", "share repurchases"),
+    (r"\bcost of revenue", "cost of revenue"),
     (r"net revenue|total revenue|revenue", "revenue"),
     (r"net sales", "net sales"),
 ]
@@ -63,10 +65,10 @@ def extract_facts(text, fiscal_year):
         start = text.find(sentence, offset)
         offset = start + len(sentence)
         mentions = metric_mentions(sentence)
-        if not mentions or len({m[2] for m in mentions}) != 1:
-            continue  # Multiple metrics require clause-level attribution; abstain.
+        if not mentions or len({m[2] for m in mentions}) != 1 or "|" in sentence:
+            continue  # Multiple metrics need clause-level attribution; table rows are unsupported. Abstain.
         metric_start, _, metric = mentions[0]
-        duration = "quarter" if re.search(r"quarter|three months", sentence, re.I) else "ytd" if re.search(r"six months|nine months|year.to.date", sentence, re.I) else "annual"
+        duration = "quarter" if re.search(r"\bquarter|\bthree months", sentence, re.I) else "ytd" if re.search(r"six months|nine months|year.to.date", sentence, re.I) else "annual"
         candidates = []
         for match in AMOUNT.finditer(sentence):
             if not (match["currency"] or match["unit"] or match["scale"]):
@@ -82,9 +84,11 @@ def extract_facts(text, fiscal_year):
                 continue
             if unit != "percent":
                 value *= scale
-            prefix = sentence[max(metric_start, match.start() - 35):match.start()].lower().strip()
+            prefix = sentence[max(metric_start, match.start() - 50):match.start()].lower().strip()
             role = "reported level"
-            direction = re.search(r"(increased|decreased|grew|declined|fell|growth of)(?:\s+by)?\s*$", prefix)
+            # "decreased $306 million or 4%" carries the direction to the percent.
+            direction = re.search(r"(increased|decreased|grew|declined|fell|growth of)(?:\s+by)?\s*"
+                                  r"(?:[$€£]?\s*[\d,.]+\s*(?:billion|million|thousand)?,?\s+or\s*)?$", prefix)
             if direction:
                 role = "reported growth rate" if unit == "percent" else "reported change amount"
                 if direction[1] in {"decreased", "declined", "fell"}:
@@ -113,7 +117,7 @@ def extract_facts(text, fiscal_year):
                     fact["period"], fact["period_basis"] = None, "ambiguous multiple years"
                 else:
                     fact["period"], fact["period_basis"] = fiscal_year, "document fiscal year inferred; verify context"
-                if re.search(r"next year|forecast|outlook|anticipates|expect", sentence, re.I):
+                if re.search(r"next year|forecast|outlook|anticipates|\bexpect(?:s|ing)?\b", sentence, re.I):
                     fact["duration"] = "forecast"
                     fact["period_basis"] = "forecast timing not resolved"
                     fact["period"] = None
@@ -153,7 +157,7 @@ def compare_numbers(old, new, old_year, new_year):
         delta = b["value"] - a["value"]
         comparisons.append({"metric": key[0], "unit": key[1], "role": key[2], "old": a, "new": b,
             "absolute_change": round(delta, 8), "percentage_point_change": round(delta, 8) if key[1] == "percent" else None,
-            "relative_change_percent": round(delta / a["value"] * 100, 6) if a["value"] > 0 and key[1] != "percent" else None,
+            "relative_change_percent": round(delta / a["value"] * 100, 6) if a["value"] > 0 and key[1] != "percent" and key[2] not in CHANGE_ROLES else None,
             "basis": "same-period reported value change" if old_latest == new_latest else "successive annual reported quantities",
             "caution": "Verify constant metric definition and scope; no currency conversion or restatement inference."})
     if not before and not after and re.search(r"\d", old + new):
