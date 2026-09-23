@@ -1,6 +1,6 @@
 # Source access and provenance
 
-The initial SEC download attempt returned HTTP 403. V2 uses five successfully downloaded **official issuer copies**. They are not claimed to be byte-identical to SEC HTML. All downloads occurred September 21, 2026; original and converted SHA-256 hashes are recorded in the pair manifests.
+The initial SEC download attempt returned HTTP 403. EDGAR returns 403 without a compliant User-Agent and works with one (`fetch --user-agent "Name email@example.com"`). V2 uses five successfully downloaded **official issuer copies**. They are not claimed to be byte-identical to SEC HTML. All downloads occurred September 21, 2026; original and converted SHA-256 hashes are recorded in the pair manifests.
 
 | Issuer / FY | Official source | Period ended | Filed | SEC accession |
 | --- | --- | --- | --- | --- |
