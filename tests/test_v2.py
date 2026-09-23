@@ -1,9 +1,11 @@
+import io
 import json
 import tempfile
 import threading
 import unittest
 import urllib.request
 import urllib.error
+from contextlib import redirect_stderr
 from pathlib import Path
 from filing_tracker.core import compare, load_pair, TrackerError
 from filing_tracker.numbers import compare_numbers, date_only_change
@@ -67,6 +69,12 @@ class Review(unittest.TestCase):
         self.assertEqual(restored.state['revision'],1)
         self.assertEqual(restored.state['review']['reviews'][change['id']]['status'],'accepted')
         self.assertEqual(len(restored.state['history']),1)
+    def test_resume_warns_when_assumptions_differ(self):
+        stream=io.StringIO()
+        with redirect_stderr(stream):
+            restored=ReviewStore(ROOT/'fixtures/development-pair.json',self.temp.name,[{'id':'x','statement':'Cash','terms':['cash'],'priority':'high'}])
+        self.assertIn('differ from the saved review',stream.getvalue())
+        self.assertEqual(restored.state['assumptions'],self.store.state['assumptions'])
     def test_group_corrections_keep_all_citations(self):
         self.store.update({'revision':0,'action':'alignment','old':['risk-0001','risk-0002'],'new':['risk-0001','risk-0002']})
         grouped=next(c for c in self.store.result['changes'] if len(members(c['old']))==2)

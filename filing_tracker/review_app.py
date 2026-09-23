@@ -5,6 +5,7 @@ import json
 import mimetypes
 import os
 import secrets
+import sys
 import threading
 import time
 from datetime import datetime, timezone
@@ -40,6 +41,8 @@ class ReviewStore:
             self.state = json.loads(self.path.read_text(encoding="utf-8"))
             if self.state["pair_fingerprint"] != self.pair["fingerprint"]:
                 raise TrackerError("Saved review belongs to another source pair")
+            if assumptions is not None and validate_assumptions(assumptions) != self.state["assumptions"]:
+                print("warning: --assumptions differ from the saved review; using the saved assumptions", file=sys.stderr)
         self.result = compare(self.pair, self.state["review"], assumptions=self.state["assumptions"])
         write_report(self.pair, self.result, self.directory / "report")
         self.save()
