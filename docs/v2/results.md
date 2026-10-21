@@ -1,5 +1,7 @@
 # V2 delivery and measured results
 
+> Historical snapshot of the V2 release on September 21, 2026, before the label correction and later matching fixes. Current results are in [Current measured results](../v2-results.md).
+
 Implemented September 21, 2026. All six engineering workstreams in [the plan](../../PLAN.md) are delivered. Independent human labels, a fully judged top-ten noise rate, and human time-saving validation remain pending.
 
 ## Delivered

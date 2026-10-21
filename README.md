@@ -1,32 +1,63 @@
-# Filing change tracker
+# Filing change tracker: cited Risk Factors and MD&A changes between consecutive 10-Ks
 
-Compare annual Risk Factors and MD&A, inspect cited changes, and save a research memo locally. Python 3.9+; no API key, paid service, database, or application dependencies.
+[![CI](https://github.com/RahilBhavan/filing-tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/RahilBhavan/filing-tracker/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-## Open the review app
+![The review app on the Microsoft FY2023 to FY2024 pair. A changed MD&A passage shows Microsoft Cloud revenue growth going from 22% ($111.6 billion) to 23% ($137.4 billion), with highlighted edits, source links and the computed change.](docs/review-preview.png)
 
-Run from this folder:
+Filing change tracker compares the Risk Factors (Item 1A) and MD&A (Item 7) sections of two annual 10-K filings from the same company. It aligns paragraphs across the two years, including two-paragraph splits and merges, flags numeric changes and links each change to analyst-written assumptions. A localhost review app saves decisions with a revision history and exports a cited memo and CSV. It uses the Python standard library only and calls no LLM or paid service.
+
+Related projects: [filing-research-assistant](https://github.com/RahilBhavan/filing-research-assistant) answers questions about a filing with BM25 retrieval, and [financial-metrics-analyst](https://github.com/RahilBhavan/financial-metrics-analyst) computes financial metrics through an MCP server. This project instead compares two years of the same filing and shows what changed.
+
+## Results
+
+The study ran on 3 real filing pairs with 50 author labels: 46 changed decisions and 4 unchanged controls. Numbers come from the latest `python3 scripts/benchmark.py` run, recorded in [`docs/real-benchmark.json`](docs/real-benchmark.json) and summarized in [`docs/v2-results.md`](docs/v2-results.md).
+
+| Pair | Labelled changes | V1 recovered | V2 recovered | Important changes in V2 top 10 |
+| --- | ---: | ---: | ---: | ---: |
+| Microsoft FY2022→2023 | 19 | 18 | 19 | 2/12 |
+| Microsoft FY2023→2024 | 19 | 18 | 19 | 0/10 |
+| Berkshire FY2023→2024 | 8 | 6 | 8 | 1/6 |
+| Total | 46 | 42 | 46 | 3/28 |
+
+- The September 22 revision (V2) recovered 46/46 sampled changed decisions, against 42/46 for V1. Including the unchanged controls, V2 matched 50/50 exact decisions and V1 matched 46/50.
+- A correct detection needs the exact old and new block group and the change type. One Berkshire label was corrected from a standalone addition to a paragraph split after inspecting both originals. That correction is not an algorithm improvement.
+- Ranking is weak. Only 3 of 28 labelled important changes appear in the three V2 top-ten lists, and 26 of the 30 top-ten entries have no label.
+- V2 machine comparison took 1.23 s, 1.37 s and 3.41 s per pair in the recorded run. These times exclude human reading and do not show analyst time savings.
+
+## How it works
+
+1. `filing_tracker/source_formats.py` converts issuer DOCX and PDF originals into HTML blocks. Each block keeps its original locator (page and bounding box for PDF).
+2. `filing_tracker/core.py` parses Item 1A and Item 7 into blocks and ranks each edit with visible rules.
+3. `filing_tracker/alignment.py` matches blocks with subsection and neighbouring-text context. It handles reordered exact matches and two adjacent split or merged paragraphs, and it marks uncertain matches.
+4. `filing_tracker/numbers.py` extracts narrative quantities with metric, unit and period. It reports absolute and percentage-point changes, and it abstains when units or periods are not comparable.
+5. `filing_tracker/thesis.py` links changes to editable assumptions by keyword. It makes no support or contradiction claim.
+6. `filing_tracker/review_app.py` serves the review app on loopback only. `filing_tracker/report.py` writes the memo, CSV, JSON and cited source snapshots.
+7. `filing_tracker/benchmark.py` and `filing_tracker/evaluation.py` score V1 (`filing_tracker/baseline.py`) and V2 against the author labels.
+
+## Run it
+
+Prerequisites: Python 3.9 or later (CI runs 3.9 and 3.12). No third-party packages, API keys or environment variables. Poppler's `pdftotext` is needed only to regenerate the converted corpus. Node.js with Playwright is needed only for the optional browser check.
+
+Run the tests and the verification script:
+
+```sh
+python3 -m unittest discover -s tests -q
+python3 verify.py
+python3 scripts/benchmark.py
+```
+
+On 2026-10-21 the suite ran 54 tests, all passing, on Python 3.14.7. `verify.py` runs the tests and four fictional-fixture commands and writes `verification.json`. `scripts/benchmark.py` rewrites `docs/real-benchmark.json`, and its timings change on each run. The tests bind a localhost port, so a sandbox can need network permission.
+
+Open the review app on the Microsoft FY2023→2024 pair:
 
 ```sh
 python3 -m filing_tracker serve corpus/msft-2023-2024.json \
   --assumptions corpus/example-assumptions.json --out reviews/microsoft --port 8874
 ```
 
-Open http://127.0.0.1:8874. Select a passage to see highlighted earlier/later text, numeric comparisons, source links, and matching uncertainty. Save priorities, notes, dismissals, or corrected matches. Assumptions are editable and saved with the review. The example assumptions are hypotheses to replace with your own.
+Open http://127.0.0.1:8874 and select a passage. Save priorities, notes, dismissals or corrected matches. The example assumptions are hypotheses to replace with your own. To resume, restart with the same output directory. `review-state.json` holds the revision history and `report/` holds the exported memo and CSV. A saved review is tied to exact source hashes, so use one directory per pair.
 
-Restart with the same output directory to resume. `review-state.json` contains the authoritative revision history; `report/` contains derived memo, CSV, JSON, and cited source snapshots. The server binds only to localhost. A saved review is tied to exact source hashes. Use a different directory for each pair.
-
-## What is included
-
-- Microsoft FY2022, FY2023, and FY2024 original issuer DOCX filings, plus Berkshire FY2023 and FY2024 issuer PDF filings. Originals, converted text, publisher URLs, accession metadata, and hashes are bundled under `corpus/`.
-- Subsection and neighboring-text alignment, adjacent paragraph split/merge matching, and explicit uncertain matches.
-- Keyword links to editable investment assumptions; the analyst supplies interpretation.
-- Conservative annual numeric comparisons, units, percentage-point changes, and date-rollover suppression. Ambiguous cases remain for review.
-- Browser review, corrections, persisted history, memo/CSV export, source-only manual view, and review-session timing.
-- Fifty source-grounded author labels, a reserved second-issuer sample, original fictional regression fixtures, and blank independent-review packets.
-
-Read [the implementation plan](PLAN.md), [measured results and limitations](docs/v2-results.md), and [source provenance](docs/source-access.md).
-
-## Export without a browser
+Export a memo without the browser:
 
 ```sh
 python3 -m filing_tracker compare corpus/msft-2023-2024.json \
@@ -34,35 +65,61 @@ python3 -m filing_tracker compare corpus/msft-2023-2024.json \
 python3 -m filing_tracker compare corpus/brk-2023-2024.json --out demo/real-berkshire
 ```
 
-Open [the Microsoft memo](demo/real-microsoft/memo.md). Every source excerpt links to a local snapshot with original-document locators. Source snapshots link to the preserved DOCX/PDF. Full source text stays separate from interpretation.
+See the committed [Microsoft memo](demo/real-microsoft/memo.md). Every excerpt links to a local snapshot of the preserved DOCX or PDF.
 
-## Verify
+Other commands:
 
-```sh
-python3 verify.py
-python3 scripts/benchmark.py
-python3 scripts/review_packet.py
-python3 scripts/session_summary.py reviews/microsoft/review-state.json
-```
+- `python3 scripts/review_packet.py` writes the blank independent-review packets in `corpus/blind-review/`.
+- `python3 scripts/session_summary.py reviews/microsoft/review-state.json` summarizes timed review sessions.
+- `python3 scripts/prepare_corpus.py` regenerates `corpus/converted/` and needs `pdftotext`.
+- `python3 -m filing_tracker fetch --help` shows the optional SEC EDGAR fetch. EDGAR returns HTTP 403 unless the request has a User-Agent with a name and email (`--user-agent`).
 
-`verify.py` records commands, statuses, and results in `verification.json`. Tests bind an ephemeral localhost port, so a sandbox may require network permission. The benchmark compares frozen v1 and v2 on the same author sample. `evaluate` remains available for the complete fictional gold fixtures; real sampled labels use `scripts/benchmark.py`.
-
-Optional browser verification uses an existing Playwright installation and a **disposable** review server. It changes decisions and records test sessions; never run it against a human measurement directory:
+The optional browser check changes decisions and records sessions. Run it only against a disposable review server, never against a human measurement directory:
 
 ```sh
 python3 -m filing_tracker serve fixtures/development-pair.json --out /tmp/filing-browser-check --port 8873
-# In another terminal, with Playwright available:
+# In another terminal, with Playwright installed:
 REVIEW_URL=http://127.0.0.1:8873 node scripts/browser-check.cjs
 ```
 
-Regenerating the converted corpus uses `python3 scripts/prepare_corpus.py` and requires Poppler's `pdftotext`. Reading the bundled corpus does not require Poppler. The optional SEC fetch command remains available through `python3 -m filing_tracker fetch --help`; issuer-hosted copies are distinctly identified.
+## Repository layout
 
-## Evidence limits
+- `filing_tracker/`: the package, CLI (`python3 -m filing_tracker`) and the static review app in `static/`.
+- `corpus/`: original filings, converted text, pair manifests, author labels and blind-review packets.
+- `fixtures/`: fictional Alder Components regression filings and gold labels.
+- `demo/`: committed reports for the real and fictional pairs. CI fails if they drift.
+- `docs/`: results, provenance, evaluation and the walkthrough.
+- `scripts/`: benchmark, corpus preparation, review packets, session summary and browser check.
+- `tests/`: unit tests.
+- `verify.py` and `verification.json`: the verification script and its recorded output.
+- `PLAN.md`: the V2 implementation plan and its final status.
 
-The September 22 revision recovered 46/46 sampled changed decisions, compared with 42/46 for v1. This uses corrected author labels, including a Berkshire paragraph split previously mislabeled as an addition. These previously inspected samples are development evidence, not a fresh holdout or whole-filing accuracy estimate. Top-ten coverage of important changes remains weak. Independent importance judgments and human time savings are **not yet validated**; the packet and session workflow are ready for that work. See the [current completion audit](docs/completion-audit.md).
+## Documentation
 
-PDF columns, tables, and page breaks can create misleading paragraph boundaries. Automatic grouping handles only two adjacent paragraphs. Numeric interpretation is deliberately limited to supported narrative metrics; there is no XBRL reconciliation, semantic model, OCR, 10-Q support, or claim of financial materiality.
+The [documentation index](docs/README.md) lists every file. The main ones:
+
+- [Current measured results](docs/v2-results.md): per-pair counts, ranking coverage and known limits.
+- [Completion audit](docs/completion-audit.md): what was verified on September 22, 2026 and what remains open.
+- [Source access and provenance](docs/source-access.md): filing URLs, accession numbers and conversion limits.
+- [Walkthrough](docs/walkthrough.md): a step-by-step comparison and review correction on the fictional pairs.
+- [Evaluation](docs/evaluation.md): where the current and historical evaluation records live.
+
+## Sources
+
+- Microsoft FY2022, FY2023 and FY2024 10-K filings as issuer DOCX files, and Berkshire Hathaway FY2023 and FY2024 10-K filings as issuer PDF files. All five were downloaded on September 21, 2026.
+- These are official issuer copies, not byte-identical SEC HTML. The pair manifests (`corpus/*.json`) record the source URL, SEC accession number, filing index URL and SHA-256 hashes of the original and converted files. Comparison checks both hashes on load.
+- The fictional Alder Components filings in `fixtures/` are author-written regression data, not real filings.
+
+## Scope and limits
+
+- Independent portfolio work. Not affiliated with or endorsed by Microsoft, Berkshire Hathaway or the SEC. A research prototype, not investment advice.
+- The 50 labels are the author's own, on pairs inspected during development. They are development evidence, not a fresh holdout or a whole-filing accuracy estimate. The two Microsoft pairs share FY2023, so they are not independent.
+- Independent importance judgments and human time savings are not validated. No independent reviews or human sessions are complete.
+- PDF columns, tables and page breaks can create misleading paragraph boundaries. Automatic grouping handles only two adjacent paragraphs. Lexical rules cannot reliably resolve semantic rewrites.
+- No XBRL reconciliation, OCR, 10-Q support, semantic model or claim of financial materiality.
 
 ## License
 
-Code is MIT-licensed; see [LICENSE](LICENSE). The filings under `corpus/originals/`, `corpus/converted/`, and `demo/real-*/sources/` are third-party issuer 10-K documents (Microsoft Corporation and Berkshire Hathaway Inc.), included for research and verification. They are not covered by the MIT license.
+Code is MIT-licensed; see [LICENSE](LICENSE). The filings under `corpus/originals/`, `corpus/converted/` and `demo/real-*/sources/` are third-party 10-K documents from Microsoft Corporation and Berkshire Hathaway Inc., included for research and verification. The MIT license does not cover them.
+
+Part of [Rahil Bhavan's projects](https://github.com/RahilBhavan).

@@ -1,5 +1,7 @@
 # Evaluation and verification
 
+> Historical snapshot of the V1 evaluation on the fictional fixtures, recorded September 21, 2026. It predates the real-filing corpus and the current test count. Current results are in [Current measured results](../v2-results.md).
+
 Measured locally on September 21, 2026 with Python 3.9.6. All document content and labels in this evaluation are synthetic and authored for this project. These results measure a small deterministic example corpus, not accuracy on SEC filings or investment performance.
 
 ## Corpus and protocol
