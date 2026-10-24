@@ -37,7 +37,7 @@ def main():
     for name, ids, role in [
         ("msft-2022-2023", ["msft-2022", "msft-2023"], "development"),
         ("msft-2023-2024", ["msft-2023", "msft-2024"], "development"),
-        ("brk-2023-2024", ["brk-2023", "brk-2024"], "holdout"),
+        ("brk-2023-2024", ["brk-2023", "brk-2024"], "development"),
     ]:
         manifest = {"schema_version": 1, "provenance": "issuer", "evaluation_role": role,
                     "note": "Issuer-hosted 10-K copies; converted text is not byte-identical to SEC HTML.",

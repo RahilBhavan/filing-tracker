@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "provenance": "issuer",
-  "evaluation_role": "holdout",
+  "evaluation_role": "development",
   "note": "Issuer-hosted 10-K copies; converted text is not byte-identical to SEC HTML.",
   "documents": [
     {
