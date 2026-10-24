@@ -5,3 +5,4 @@ downloads/
 reviews/
 **/review-state.json
 *.tmp
+build/
