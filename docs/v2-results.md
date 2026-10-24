@@ -21,7 +21,7 @@ Machine comparison times for V2 in the recorded run were 1.23s, 1.37s, 3.41s. Th
 
 ## Development data, not a holdout
 
-Berkshire was reserved until the V2 implementation was frozen; [v2/holdout-freeze.json](v2/holdout-freeze.json) records those code hashes. Comparison, ranking, parsing, and numeric changes **have** followed that first score: the September 22 matching and ranking revision, and the September 23 fixes to running page headers and narrative fact extraction. The current code no longer matches the freeze hashes. All three pairs are now development data, and a fresh holdout claim needs a new, untouched issuer/year pair.
+Berkshire was reserved until the V2 implementation was frozen; [v2/holdout-freeze.json](v2/holdout-freeze.json) records those code hashes. Comparison, ranking, parsing, and numeric changes **have** followed that first score: the September 22 matching and ranking revision, and the September 23 fixes to running page headers and narrative fact extraction. The current code no longer matches the freeze hashes. All three pairs are now development data, and the Berkshire manifest's `evaluation_role` is therefore `development`; it was `holdout` only until that first score. A fresh holdout claim needs a new, untouched issuer/year pair.
 
 ## Known limits
 
