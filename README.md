@@ -46,7 +46,7 @@ python3 verify.py
 python3 scripts/benchmark.py
 ```
 
-On 2026-10-21 the suite ran 54 tests, all passing, on Python 3.14.7. `verify.py` runs the tests and four fictional-fixture commands and writes `verification.json`. `scripts/benchmark.py` rewrites `docs/real-benchmark.json`, and its timings change on each run. The tests bind a localhost port, so a sandbox can need network permission.
+On 2026-10-21 the suite ran 54 tests, all passing, on Python 3.14.7. `verify.py` runs the tests and four fictional-fixture commands and writes to untracked `build/`; `python3 verify.py --update` rewrites the tracked `demo/` and `verification.json`. `scripts/benchmark.py` also writes to `build/`; `--update` rewrites `docs/real-benchmark.json`, whose timings change on each run. The tests bind a localhost port, so a sandbox can need network permission.
 
 Open the review app on the Microsoft FY2023→2024 pair:
 

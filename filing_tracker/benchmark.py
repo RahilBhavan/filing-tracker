@@ -53,7 +53,8 @@ def freeze(root):
     return {str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}
 
 
-def run(root):
+def run(root, out=None):
+    """Score every pair; write the JSON record to `out` (default: build/real-benchmark.json)."""
     root=Path(root)
     results=[]
     for name in ('msft-2022-2023','msft-2023-2024','brk-2023-2024'):
@@ -62,5 +63,7 @@ def run(root):
         for engine in ('v1','v2'):
             results.append(dict(pair=name,**score(pair,gold,engine)))
     output={'engine_hashes':freeze(root),'results':results,'human_timing':{'completed_sessions':0,'time_savings':None,'status':'Pending independent human sessions'}}
-    (root/'docs/real-benchmark.json').write_text(json.dumps(output,indent=2)+'\n')
+    out=Path(out) if out else root/'build/real-benchmark.json'
+    out.parent.mkdir(parents=True,exist_ok=True)
+    out.write_text(json.dumps(output,indent=2)+'\n')
     return output

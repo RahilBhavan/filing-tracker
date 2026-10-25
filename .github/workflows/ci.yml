@@ -19,5 +19,7 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       - run: python -m unittest discover -s tests -q
-      - run: python verify.py
+      - run: python verify.py --update
       - run: git diff --exit-code demo/
+      - run: python scripts/benchmark.py
+      - run: git diff --exit-code -- . ':!verification.json'
