@@ -55,7 +55,7 @@ python3 -m filing_tracker serve corpus/msft-2023-2024.json \
   --assumptions corpus/example-assumptions.json --out reviews/microsoft --port 8874
 ```
 
-Open http://127.0.0.1:8874 and select a passage. Save priorities, notes, dismissals or corrected matches. The example assumptions are hypotheses to replace with your own. To resume, restart with the same output directory. `review-state.json` holds the revision history and `report/` holds the exported memo and CSV. A saved review is tied to exact source hashes, so use one directory per pair.
+Open `http://127.0.0.1:8874` and select a passage. Save priorities, notes, dismissals or corrected matches. The example assumptions are hypotheses to replace with your own. To resume, restart with the same output directory. `review-state.json` holds the revision history and `report/` holds the exported memo and CSV. A saved review is tied to exact source hashes, so use one directory per pair.
 
 Export a memo without the browser:
 
