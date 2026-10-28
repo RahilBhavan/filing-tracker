@@ -1,6 +1,6 @@
 # Current measured results
 
-These numbers come from the latest `python3 scripts/benchmark.py` run, recorded with code hashes, misses, and timings in [real-benchmark.json](real-benchmark.json). The September 21 V2 release results, including the original labels and the reserved-pair freeze, are preserved as a historical record in [v2/results.md](v2/results.md). What V2 delivered is described there and in [the plan](../PLAN.md).
+These numbers come from the latest `python3 scripts/benchmark.py` run, recorded with code hashes, misses, and timings in [real-benchmark.json](real-benchmark.json). The September 21 V2 release results, including the original labels and the reserved-pair freeze, are preserved as a historical record in [v2/results.md](v2/results.md). What V2 delivered is described there and in [the plan](PLAN.md).
 
 ## Author-labelled sample
 
