@@ -92,7 +92,7 @@ REVIEW_URL=http://127.0.0.1:8873 node scripts/browser-check.cjs
 - `scripts/`: benchmark, corpus preparation, review packets, session summary and browser check.
 - `tests/`: unit tests.
 - `verify.py` and `verification.json`: the verification script and its recorded output.
-- `PLAN.md`: the V2 implementation plan and its final status.
+- `docs/PLAN.md`: the V2 implementation plan and its final status.
 
 ## Documentation
 
