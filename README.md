@@ -22,7 +22,7 @@ The study ran on 3 real filing pairs with 50 author labels: 46 changed decisions
 - The September 22 revision (V2) recovered 46/46 sampled changed decisions, against 42/46 for V1. Including the unchanged controls, V2 matched 50/50 exact decisions and V1 matched 46/50.
 - A correct detection needs the exact old and new block group and the change type. One Berkshire label was corrected from a standalone addition to a paragraph split after inspecting both originals. That correction is not an algorithm improvement.
 - Ranking is weak. Only 3 of 28 labelled important changes appear in the three V2 top-ten lists, and 26 of the 30 top-ten entries have no label.
-- V2 machine comparison took 1.23 s, 1.37 s and 3.41 s per pair in the recorded run. These times exclude human reading and do not show analyst time savings.
+- V2 machine comparison took 0.55 s, 0.66 s and 1.90 s per pair in the recorded run on the author's machine (November 18, 2026, Python 3.14.8). These times exclude human reading and do not show analyst time savings.
 
 ## How it works
 
@@ -46,7 +46,7 @@ python3 verify.py
 python3 scripts/benchmark.py
 ```
 
-On 2026-10-21 the suite ran 54 tests, all passing, on Python 3.14.7. `verify.py` runs the tests and four fictional-fixture commands and writes to untracked `build/`; `python3 verify.py --update` rewrites the tracked `demo/` and `verification.json`. `scripts/benchmark.py` also writes to `build/`; `--update` rewrites `docs/real-benchmark.json`, whose timings change on each run. The tests bind a localhost port, so a sandbox can need network permission.
+On 2026-11-18 the suite ran 58 tests, all passing, on Python 3.14.8. `verify.py` runs the tests and four fictional-fixture commands and writes to untracked `build/`; `python3 verify.py --update` rewrites the tracked `demo/` and `verification.json`. `scripts/benchmark.py` also writes to `build/`; `--update` rewrites `docs/real-benchmark.json`, whose timings change on each run, and `--check` (run in CI) fails when that record no longer matches a fresh run apart from timings. The tests bind a localhost port, so a sandbox can need network permission.
 
 Open the review app on the Microsoft FY2023→2024 pair:
 

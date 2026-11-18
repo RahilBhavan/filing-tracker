@@ -17,7 +17,7 @@ Including unchanged controls, V2 matches 50/50 exact decisions and V1 matches 46
 
 Ranking remains weak: only 3/28 labelled important changes appear across the three V2 top-ten lists. Of 30 top-ten entries, 4 have author labels and 0 of those are known irrelevant; 26 remain unjudged, so no queue-wide noise rate can be inferred.
 
-Machine comparison times for V2 in the recorded run were 1.23s, 1.37s, 3.41s. They vary per run, exclude human reading, and do not imply analyst time savings.
+Machine comparison times for V2 in the recorded run were 0.55s, 0.66s, 1.90s on the author's machine (November 18, 2026, Python 3.14.8). They vary per run, exclude human reading, and do not imply analyst time savings.
 
 ## Development data, not a holdout
 
@@ -32,7 +32,7 @@ Berkshire was reserved until the V2 implementation was frozen; [v2/holdout-freez
 
 ## Verification
 
-- `python3 verify.py`: exit 0, 54 tests passed, followed by four synthetic comparison/evaluation commands. Output is in [verification.json](../verification.json).
+- `python3 verify.py`: exit 0, 58 tests passed, followed by four synthetic comparison/evaluation commands. Output is in [verification.json](../verification.json).
 - `python3 scripts/benchmark.py`: exit 0; all six engine/pair results saved to [real-benchmark.json](real-benchmark.json).
 - Browser checks, publication inspection, and remaining acceptance gates: [completion audit](completion-audit.md).
 
