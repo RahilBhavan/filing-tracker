@@ -67,3 +67,31 @@ def run(root, out=None):
     out.parent.mkdir(parents=True,exist_ok=True)
     out.write_text(json.dumps(output,indent=2)+'\n')
     return output
+
+
+PER_RUN_FIELDS={'comparison_seconds'}
+
+
+def drift(fresh, recorded):
+    """Paths where two benchmark records differ, ignoring PER_RUN_FIELDS timings."""
+    found=[]
+    def label(path):
+        return path.rstrip('.') or '<root>'
+    def walk(new, old, path):
+        if isinstance(new,dict) and isinstance(old,dict):
+            for key in sorted(set(new)|set(old)):
+                if key in PER_RUN_FIELDS:
+                    continue
+                if key not in new or key not in old:
+                    found.append(path+key)
+                else:
+                    walk(new[key],old[key],path+key+'.')
+        elif isinstance(new,list) and isinstance(old,list):
+            if len(new)!=len(old):
+                found.append(label(path))
+            for i,(x,y) in enumerate(zip(new,old)):
+                walk(x,y,path+str(i)+'.')
+        elif new!=old:
+            found.append(label(path))
+    walk(fresh,recorded,'')
+    return found
